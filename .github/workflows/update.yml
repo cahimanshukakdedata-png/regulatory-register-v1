@@ -1,0 +1,68 @@
+name: Collect updates
+
+on:
+  schedule:
+    # Times are UTC. These run at about 7:00, 11:00, 15:00 and 20:00 IST.
+    # GitHub may start scheduled runs a few minutes late at busy times.
+    - cron: "30 1 * * *"
+    - cron: "30 5 * * *"
+    - cron: "30 9 * * *"
+    - cron: "30 14 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: collect
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install
+        run: npm ci
+
+      - name: Collect
+        run: node scraper/run.mjs
+
+      - name: Save collected data to the repository
+        run: |
+          git config user.name "register-bot"
+          git config user.email "register-bot@users.noreply.github.com"
+          git add data/updates.json data/updates.js data/archive.js data/snapshots.json
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "Collected updates $(date -u +'%Y-%m-%d %H:%M') UTC"
+            git push
+          fi
+
+      - name: Prepare site
+        run: |
+          mkdir -p _site/data
+          cp index.html _site/
+          cp data/updates.js data/archive.js data/pinned.js _site/data/
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: collect
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+    steps:
+      - uses: actions/deploy-pages@v4

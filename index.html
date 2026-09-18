@@ -1,0 +1,753 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Regulatory Register — India</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📑</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#EEF1F5; --sheet:#FFFFFF; --ink:#172036; --ink-2:#4B566E; --ink-3:#6F7990;
+  --rule:#DCE1E9; --soft:#F5F7FA; --btn:#172036; --btn-ink:#FFFFFF;
+  --s-force:#1F7A4D; --s-pending:#A15C07; --s-bill:#5B4BB7; --s-deadline:#B42318; --s-watch:#2E6BB5; --s-verify:#8A5A00;
+  --ok:#1F7A4D; --bad:#B42318;
+  --sans:"IBM Plex Sans","Segoe UI",system-ui,-apple-system,Roboto,Arial,sans-serif;
+  --serif:"Source Serif 4",Georgia,"Times New Roman",serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#0F131B; --sheet:#171C26; --ink:#E6EAF2; --ink-2:#A9B2C3; --ink-3:#8A94A8;
+    --rule:#2A3242; --soft:#1D2330; --btn:#E6EAF2; --btn-ink:#10141C;
+    --s-force:#5CC98F; --s-pending:#E6A54A; --s-bill:#A99BF2; --s-deadline:#F07A6E; --s-watch:#7BB0EE; --s-verify:#D9B25A;
+    --ok:#5CC98F; --bad:#F07A6E; color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#0F131B; --sheet:#171C26; --ink:#E6EAF2; --ink-2:#A9B2C3; --ink-3:#8A94A8;
+  --rule:#2A3242; --soft:#1D2330; --btn:#E6EAF2; --btn-ink:#10141C;
+  --s-force:#5CC98F; --s-pending:#E6A54A; --s-bill:#A99BF2; --s-deadline:#F07A6E; --s-watch:#7BB0EE; --s-verify:#D9B25A;
+  --ok:#5CC98F; --bad:#F07A6E; color-scheme:dark;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:15px;line-height:1.5;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+button,input,select,textarea{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+.wrap{max-width:1240px;margin:0 auto;padding:20px 20px 60px}
+.top{display:flex;flex-wrap:wrap;gap:16px;align-items:flex-end;justify-content:space-between;padding:8px 0 18px}
+.brand h1{font-family:var(--serif);font-weight:600;font-size:clamp(26px,3.4vw,38px);line-height:1.1;margin:0;letter-spacing:-.01em}
+.brand p{margin:6px 0 0;color:var(--ink-2);max-width:62ch}
+.tools{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.btn{border:1px solid var(--rule);background:var(--sheet);padding:8px 13px;border-radius:8px;cursor:pointer;white-space:nowrap;text-decoration:none;display:inline-block}
+.btn:hover{border-color:var(--ink-3)}
+.btn.primary{background:var(--btn);color:var(--btn-ink);border-color:var(--btn)}
+.btn.small{padding:4px 9px;font-size:13px;border-radius:6px}
+.btn[disabled]{opacity:.5;cursor:progress}
+.notice{background:var(--sheet);border:1px solid var(--rule);border-radius:10px;padding:10px 14px;margin-bottom:14px;display:flex;flex-wrap:wrap;gap:6px 18px;align-items:center;color:var(--ink-2);font-size:14px}
+.notice b{color:var(--ink)}
+.notice .warn{color:var(--bad);font-weight:500}
+.notice button.linkish{background:none;border:none;padding:0;text-decoration:underline;cursor:pointer;color:inherit}
+.rail{display:flex;gap:10px;overflow-x:auto;padding:2px 2px 12px;margin-bottom:6px;scrollbar-width:thin}
+.due{flex:0 0 auto;min-width:210px;max-width:270px;background:var(--sheet);border:1px solid var(--rule);border-radius:10px;padding:10px 12px;cursor:pointer;text-align:left;border-top:4px solid var(--c,#999)}
+.due .days{font-family:var(--serif);font-size:22px;font-weight:600;line-height:1}
+.due .days small{font-family:var(--sans);font-size:12px;font-weight:500;color:var(--ink-2);margin-left:4px}
+.due .dt{font-size:12.5px;color:var(--ink-2);margin-top:4px}
+.due .what{font-size:13.5px;margin-top:2px;line-height:1.35}
+.due .auto{font-size:11.5px;color:var(--s-verify);margin-top:3px}
+.due.today{border-color:var(--s-deadline);border-top-color:var(--s-deadline)}
+.due.today .days{color:var(--s-deadline)}
+.layout{display:grid;grid-template-columns:230px minmax(0,1fr);align-items:start}
+.tabs{position:sticky;top:12px;display:flex;flex-direction:column;gap:3px;padding-top:6px}
+.tab{display:flex;align-items:center;gap:10px;width:100%;text-align:left;border:1px solid transparent;border-right:none;background:transparent;padding:10px 12px 10px 0;border-radius:10px 0 0 10px;cursor:pointer;color:var(--ink-2);position:relative}
+.tab .rib{width:7px;align-self:stretch;border-radius:0 4px 4px 0;background:var(--c,#999);opacity:.55;flex:0 0 auto}
+.tab .nm{flex:1;font-weight:500}
+.tab .ct{font-size:12px;min-width:22px;text-align:center;padding:1px 6px;border-radius:999px;background:var(--soft);color:var(--ink-2)}
+.tab .ct.has{background:var(--c,#555);color:#fff}
+.tab .ct.bad{background:var(--bad);color:#fff}
+.tab .ct:empty{display:none}
+.tab:hover{color:var(--ink)}
+.tab:hover .rib{opacity:.85}
+.tab[aria-selected="true"]{background:var(--sheet);border-color:var(--rule);color:var(--ink);margin-right:-1px;z-index:2}
+.tab[aria-selected="true"] .rib{opacity:1;width:9px}
+.tab[aria-selected="true"] .nm{font-weight:600}
+.tabs .sep{height:1px;background:var(--rule);margin:8px 14px 8px 0}
+.sheet{background:var(--sheet);border:1px solid var(--rule);border-radius:0 12px 12px 12px;min-height:60vh;position:relative;z-index:1}
+.sheet-head{padding:22px 26px 14px;border-bottom:1px solid var(--rule);border-top:5px solid var(--c,#999);border-radius:0 12px 0 0}
+.sheet-head h2{font-family:var(--serif);font-weight:600;font-size:26px;margin:0;line-height:1.2}
+.sheet-head .sub{color:var(--ink-2);margin:4px 0 12px;max-width:70ch}
+.srcs{display:flex;flex-wrap:wrap;gap:6px}
+.srcs a{font-size:13px;text-decoration:none;border:1px solid var(--rule);padding:4px 10px;border-radius:999px;background:var(--soft)}
+.srcs a:hover{border-color:var(--ink-3)}
+.srcs .lbl{font-size:13px;color:var(--ink-3);padding:4px 2px}
+.filters{display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding:12px 26px;border-bottom:1px solid var(--rule);background:var(--soft)}
+.filters input[type=search]{flex:1 1 220px;min-width:0;padding:8px 11px;border:1px solid var(--rule);border-radius:8px;background:var(--sheet)}
+.filters select{padding:8px 10px;border:1px solid var(--rule);border-radius:8px;background:var(--sheet)}
+.chk{display:flex;align-items:center;gap:6px;font-size:14px;color:var(--ink-2);cursor:pointer}
+.group-h{margin:0;padding:14px 26px 6px;font-size:13px;font-weight:600;color:var(--ink-3);border-bottom:1px solid var(--rule);background:var(--sheet)}
+.entry{display:grid;grid-template-columns:76px minmax(0,1fr);gap:18px;padding:18px 26px;border-bottom:1px solid var(--rule)}
+.entry.read .body h3{color:var(--ink-2)}
+.when{text-align:right;padding-top:2px}
+.when .d{display:block;font-family:var(--serif);font-size:28px;font-weight:600;line-height:1}
+.when .m{display:block;font-size:12.5px;color:var(--ink-2);margin-top:3px;white-space:nowrap}
+.meta{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-bottom:6px}
+.pill{font-size:12px;line-height:1;padding:5px 8px;border-radius:999px;border:1px solid var(--rule);color:var(--ink-2);background:var(--sheet);white-space:nowrap}
+.pill.area{border-color:transparent;background:var(--c);color:#fff}
+.pill.st{border-color:currentColor;background:transparent;font-weight:500}
+.pill.off{border-color:var(--ok);color:var(--ok)}
+.pill.key{border-color:var(--ink);color:var(--ink);font-weight:500}
+.st-force{color:var(--s-force)} .st-pending{color:var(--s-pending)} .st-bill{color:var(--s-bill)}
+.st-deadline{color:var(--s-deadline)} .st-watch{color:var(--s-watch)} .st-verify{color:var(--s-verify)}
+.pill.new{background:var(--s-deadline);border-color:var(--s-deadline);color:#fff;font-weight:600}
+.pill.mine{border-style:dashed}
+.body h3{font-family:var(--serif);font-weight:600;font-size:19px;line-height:1.3;margin:0 0 4px;max-width:72ch}
+.body h3 a{text-decoration:none}
+.body h3 a:hover{text-decoration:underline}
+.by{font-size:13px;color:var(--ink-3);margin:0 0 6px}
+.ref{font-size:13px;color:var(--ink-3);margin:0 0 6px;font-variant-numeric:tabular-nums}
+.body p.sum{margin:0 0 8px;max-width:75ch}
+.notes{margin:0 0 10px;padding:0 0 0 18px;max-width:75ch;color:var(--ink)}
+.notes li{margin:0 0 4px}
+.notes-h{font-size:12.5px;color:var(--ink-3);margin:0 0 4px}
+.body p.act{margin:0 0 10px;max-width:75ch;padding:8px 12px;background:var(--soft);border-left:3px solid var(--c);border-radius:0 6px 6px 0;font-size:14.5px}
+.body p.found{margin:0 0 10px;max-width:75ch;padding:8px 12px;background:var(--soft);border-left:3px solid var(--s-verify);border-radius:0 6px 6px 0;font-size:14px}
+.row-acts{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.row-acts .btn.on{background:var(--ink);color:var(--sheet);border-color:var(--ink)}
+.empty{padding:50px 26px;text-align:center;color:var(--ink-2)}
+.empty b{color:var(--ink);display:block;font-size:17px;margin-bottom:6px}
+.more{padding:16px 26px;text-align:center}
+.daybar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:0 0 12px}
+.seg{display:inline-flex;border:1px solid var(--rule);border-radius:8px;overflow:hidden}
+.seg button{border:none;background:var(--sheet);padding:7px 12px;cursor:pointer;color:var(--ink-2)}
+.seg button+button{border-left:1px solid var(--rule)}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--sheet)}
+.daybar label{display:flex;align-items:center;gap:6px;font-size:14px;color:var(--ink-2)}
+.daybar input[type=date]{padding:6px 9px;border:1px solid var(--rule);border-radius:8px;background:var(--sheet)}
+.daybar .push{margin-left:auto}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{display:inline-flex;align-items:center;gap:7px;border:1px solid var(--rule);background:var(--soft);border-radius:999px;padding:4px 10px 4px 6px;font-size:13px;cursor:pointer}
+.chip .sw{width:10px;height:10px;border-radius:50%;background:var(--c)}
+.chip b{font-weight:600;font-variant-numeric:tabular-nums}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--sheet);border-color:var(--ink)}
+.chip.zero{opacity:.55}
+.group-h .gsw{display:inline-block;width:9px;height:9px;border-radius:2px;background:var(--c);margin-right:7px;vertical-align:0}
+.src-row{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,.8fr) minmax(0,.9fr) minmax(0,2fr);gap:12px;padding:12px 26px;border-bottom:1px solid var(--rule);align-items:start;font-size:14px}
+.src-row.head{font-size:12.5px;color:var(--ink-3);font-weight:600;background:var(--soft)}
+.src-row .nm a{font-weight:500;text-decoration:none}
+.src-row .nm a:hover{text-decoration:underline}
+.src-row .k{color:var(--ink-3);font-size:12.5px}
+.dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:6px;vertical-align:1px}
+.dot.ok{background:var(--ok)} .dot.bad{background:var(--bad)}
+.src-row .err{color:var(--bad)}
+dialog{border:1px solid var(--rule);border-radius:14px;background:var(--sheet);color:var(--ink);padding:0;width:min(720px,94vw);max-height:90vh}
+dialog::backdrop{background:rgba(10,14,22,.45)}
+.dlg-h{display:flex;justify-content:space-between;align-items:center;padding:16px 20px;border-bottom:1px solid var(--rule)}
+.dlg-h h3{font-family:var(--serif);font-size:21px;margin:0}
+.dlg-b{padding:16px 20px;overflow:auto;max-height:calc(90vh - 130px)}
+.dlg-f{display:flex;justify-content:flex-end;gap:8px;padding:12px 20px;border-top:1px solid var(--rule)}
+.fg{display:grid;grid-template-columns:1fr 1fr;gap:10px 12px}
+.fg label{display:flex;flex-direction:column;gap:4px;font-size:13px;color:var(--ink-2)}
+.fg .full{grid-column:1/-1}
+.fg input,.fg select,.fg textarea{padding:8px 10px;border:1px solid var(--rule);border-radius:8px;background:var(--soft);color:var(--ink);font-size:14.5px}
+textarea{resize:vertical}
+.copybox{width:100%;min-height:200px;padding:10px;border:1px solid var(--rule);border-radius:8px;background:var(--soft);font-size:14px}
+.toast{position:fixed;left:50%;bottom:22px;transform:translateX(-50%);background:var(--btn);color:var(--btn-ink);padding:9px 16px;border-radius:8px;font-size:14px;opacity:0;pointer-events:none;transition:opacity .2s}
+.toast.show{opacity:1}
+.foot{color:var(--ink-3);font-size:13px;margin-top:18px;max-width:90ch}
+@media (max-width:860px){
+  .layout{grid-template-columns:1fr}
+  .tabs{position:static;flex-direction:row;overflow-x:auto;gap:4px;padding:0 2px;scrollbar-width:thin}
+  .tabs .sep{display:none}
+  .tab{flex:0 0 auto;flex-direction:column;align-items:flex-start;gap:4px;padding:0 12px 9px;border-radius:10px 10px 0 0;border:1px solid transparent;border-bottom:none}
+  .tab .rib{width:100%;height:5px;border-radius:0 0 4px 4px}
+  .tab[aria-selected="true"]{margin-right:0;margin-bottom:-1px}
+  .tab[aria-selected="true"] .rib{width:100%;height:6px}
+  .tab .nm{white-space:nowrap}
+  .sheet{border-radius:0 0 12px 12px}
+  .sheet-head{border-radius:0}
+  .entry{grid-template-columns:1fr;gap:6px;padding:16px 18px}
+  .when{text-align:left;display:flex;gap:8px;align-items:baseline}
+  .when .d{font-size:18px}
+  .when .m{margin:0}
+  .sheet-head,.filters,.group-h,.more{padding-left:18px;padding-right:18px}
+  .daybar .push{margin-left:0}
+  .src-row{grid-template-columns:1fr;gap:2px;padding:12px 18px}
+  .src-row.head{display:none}
+  .fg{grid-template-columns:1fr}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div class="brand">
+      <h1>Regulatory Register</h1>
+      <p>Notifications, circulars, amendments and deadlines collected from official sites, feeds and news, filed under one tab per law.</p>
+    </div>
+    <div class="tools">
+      <button class="btn primary" id="refreshBtn">Refresh</button>
+      <a class="btn" id="collectBtn" target="_blank" rel="noopener" hidden>Collect now</a>
+      <button class="btn" id="addBtn">Add an update</button>
+      <button class="btn" id="themeBtn" aria-label="Switch colour theme">Theme</button>
+    </div>
+  </header>
+
+  <div class="notice" id="notice" role="status"></div>
+  <div class="rail" id="rail" aria-label="Upcoming dates"></div>
+
+  <div class="layout">
+    <nav class="tabs" id="tabs" role="tablist" aria-label="Sections"></nav>
+    <main class="sheet" id="sheet">
+      <div class="sheet-head" id="sheetHead"></div>
+      <div class="filters" id="filters">
+        <input type="search" id="q" placeholder="Search title, notes, notification number…" aria-label="Search">
+        <select id="fShow" aria-label="What to show">
+          <option value="changes">Changes and notifications</option>
+          <option value="official">Official sites and key items</option>
+          <option value="key">Key items only</option>
+          <option value="cases">Case law only</option>
+          <option value="all">Everything collected</option>
+        </select>
+        <select id="fDays" aria-label="Period">
+          <option value="7">Last 7 days</option>
+          <option value="30" selected>Last 30 days</option>
+          <option value="90">Last 90 days</option>
+        </select>
+        <label class="chk"><input type="checkbox" id="fUnread"> Unread only</label>
+        <button class="btn small" id="markAllBtn">Mark shown as read</button>
+      </div>
+      <div id="list"></div>
+    </main>
+  </div>
+
+  <p class="foot">Collected items are notes taken automatically from the linked pages: the sentences that mention notifications, amendments, dates and amounts. Dates marked "found in text" are detected by pattern and can be wrong. Open the source before advising a client. Your read marks, stars and own entries are saved in this browser only.</p>
+</div>
+
+<dialog id="addDlg" aria-labelledby="addTitle">
+  <form method="dialog" id="addForm">
+    <div class="dlg-h"><h3 id="addTitle">Add an update</h3><button class="btn small" value="cancel" type="submit">Close</button></div>
+    <div class="dlg-b">
+      <div class="fg">
+        <label class="full">Title<input id="fTitle" required maxlength="200"></label>
+        <label>Section<select id="fArea"></select></label>
+        <label>Type<select id="fType"></select></label>
+        <label>Date issued<input id="fDate" type="date"></label>
+        <label>Status<select id="fSt">
+          <option value="force">In force</option><option value="deadline">Deadline</option><option value="pending">Awaiting notification</option>
+          <option value="bill">Bill or draft</option><option value="watch">Watch</option><option value="verify">Verify before relying</option>
+        </select></label>
+        <label>Reference (notification / circular no.)<input id="fRef"></label>
+        <label>Deadline, if any<input id="fDue" type="date"></label>
+        <label class="full">Summary<textarea id="fSum" rows="3"></textarea></label>
+        <label class="full">What to do<textarea id="fAct" rows="2"></textarea></label>
+        <label class="full">Source link<input id="fUrl" type="url" placeholder="https://"></label>
+      </div>
+    </div>
+    <div class="dlg-f">
+      <button class="btn" value="cancel" type="submit">Cancel</button>
+      <button class="btn primary" type="button" id="saveEntry">Save to register</button>
+    </div>
+  </form>
+</dialog>
+
+<dialog id="copyDlg" aria-labelledby="copyTitle">
+  <div class="dlg-h"><h3 id="copyTitle">Copy text</h3><button class="btn small" id="copyClose">Close</button></div>
+  <div class="dlg-b"><textarea class="copybox" id="copyText" readonly></textarea></div>
+  <div class="dlg-f"><button class="btn primary" id="copyAgain">Copy</button></div>
+</dialog>
+
+<div class="toast" id="toast" aria-live="polite"></div>
+
+<script src="data/pinned.js"></script>
+<script src="data/updates.js"></script>
+<script>
+(function(){
+"use strict";
+
+const AREAS = [
+  {id:"gst", name:"GST", full:"Goods and Services Tax", color:"#0F766E",
+   sub:"CGST/IGST notifications, CBIC circulars, GSTN advisories, GST Council and GSTAT.",
+   sources:[["CBIC GST","https://cbic-gst.gov.in/"],["GST portal news","https://www.gst.gov.in/newsandupdates"],["GST Council","https://gstcouncil.gov.in/"]]},
+  {id:"it", name:"Income Tax", full:"Income Tax", color:"#3949AB",
+   sub:"CBDT notifications and circulars, Finance Act changes, schemes and due dates under the 1961 and 2025 Acts.",
+   sources:[["CBDT communications","https://incometaxindia.gov.in/pages/communications/index.aspx"],["e-Filing latest news","https://www.incometax.gov.in/iec/foportal/latest-news"]]},
+  {id:"tds", name:"TDS / TCS", full:"TDS and TCS", color:"#7C3AED",
+   sub:"Statement forms, section codes, certificates and quarterly due dates.",
+   sources:[["TRACES","https://www.tdscpc.gov.in/"],["e-Filing latest news","https://www.incometax.gov.in/iec/foportal/latest-news"]]},
+  {id:"mca", name:"Companies & LLP", full:"Companies Act, LLP and corporate laws", color:"#B45309",
+   sub:"MCA notifications, general circulars, schemes, e-forms and bills amending the Companies and LLP Acts.",
+   sources:[["MCA","https://www.mca.gov.in/"],["e-Gazette","https://egazette.gov.in/"]]},
+  {id:"acc", name:"Accounting & Audit", full:"Accounting and Auditing", color:"#BE123C",
+   sub:"Ind AS and AS notifications, ICAI announcements, UDIN, peer review and NFRA.",
+   sources:[["ICAI","https://www.icai.org/"],["NFRA","https://nfra.gov.in/"]]},
+  {id:"sebi", name:"SEBI", full:"SEBI and capital markets", color:"#0369A1",
+   sub:"LODR and other regulation amendments, circulars and timelines.",
+   sources:[["SEBI","https://www.sebi.gov.in/"]]},
+  {id:"fema", name:"RBI & FEMA", full:"RBI and FEMA", color:"#4D7C0F",
+   sub:"FEMA regulations and directions, drafts for comment, export-import and foreign investment rules.",
+   sources:[["RBI","https://www.rbi.org.in/"]]},
+  {id:"labour", name:"Labour & Payroll", full:"Labour codes, PF and ESI", color:"#A16207",
+   sub:"Labour code rules, EPFO and ESIC changes affecting payroll.",
+   sources:[["Ministry of Labour","https://labour.gov.in/"],["EPFO","https://www.epfindia.gov.in/"],["ESIC","https://www.esic.gov.in/"]]},
+  {id:"mh", name:"Maharashtra", full:"Maharashtra state levies", color:"#C2410C",
+   sub:"Profession tax and other Maharashtra Finance Department and MahaGST notifications.",
+   sources:[["MahaGST","https://www.mahagst.gov.in/"]]}
+];
+const TYPES = ["Notification","Circular","Advisory","Amendment","Due date","Scheme","Bill","Draft","Council","Press release","Judgment","Guidance","Representation","Update","Article"];
+const STATUS = {force:"In force", deadline:"Deadline", pending:"Awaiting notification", bill:"Bill or draft", watch:"Watch", verify:"Verify before relying"};
+const KIND = {rss:"Feed", page:"Page watch", gnews:"News search"};
+const areaMap = Object.fromEntries(AREAS.map(a=>[a.id,a]));
+const $ = s => document.querySelector(s);
+
+/* ---------- state ---------- */
+const KEY = "regreg.standalone.v1";
+function load(){ try{ return JSON.parse(localStorage.getItem(KEY)) || {}; }catch(e){ return {}; } }
+function save(){ try{ localStorage.setItem(KEY, JSON.stringify(state)); }catch(e){} }
+const state = Object.assign({read:[], star:[], mine:[], lastSeen:"", theme:""}, load());
+const readSet = new Set(state.read), starSet = new Set(state.star);
+let prevSeen = state.lastSeen;     // fixed for this visit so "New" badges stay put while you read
+let current = "today", showLimit = 150;
+let selDay = null, areaFilter = "";      // used by the Today and Last 90 days tabs
+
+/* ---------- data ---------- */
+let DATA = null, PINNED = [], ARCHIVE = null, archiveStatus = "idle";   // idle | loading | loaded | failed
+function takeData(){
+  DATA = window.REGISTER_DATA && Array.isArray(window.REGISTER_DATA.items) ? window.REGISTER_DATA : null;
+  PINNED = (window.REGISTER_PINNED && window.REGISTER_PINNED.items) || [];
+  if(DATA && DATA.generatedAt > (state.lastSeen||"")){ state.lastSeen = DATA.generatedAt; save(); }
+}
+function allItems(){
+  let auto = DATA ? DATA.items : [];
+  if(ARCHIVE && ARCHIVE.length){ const ids = new Set(auto.map(i=>i.id)); auto = auto.concat(ARCHIVE.filter(i=>!ids.has(i.id))); }
+  return PINNED.concat(auto, (state.mine||[]).map(x=>Object.assign({mine:true}, x)));
+}
+// Items older than 30 days live in data/archive.js, loaded only when a view needs them.
+function needsArchive(){
+  if(!DATA || !DATA.archiveCount) return false;
+  const recentFrom = dayMinus(todayISO(), DATA.recentDays || 30);
+  return current==="d90" || +$("#fDays").value > 30 || (current==="today" && selDay && selDay < recentFrom);
+}
+async function ensureArchive(force){
+  if(!needsArchive() && !force) return;
+  if(archiveStatus==="loading" || (archiveStatus==="loaded" && !force)) return;
+  archiveStatus = "loading"; renderHead();
+  try{ await loadScript("data/archive.js"); ARCHIVE = (window.REGISTER_ARCHIVE && window.REGISTER_ARCHIVE.items) || []; archiveStatus = "loaded"; }
+  catch(e){ archiveStatus = "failed"; }
+  renderAll();
+}
+const isRead = id => readSet.has(id);
+const isStar = id => starSet.has(id);
+const isNew = it => !!(prevSeen && !it.pinned && !it.mine && it.firstSeen && it.firstSeen > prevSeen);
+
+/* ---------- helpers ---------- */
+function esc(s){ return String(s==null?"":s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
+function safeUrl(u){ return /^https?:\/\//i.test(u||"") ? u : ""; }
+const MON = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+// Calendar day in India: published date if known, otherwise the day the collector first saw it.
+function dayOf(it){
+  const v = it.published || it.firstSeen || "";
+  if(/^\d{4}-\d{2}(-\d{2})?$/.test(v)) return v;
+  const t = Date.parse(v);
+  return isNaN(t) ? "" : new Date(t + 330*60000).toISOString().slice(0,10);
+}
+function parts(d){
+  if(!d) return {d:"—", m:""};
+  const p = d.slice(0,10).split("-");
+  if(p.length===2) return {d:MON[+p[1]-1], m:p[0]};
+  return {d:String(+p[2]), m:MON[+p[1]-1]+" "+p[0]};
+}
+function todayISO(){ return new Date(Date.now() + 330*60000).toISOString().slice(0,10); }
+function dayMinus(iso, n){ return new Date(Date.parse(iso+"T00:00:00Z") - n*86400000).toISOString().slice(0,10); }
+function fullDate(iso){ try{ return new Date(iso+"T00:00:00Z").toLocaleDateString("en-IN",{timeZone:"UTC",weekday:"long",day:"numeric",month:"long",year:"numeric"}); }catch(e){ return longDate(iso); } }
+function monthLabel(iso){ const p = iso.split("-"); return ["January","February","March","April","May","June","July","August","September","October","November","December"][+p[1]-1]+" "+p[0]; }
+const isChange = i => i.pinned || i.mine || (i.type!=="Judgment" && i.type!=="Article");
+function dueOn(i, day){ return i.due===day || (!i.pinned && !i.mine && Array.isArray(i.deadlines) && i.deadlines.some(d=>d.kind==="deadline" && d.date===day)); }
+function daysBetween(a,b){ return Math.round((Date.parse(b+"T00:00:00")-Date.parse(a+"T00:00:00"))/86400000); }
+function longDate(iso){ if(!iso) return ""; const p=iso.slice(0,10).split("-"); return p.length<3 ? MON[+p[1]-1]+" "+p[0] : (+p[2])+" "+MON[+p[1]-1]+" "+p[0]; }
+function stamp(iso){ try{ return new Date(iso).toLocaleString("en-IN",{timeZone:"Asia/Kolkata",day:"numeric",month:"short",year:"numeric",hour:"numeric",minute:"2-digit"})+" IST"; }catch(e){ return iso; } }
+
+/* ---------- theme ---------- */
+function applyTheme(){ if(state.theme) document.documentElement.setAttribute("data-theme", state.theme); else document.documentElement.removeAttribute("data-theme"); }
+applyTheme();
+$("#themeBtn").onclick = ()=>{ const dark = state.theme ? state.theme==="dark" : matchMedia("(prefers-color-scheme: dark)").matches; state.theme = dark?"light":"dark"; save(); applyTheme(); };
+
+/* ---------- notice ---------- */
+function renderNotice(){
+  const n = $("#notice");
+  if(!DATA){
+    n.innerHTML = `<span class="warn">No collected data yet.</span><span>Showing key items only. Run the collector (see README, step 3), then press Refresh.</span>`;
+    return;
+  }
+  const newCount = DATA.items.filter(isNew).length;
+  const failed = DATA.sources.filter(s=>!s.ok).length;
+  const ageH = (Date.now() - Date.parse(DATA.generatedAt)) / 3600000;
+  n.innerHTML =
+    `<span>Collected <b>${esc(stamp(DATA.generatedAt))}</b></span>` +
+    `<span><button class="linkish" data-goto="today">Today: <b>${todayCount()}</b> update${todayCount()===1?"":"s"}</button></span>` +
+    (prevSeen ? `<span><b>${newCount} new</b> since your last visit</span>` : `<span><b>${DATA.items.length}</b> items collected</span>`) +
+    `<span>${DATA.sources.length - failed} of ${DATA.sources.length} sources working${failed ? ` · <button class="linkish" data-goto="sources">see which failed</button>` : ""}</span>` +
+    (ageH > 26 ? `<span class="warn">Data is ${Math.floor(ageH/24)} day(s) old; the scheduled run may have stopped.</span>` : "");
+}
+$("#notice").addEventListener("click", e=>{ const b=e.target.closest("[data-goto]"); if(b){ current=b.dataset.goto; if(current==="today") selDay=todayISO(); areaFilter=""; renderAll(); } });
+function todayCount(){ const t = todayISO(); return allItems().filter(i=>dayOf(i)===t && isChange(i)).length; }
+
+/* ---------- deadline rail ---------- */
+function renderRail(){
+  const t = todayISO(); const rows = [];
+  for(const it of allItems()){
+    if(it.due && it.due >= t) rows.push({date:it.due, it, auto:false});
+    if(!it.pinned && !it.mine && Array.isArray(it.deadlines) && it.type!=="Judgment" && it.type!=="Article"){
+      for(const d of it.deadlines){ if(d.kind==="deadline" && d.date >= t && daysBetween(t,d.date) <= 120) rows.push({date:d.date, it, auto:true}); }
+    }
+  }
+  const seen = new Set();
+  const list = rows.sort((a,b)=>a.date.localeCompare(b.date) || (a.auto-b.auto)).filter(r=>{ const k=r.date+"|"+r.it.title.slice(0,40); if(seen.has(k)) return false; seen.add(k); return true; }).slice(0,12);
+  const rail = $("#rail");
+  rail.hidden = !list.length;
+  rail.innerHTML = list.map(r=>{
+    const n = daysBetween(t,r.date), a = areaMap[r.it.area]||{};
+    const label = n===0 ? "Today" : n===1 ? "1 <small>day left</small>" : n+" <small>days left</small>";
+    return `<button class="due${n===0?" today":""}" style="--c:${a.color||"#888"}" data-jump="${esc(r.it.id)}"><div class="days">${label}</div><div class="dt">${longDate(r.date)}, ${esc(a.name||"")}</div><div class="what">${esc(r.it.title)}</div>${r.auto?`<div class="auto">Date found in text, verify</div>`:""}</button>`;
+  }).join("");
+}
+$("#rail").addEventListener("click", e=>{
+  const b = e.target.closest("[data-jump]"); if(!b) return;
+  const it = allItems().find(x=>x.id===b.dataset.jump); if(!it) return;
+  current = it.area; $("#q").value=""; $("#fShow").value = it.pinned ? "key" : "all"; $("#fDays").value="90"; ensureArchive(); $("#fUnread").checked=false;
+  renderAll();
+  const el = document.getElementById("e-"+it.id);
+  if(el){ el.scrollIntoView({block:"center"}); el.focus({preventScroll:true}); }
+});
+
+/* ---------- tabs ---------- */
+function tabDefs(){
+  return [{id:"today",name:"Today",color:"#B42318"},{id:"d90",name:"Last 90 days",color:"#1F4E79"},{sep:true},{id:"all",name:"Everything",color:"#5B6578"}].concat(AREAS,[{sep:true},{id:"starred",name:"Starred",color:"#8A6D00"},{id:"mine",name:"My entries",color:"#56607A"},{id:"sources",name:"Sources",color:"#39465E"}]);
+}
+function baseFor(tab){
+  const items = allItems();
+  if(tab==="today"){ const d = selDay || todayISO(); return items.filter(i=>dayOf(i)===d || dueOn(i,d)); }
+  if(tab==="d90"){ const from = dayMinus(todayISO(), 90), to = todayISO(); return items.filter(i=>{ const d = dayOf(i); return d && d >= from.slice(0, d.length) && d <= to; }); }
+  if(tab==="all") return items;
+  if(tab==="starred") return items.filter(i=>isStar(i.id));
+  if(tab==="mine") return items.filter(i=>i.mine);
+  return items.filter(i=>i.area===tab);
+}
+function renderTabs(){
+  $("#tabs").innerHTML = tabDefs().map(t=>{
+    if(t.sep) return `<div class="sep" role="presentation"></div>`;
+    let n, cls="";
+    if(t.id==="sources"){ n = DATA ? DATA.sources.filter(s=>!s.ok).length : 0; cls = n ? " bad" : ""; }
+    else if(t.id==="today"){ const d = todayISO(); n = allItems().filter(i=>dayOf(i)===d && isChange(i) && !isRead(i.id)).length; cls = n ? " has" : ""; }
+    else if(t.id==="d90"){ n = ""; }
+    else if(t.id==="starred"||t.id==="mine"){ n = baseFor(t.id).length; }
+    else { n = baseFor(t.id).filter(i=>isNew(i) || (i.pinned && !isRead(i.id))).filter(i=>!isRead(i.id)).length; cls = n ? " has" : ""; }
+    const label = t.id==="d90" ? "" : t.id==="today" ? `${n} unread today` : t.id==="sources" ? `${n} failing` : t.id==="starred"||t.id==="mine" ? `${n} entries` : `${n} unread`;
+    return `<button class="tab" role="tab" id="tab-${t.id}" aria-selected="${current===t.id}" style="--c:${t.color}" data-tab="${t.id}"><span class="rib"></span><span class="nm">${esc(t.name)}</span><span class="ct${cls}" aria-label="${label}">${n}</span></button>`;
+  }).join("");
+}
+$("#tabs").addEventListener("click", e=>{ const b=e.target.closest("[data-tab]"); if(!b) return; switchTab(b.dataset.tab); });
+function switchTab(id){ current=id; showLimit=150; areaFilter=""; if(id==="today") selDay=todayISO(); renderAll(); ensureArchive(); }
+$("#tabs").addEventListener("keydown", e=>{
+  if(!["ArrowDown","ArrowUp","ArrowLeft","ArrowRight"].includes(e.key)) return;
+  const ids = tabDefs().filter(t=>!t.sep).map(t=>t.id); let i = ids.indexOf(current);
+  i = (e.key==="ArrowDown"||e.key==="ArrowRight") ? (i+1)%ids.length : (i-1+ids.length)%ids.length;
+  switchTab(ids[i]); document.getElementById("tab-"+current).focus(); e.preventDefault();
+});
+
+/* ---------- head ---------- */
+function renderHead(){
+  const h = $("#sheetHead"), a = areaMap[current];
+  $("#filters").hidden = current==="sources";
+  $("#fDays").hidden = current==="today" || current==="d90";
+  if(current==="today" || current==="d90"){ h.style.setProperty("--c", current==="today" ? "#B42318" : "#1F4E79"); h.innerHTML = current==="today" ? todayHead() : d90Head(); return; }
+  if(a){
+    h.style.setProperty("--c", a.color);
+    const extra = DATA ? DATA.sources.filter(s=>s.area===a.id).map(s=>`${s.ok?"":"⚠ "}${s.name}`) : [];
+    h.innerHTML = `<h2>${esc(a.full)}</h2><p class="sub">${esc(a.sub)}${extra.length?` Collected from: ${esc(extra.join(", "))}.`:""}</p><div class="srcs"><span class="lbl">Official sites</span>${a.sources.map(s=>`<a href="${esc(s[1])}" target="_blank" rel="noopener">${esc(s[0])}</a>`).join("")}</div>`;
+  } else {
+    const t = tabDefs().find(x=>x.id===current);
+    h.style.setProperty("--c", t.color);
+    const sub = {all:"Every section, newest first.", starred:"Entries you starred for follow-up.", mine:"Updates you added yourself, saved in this browser.",
+      sources:"Every site the collector visits, with the result of the last run. A failing source does not stop the others."}[current];
+    h.innerHTML = `<h2>${esc(t.name)}</h2><p class="sub" style="margin-bottom:0">${sub}</p>`;
+  }
+}
+
+function chipsHTML(){
+  const list = filtered(true);
+  const counts = {}; list.forEach(i=>{ counts[i.area] = (counts[i.area]||0) + 1; });
+  return `<div class="chips" role="group" aria-label="Filter by section">
+    <button class="chip" data-area="" aria-pressed="${!areaFilter}" style="--c:var(--ink-3)"><span class="sw"></span>All sections <b>${list.length}</b></button>
+    ${AREAS.map(a=>`<button class="chip${counts[a.id]?"":" zero"}" data-area="${a.id}" aria-pressed="${areaFilter===a.id}" style="--c:${a.color}"><span class="sw"></span>${esc(a.name)} <b>${counts[a.id]||0}</b></button>`).join("")}
+  </div>`;
+}
+function todayHead(){
+  const t = todayISO(), d = selDay || t, y = dayMinus(t,1);
+  const n = filtered().length;
+  const when = d===t ? "today" : d===y ? "yesterday" : "on this day";
+  const coll = DATA ? ` Last collection ${esc(stamp(DATA.generatedAt))}; the collector runs at about 7 am, 11 am, 3 pm and 8 pm.` : " The collector has not run yet.";
+  return `<h2>${d===t?"Today":d===y?"Yesterday":"Updates"}, ${esc(fullDate(d))}</h2>
+    <p class="sub">${n} item${n===1?"":"s"} published or collected ${when}, plus anything due ${when}.${coll}</p>
+    <div class="daybar">
+      <div class="seg" role="group" aria-label="Choose day">
+        <button data-day="${t}" aria-pressed="${d===t}">Today</button><button data-day="${y}" aria-pressed="${d===y}">Yesterday</button>
+      </div>
+      <label>Other date <input type="date" id="dayPick" value="${d}" max="${t}" min="${dayMinus(t, (DATA&&DATA.keepDays)||100)}"></label>
+      ${archiveStatus==="loading"?`<span class="sub" style="margin:0">Loading older updates…</span>`:""}
+      <button class="btn small push" id="digestBtn">Copy ${d===t?"today's":"this day's"} digest for WhatsApp</button>
+    </div>
+    ${chipsHTML()}`;
+}
+function d90Head(){
+  const t = todayISO(), from = dayMinus(t, 90);
+  let note = "";
+  if(archiveStatus==="loading") note = " Loading updates older than 30 days…";
+  else if(archiveStatus==="failed") note = " Couldn't load data/archive.js, so only the last 30 days are shown.";
+  else if(!DATA) note = " The collector has not run yet, so only key items are shown.";
+  return `<h2>Last 90 days</h2>
+    <p class="sub">${esc(longDate(from))} to ${esc(longDate(t))} across all sections, newest first and grouped by month.${note}</p>
+    ${chipsHTML()}`;
+}
+$("#sheetHead").addEventListener("click", e=>{
+  const c = e.target.closest("[data-area]"); if(c){ areaFilter = c.dataset.area; showLimit=150; renderHead(); renderList(); return; }
+  const dbtn = e.target.closest("[data-day]"); if(dbtn){ selDay = dbtn.dataset.day; showLimit=150; renderAll(); ensureArchive(); return; }
+  if(e.target.id==="digestBtn") copyText(digestText());
+});
+$("#sheetHead").addEventListener("change", e=>{
+  if(e.target.id==="dayPick" && /^\d{4}-\d{2}-\d{2}$/.test(e.target.value)){ selDay = e.target.value; showLimit=150; renderAll(); ensureArchive(); }
+});
+
+/* ---------- list ---------- */
+function filtered(ignoreArea){
+  const q = $("#q").value.trim().toLowerCase();
+  const fixedPeriod = current==="today" || current==="d90";
+  const show = $("#fShow").value, days = +$("#fDays").value, un = $("#fUnread").checked;
+  const cutoff = new Date(Date.now() - days*86400000).toISOString().slice(0,10);
+  return baseFor(current).filter(i=>{
+    if(current!=="starred" && current!=="mine"){
+      if(show==="key" && !i.pinned) return false;
+      if(show==="official" && !(i.official || i.pinned)) return false;
+      if(show==="cases" && i.type!=="Judgment") return false;
+      if(show==="changes" && !i.pinned && !i.mine && (i.type==="Judgment" || i.type==="Article")) return false;
+      if(!fixedPeriod && !i.pinned && !i.mine && dayOf(i) && dayOf(i) < cutoff && (i.firstSeen||"").slice(0,10) < cutoff) return false;
+      if(fixedPeriod && !ignoreArea && areaFilter && i.area!==areaFilter) return false;
+    }
+    if(un && isRead(i.id)) return false;
+    if(q){
+      const hay = [i.title,i.ref,i.summary,i.action,i.type,i.source,i.publisher,(i.refs||[]).join(" "),(i.notes||[]).join(" "),(areaMap[i.area]||{}).name].join(" ").toLowerCase();
+      if(!hay.includes(q)) return false;
+    }
+    return true;
+  }).sort((a,b)=> (isNew(b)-isNew(a)) || dayOf(b).localeCompare(dayOf(a)) || String(b.firstSeen||"").localeCompare(String(a.firstSeen||"")));
+}
+function entryHTML(i){
+  const a = areaMap[i.area]||{name:i.area,color:"#666"}, p = parts(dayOf(i));
+  const read = isRead(i.id), star = isStar(i.id), url = safeUrl(i.link);
+  const showArea = current==="all"||current==="starred"||current==="mine"||current==="d90";
+  const by = i.pinned ? (i.source ? `Key item, source: ${esc(i.source)}` : "Key item")
+    : i.mine ? "Your entry"
+    : `${esc(i.source||"")}${i.publisher?`, via ${esc(i.publisher)}`:""}${(i.alsoIn&&i.alsoIn.length)?`. Also in: ${esc(i.alsoIn.join(", "))}`:""}`;
+  const refs = i.ref ? i.ref : (i.refs||[]).join("; ");
+  const found = (!i.pinned && !i.mine && i.deadlines && i.deadlines[0]) ? i.deadlines[0] : null;
+  const foundCtx = found && !(i.notes||[]).some(n=>n.slice(0,60)===String(found.context||"").slice(0,60)) ? found.context : "";
+  return `<article class="entry${read?" read":""}" id="e-${esc(i.id)}" tabindex="-1" style="--c:${a.color}">
+    <div class="when"><span class="d">${esc(p.d)}</span><span class="m">${esc(p.m)}</span></div>
+    <div class="body">
+      <div class="meta">
+        ${showArea?`<span class="pill area">${esc(a.name)}</span>`:""}
+        ${isNew(i)?`<span class="pill new">New</span>`:""}
+        ${i.pinned?`<span class="pill key">Key item</span>`:""}
+        <span class="pill">${esc(i.type||"Update")}</span>
+        ${i.status?`<span class="pill st st-${esc(i.status)}">${esc(STATUS[i.status]||i.status)}</span>`:""}
+        ${!i.pinned&&!i.mine?(i.official?`<span class="pill off">Official site</span>`:`<span class="pill">News and commentary</span>`):""}
+        ${i.pdf?`<span class="pill">PDF</span>`:""}
+        ${i.due?`<span class="pill">Due ${longDate(i.due)}</span>`:""}
+        ${i.mine?`<span class="pill mine">Your entry</span>`:""}
+      </div>
+      <h3>${url?`<a href="${esc(url)}" target="_blank" rel="noopener">${esc(i.title)}</a>`:esc(i.title)}</h3>
+      <p class="by">${by}</p>
+      ${refs?`<p class="ref">${esc(refs)}</p>`:""}
+      ${i.summary?`<p class="sum">${esc(i.summary)}</p>`:""}
+      ${(i.notes&&i.notes.length)?`<p class="notes-h">Notes from the page</p><ul class="notes">${i.notes.map(n=>`<li>${esc(n)}</li>`).join("")}</ul>`:""}
+      ${found?`<p class="found"><b>Date found in text: ${longDate(found.date)}</b> (${found.kind==="effective"?"effective date":"deadline"}, verify). ${esc(foundCtx||"")}</p>`:""}
+      ${i.action?`<p class="act"><b>What to do:</b> ${esc(i.action)}</p>`:""}
+      ${(!i.summary && !(i.notes&&i.notes.length) && !i.pinned && !i.mine)?`<p class="sum" style="color:var(--ink-3)">${i.pdf?"Official PDF: open it to read the text.":"No readable text on the page; open the source."}</p>`:""}
+      <div class="row-acts">
+        ${url?`<a class="btn small" href="${esc(url)}" target="_blank" rel="noopener">Open source</a>`:""}
+        ${i.officialLink?`<a class="btn small" href="${esc(safeUrl(i.officialLink))}" target="_blank" rel="noopener">Official copy</a>`:""}
+        <button class="btn small${read?" on":""}" data-act="read" data-id="${esc(i.id)}" aria-pressed="${read}">${read?"Read":"Mark read"}</button>
+        <button class="btn small${star?" on":""}" data-act="star" data-id="${esc(i.id)}" aria-pressed="${star}">${star?"Starred":"Star"}</button>
+        <button class="btn small" data-act="wa" data-id="${esc(i.id)}">Copy for WhatsApp</button>
+        ${i.mine?`<button class="btn small" data-act="del" data-id="${esc(i.id)}">Delete</button>`:""}
+      </div>
+    </div>
+  </article>`;
+}
+function renderList(){
+  const el = $("#list");
+  if(current==="sources"){ el.innerHTML = sourcesHTML(); return; }
+  const list = filtered();
+  if(!list.length){
+    const msg = current==="starred" ? ["Nothing starred yet","Star an entry to keep it here for client follow-up."]
+      : current==="mine" ? ["No entries of your own","Use “Add an update” to file a circular you received."]
+      : current==="today" ? [areaFilter ? "Nothing in this section for the day" : "No updates for this day yet", DATA ? `The last collection ran ${stamp(DATA.generatedAt)}. Check Yesterday, or press Refresh after the next run.` : "Run the collector first (README, step 5)."]
+      : current==="d90" && archiveStatus==="loading" ? ["Loading…","Fetching updates older than 30 days."]
+      : ["Nothing to show for these filters","Try “Everything collected” or a longer period."];
+    el.innerHTML = `<div class="empty"><b>${msg[0]}</b>${msg[1]}</div>`; return;
+  }
+  el.innerHTML = groupsHTML(groupFor(list), list.length);
+}
+function groupFor(list){
+  if(current==="today"){
+    const d = selDay || todayISO();
+    const due = list.filter(i=>dueOn(i,d) && dayOf(i)!==d);
+    const rest = list.filter(i=>!due.includes(i));
+    const groups = [];
+    if(due.length) groups.push({label:`Due on this day`, color:"var(--s-deadline)", items:due});
+    AREAS.forEach(a=>{ const g = rest.filter(i=>i.area===a.id); if(g.length) groups.push({label:a.full, color:a.color, items:g}); });
+    return groups;
+  }
+  if(current==="d90"){
+    const map = new Map();
+    list.slice().sort((a,b)=>dayOf(b).localeCompare(dayOf(a))).forEach(i=>{ const k = dayOf(i).slice(0,7); if(!map.has(k)) map.set(k, []); map.get(k).push(i); });
+    return [...map.entries()].map(([k, items])=>({label:monthLabel(k), items}));
+  }
+  const newOnes = list.filter(isNew), rest = list.filter(i=>!isNew(i));
+  if(!newOnes.length) return [{label:"", items:rest}];
+  return [{label:"New since your last visit", items:newOnes}, {label:"Earlier", items:rest}];
+}
+function groupsHTML(groups, total){
+  let html = "", shown = 0;
+  for(const g of groups){
+    if(shown >= showLimit) break;
+    if(g.label) html += `<h3 class="group-h">${g.color?`<span class="gsw" style="--c:${g.color}"></span>`:""}${esc(g.label)} (${g.items.length})</h3>`;
+    const take = g.items.slice(0, showLimit - shown);
+    html += take.map(entryHTML).join(""); shown += take.length;
+  }
+  if(total > shown) html += `<div class="more"><button class="btn" id="moreBtn">Show more (${total - shown} left)</button></div>`;
+  return html;
+}
+function sourcesHTML(){
+  if(!DATA) return `<div class="empty"><b>The collector has not run yet</b>Follow step 3 in README.md, then press Refresh.</div>`;
+  const rows = DATA.sources.slice().sort((a,b)=>(a.ok-b.ok)||(a.area+a.name).localeCompare(b.area+b.name)).map(s=>{
+    const a = areaMap[s.area]||{name:s.area};
+    return `<div class="src-row">
+      <div class="nm"><span class="dot ${s.ok?"ok":"bad"}" aria-hidden="true"></span><a href="${esc(safeUrl(s.url))}" target="_blank" rel="noopener">${esc(s.name)}</a><div class="k">${esc(KIND[s.kind]||s.kind)}${s.official?", official":""}</div></div>
+      <div>${esc(a.name)}</div>
+      <div>${s.ok?`Working<div class="k">read ${s.fetched}, kept ${s.kept}</div>`:`<span class="err">Failed</span><div class="k">${s.lastOk?"last worked "+esc(stamp(s.lastOk)):"never worked"}</div>`}</div>
+      <div class="${s.ok?"":"err"}">${esc(s.ok ? (s.note||"") : (s.error||""))}</div>
+    </div>`;
+  }).join("");
+  return `<div class="src-row head"><div>Source</div><div>Section</div><div>Last run</div><div>Details</div></div>${rows}`;
+}
+$("#list").addEventListener("click", e=>{
+  if(e.target.id==="moreBtn"){ showLimit += 150; renderList(); return; }
+  const b = e.target.closest("[data-act]"); if(!b) return;
+  const id = b.dataset.id, it = allItems().find(x=>x.id===id); if(!it) return;
+  const act = b.dataset.act;
+  if(act==="read"){ readSet.has(id)?readSet.delete(id):readSet.add(id); persistSets(); renderAll(); }
+  else if(act==="star"){ starSet.has(id)?starSet.delete(id):starSet.add(id); persistSets(); renderAll(); }
+  else if(act==="del"){ if(confirm("Delete this entry from your register?")){ state.mine = state.mine.filter(x=>x.id!==id); readSet.delete(id); starSet.delete(id); persistSets(); renderAll(); toast("Entry deleted"); } }
+  else if(act==="wa"){ copyText(waText(it)); }
+});
+function persistSets(){
+  // keep read marks only for items that still exist, so storage does not grow forever
+  const ids = new Set(allItems().map(i=>i.id));
+  state.read = [...readSet].filter(x=>ids.has(x)); state.star = [...starSet].filter(x=>ids.has(x)); save();
+}
+$("#markAllBtn").onclick = ()=>{ filtered().forEach(i=>readSet.add(i.id)); persistSets(); renderAll(); toast("Marked as read"); };
+["#q","#fShow","#fDays","#fUnread"].forEach(s=>$(s).addEventListener("input", ()=>{ showLimit=150; if(current==="today"||current==="d90") renderHead(); renderList(); ensureArchive(); }));
+
+function renderAll(){ renderNotice(); renderRail(); renderTabs(); renderHead(); renderList(); }
+
+/* ---------- copy ---------- */
+function waText(i){
+  const a = areaMap[i.area]||{name:""};
+  const refs = i.ref || (i.refs||[]).join("; ");
+  let t = `*${i.title}*\n_${a.name}${refs?" | "+refs:""}_`;
+  if(i.summary) t += `\n\n${i.summary}`;
+  if(i.notes && i.notes.length) t += "\n\n" + i.notes.map(n=>"• "+n).join("\n");
+  if(i.due) t += `\n\nDue: ${longDate(i.due)}`;
+  if(i.action) t += `\n\nWhat to do: ${i.action}`;
+  if(safeUrl(i.link)) t += `\n\nSource: ${i.link}`;
+  return t;
+}
+function digestText(){
+  const d = selDay || todayISO();
+  const list = filtered();
+  if(!list.length) return `Regulatory updates, ${longDate(d)}: nothing new collected for this day.`;
+  let t = `*Regulatory updates: ${longDate(d)}*`;
+  for(const g of groupFor(list)){
+    t += `\n\n*${g.label}*`;
+    g.items.forEach((i, n)=>{
+      const refs = i.ref || (i.refs||[]).slice(0,1).join("");
+      t += `\n${n+1}. ${i.title}${refs && !i.title.includes(refs) ? ` (${refs})` : ""}`;
+      if(i.due===d) t += " [due today]";
+      if(safeUrl(i.link)) t += `\n   ${i.link}`;
+    });
+  }
+  return t + `\n\n_Check the linked source before acting._`;
+}
+async function copyText(text){
+  try{ await navigator.clipboard.writeText(text); toast("Copied"); return; }catch(e){}
+  $("#copyText").value = text; $("#copyDlg").showModal(); $("#copyText").select();
+}
+$("#copyClose").onclick = ()=>$("#copyDlg").close();
+$("#copyAgain").onclick = async ()=>{ const ta=$("#copyText"); ta.select(); try{ await navigator.clipboard.writeText(ta.value); }catch(e){ try{ document.execCommand("copy"); }catch(_){} } toast("Copied"); };
+let tt; function toast(m){ const t=$("#toast"); t.textContent=m; t.classList.add("show"); clearTimeout(tt); tt=setTimeout(()=>t.classList.remove("show"),1800); }
+
+/* ---------- refresh: reload the data files without reloading the page ---------- */
+function loadScript(src){
+  return new Promise((res, rej)=>{
+    const s = document.createElement("script");
+    s.src = src + (src.includes("?")?"&":"?") + "t=" + Date.now();
+    s.onload = ()=>{ s.remove(); res(); }; s.onerror = ()=>{ s.remove(); rej(new Error("load failed")); };
+    document.head.appendChild(s);
+  });
+}
+$("#refreshBtn").onclick = async ()=>{
+  const btn = $("#refreshBtn"); btn.disabled = true; btn.textContent = "Refreshing…";
+  const before = DATA ? DATA.generatedAt : "";
+  try{
+    await Promise.all([loadScript("data/updates.js"), loadScript("data/pinned.js")]);
+    takeData();
+    if(archiveStatus==="loaded"){ archiveStatus="idle"; await ensureArchive(true); }
+    renderAll(); setCollectLink();
+    toast(DATA && DATA.generatedAt !== before ? "New collection loaded" : "Already showing the latest collection");
+  }catch(e){ toast("Couldn't load data/updates.js"); }
+  btn.disabled = false; btn.textContent = "Refresh";
+};
+function setCollectLink(){
+  const a = $("#collectBtn");
+  if(DATA && DATA.repo && /^[\w.-]+\/[\w.-]+$/.test(DATA.repo)){
+    a.href = `https://github.com/${DATA.repo}/actions/workflows/update.yml`;
+    a.title = "Opens GitHub. Press “Run workflow” there, wait about 3 minutes, then Refresh here.";
+    a.hidden = false;
+  } else a.hidden = true;
+}
+
+/* ---------- add entry ---------- */
+$("#fArea").innerHTML = AREAS.map(a=>`<option value="${a.id}">${esc(a.name)}</option>`).join("");
+$("#fType").innerHTML = TYPES.map(t=>`<option>${esc(t)}</option>`).join("");
+$("#addBtn").onclick = ()=>{ $("#addForm").reset(); if(areaMap[current]) $("#fArea").value=current; $("#addDlg").showModal(); $("#fTitle").focus(); };
+$("#saveEntry").onclick = ()=>{
+  const title = $("#fTitle").value.trim();
+  if(!title){ $("#fTitle").focus(); toast("Add a title first"); return; }
+  const url = $("#fUrl").value.trim();
+  if(url && !safeUrl(url)){ $("#fUrl").focus(); toast("Source link must start with http:// or https://"); return; }
+  const entry = { id:"mine-"+Date.now().toString(36), area:$("#fArea").value, type:$("#fType").value, status:$("#fSt").value,
+    published:$("#fDate").value || todayISO(), due:$("#fDue").value || null, title, ref:$("#fRef").value.trim(),
+    summary:$("#fSum").value.trim(), action:$("#fAct").value.trim(), link:url };
+  state.mine.push(entry); save(); $("#addDlg").close(); current = entry.area; renderAll(); toast("Saved to "+areaMap[entry.area].name);
+};
+
+takeData(); selDay = todayISO(); setCollectLink(); renderAll();
+})();
+</script>
+</body>
+</html>
