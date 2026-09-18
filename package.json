@@ -1,0 +1,18 @@
+{
+  "name": "regulatory-register",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Collects Indian tax, GST, company law, accounting and FEMA updates from official sites and feeds into a static register page.",
+  "scripts": {
+    "update": "node scraper/run.mjs",
+    "check": "node scraper/run.mjs --check",
+    "test": "node scraper/test/test.mjs"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "fast-xml-parser": "^4.5.0",
+    "undici": "^6.21.0"
+  }
+}
