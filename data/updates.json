@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-09-19T01:35:13.651Z",
+ "generatedAt": "2026-09-19T05:40:49.137Z",
  "repo": "cahimanshukakdedata-png/regulatory-register-v1",
- "newThisRun": 10,
+ "newThisRun": 14,
  "sources": [
   {
    "id": "icai-home",
@@ -14,8 +14,8 @@
    "fetched": 37,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-09-19T01:35:13.651Z",
-   "ms": 1297
+   "lastOk": "2026-09-19T05:40:49.137Z",
+   "ms": 1153
   },
   {
    "id": "news-acc",
@@ -25,11 +25,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(ICAI%20OR%20NFRA%20OR%20%22Ind%20AS%22%20OR%20UDIN)%20(announcement%20OR%20notification%20OR%20amendment%20OR%20guidance)%20when%3A14d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 25,
+   "fetched": 26,
    "kept": 8,
    "note": "",
-   "lastOk": "2026-09-19T01:35:13.651Z",
-   "ms": 305
+   "lastOk": "2026-09-19T05:40:49.137Z",
+   "ms": 317
   },
   {
    "id": "nfra-home",
@@ -42,8 +42,8 @@
    "fetched": 28,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-09-19T01:35:13.651Z",
-   "ms": 1779
+   "lastOk": "2026-09-19T05:40:49.137Z",
+   "ms": 1913
   },
   {
    "id": "taxguru-ca",
@@ -56,8 +56,8 @@
    "fetched": 100,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-09-19T01:35:13.651Z",
-   "ms": 935
+   "lastOk": "2026-09-19T05:40:49.137Z",
+   "ms": 997
   },
   {
    "id": "rbi-notifications",
@@ -70,8 +70,8 @@
    "fetched": 10,
    "kept": 4,
    "note": "",
-   "lastOk": "2026-09-19T01:35:13.651Z",
-   "ms": 912
+   "lastOk": "2026-09-19T05:40:49.137Z",
+   "ms": 1012
   },
   {
    "id": "rbi-press",
@@ -84,8 +84,8 @@
    "fetched": 10,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-09-19T01:35:13.651Z",
-   "ms": 73
+   "lastOk": "2026-09-19T05:40:49.137Z",
+   "ms": 95
   },
   {
    "id": "taxguru-rbi",
@@ -98,8 +98,8 @@
    "fetched": 100,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-09-19T01:35:13.651Z",
-   "ms": 720
+   "lastOk": "2026-09-19T05:40:49.137Z",
+   "ms": 973
   },
   {
    "id": "cbic-gst",
@@ -112,8 +112,8 @@
    "fetched": 25,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-09-19T01:35:13.651Z",
-   "ms": 1281
+   "lastOk": "2026-09-19T05:40:49.137Z",
+   "ms": 1356
   },
   {
    "id": "gst-council",
@@ -126,8 +126,8 @@
    "fetched": 18,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-09-19T01:35:13.651Z",
-   "ms": 2964
+   "lastOk": "2026-09-19T05:40:49.137Z",
+   "ms": 3121
   },
   {
    "id": "gst-portal-news",
@@ -140,8 +140,8 @@
    "fetched": 0,
    "kept": 0,
    "note": "page returned no usable links (it may need a real browser); this section relies on its other sources",
-   "lastOk": "2026-09-19T01:35:13.651Z",
-   "ms": 1635
+   "lastOk": "2026-09-19T05:40:49.137Z",
+   "ms": 1658
   },
   {
    "id": "news-gst",
@@ -154,8 +154,8 @@
    "fetched": 54,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-09-19T01:35:13.651Z",
-   "ms": 524
+   "lastOk": "2026-09-19T05:40:49.137Z",
+   "ms": 495
   },
   {
    "id": "taxguru-gst",
@@ -168,8 +168,8 @@
    "fetched": 100,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-09-19T01:35:13.651Z",
-   "ms": 1377
+   "lastOk": "2026-09-19T05:40:49.137Z",
+   "ms": 1982
   },
   {
    "id": "cbdt-communications",
@@ -183,7 +183,7 @@
    "kept": 0,
    "error": "HTTP 403",
    "lastOk": null,
-   "ms": 4333
+   "ms": 6672
   },
   {
    "id": "itd-latest",
@@ -196,8 +196,8 @@
    "fetched": 39,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-09-19T01:35:13.651Z",
-   "ms": 1193
+   "lastOk": "2026-09-19T05:40:49.137Z",
+   "ms": 1348
   },
   {
    "id": "news-it",
@@ -207,11 +207,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=CBDT%20(notification%20OR%20circular%20OR%20%22due%20date%22%20OR%20extended%20OR%20scheme)%20when%3A10d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 52,
+   "fetched": 50,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-09-19T01:35:13.651Z",
-   "ms": 306
+   "lastOk": "2026-09-19T05:40:49.137Z",
+   "ms": 327
   },
   {
    "id": "taxguru-it",
@@ -224,8 +224,8 @@
    "fetched": 100,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-09-19T01:35:13.651Z",
-   "ms": 964
+   "lastOk": "2026-09-19T05:40:49.137Z",
+   "ms": 1688
   },
   {
    "id": "epfo-home",
@@ -239,7 +239,7 @@
    "kept": 0,
    "error": "HTTP 403",
    "lastOk": null,
-   "ms": 2872
+   "ms": 1972
   },
   {
    "id": "esic-home",
@@ -253,7 +253,7 @@
    "kept": 0,
    "error": "fetch failed",
    "lastOk": null,
-   "ms": 22375
+   "ms": 22028
   },
   {
    "id": "news-labour",
@@ -263,11 +263,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(EPFO%20OR%20ESIC%20OR%20%22labour%20code%22)%20(notification%20OR%20circular%20OR%20rules%20OR%20extended%20OR%20deadline)%20when%3A14d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 74,
+   "fetched": 75,
    "kept": 15,
    "note": "",
-   "lastOk": "2026-09-19T01:35:13.651Z",
-   "ms": 427
+   "lastOk": "2026-09-19T05:40:49.137Z",
+   "ms": 394
   },
   {
    "id": "mca-home",
@@ -281,7 +281,7 @@
    "kept": 0,
    "error": "HTTP 403",
    "lastOk": null,
-   "ms": 533
+   "ms": 2986
   },
   {
    "id": "news-mca",
@@ -294,8 +294,8 @@
    "fetched": 46,
    "kept": 14,
    "note": "",
-   "lastOk": "2026-09-19T01:35:13.651Z",
-   "ms": 305
+   "lastOk": "2026-09-19T05:40:49.137Z",
+   "ms": 309
   },
   {
    "id": "taxguru-company",
@@ -308,8 +308,8 @@
    "fetched": 100,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-09-19T01:35:13.651Z",
-   "ms": 947
+   "lastOk": "2026-09-19T05:40:49.137Z",
+   "ms": 1028
   },
   {
    "id": "taxguru-corporate",
@@ -322,8 +322,8 @@
    "fetched": 100,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-09-19T01:35:13.651Z",
-   "ms": 965
+   "lastOk": "2026-09-19T05:40:49.137Z",
+   "ms": 1013
   },
   {
    "id": "mahagst-pt",
@@ -337,7 +337,7 @@
    "kept": 0,
    "error": "fetch failed",
    "lastOk": null,
-   "ms": 22033
+   "ms": 21759
   },
   {
    "id": "news-mh",
@@ -347,11 +347,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=Maharashtra%20(%22profession%20tax%22%20OR%20MahaGST%20OR%20%22stamp%20duty%22%20OR%20%22amnesty%20scheme%22)%20when%3A30d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 52,
+   "fetched": 51,
    "kept": 18,
    "note": "",
-   "lastOk": "2026-09-19T01:35:13.651Z",
-   "ms": 350
+   "lastOk": "2026-09-19T05:40:49.137Z",
+   "ms": 300
   },
   {
    "id": "sebi-rss",
@@ -364,8 +364,8 @@
    "fetched": 30,
    "kept": 11,
    "note": "",
-   "lastOk": "2026-09-19T01:35:13.651Z",
-   "ms": 1821
+   "lastOk": "2026-09-19T05:40:49.137Z",
+   "ms": 9153
   },
   {
    "id": "taxguru-sebi",
@@ -378,8 +378,8 @@
    "fetched": 100,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-09-19T01:35:13.651Z",
-   "ms": 669
+   "lastOk": "2026-09-19T05:40:49.137Z",
+   "ms": 957
   },
   {
    "id": "news-tds",
@@ -390,13 +390,210 @@
    "url": "https://news.google.com/rss/search?q=(TDS%20OR%20TCS%20OR%20TRACES)%20(CBDT%20OR%20notification%20OR%20%22due%20date%22%20OR%20form)%20when%3A14d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
    "fetched": 64,
-   "kept": 15,
+   "kept": 12,
    "note": "",
-   "lastOk": "2026-09-19T01:35:13.651Z",
-   "ms": 482
+   "lastOk": "2026-09-19T05:40:49.137Z",
+   "ms": 474
   }
  ],
  "items": [
+  {
+   "id": "67f722e6093e",
+   "area": "gst",
+   "sourceId": "taxguru-gst",
+   "source": "TaxGuru GST",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Goods and Services Tax | Telangana HC Permits GST Appeal Against Section 74 Common Adjudication Order",
+   "link": "https://taxguru.in/goods-and-service-tax/telangana-hc-permits-gst-appeal-against-section-74-common-adjudication-order.html",
+   "published": "2026-09-19T04:33:50.000Z",
+   "firstSeen": "2026-09-19T05:40:49.137Z",
+   "summary": "Telangana High Court grants two weeks to file appeal against Section 74 GST order with statutory pre-deposit and delay condonation application.The post Telangana HC Permits GST Appeal Against Section 74 Common…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "8b77b9628dd8",
+   "area": "gst",
+   "sourceId": "taxguru-gst",
+   "source": "TaxGuru GST",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Goods and Services Tax | Telangana High Court Permits Withdrawal of GST Writ with Liberty to Refile",
+   "link": "https://taxguru.in/goods-and-service-tax/telangana-high-court-permits-withdrawal-gst-writ-liberty-refile.html",
+   "published": "2026-09-19T04:32:44.000Z",
+   "firstSeen": "2026-09-19T05:40:49.137Z",
+   "summary": "Telangana High Court dismissed a GST writ as withdrawn, granting liberty to file a fresh writ petition without deciding the merits.The post Telangana High Court Permits Withdrawal of GST Writ with Liberty to Refile…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "2914387c53af",
+   "area": "gst",
+   "sourceId": "taxguru-gst",
+   "source": "TaxGuru GST",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Goods and Services Tax | Telangana HC Allows GST Appeal Against Section 73 Order with Delay Application",
+   "link": "https://taxguru.in/goods-and-service-tax/telangana-hc-gst-appeal-against-section-73-order-delay-application.html",
+   "published": "2026-09-19T04:31:43.000Z",
+   "firstSeen": "2026-09-19T05:40:49.137Z",
+   "summary": "Telangana HC permits appeal against GST Section 73 order within two weeks with statutory pre-deposit and delay condonation application.The post Telangana HC Allows GST Appeal Against Section 73 Order with Delay…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "f723ed0bf306",
+   "area": "gst",
+   "sourceId": "taxguru-gst",
+   "source": "TaxGuru GST",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Goods and Services Tax | Telangana HC Allows GST Appeal and Restrains Coercive Recovery for Two Weeks",
+   "link": "https://taxguru.in/goods-and-service-tax/telangana-hc-gst-appeal-restrains-coercive-recovery-weeks.html",
+   "published": "2026-09-19T03:57:52.000Z",
+   "firstSeen": "2026-09-19T05:40:49.137Z",
+   "summary": "Telangana High Court allowed a GST appeal with delay condonation application and restrained coercive recovery during the two-week filing period.The post Telangana HC Allows GST Appeal and Restrains Coercive Recovery for…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "8384fc42d8f5",
+   "area": "gst",
+   "sourceId": "taxguru-gst",
+   "source": "TaxGuru GST",
+   "official": false,
+   "publisher": "",
+   "type": "Council",
+   "title": "Goods and Services Tax | GST Federalism: Constitutional Framework, Legislative Powers and GST Council",
+   "link": "https://taxguru.in/goods-and-service-tax/gst-federalism-constitutional-framework-legislative-powers-gst-council.html",
+   "published": "2026-09-19T03:48:02.000Z",
+   "firstSeen": "2026-09-19T05:40:49.137Z",
+   "summary": "Examines Articles 246A, 269A and 279A, GST Council recommendations, cooperative federalism and Supreme Court rulings on GST powers.The post GST Federalism: Constitutional Framework, Legislative Powers and GST Council appeared first on TaxGuru.",
+   "notes": [
+    "Its importance, however, extends beyond the replacement of multiple Central and State indirect taxes with a common tax framework.",
+    "Any rule or notification issued by the executive must therefore have a valid statutory basis and must operate within the limits prescribed by the parent legislation.",
+    "A recommendation may need to be followed by an appropriate statutory amendment, notification, rule or other legally authorised measure before it produces the relevant legal consequence."
+   ],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "2eec1a1f9491",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Due date",
+   "title": "Income Tax | AIMTPA Seeks Tax Audit Deadline Extension to 31 October 2026",
+   "link": "https://taxguru.in/income-tax/aimtpa-seeks-tax-audit-deadline-extension-31-october-2026.html",
+   "published": "2026-09-19T02:58:26.000Z",
+   "firstSeen": "2026-09-19T05:40:49.137Z",
+   "summary": "AIMTPA requests extension of the tax audit deadline to 31 October and audit ITR deadline to 30 November 2026.The post AIMTPA Seeks Tax Audit Deadline Extension to 31 October 2026 appeared first on TaxGuru.",
+   "notes": [
+    "AIMTPA appreciated the Government’s decision to extend the due date for non-audit business and professional returns from 31 July to 31 August.",
+    "AIMTPA has accordingly sought extension of the Tax Audit Report deadline from 30 September to 31 October 2026 and the audit-case ITR deadline from 31 October to 30 November 2026.",
+    "Subject: Request to rationalise Tax Audit due date to 31st October 2026 and Audit ITR due date to 30th November 2026"
+   ],
+   "refs": [],
+   "deadlines": [
+    {
+     "date": "2026-10-31",
+     "kind": "deadline",
+     "context": "Income Tax | AIMTPA Seeks Tax Audit Deadline Extension to 31 October 2026\nAIMTPA requests extension of the tax audit deadline to 31 October and audit ITR deadline to 30 November 2026."
+    },
+    {
+     "date": "2026-11-30",
+     "kind": "deadline",
+     "context": "AIMTPA requests extension of the tax audit deadline to 31 October and audit ITR deadline to 30 November 2026."
+    }
+   ]
+  },
+  {
+   "id": "23fe239615ff",
+   "area": "mca",
+   "sourceId": "taxguru-company",
+   "source": "TaxGuru Company Law",
+   "official": false,
+   "publisher": "",
+   "type": "Update",
+   "title": "Company Law | Related Party Transactions Under Companies Act: Approvals, Disclosure & Compliance",
+   "link": "https://taxguru.in/company-law/related-party-transactions-companies-act-approvals-disclosure-compliance.html",
+   "published": "2026-09-19T03:32:56.000Z",
+   "firstSeen": "2026-09-19T05:40:49.137Z",
+   "summary": "Related Party Transactions under Companies Act, 2013 covering Section 188, approvals, arm's length basis, disclosures, registers and compliance.The post Related Party Transactions Under Companies Act: Approvals, Disclosure & Compliance appeared first on TaxGuru.",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "a796a46dfb8b",
+   "area": "fema",
+   "sourceId": "taxguru-ca",
+   "source": "TaxGuru CA/CS/CMA",
+   "official": false,
+   "publisher": "",
+   "type": "Update",
+   "title": "CA, CS, CMA | Analysis of Notifications and Circulars for Week Ending 13th September 2026",
+   "link": "https://taxguru.in/chartered-accountant/analysis-notifications-circulars-week-13th-september-2026.html",
+   "published": "2026-09-19T03:53:08.000Z",
+   "firstSeen": "2026-09-19T05:40:49.137Z",
+   "summary": "Key Income Tax, GST, Customs, DGFT, SEBI, IBBI and RBI updates issued during 7–13 September 2026.The post Analysis of Notifications and Circulars for Week Ending 13th September 2026 appeared first on TaxGuru.",
+   "notes": [
+    "Income Tax updates covered taxpayer-information sharing and SFT reporting for mutual fund and depository transactions, while the Delhi High Court ordered a Rs. 53 crore TDS refund with interest without Form 26B.",
+    "HC, TDS Refund of Rs 53 Crores with Interest ordered Without Form 26B: Case of Vodafone Idea Limited Vs ACIT, HC Delhi, Judgement Dated 18th August 2026.",
+    "Relaxation in timeline with respect to Accredited Investor mandate for Angel Funds: The Angel Funds registered with SEBI on or before 10th September 2025 were required to implement the Accredited Investor mandate on or before 8th September 2026."
+   ],
+   "refs": [],
+   "deadlines": [
+    {
+     "date": "2027-03-31",
+     "kind": "deadline",
+     "context": "SEBI has extended the timelines until March 31, 2027."
+    }
+   ]
+  },
+  {
+   "id": "e7b11da2be85",
+   "area": "it",
+   "sourceId": "taxguru-ca",
+   "source": "TaxGuru CA/CS/CMA",
+   "official": false,
+   "publisher": "",
+   "type": "Due date",
+   "title": "CA, CS, CMA | Jalandhar CAs Seek Tax Audit Due Date Extension to 31 October 2026",
+   "link": "https://taxguru.in/chartered-accountant/jalandhar-cas-seek-tax-audit-due-date-extension-31-october-2026.html",
+   "published": "2026-09-19T02:55:30.000Z",
+   "firstSeen": "2026-09-19T05:40:49.137Z",
+   "summary": "Chartered Accountants Association, Jalandhar seeks extension of Tax Audit Reports and Forms 10B/10BB to 31 October 2026 for AY 2026-27.The post Jalandhar CAs Seek Tax Audit Due Date Extension to 31 October 2026 appeared first on TaxGuru.",
+   "notes": [
+    "Summary: The Chartered Accountants Association, Jalandhar, through a representation dated 17 September 2026 to the Finance Minister, has sought extension of the due date for furnishing Tax Audit Reports for AY 2026-27 from 30 September 2026 to 31 October…",
+    "The Association stated that while the separate 31 August 2026 due date for business taxpayers not liable to audit is taxpayer-friendly, the re-alignment has compressed audit-related compliance work into August and September.",
+    "For future years, the Association requested amendment of the Income-tax Act to prescribe 31 October as the statutory due date for both Tax Audit Reports and audit-case Income-tax Returns, subject to existing provisions for transfer-pricing cases and…"
+   ],
+   "refs": [],
+   "deadlines": [
+    {
+     "date": "2026-09-30",
+     "kind": "deadline",
+     "context": "Summary: The Chartered Accountants Association, Jalandhar, through a representation dated 17 September 2026 to the Finance Minister, has sought extension of the due date for furnishing Tax Audit Reports for AY 2026-27 from 30 September 2026 to 31 October 2026,"
+    },
+    {
+     "date": "2026-10-31",
+     "kind": "deadline",
+     "context": "CA, CS, CMA | Jalandhar CAs Seek Tax Audit Due Date Extension to 31 October 2026\nChartered Accountants Association, Jalandhar seeks extension of Tax Audit Reports and Forms 10B/10BB to 31 October 2026 for AY 2026-27."
+    }
+   ]
+  },
   {
    "id": "51ffba885def",
    "area": "mh",
@@ -2277,7 +2474,10 @@
    "summary": "",
    "notes": [],
    "refs": [],
-   "deadlines": []
+   "deadlines": [],
+   "alsoIn": [
+    "News search: GST"
+   ]
   },
   {
    "id": "9af1839d95e0",
@@ -3076,6 +3276,40 @@
    "deadlines": []
   },
   {
+   "id": "57a927dec416",
+   "area": "gst",
+   "sourceId": "news-gst",
+   "source": "News search: GST",
+   "official": false,
+   "publisher": "Taxscan",
+   "type": "Judgment",
+   "title": "ITC on Canteen Services for Contract Workers Not Admissible: AAR Rules S. 17(5) Applies in Absence of Employee-Employer Relationship and Statutory Obligation [Read Order]",
+   "link": "https://news.google.com/rss/articles/CBMiogJBVV95cUxQZHY1THJidk1Za3JRQUVZWTE1Xy1NTXktVjhyWTNPY0FhUUxrLVBGLUtUQ19UQWQyT1VXNUotd3hWamRqdEhkUGpVOHB4MzRKM1hBYkd2VThlLS01ZmFFU0VFOHdGN3FDS3dWckNrZ2tvblZGR1k4bVpPd082NDZzLWtGaGRHcHcycEZWNFk0ZWRJQlludVNlbFdUVTJIZ0xKSXBGVXIteFIwVExwcW44ZGg4T0QxVmYyS21PZ1pienpTTzFpRU9HY0xHenZlVWstdzBGTG15Y3RPbm9JS0ZvUEUtNjVkLW5fUzE0Zk9ldHFTR3Mxelo1NnN0UHh5RnUyRWJMUnhYNVZmUEY4WFg4eE40NkVsbkVxUHVyeHNqSFRjZw?oc=5",
+   "published": "2026-09-13T05:53:45.000Z",
+   "firstSeen": "2026-09-19T05:40:49.137Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "c0f13469f443",
+   "area": "it",
+   "sourceId": "news-it",
+   "source": "News search: Income tax",
+   "official": false,
+   "publisher": "StudyCafe",
+   "type": "Notification",
+   "title": "CBDT Notification: Half-Yearly SFT Reporting by Depositories to Facilitate Capital Gains Pre-Filling in ITRs",
+   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPZUVoWHR1b0Jvb2paN21lUjNuMW9jT2VTM0FLb09JeE5GaFlLM2RweW5FWXRmRzlBUTFRazJOR1RnXzJsZ0FJMGdRNFRUMDFLb1NQZmNNRWxHMG43bkRLejdRYUhzRVFYbEdoQnN3QktDZnpFX1ZmMnVGcTEwaXVfSFhSaGZ5MmRTWEkzZC1XSDJ1NmZWbUw1ZVA2Y3NWbXlaNUtOSFQ3OEc1YWRtT28zY1c5d0NuMkYxZVAwM29NVFJpdWNXc0JMN0ptcy1yLTRseURkRDFFQQ?oc=5",
+   "published": "2026-09-13T10:47:49.000Z",
+   "firstSeen": "2026-09-19T05:40:49.137Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
    "id": "080308eeef83",
    "area": "gst",
    "sourceId": "news-gst",
@@ -3246,6 +3480,40 @@
    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOOGk0WDZWRS1BNHVuQ1VDcU5SOXBRTTA1SUFzYWZsc2pkcmhCSnhpVW5GVHVCdzkwbnpQVkJDbmt1TFhsbGFiR3pTQlhhb1hZTGFOZExfT294NVBKNmVlQ2JBeTlZb2lZZWJmSjh4cHdXdWZJUVFESUo4MUhBMmZYeU84NDhrd0pRSGdhZ2tHSHRVQVpQMHpRbWsxWk5paEtycVpycVVPU3BqT0hrODZPclJDQXZaS1NGR0VubGdJcnFCVXBibHdYSlo4c2pwOHFm0gHXAUFVX3lxTE1SY2YyNk9FYk9IUXdla2dPQlNmTV9kaWJPbGxVcHZ6QXZvTWprdmJmU1k2U1dJR0luMDFVanZoRzFIME5aWTdvYklTVVlOZ1J3UF9kTDk4LVRIY3B1YXpBVDFuNUlXc2RPQ0JMbnl4cWQ4d3B4QmdPTGJjaTdtWEM1ZnE3bVhCZGRXUlJuUWlEbHZRX3lTQ0dQMTZMVEtGVXJjOGJoU0I5RjctRjZab2VTb0hiZFJvQWNzODVuZ3BBT1h0VjNkd2VHMmdtWldsTk90Tkh1dFdN?oc=5",
    "published": "2026-09-13T06:33:39.000Z",
    "firstSeen": "2026-09-18T19:21:02.564Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "6fbe159e2997",
+   "area": "it",
+   "sourceId": "news-it",
+   "source": "News search: Income tax",
+   "official": false,
+   "publisher": "CAclubindia",
+   "type": "Update",
+   "title": "CBDT Notifies SFT Reporting Rules for Mutual Fund Transactions by RTAs Under IT Act 2025",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOX093RDhBQVhvaWJ1X3JhVkFweGFrbVV0WGhuaHAxR1ZieDZwX1BFc25ueDhFN1FIUlo1a0o5QzB6QjhSUVA1eFlMZFVNd3g0TV9XTndiVWlHOHppcnBzdFh0Y1QyaVFYTFJtdEI1NkZZOVFhc1FrRmh6YlVtNm43SkxZQnNiRnhDNmJRNmpsQV9hYWFxZ1JkS0x0QU9RT2Q3MjgwS1VRQ1piaWRHWjNvSXo1RGJ1ejFYbXctZHRrSHpZaU0tYkwzbkVfZw?oc=5",
+   "published": "2026-09-12T03:51:00.000Z",
+   "firstSeen": "2026-09-19T05:40:49.137Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "b4532c7f4ee3",
+   "area": "it",
+   "sourceId": "news-it",
+   "source": "News search: Income tax",
+   "official": false,
+   "publisher": "CAclubindia",
+   "type": "Update",
+   "title": "CBDT Notifies SFT Rules for Depository Transactions Under Income Tax Act 2025",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMGtjbkU2LS0wcEV4RWNmWnI4RHdaSXk0endDYVNnbUNhZHZBTC1LUERaTXJRbkRxdXFwQ3dPM1dpbUotV2N1NmZBQWZVb2h4clpkRDNodDAxUFBxOWhrUmlmeEhlM0RyeXg0cEdQckxJOHdSXzBzSTdESGhvODNaLWlPOGxWQW1SQ0Fob2dwaldIcWpxSGlDTDVtTzlQT2YyX1RyR0ZTNXpKYUw3VTBLWEs2eVA0bzZBbWZOUg?oc=5",
+   "published": "2026-09-12T03:57:00.000Z",
+   "firstSeen": "2026-09-19T05:40:49.137Z",
    "summary": "",
    "notes": [],
    "refs": [],
@@ -3819,6 +4087,23 @@
    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1aUG9taDg5bXN6d1l3VzFMWmVyMEt5dFdHa1JuOXlOZXVfaExEb0xyTzY5VEhUVURObmhZZUxJbDJTS3FDX1JEbmtoLWM0cHdnWmZUQ3lJeWdGN2RJeENLai1BOHAyaUduV3ZRQmotSkg4d0o5X2psTmg5UVU?oc=5",
    "published": "2026-09-11T13:20:00.000Z",
    "firstSeen": "2026-09-18T19:21:02.564Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "272ff6cf5f26",
+   "area": "gst",
+   "sourceId": "news-gst",
+   "source": "News search: GST",
+   "official": false,
+   "publisher": "Taxscan",
+   "type": "Circular",
+   "title": "Telangana GST Dept Restricts AI Tool use by Officers to Protect Confidential Taxpayer Data [Read Circular]",
+   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQWWxOdWdwZUlVTUlGMXFMbFZQS1ZMS0R3bkVfc2JNWVJlbUpCTjAyQk9uLVRzenF4c293cElVNFRhdVA4cnpVU29KZFEtcFU3b3ZncGE2SjF3dDlRY0NhN2t1N1BSczdUMVB4aHpLRmlxSExrRmwzMjkyWkVxYXVMcEZ6UHhrR25fbzBUYXR1bVZVMVg1d09JbWplSVNkcFpWbW5wcHprdGZLOU1OSEtXX0cwSDJ0VkVDMThEZjAyS3JwaG5WeTZIeWV1S0Fqdw?oc=5",
+   "published": "2026-09-10T03:51:46.000Z",
+   "firstSeen": "2026-09-19T05:40:49.137Z",
    "summary": "",
    "notes": [],
    "refs": [],
