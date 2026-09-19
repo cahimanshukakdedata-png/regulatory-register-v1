@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-09-18T19:21:02.564Z",
+ "generatedAt": "2026-09-19T01:35:13.651Z",
  "repo": "cahimanshukakdedata-png/regulatory-register-v1",
- "newThisRun": 237,
+ "newThisRun": 10,
  "sources": [
   {
    "id": "icai-home",
@@ -13,9 +13,9 @@
    "ok": true,
    "fetched": 37,
    "kept": 0,
-   "note": "first visit: saved 37 existing links; only links added after today will be reported",
-   "lastOk": "2026-09-18T19:21:02.564Z",
-   "ms": 1227
+   "note": "",
+   "lastOk": "2026-09-19T01:35:13.651Z",
+   "ms": 1297
   },
   {
    "id": "news-acc",
@@ -25,11 +25,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(ICAI%20OR%20NFRA%20OR%20%22Ind%20AS%22%20OR%20UDIN)%20(announcement%20OR%20notification%20OR%20amendment%20OR%20guidance)%20when%3A14d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 24,
+   "fetched": 25,
    "kept": 8,
    "note": "",
-   "lastOk": "2026-09-18T19:21:02.564Z",
-   "ms": 334
+   "lastOk": "2026-09-19T01:35:13.651Z",
+   "ms": 305
   },
   {
    "id": "nfra-home",
@@ -41,9 +41,9 @@
    "ok": true,
    "fetched": 28,
    "kept": 0,
-   "note": "first visit: saved 28 existing links; only links added after today will be reported",
-   "lastOk": "2026-09-18T19:21:02.564Z",
-   "ms": 1718
+   "note": "",
+   "lastOk": "2026-09-19T01:35:13.651Z",
+   "ms": 1779
   },
   {
    "id": "taxguru-ca",
@@ -56,8 +56,8 @@
    "fetched": 100,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-09-18T19:21:02.564Z",
-   "ms": 1273
+   "lastOk": "2026-09-19T01:35:13.651Z",
+   "ms": 935
   },
   {
    "id": "rbi-notifications",
@@ -70,7 +70,7 @@
    "fetched": 10,
    "kept": 4,
    "note": "",
-   "lastOk": "2026-09-18T19:21:02.564Z",
+   "lastOk": "2026-09-19T01:35:13.651Z",
    "ms": 912
   },
   {
@@ -84,8 +84,8 @@
    "fetched": 10,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-09-18T19:21:02.564Z",
-   "ms": 137
+   "lastOk": "2026-09-19T01:35:13.651Z",
+   "ms": 73
   },
   {
    "id": "taxguru-rbi",
@@ -98,8 +98,8 @@
    "fetched": 100,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-09-18T19:21:02.564Z",
-   "ms": 675
+   "lastOk": "2026-09-19T01:35:13.651Z",
+   "ms": 720
   },
   {
    "id": "cbic-gst",
@@ -111,9 +111,9 @@
    "ok": true,
    "fetched": 25,
    "kept": 0,
-   "note": "first visit: saved 25 existing links; only links added after today will be reported",
-   "lastOk": "2026-09-18T19:21:02.564Z",
-   "ms": 1433
+   "note": "",
+   "lastOk": "2026-09-19T01:35:13.651Z",
+   "ms": 1281
   },
   {
    "id": "gst-council",
@@ -125,9 +125,9 @@
    "ok": true,
    "fetched": 18,
    "kept": 0,
-   "note": "first visit: saved 18 existing links; only links added after today will be reported",
-   "lastOk": "2026-09-18T19:21:02.564Z",
-   "ms": 3139
+   "note": "",
+   "lastOk": "2026-09-19T01:35:13.651Z",
+   "ms": 2964
   },
   {
    "id": "gst-portal-news",
@@ -140,8 +140,8 @@
    "fetched": 0,
    "kept": 0,
    "note": "page returned no usable links (it may need a real browser); this section relies on its other sources",
-   "lastOk": "2026-09-18T19:21:02.564Z",
-   "ms": 1695
+   "lastOk": "2026-09-19T01:35:13.651Z",
+   "ms": 1635
   },
   {
    "id": "news-gst",
@@ -151,11 +151,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(CBIC%20OR%20GSTN%20OR%20%22GST%20Council%22%20OR%20CGST)%20(notification%20OR%20circular%20OR%20advisory%20OR%20extended)%20when%3A10d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 55,
+   "fetched": 54,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-09-18T19:21:02.564Z",
-   "ms": 506
+   "lastOk": "2026-09-19T01:35:13.651Z",
+   "ms": 524
   },
   {
    "id": "taxguru-gst",
@@ -168,8 +168,8 @@
    "fetched": 100,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-09-18T19:21:02.564Z",
-   "ms": 1979
+   "lastOk": "2026-09-19T01:35:13.651Z",
+   "ms": 1377
   },
   {
    "id": "cbdt-communications",
@@ -183,7 +183,7 @@
    "kept": 0,
    "error": "HTTP 403",
    "lastOk": null,
-   "ms": 3941
+   "ms": 4333
   },
   {
    "id": "itd-latest",
@@ -195,9 +195,9 @@
    "ok": true,
    "fetched": 39,
    "kept": 0,
-   "note": "first visit: saved 39 existing links; only links added after today will be reported",
-   "lastOk": "2026-09-18T19:21:02.564Z",
-   "ms": 1430
+   "note": "",
+   "lastOk": "2026-09-19T01:35:13.651Z",
+   "ms": 1193
   },
   {
    "id": "news-it",
@@ -207,11 +207,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=CBDT%20(notification%20OR%20circular%20OR%20%22due%20date%22%20OR%20extended%20OR%20scheme)%20when%3A10d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 53,
+   "fetched": 52,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-09-18T19:21:02.564Z",
-   "ms": 363
+   "lastOk": "2026-09-19T01:35:13.651Z",
+   "ms": 306
   },
   {
    "id": "taxguru-it",
@@ -224,8 +224,8 @@
    "fetched": 100,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-09-18T19:21:02.564Z",
-   "ms": 933
+   "lastOk": "2026-09-19T01:35:13.651Z",
+   "ms": 964
   },
   {
    "id": "epfo-home",
@@ -239,7 +239,7 @@
    "kept": 0,
    "error": "HTTP 403",
    "lastOk": null,
-   "ms": 2004
+   "ms": 2872
   },
   {
    "id": "esic-home",
@@ -253,7 +253,7 @@
    "kept": 0,
    "error": "fetch failed",
    "lastOk": null,
-   "ms": 22447
+   "ms": 22375
   },
   {
    "id": "news-labour",
@@ -263,11 +263,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(EPFO%20OR%20ESIC%20OR%20%22labour%20code%22)%20(notification%20OR%20circular%20OR%20rules%20OR%20extended%20OR%20deadline)%20when%3A14d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 72,
-   "kept": 16,
+   "fetched": 74,
+   "kept": 15,
    "note": "",
-   "lastOk": "2026-09-18T19:21:02.564Z",
-   "ms": 431
+   "lastOk": "2026-09-19T01:35:13.651Z",
+   "ms": 427
   },
   {
    "id": "mca-home",
@@ -281,7 +281,7 @@
    "kept": 0,
    "error": "HTTP 403",
    "lastOk": null,
-   "ms": 2714
+   "ms": 533
   },
   {
    "id": "news-mca",
@@ -291,11 +291,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=MCA%20(%22general%20circular%22%20OR%20notification%20OR%20%22Companies%20Act%22%20OR%20LLP%20OR%20extended)%20when%3A10d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 48,
+   "fetched": 46,
    "kept": 14,
    "note": "",
-   "lastOk": "2026-09-18T19:21:02.564Z",
-   "ms": 394
+   "lastOk": "2026-09-19T01:35:13.651Z",
+   "ms": 305
   },
   {
    "id": "taxguru-company",
@@ -308,8 +308,8 @@
    "fetched": 100,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-09-18T19:21:02.564Z",
-   "ms": 901
+   "lastOk": "2026-09-19T01:35:13.651Z",
+   "ms": 947
   },
   {
    "id": "taxguru-corporate",
@@ -322,8 +322,8 @@
    "fetched": 100,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-09-18T19:21:02.564Z",
-   "ms": 732
+   "lastOk": "2026-09-19T01:35:13.651Z",
+   "ms": 965
   },
   {
    "id": "mahagst-pt",
@@ -337,7 +337,7 @@
    "kept": 0,
    "error": "fetch failed",
    "lastOk": null,
-   "ms": 21875
+   "ms": 22033
   },
   {
    "id": "news-mh",
@@ -347,11 +347,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=Maharashtra%20(%22profession%20tax%22%20OR%20MahaGST%20OR%20%22stamp%20duty%22%20OR%20%22amnesty%20scheme%22)%20when%3A30d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 51,
+   "fetched": 52,
    "kept": 18,
    "note": "",
-   "lastOk": "2026-09-18T19:21:02.564Z",
-   "ms": 383
+   "lastOk": "2026-09-19T01:35:13.651Z",
+   "ms": 350
   },
   {
    "id": "sebi-rss",
@@ -364,8 +364,8 @@
    "fetched": 30,
    "kept": 11,
    "note": "",
-   "lastOk": "2026-09-18T19:21:02.564Z",
-   "ms": 1131
+   "lastOk": "2026-09-19T01:35:13.651Z",
+   "ms": 1821
   },
   {
    "id": "taxguru-sebi",
@@ -378,8 +378,8 @@
    "fetched": 100,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-09-18T19:21:02.564Z",
-   "ms": 739
+   "lastOk": "2026-09-19T01:35:13.651Z",
+   "ms": 669
   },
   {
    "id": "news-tds",
@@ -389,11 +389,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(TDS%20OR%20TCS%20OR%20TRACES)%20(CBDT%20OR%20notification%20OR%20%22due%20date%22%20OR%20form)%20when%3A14d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 62,
+   "fetched": 64,
    "kept": 15,
    "note": "",
-   "lastOk": "2026-09-18T19:21:02.564Z",
-   "ms": 578
+   "lastOk": "2026-09-19T01:35:13.651Z",
+   "ms": 482
   }
  ],
  "items": [
@@ -409,6 +409,40 @@
    "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxOUmlyZlpCQlljdnNjRHF5dkdjU0ZManFDczBpU1ZNaW9BU0FyNHpJUGtvNlIwdEFNcTBlbzZGbFF6SHZwbUl1OVFCS3VpalBzVUpvczNjOXhnM08zRzVpYU5ndUowT2MtdXFzdHp6SGdINXBGRGoxWUlZR0dfSzZXSmVPa0ZlenFMd2FVNGxhV2I0anY4aTJNcHJyNnVaX0N3YjN3UDZhRl9uOVl6Z0hGNExUcXhKNkFzNGJKTzJIV09JR25TblQ2b3NKYlJlM0VhZGpNY2UzOUlBVW41aGNNNElZOG9RYklTdXpnNDBkdTJ6VmV6bXU1Q0Q5VmdpaktqTm1WSC1GdDdUVWFqeE5KS25nNG03NnNwRE1udFFR0gGjAkFVX3lxTE1BWlZPYmVIZEdTZ0o3MlJfcFN4LW0wX0szRjZDZ0d5bk5ocDJNSFMwY2NXRmNlR3VOcEhsZHl0bThNT3FwMVBFNXduSTdYMzA5WUNDSU9JSEJrUU93dk1PNHlKeDREbnBLT3l1UGMyVkJXWm5DQk0wTmtEQUtFUHZYZFhIU19GbkdRalVTMmczaVh3S01CYV9TR3YyY29aaXVZbDZCRkZSWE5nZzFIMko5Y2NJTHlhYjVHNEdvYjlXdkw1VS1ydjd0X09JV1NsTzk1dFozWkZYV3RyRGszOUgtbmg5SXk3cnBIWGk3WFBtUlAwREdTMzRDOU1KdFprTFc4NG1YOUlRVW9OT3FlR1BCV3BZZTFnRWhYcjRUMzk5OENoNA?oc=5",
    "published": "2026-09-18T19:12:00.000Z",
    "firstSeen": "2026-09-18T19:21:02.564Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "8f7531be588b",
+   "area": "it",
+   "sourceId": "news-it",
+   "source": "News search: Income tax",
+   "official": false,
+   "publisher": "business-standard.com",
+   "type": "Update",
+   "title": "CBDT removes arrest, detention provisions from tax recovery rules - business-standard.com",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPR3pfRjM4WHdycDRJSEpjNFVQZjJmWEx5eG4xSHFhMXBwNllnTlRnRWpkcWRwZ09FaFhLOURkT05TZ0QwT2dOemtrbC1SeHI3Yk9BclFXY1NrQVZkNWd2VkVSb2FDbmo2TUs0QXpGSVNsQzE5N1k5WVlaalJWN0Q0SmtGYlNxOW50MnZVVFJienNONlNGTWtzdnkyZ3AtYlJ0TWVGQ2k2OWpCellyQ25wVDdHY1FfRlhZMEpjODNhU1lqT1NVcTJqaUZnMNIB0AFBVV95cUxOcFMtQkRPOW80WWkwVmhXdlRCX2o0U1J4ZXVwaDZJN3FPbGczbGstbVhYcjFxNUxRYklzTUliSHc4VER4dmFRVmVuOE90bG5HUWN2R2I5RG1QeDlGa3NfSTVKNmlneXZMMjBzSVVwN2F5OC1HSlBIWmloUDJGVjB2MFQwNjJicDlqMXBhTXVkamhtMVhyaV9PdjFCM0lZSWw5UllXRW1sOEdQRW5GYi1WQ041MU5JRlM5ZGhVUGN1SEFPckJscnQ3M0JWcEtkWXRM?oc=5",
+   "published": "2026-09-18T11:21:09.000Z",
+   "firstSeen": "2026-09-19T01:35:13.651Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "a9a5462163e8",
+   "area": "it",
+   "sourceId": "news-it",
+   "source": "News search: Income tax",
+   "official": false,
+   "publisher": "Zee Business",
+   "type": "Due date",
+   "title": "Income Tax Rules 2026: CBDT revises Forms 169 and 171; deadline extended",
+   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNVnlaNi1rdFJaNTNyYWhlQVpMX2FxRzZxcThkX0JFbXZBdTBZd0dxS1haY2psZnhzeVpTVU5sbnkySkQySlVmWHRzcnVrcHJNOG5kYnA4czA4aHVZTjA0dUhpWHFKOC1zOUYxS1BnTjN0YXJmaklsZWxvenZXeGRERzYxU25QN2JBQzc2d3JNaDhYSU8xWkxiU0YwaE1RTGo0VlBhVmhYdTcwamo5TDFQUFpxdlJTaTQxdXZjN1MxQWU4cS00WDNkRktSS3U4Zw?oc=5",
+   "published": "2026-09-18T05:22:43.000Z",
+   "firstSeen": "2026-09-19T01:35:13.651Z",
    "summary": "",
    "notes": [],
    "refs": [],
@@ -1554,6 +1588,23 @@
    "deadlines": []
   },
   {
+   "id": "85c5295b4781",
+   "area": "gst",
+   "sourceId": "news-gst",
+   "source": "News search: GST",
+   "official": false,
+   "publisher": "Juris Hour",
+   "type": "Judgment",
+   "title": "GST Circular Can Select Common Adjudicating Authority for Multi-State DGGI Notices, Doesn’t Confer Fresh Jurisdiction: Delhi High Court",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPS1hueWdYOG9uVzZ4SlR2WnBndGpsMjh5dVlaZ1IwV0hhSVoxSUsxUG83NS1RbGhsZkdJbC1jcTFrX1lxZmRtVGdwX2J3RzhoVXFnRFpzRTlsUDJPNDV1Q29SRTVYYUtCdWowSWg4d2EzMjlXVHhkMUdMYUVNaWduZHV1M3dEc0E?oc=5",
+   "published": "2026-09-17T02:52:11.000Z",
+   "firstSeen": "2026-09-19T01:35:13.651Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
    "id": "46a99f0e04d1",
    "area": "gst",
    "sourceId": "news-gst",
@@ -2172,6 +2223,23 @@
    "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQUlAwdkh4VDdvZGhpYXVMZmJxa3lIZUlxa2VjVGdwUGszckxraDNmNW5leVRrTzhZRTVNa083UmwyanhKRlpscGNjYXVBdENTSHNtN2M2Z2lDVUJDUnNXa2pMeEFobDJBZFg2ODZCMXAtaXgwUEZYT0wxUHNxN3NFUWZrYnBLMmFhQ2NscEJTMWpzeERpaE95UjJsS2xKeEttdV9mc1gtQURxckpsXzgxTVdSS0gwR2xPd1g2OW91eE0yNmhJZERqb1FUc0ZfMUYwMlBjdERZRmJzVFhHN28ycmp4VmszTFVQbVHSAeoBQVVfeXFMUFJQMHZIeFQ3b2RoaWF1TGZicWt5SGVJcWtlY1RncFBrM3JMa2gzZjVuZXlUa084WUU1TWtPN1JsMmp4SkZabHBjY2F1QXRDU0hzbTdjNmdpQ1VCQ1JzV2tqTHhBaGwyQWRYNjg2QjFwLWl4MFBGWE9MMVBzcTdzRVFma2JwSzJhYUNjbHBCUzFqc3hEaWhPeVIybEtsSnhLbXVfZnNYLUFEcXJKbF84MU1XUktIMEdsT3dYNjlvdXhNMjZoSWREam9RVHNGXzFGMDJQY3REWUZic1RYRzdvMnJqeFZrM0xVUG1R?oc=5",
    "published": "2026-09-17T08:58:32.000Z",
    "firstSeen": "2026-09-18T19:21:02.564Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "2f9a37188fdd",
+   "area": "gst",
+   "sourceId": "news-gst",
+   "source": "News search: GST",
+   "official": false,
+   "publisher": "business-standard.com",
+   "type": "Update",
+   "title": "Customs should speed up AI use to cut costs, taxpayer interface: CBIC chief - business-standard.com",
+   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOS2c5SDNOZ2RnZEhLejBFTzRCTzdNeFYtNVQ4czVjNDFNWDhEWjMwbEFxVGpKbHVKRUtqVW1lT1dYeU00NFhCdzBRclVYNGZ4ZVZNWlBWeWRtX0xIdnZKUWJUS0FCam4wd0tqRFBRQXFWWVJnNWlZUFZxdlp0UTRPMDNmTUlVaXowNGYtZW1ENVU4clk4QnlNb3BaOXhMaXIyVm1XNTdsTUxabEludTlYY21jMUZYMDNNdDY1TUVFS0I2WmlyY1FZQXFYdVJLNW8xS3dDQzl2d1RQYmo5MkHSAd4BQVVfeXFMTktnOUgzTmdkZ2RIS3owRU80Qk83TXhWLTVUOHM1YzQxTVg4RFozMGxBcVRqSmx1SkVLalVtZU9XWHlNNDRYQncwUXJVWDRmeGVWTVpQVnlkbV9MSHZ2SlFiVEtBQmpuMHdLakRQUUFxVllSZzVpWVBWcXZadFE0TzAzZk1JVWl6MDRmLWVtRDVVOHJZOEJ5TW9wWjl4TGlyMlZtVzU3bE1MWmxJbnU5WGNtYzFGWDAzTXQ2NU1FRUtCNlppcmNRWUFxWHVSSzVvMUt3Q0M5dndUUGJqOTJB?oc=5",
+   "published": "2026-09-16T06:51:18.000Z",
+   "firstSeen": "2026-09-19T01:35:13.651Z",
    "summary": "",
    "notes": [],
    "refs": [],
@@ -3946,6 +4014,23 @@
    "deadlines": []
   },
   {
+   "id": "16de2e434c20",
+   "area": "mh",
+   "sourceId": "news-mh",
+   "source": "News search: Maharashtra levies",
+   "official": false,
+   "publisher": "Raw Law",
+   "type": "Judgment",
+   "title": "Bombay High Court Quashes ₹21.92-Crore Stamp Duty Valuation Against Wadhwa; Holds Future Contingent Development Rights Cannot Be Valued as Present Rights Under JDA on Execution",
+   "link": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxPZk81ZlItNUZnaTk4VWxYOFJTUlQ4NTc4TDNGVXp2dTNyVWRlZDhSRGZQTnhlVk55LTAzdnJKa3BoM1EyT0stVUtwMUZCbE1XdmtobmtuUnJidFFKaTUtOXRCRDVkd3NZTGpldUJaMDFIT29ydTZOa1BjN2ZHVDkxbm0zWkd1NVdOR2ItTnpPV2lWNDQzNk45cGZfVGcxMFFKZUs0RTIxQmxuemN6WTVFU0JfVFhKVjlIUDFuLVRhM0VBaDBJQVY1WmFTZkFYYm5HeEUzbjVrT0ZMSW8tbUFmQnRXcDVibnd3T2JnM3FWRXBKSDVKaDhKQmhXbmVtemFZOTJ3dW1xMWZxRnUxMzdIeGFWN2w3SUxPNHc0X3h1Y0FsNzl1cmlyYnpn?oc=5",
+   "published": "2026-09-09T05:40:34.000Z",
+   "firstSeen": "2026-09-19T01:35:13.651Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
    "id": "afd971716e3d",
    "area": "gst",
    "sourceId": "news-gst",
@@ -4238,6 +4323,23 @@
    "deadlines": []
   },
   {
+   "id": "26a42398a0c5",
+   "area": "labour",
+   "sourceId": "news-labour",
+   "source": "News search: EPFO, ESIC, labour codes",
+   "official": false,
+   "publisher": "business-standard.com",
+   "type": "Update",
+   "title": "Quit job before 58? EPFO explains how long your PF earns interest - business-standard.com",
+   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOU2wwMHB1T29aT0JYcng5Z3h5NlRqN2dadmcwSUtVaUUyRDZDMjBVZmotTnJBa184RktVTXJQck9QQmxlWlpodHhUY1JBN3VTSzJBQUpmSVJzQl9mOXZfNTRKTi1PczV3bHZUVlJmdUpoYWNpRDBFRmhYNFM0ZWdRXzIxdnpERnE1VDB0cXJSQ2VuNHdWeFZsNURtbWNEcVk1WFdrdFNhSlJMb2dhazRMR0trZFVxdThjMFY3UXJWak9aT2pJVERGcklNTnJ3MXNKQVBwM1JfbXlaM1XSAeABQVVfeXFMTXhabTJTd1BSbGJsVDJFdmVDWkVuQmY2LVJ3clVkZWQwRE5QQWpmSDRTU24xdjBRNnhlcXU4N01PcTJCZ1hEc3R1NnBUd09uTEtfdnk2X09UREl1Rm1Rc2VycER5blU5RFZqZ0RsQklLTFU3T0cwMzlsWUxCWTBCbnZIRHRGemVfaVpyaDlsWkRIcGVxejBmczJGZ3RucXlORlVtZ1ZGeFBOd3U4bmc2Mi1QcktCWjdFdmNWLUw4TEtUTVphWlRHeW52UXliN0Zmek9kdmt4WkdXM1BOLVJhZTE?oc=5",
+   "published": "2026-09-07T07:00:00.000Z",
+   "firstSeen": "2026-09-19T01:35:13.651Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
    "id": "8541aec12bd4",
    "area": "tds",
    "sourceId": "news-tds",
@@ -4436,6 +4538,23 @@
    "deadlines": []
   },
   {
+   "id": "ac69719478f3",
+   "area": "mh",
+   "sourceId": "news-mh",
+   "source": "News search: Maharashtra levies",
+   "official": false,
+   "publisher": "business-standard.com",
+   "type": "Update",
+   "title": "MahaRERA ruling: Developer cannot shift promised stamp duty to buyer - business-standard.com",
+   "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOOE1SQVVWWHN0bVE1cWUzZFY4ekpweU1RUUNyNEdhamZ1d3QyMkdLMFN1b0xBa1BiVlhpY2hkRmdLbjdaWXZSTUVFTHhhcmdZZ3p0TXZEUlk3TEoxbkNCTEVoSC1MZEZ2bEtoZmxCV0hGbXhCNDdXdHhOa3ZOYUgxa0ZXcmdKSkV3MjVYQ1ZjWmpXMWFYa0dERjlXZm9tWEZLcmZfNk1pZklqR0swLTlaSzl6RzZ0N2RzeTFZbXRfTktZMFIySE9XOUZZNGRBV3FwNDhIZ0lQQmU3MWVKRlo40gHkAUFVX3lxTFBPaVltQWlTeFBDZUM2SFV3TXlPOFdTZVlHMDBSbXByYmgyTmRxNHBLeWt2dXpSeVlMR2djRzB1dWFtZU5sMUdCbFlTd2ZHak95TVlpeDVJRDR0MWJmNWZTMzVhcFFVYW5IMkVfcmdTMkJOUVZ1MG5JZ0xKRU5zTGktaVVlWWczUUtMVXo5cmFSa1FDWkFaYWJRTVhtcDJoLVQxM3lBVnVsOFdkNExMd3dBMWxuRXVkU05xZTFHdWpPamVPWnJ4Y2drQW4zZTdtX2tlTmZWS3dPQl80UUc1a1hHN2diVQ?oc=5",
+   "published": "2026-09-03T07:00:00.000Z",
+   "firstSeen": "2026-09-19T01:35:13.651Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
    "id": "9a51b325716e",
    "area": "sebi",
    "sourceId": "taxguru-ca",
@@ -4593,6 +4712,40 @@
    "deadlines": []
   },
   {
+   "id": "23435e95dfed",
+   "area": "mh",
+   "sourceId": "news-mh",
+   "source": "News search: Maharashtra levies",
+   "official": false,
+   "publisher": "LiveLawBiz",
+   "type": "Judgment",
+   "title": "Can Stamp Duty Proceedings Continue Beyond 6 Years? Bombay HC Single Judge Refers Issue To Larger Bench",
+   "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNR3R1RUxOUzg5cERVYjlWaC1OVUdpXzM3QkFYaC1sc0hXQktRclRmM3h2TEUyanNtT1F1SXp5dGlXMEd2Qk5aSV9MWGhjUzVvem91TVRwVlZkdnFqYW04Z0pzOW5RX092YS1YaENicU80ZWVac0lBekVMY2c1ZEJRQzFFRHg4X3l5SzRvMXBJem81VTFLUi1NbTBHTGZoRkNvMG1Mc0tWS0xmMllqeHR0NmFIeU1xYVp0R0Fhc3p1eDV4QkdrVXd1WDJ1cFVXVjhZV1N1cm5PZnBkZ2piWVUzN0NybzlCZGo3VUlqaU9Yem83VUpFa2NXZ1FBNmJ6VWxXdXpz0gGIAkFVX3lxTE5iX1RFOUZRU2dGeGFYbHhoZGdEcmg3dHRtR3UxLS1KdlBHVnRvRFNxdDdiQnRMWU4wR1I0UjdzX1Vla2VyRFpNNFNSWFZzMkJ5Z096WHZxSEtCNnFXdHV1R05rOHRobGtHRDVFcWt6c3BGVmNITmNkX3dubEVLMDY3bnV0eTdfOGpIVFJJRFIyd3FRT21DeEh2SGZwcUJkdVB5WUI5S3EwQWhqQVhjZ0MzRGlQc1l6QkNoU04waGloQUJDUnZFUnE3Yk1rQ3drUnJWaDY5dncybkZTT1FkLVB2aWdhQU9ZZHg0SDNmSUhUdW9RN1BwQWlKWUdLeVNGTzNCcV9BNFVjag?oc=5",
+   "published": "2026-08-28T11:47:21.000Z",
+   "firstSeen": "2026-09-19T01:35:13.651Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "a2f8f389b617",
+   "area": "mh",
+   "sourceId": "news-mh",
+   "source": "News search: Maharashtra levies",
+   "official": false,
+   "publisher": "LiveLawBiz",
+   "type": "Judgment",
+   "title": "Future Revenue Share Can Be Consideration For Stamp Duty On Development Agreement: Bombay High Court",
+   "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQSUdsUTVNTzQyMXdfellwalJUVDZRTVJpTEVpQllFZDZnaDFIVFdmbjZwenFZeVNtand2NlcwSnV1cThvMjB3UW04aWJfMThtMUZISnJXeTktQ2ZCVGZySXk1UTZmZkFVd3RSekpoTkpJVzk4ai1obzExRXF6X1llQXhuTEw5RDA3bXp3OVpSTi1KSUhFdkFGUjdETnRUNkZLZWd5eEllN3VQdHprSFNwdGhMdzJtME9VZl9acDRfWlhMdmUtX0hzLU9TT05lVXpLeUlDY3VYdy1QUjJqYjRDMXRGWDhYcDZ0eFM3dHFrY2d5bzhkZlpOR9IB_gFBVV95cUxNcnpIVUt1YjNxaG9kMW9XQktHMHpyUHFSQWFaRW9kYi0ySEhaVFowMndGU0VtSkhHWU4wMFBJd29GTUZodTRKQ01qLWpPYnhSeWlXeVZBU3lDQ0w1LTUwRXhrLS1GWkRldU0xSDlOR0tnRENyRzl6NUlQYS1yd1V2andBenFCNC04a1c4RVY5bVVleU9Db2EtZXkwZnRQRHY3elptb01aeHhpOHFnbVFwNHgwcUZCdDVYdkpkdVBvdVRwX3g1Sm92OWtnYVdHWlhEZ0FpX2otQWRsR3ltdEIwdFg3d1B3S283V1ZvWFhFVXRLZm1HR2x2OTF2Rmlmdw?oc=5",
+   "published": "2026-08-28T11:18:37.000Z",
+   "firstSeen": "2026-09-19T01:35:13.651Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
    "id": "e5141bea48bb",
    "area": "mh",
    "sourceId": "news-mh",
@@ -4638,6 +4791,23 @@
    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNQlZKeDRjS2k0T2luZG42MDRucEtfcnZXSlpMNUgzd0xPZ2tZRldKUURWdHl1OVNMVm1nV1oxZDR5RzBLQXUxZzRyb1loTkwtTXBZdlZmTFFPZHJIQmRPVXI4WDhuYjZ2aERwaW5QQ3otSldlcTA1OXVTMmhKNG5TYTRRV1B4a1Fwd2h0cFdEUTFzSGxjUkJad3FLM0kwbFBBNWhsZm5GazlIWV9GcXhmcmN0QmQ0RWZrOTRFUHA1R0wwWDM0MHNWQ2pZSmJYRXNGWkV4NDRfcGhBcS0w0gHiAUFVX3lxTE10RnVqUDJaU3c0OVVzdWlyTm9vQjc2SzJ0S09yS0tzM3Z5MExqeGhRQVlydk9pQWFmVmVjdk1FSm1Cam84X0tnaVVabzNoM21OYXBBTFJsMl9zYXZqQ0hNSlpSb2JZYWxZOGk4MUxON0dmZzBQV3hBQ1lSLWNjT0dwbm5mSjA0V1BselJDNGd6VWVyUmgwMkhsVTJFbFhjbGxfLUlRb0tlVHFsVXB3YkpPd1BiVFA0R3dEdmptN3hxUlo1d0ZycFpva2Fxb09NSlNiX1ozd05ZLWpXZkJ4TzRjQkE?oc=5",
    "published": "2026-08-23T07:00:00.000Z",
    "firstSeen": "2026-09-18T19:21:02.564Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "d1a2a6b3003c",
+   "area": "mh",
+   "sourceId": "news-mh",
+   "source": "News search: Maharashtra levies",
+   "official": false,
+   "publisher": "business-standard.com",
+   "type": "Update",
+   "title": "Mumbai luxury housing sees 16 homes sold every day at ₹5 cr-plus in Q1 FY27 - business-standard.com",
+   "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNN0NpOW5RNGFNNmZuQWR1LS1fOUNsRmJJaTJxWG92ZkRJYW9UYmN2WFNueEdjQ3FNOEJsRlR5YldRdUpzVlRKcWlJdjRMbVR6aWQyVHhqaFU0d2hFQjFIYlBGRTFsSXhRV2tTMFhSM3RySVl0MXlwVHFaZVZMYi1uLTZtc05ZVDNQeUpHcnNWWTk2T1ZMWGVlekhIUnFyTVNDRW5uRFdBemlJTFVZM2FnODNPS1ZMcEtBV1E5a3phSzdGOWQ4Vjd2dEctZzhNRHhsZUJDdnFEUy03c0ZFeWRibGNlMU45aVhQ0gHuAUFVX3lxTE5Zc1JNZ2pmMExtMWJQVVJUMUJ4b1ROaUdNQlBDbDRFSTVEMkFuZ0xfLVAtb2labFlXaWVRM084S0FBZGplSzIxaTdUQVFZUHhGbWdvd3FZUTdFSWRNaDR6bXo4RGRoU213OTdxdHE3SnN2ZDE1anNyWU1nM3FCTTZVZFBNd3F2ZlZlcVVfQlZaRVM4XzQ3R1FXMHhoX3hmRGhySjFFS1A2QnFoOUV2eVQ1TkRzVFdIdmhVb25XTUo1RzlrX1NwS3dqYlYtSjFEQU45SWRCMktvNVVma0R6dVdncVVaSC1QZUpHUWJRYmc?oc=5",
+   "published": "2026-08-21T07:00:00.000Z",
+   "firstSeen": "2026-09-19T01:35:13.651Z",
    "summary": "",
    "notes": [],
    "refs": [],
