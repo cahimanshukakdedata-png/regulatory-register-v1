@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-20T01:34:56.574Z",
+ "generatedAt": "2026-09-20T05:40:54.853Z",
  "repo": "cahimanshukakdedata-png/regulatory-register-v1",
  "newThisRun": 11,
  "sources": [
@@ -14,8 +14,8 @@
    "fetched": 37,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-09-20T01:34:56.574Z",
-   "ms": 1068
+   "lastOk": "2026-09-20T05:40:54.853Z",
+   "ms": 1317
   },
   {
    "id": "news-acc",
@@ -25,11 +25,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(ICAI%20OR%20NFRA%20OR%20%22Ind%20AS%22%20OR%20UDIN)%20(announcement%20OR%20notification%20OR%20amendment%20OR%20guidance)%20when%3A14d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 30,
+   "fetched": 31,
    "kept": 13,
    "note": "",
-   "lastOk": "2026-09-20T01:34:56.574Z",
-   "ms": 303
+   "lastOk": "2026-09-20T05:40:54.853Z",
+   "ms": 316
   },
   {
    "id": "nfra-home",
@@ -42,8 +42,8 @@
    "fetched": 28,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-09-20T01:34:56.574Z",
-   "ms": 1510
+   "lastOk": "2026-09-20T05:40:54.853Z",
+   "ms": 1643
   },
   {
    "id": "taxguru-ca",
@@ -56,8 +56,8 @@
    "fetched": 100,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-09-20T01:34:56.574Z",
-   "ms": 877
+   "lastOk": "2026-09-20T05:40:54.853Z",
+   "ms": 813
   },
   {
    "id": "rbi-notifications",
@@ -70,8 +70,8 @@
    "fetched": 10,
    "kept": 4,
    "note": "",
-   "lastOk": "2026-09-20T01:34:56.574Z",
-   "ms": 859
+   "lastOk": "2026-09-20T05:40:54.853Z",
+   "ms": 1035
   },
   {
    "id": "rbi-press",
@@ -84,8 +84,8 @@
    "fetched": 10,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-09-20T01:34:56.574Z",
-   "ms": 88
+   "lastOk": "2026-09-20T05:40:54.853Z",
+   "ms": 91
   },
   {
    "id": "taxguru-rbi",
@@ -98,8 +98,8 @@
    "fetched": 100,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-09-20T01:34:56.574Z",
-   "ms": 885
+   "lastOk": "2026-09-20T05:40:54.853Z",
+   "ms": 814
   },
   {
    "id": "cbic-gst",
@@ -112,8 +112,8 @@
    "fetched": 25,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-09-20T01:34:56.574Z",
-   "ms": 1252
+   "lastOk": "2026-09-20T05:40:54.853Z",
+   "ms": 1264
   },
   {
    "id": "gst-council",
@@ -126,8 +126,8 @@
    "fetched": 18,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-09-20T01:34:56.574Z",
-   "ms": 2926
+   "lastOk": "2026-09-20T05:40:54.853Z",
+   "ms": 2875
   },
   {
    "id": "gst-portal-news",
@@ -140,8 +140,8 @@
    "fetched": 0,
    "kept": 0,
    "note": "page returned no usable links (it may need a real browser); this section relies on its other sources",
-   "lastOk": "2026-09-20T01:34:56.574Z",
-   "ms": 1622
+   "lastOk": "2026-09-20T05:40:54.853Z",
+   "ms": 1528
   },
   {
    "id": "news-gst",
@@ -151,11 +151,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(CBIC%20OR%20GSTN%20OR%20%22GST%20Council%22%20OR%20CGST)%20(notification%20OR%20circular%20OR%20advisory%20OR%20extended)%20when%3A10d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 53,
+   "fetched": 55,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-09-20T01:34:56.574Z",
-   "ms": 396
+   "lastOk": "2026-09-20T05:40:54.853Z",
+   "ms": 392
   },
   {
    "id": "taxguru-gst",
@@ -168,8 +168,8 @@
    "fetched": 100,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-09-20T01:34:56.574Z",
-   "ms": 1770
+   "lastOk": "2026-09-20T05:40:54.853Z",
+   "ms": 1732
   },
   {
    "id": "cbdt-communications",
@@ -183,7 +183,7 @@
    "kept": 0,
    "error": "HTTP 403",
    "lastOk": null,
-   "ms": 4128
+   "ms": 4030
   },
   {
    "id": "itd-latest",
@@ -196,8 +196,8 @@
    "fetched": 39,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-09-20T01:34:56.574Z",
-   "ms": 1246
+   "lastOk": "2026-09-20T05:40:54.853Z",
+   "ms": 1135
   },
   {
    "id": "news-it",
@@ -207,11 +207,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=CBDT%20(notification%20OR%20circular%20OR%20%22due%20date%22%20OR%20extended%20OR%20scheme)%20when%3A10d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 52,
+   "fetched": 54,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-09-20T01:34:56.574Z",
-   "ms": 448
+   "lastOk": "2026-09-20T05:40:54.853Z",
+   "ms": 351
   },
   {
    "id": "taxguru-it",
@@ -224,8 +224,8 @@
    "fetched": 100,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-09-20T01:34:56.574Z",
-   "ms": 899
+   "lastOk": "2026-09-20T05:40:54.853Z",
+   "ms": 864
   },
   {
    "id": "epfo-home",
@@ -239,7 +239,7 @@
    "kept": 0,
    "error": "HTTP 403",
    "lastOk": null,
-   "ms": 1982
+   "ms": 2242
   },
   {
    "id": "esic-home",
@@ -253,7 +253,7 @@
    "kept": 0,
    "error": "fetch failed",
    "lastOk": null,
-   "ms": 22140
+   "ms": 22458
   },
   {
    "id": "news-labour",
@@ -263,11 +263,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(EPFO%20OR%20ESIC%20OR%20%22labour%20code%22)%20(notification%20OR%20circular%20OR%20rules%20OR%20extended%20OR%20deadline)%20when%3A14d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 74,
-   "kept": 15,
+   "fetched": 78,
+   "kept": 17,
    "note": "",
-   "lastOk": "2026-09-20T01:34:56.574Z",
-   "ms": 397
+   "lastOk": "2026-09-20T05:40:54.853Z",
+   "ms": 404
   },
   {
    "id": "mca-home",
@@ -281,7 +281,7 @@
    "kept": 0,
    "error": "HTTP 403",
    "lastOk": null,
-   "ms": 262
+   "ms": 326
   },
   {
    "id": "news-mca",
@@ -291,11 +291,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=MCA%20(%22general%20circular%22%20OR%20notification%20OR%20%22Companies%20Act%22%20OR%20LLP%20OR%20extended)%20when%3A10d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 43,
-   "kept": 12,
+   "fetched": 41,
+   "kept": 13,
    "note": "",
-   "lastOk": "2026-09-20T01:34:56.574Z",
-   "ms": 366
+   "lastOk": "2026-09-20T05:40:54.853Z",
+   "ms": 340
   },
   {
    "id": "taxguru-company",
@@ -308,8 +308,8 @@
    "fetched": 100,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-09-20T01:34:56.574Z",
-   "ms": 896
+   "lastOk": "2026-09-20T05:40:54.853Z",
+   "ms": 824
   },
   {
    "id": "taxguru-corporate",
@@ -322,8 +322,8 @@
    "fetched": 100,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-09-20T01:34:56.574Z",
-   "ms": 1421
+   "lastOk": "2026-09-20T05:40:54.853Z",
+   "ms": 943
   },
   {
    "id": "mahagst-pt",
@@ -337,7 +337,7 @@
    "kept": 0,
    "error": "fetch failed",
    "lastOk": null,
-   "ms": 21781
+   "ms": 21995
   },
   {
    "id": "news-mh",
@@ -350,8 +350,8 @@
    "fetched": 48,
    "kept": 15,
    "note": "",
-   "lastOk": "2026-09-20T01:34:56.574Z",
-   "ms": 337
+   "lastOk": "2026-09-20T05:40:54.853Z",
+   "ms": 297
   },
   {
    "id": "sebi-rss",
@@ -364,8 +364,8 @@
    "fetched": 30,
    "kept": 11,
    "note": "",
-   "lastOk": "2026-09-20T01:34:56.574Z",
-   "ms": 1096
+   "lastOk": "2026-09-20T05:40:54.853Z",
+   "ms": 1203
   },
   {
    "id": "taxguru-sebi",
@@ -378,8 +378,8 @@
    "fetched": 100,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-09-20T01:34:56.574Z",
-   "ms": 877
+   "lastOk": "2026-09-20T05:40:54.853Z",
+   "ms": 913
   },
   {
    "id": "news-tds",
@@ -389,14 +389,165 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(TDS%20OR%20TCS%20OR%20TRACES)%20(CBDT%20OR%20notification%20OR%20%22due%20date%22%20OR%20form)%20when%3A14d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 55,
+   "fetched": 52,
    "kept": 12,
    "note": "",
-   "lastOk": "2026-09-20T01:34:56.574Z",
-   "ms": 500
+   "lastOk": "2026-09-20T05:40:54.853Z",
+   "ms": 407
   }
  ],
  "items": [
+  {
+   "id": "ab2e3a856d9b",
+   "area": "gst",
+   "sourceId": "news-gst",
+   "source": "News search: GST",
+   "official": false,
+   "publisher": "jurishour.in",
+   "type": "Judgment",
+   "title": "18% GST On Works Contract Services By Kerala Water Authority From January 2022: GSTAT",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNT1ZRMl90ckNTQWlFRjAydU5nOHhLeHg1UzFZbXBJNkUwdTk0bkR5RWJWUDJKZ0VES0NnNS1JUnYwN1pvWkR6emNMSGxHSmxjbWUxRlBtM1lQOWZSbEtYV0NYT0pqZERjckppdXlQaktJZ3V4eXJuaHF0S0hHd1J4Ry1rY0RYbTg?oc=5",
+   "published": "2026-09-20T03:10:15.000Z",
+   "firstSeen": "2026-09-20T05:40:54.853Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "c654a81b8880",
+   "area": "gst",
+   "sourceId": "news-gst",
+   "source": "News search: GST",
+   "official": false,
+   "publisher": "jurishour.in",
+   "type": "Judgment",
+   "title": "Value of Principal’s Goods Not to Be Included in E-Way Bill on Return from Job Work: GSTAT",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxObms0czhCc3pMMmpFOFNPOW9jclJEYTRXc3JBbUFDdTBtVXAxVEtXWmZsZ2dCM3hWcWhkNzl5T1pFUGdWTkNRZjVUNUJtdXlpX0xhWk0tV0pEU3BNazY5cTJ6aTNpUlI0REhweU9WZUVFWUVCWDdpTEY0eEVMUHJYdmctWlE?oc=5",
+   "published": "2026-09-20T03:17:44.000Z",
+   "firstSeen": "2026-09-20T05:40:54.853Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "ce64e3d82441",
+   "area": "gst",
+   "sourceId": "news-gst",
+   "source": "News search: GST",
+   "official": false,
+   "publisher": "jurishour.in",
+   "type": "Judgment",
+   "title": "CGST Corruption Case: Allahabad HC Grants Bail to Advocate After 9 Months in Custody",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBpblgzanZib0NNZHdCVXdCTUhOTHJydFBSb2Q0MXNjYk81QXRRc1BkazVkaWpTY2F5VW0wSVVRSTlsU3ozY1lFMERZNDBOOXVzUFdWM3ZGVUVZZjJkOVh3TnQ0T2diS2stYmM2NVQ0TW1JU2lPM1E?oc=5",
+   "published": "2026-09-20T04:29:43.000Z",
+   "firstSeen": "2026-09-20T05:40:54.853Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "9d1d1e80da0b",
+   "area": "gst",
+   "sourceId": "taxguru-gst",
+   "source": "TaxGuru GST",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Goods and Services Tax | Semen Sorting Services Classified Under SAC 998349, Taxable at 18% GST: AAR Tamilnadu",
+   "link": "https://taxguru.in/goods-and-service-tax/semen-sorting-services-classified-sac-998349-taxable-18-percent-gst-aar-tamilnadu.html",
+   "published": "2026-09-20T05:36:47.000Z",
+   "firstSeen": "2026-09-20T05:40:54.853Z",
+   "summary": "Tamil Nadu AAR classifies semen sorting services under SAC 998349 and holds them taxable at 18% GST, rejecting exemption under SAC 9986.The post Semen Sorting Services Classified Under SAC 998349, Taxable at 18% GST:…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "3a52afc21cc8",
+   "area": "gst",
+   "sourceId": "taxguru-gst",
+   "source": "TaxGuru GST",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Goods and Services Tax | ITC on Land Survey Charges for Golf Course Afforestation Land Denied: Tamil Nadu AAR",
+   "link": "https://taxguru.in/goods-and-service-tax/itc-land-survey-charges-golf-afforestation-land-denied-tamil-nadu-aar.html",
+   "published": "2026-09-20T05:32:51.000Z",
+   "firstSeen": "2026-09-20T05:40:54.853Z",
+   "summary": "Tamil Nadu AAR denies ITC on land survey charges incurred for golf course land and alternate afforestation land under Sections 16 and 17(5).The post ITC on Land Survey Charges for Golf Course Afforestation Land Denied:…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "dc117d0a2839",
+   "area": "gst",
+   "sourceId": "taxguru-gst",
+   "source": "TaxGuru GST",
+   "official": false,
+   "publisher": "",
+   "type": "Advisory",
+   "title": "Goods and Services Tax | GSTN Advisory on emSigner v3.3 and FIPS 140-3 Migration",
+   "link": "https://taxguru.in/goods-and-service-tax/gstn-advisory-emsigner-v3-3-fips-140-3-migration.html",
+   "published": "2026-09-20T04:57:08.000Z",
+   "firstSeen": "2026-09-20T05:40:54.853Z",
+   "summary": "GSTN advises users on emSigner v3.3 for new DSC tokens, while CCA outlines the transition from FIPS 140-2 to FIPS 140-3 by 2029.The post GSTN Advisory on emSigner v3.3 and FIPS 140-3 Migration appeared first on TaxGuru.",
+   "notes": [
+    "Summary: The GSTN advisory dated September 19, 2026 provides advance information to taxpayers and tax officers using Digital Signature Certificates (DSCs) on the GST Portal regarding the availability of emSigner version 3.3.",
+    "It states that DSCs downloaded onto FIPS 140-2 dongles on or before September 21, 2026 may continue until expiry, subject to specified exceptions, while fresh issuance and renewal generally require FIPS 140-3 modules.",
+    "Validity and future renewal: Under CCA’s advisory, DSCs downloaded onto FIPS 140-2 dongles on or before 21 September 2026 can continue to be used until the DSC expires."
+   ],
+   "refs": [],
+   "deadlines": [
+    {
+     "date": "2026-09-21",
+     "kind": "deadline",
+     "context": "It states that DSCs downloaded onto FIPS 140-2 dongles on or before September 21, 2026 may continue until expiry, subject to specified exceptions, while fresh issuance and renewal generally require FIPS 140-3 modules."
+    },
+    {
+     "date": "2029-09-21",
+     "kind": "deadline",
+     "context": "Optional up to 21 sept 2029 With approval from their concern ministry\nNo exception beyond cutoff date\nSubject: Acknowledgement of CCA Advisory and Risk Assessment for Continued Use of FIPS 140-2 Validated Modules\n[Certifying Authority / Customer Name]\n[Organis"
+    }
+   ]
+  },
+  {
+   "id": "9ebbfe74f188",
+   "area": "it",
+   "sourceId": "news-it",
+   "source": "News search: Income tax",
+   "official": false,
+   "publisher": "jurishour.in",
+   "type": "Update",
+   "title": "CBDT Revises Valuer and Income-tax Practitioner Forms, Extends Key Deadlines",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVDZFb19SYTN6YWVpYUlWMjJqSjJmUXdINUdQWWVRcGt3N09FMUJWYVpJMkFaOWdMNGVXUlFtS2dTSi1aVVZXRHNrbjlUY0YwTHc0TFJnVXNRdFdnM1QybjhsX2ltenZpSzRoU0pobFlBeFhXRlA3QnFERnN5SEFJajhid2xBUmNfYjVVOTNxSEFMTE52RU1kdw?oc=5",
+   "published": "2026-09-20T04:10:39.000Z",
+   "firstSeen": "2026-09-20T05:40:54.853Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "4ad2bd30548e",
+   "area": "labour",
+   "sourceId": "news-labour",
+   "source": "News search: EPFO, ESIC, labour codes",
+   "official": false,
+   "publisher": "Mathrubhumi English",
+   "type": "Update",
+   "title": "Kerala’s contract workers face retirement without EPF as deadline nears",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVVd1NzhWdnVKVGQ3eXRxcTRKemZoWEwtWGUwbW9PbmVFSjBldTVZM3QtUk0yRG5PcVA0TTQxVzE1T1FZZC1SdkxMZk56eHFlZVFra2lLV2hRM0NkQW44NW5sUk5kdkNORmdaR2xBUThvZzJINlVKQ3EyZnc1ZHJPZFBXVXFQZzFOazYxbTk1QWJiX1ZNb00xVU55U1dob0sxbkHSAacBQVVfeXFMTXJMcUpDQmljYTBiZEtxcHd3aUJvUG5BdnYxMEQ4cnRDWDl4UHMzOEZUeFByYm9PUkdPdFQ4ZmJkZjNDdlJwdHZ0S3RLZEo1R3l6MXNlZExhZTJkTlJPT2xPOWlVQTFzZUgwTG1pd2pJYWw1eHozazhlZVdfR0JfVnQza2NpSl9kMllRYS10T0FOZHhuZGhTWGotLUhXNFVsTldaZEFrWk0?oc=5",
+   "published": "2026-09-20T01:45:32.000Z",
+   "firstSeen": "2026-09-20T05:40:54.853Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
   {
    "id": "20116b57ebd8",
    "area": "gst",
@@ -5015,6 +5166,23 @@
    "deadlines": []
   },
   {
+   "id": "39019f390361",
+   "area": "labour",
+   "sourceId": "news-labour",
+   "source": "News search: EPFO, ESIC, labour codes",
+   "official": false,
+   "publisher": "news24online.com",
+   "type": "Amendment",
+   "title": "PF withdrawal rules 2026: How much PF money can you withdraw and how often? Check new EPFO Limits",
+   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQUVZwU21RdDV4aWwyTWl4NE9RaXI0bFN6V3EwWVBJcnl2cUg2TldaYmMteGdRQVZyNWlQWGhiXzNubmNURnJ6LXAzZW9RSXM5bnV5WDhwWWF4UnhSd2tTT05kWW5lSno4WnplR0d5TE9hNFF0aUtsellRQTM2Wmp4MHFWUW9mV3RJLWRGR3VOX2p0WVZOX09uWHl2T1I4MVpkeFphak0ybGFqUUloWVMyZEs5eldFRnJKczZDNnRoTGpNY0ZuZHdPWXRjMHBZT1VLR1Br?oc=5",
+   "published": "2026-09-12T08:41:13.000Z",
+   "firstSeen": "2026-09-20T05:40:54.853Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
    "id": "2e5da0d316cb",
    "area": "gst",
    "sourceId": "news-gst",
@@ -5419,6 +5587,23 @@
    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPSXBXTlg4WDJ6azlxZWNhbHpxcnc1NlNDaTdUaTNBTUxWbHNFZnR5S3NGU2k5b2JYb2ttTEJlR0t0WndFQ1E2SENUM1RUS0laRkJmUjc2dGJkc1V0eWYwZHFKd0NzRFQxMy1IOGdCX2Q2R3VUOFNyWlNwbHpmWHdITHFSaVA2ZDJkcVVLY1NIc1NBU0ZFQko3X1NiTjFKdURQZlhhNXJsMlNYUU01Q2ptRDhXUDVlRk1wWTJGamZZeFhlSFl3M2ZqSWxpaXhZSUc4VkdmR0R0SdIB3AFBVV95cUxOUGJfS1NBTU1hSmo1bEs4Y282bnpCWGxOVTE5RWZwRnQtZzlXWXJXSkw1S2VRemFEbVBCYVNaM1J2QnVrTG1CdkZPeVFLYVhOajJ4LUUwVkVRUDBlNlMySlFOVDZzdmltRGJVUENZOUhXVE1YWXpIRzl2a2JWR1hJWmd6MlpSQzlIN1pVaGpnbDNqM05zNTBFdkJPSWc2bEM2WHJJZERTOFdjOW1BYUM1XzZiNVREbUtCOThmWEkwYlNwem5od1EyM2QzZDI4ODhFaFpYa0ZvdzBRcThj?oc=5",
    "published": "2026-09-12T10:28:19.000Z",
    "firstSeen": "2026-09-18T19:21:02.564Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "ef21362847e9",
+   "area": "gst",
+   "sourceId": "news-gst",
+   "source": "News search: GST",
+   "official": false,
+   "publisher": "jurishour.in",
+   "type": "Judgment",
+   "title": "GSTR-2A and GSTR-3B Mismatch Alone Can’t Prove Wrongful ITC Availment: GSTAT Quashes Demand Beyond SCN",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOeW01U2hzbkxKMWE1MWxFaEotWkdHTElNZUo2M0NYTmNrRDhMZ0VueTFoQVoycjNpM2hSQVYyb0lBRUswV0cxdlc1bWk3eHFxVkFwZmNWT3lnbl82M043aUJFNDZST05SMllmTk1DRkdJUVM3Mm9rTi05dEc4amRMaWRPVQ?oc=5",
+   "published": "2026-09-11T04:18:22.000Z",
+   "firstSeen": "2026-09-20T05:40:54.853Z",
    "summary": "",
    "notes": [],
    "refs": [],
@@ -6707,6 +6892,23 @@
    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNaEZiMk1MNmVXMUdXZFZNLUF1S2czVG52RWVOXzlmcm94RW9qNzFiaENLUVQ2NFFkNEZlSnZvTkhycl82b0dxd0R6dXN4dzY0LWNOdUdIOGZkX2dUQWpfeHFjeU01NEp2eGNIcnZhOExWOFBvNXV0cTFSNkhnUHNzU01EWENaTEliQzZMWDRR?oc=5",
    "published": "2026-08-27T07:57:56.000Z",
    "firstSeen": "2026-09-18T19:21:02.564Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "a6e507448acd",
+   "area": "mh",
+   "sourceId": "news-mh",
+   "source": "News search: Maharashtra levies",
+   "official": false,
+   "publisher": "varindia.com",
+   "type": "Update",
+   "title": "SoftTech Engineers Enables E-TDR Platform Launched by Government of Maharashtra & BMC",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPYlA0NHRUUDJpZEN0RmZKZ3Q4aXpBV0tPUWRXWVkyRG5iWXdNamdfV1UtZHFPTmdpVkNzUndaRDJxVDBGdEZ1dHVpeTF5S1VXcW9QS1BNS0plZ0dMZ2JxcDYzU2hqSG9scnN3NTVMLVlLcEJVRTBoT1F6VHhwcUdjZDJqdUtvdENiMlRFMGNYSmlvbHFtSmgwb1F5eU10RXV5Xy0tSXN4V3R2QmpxYVRjSGp2cw?oc=5",
+   "published": "2026-08-25T12:25:30.000Z",
+   "firstSeen": "2026-09-20T05:40:54.853Z",
    "summary": "",
    "notes": [],
    "refs": [],
