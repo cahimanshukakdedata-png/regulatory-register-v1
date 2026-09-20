@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-09-20T14:34:02.645Z",
+ "generatedAt": "2026-09-20T18:29:46.193Z",
  "repo": "cahimanshukakdedata-png/regulatory-register-v1",
- "newThisRun": 44,
+ "newThisRun": 8,
  "sources": [
   {
    "id": "icai-home",
@@ -14,8 +14,8 @@
    "fetched": 37,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-09-20T14:34:02.645Z",
-   "ms": 1232
+   "lastOk": "2026-09-20T18:29:46.193Z",
+   "ms": 1078
   },
   {
    "id": "news-acc",
@@ -25,11 +25,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(ICAI%20OR%20NFRA%20OR%20%22Ind%20AS%22%20OR%20UDIN)%20(announcement%20OR%20notification%20OR%20amendment%20OR%20guidance)%20when%3A14d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 34,
-   "kept": 14,
+   "fetched": 29,
+   "kept": 10,
    "note": "",
-   "lastOk": "2026-09-20T14:34:02.645Z",
-   "ms": 310
+   "lastOk": "2026-09-20T18:29:46.193Z",
+   "ms": 247
   },
   {
    "id": "nfra-home",
@@ -42,8 +42,8 @@
    "fetched": 28,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-09-20T14:34:02.645Z",
-   "ms": 1955
+   "lastOk": "2026-09-20T18:29:46.193Z",
+   "ms": 1445
   },
   {
    "id": "taxguru-ca",
@@ -56,8 +56,8 @@
    "fetched": 100,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-09-20T14:34:02.645Z",
-   "ms": 921
+   "lastOk": "2026-09-20T18:29:46.193Z",
+   "ms": 996
   },
   {
    "id": "rbi-notifications",
@@ -70,8 +70,8 @@
    "fetched": 10,
    "kept": 4,
    "note": "",
-   "lastOk": "2026-09-20T14:34:02.645Z",
-   "ms": 893
+   "lastOk": "2026-09-20T18:29:46.193Z",
+   "ms": 582
   },
   {
    "id": "rbi-press",
@@ -84,8 +84,8 @@
    "fetched": 10,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-09-20T14:34:02.645Z",
-   "ms": 982
+   "lastOk": "2026-09-20T18:29:46.193Z",
+   "ms": 925
   },
   {
    "id": "taxguru-rbi",
@@ -98,8 +98,8 @@
    "fetched": 100,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-09-20T14:34:02.645Z",
-   "ms": 963
+   "lastOk": "2026-09-20T18:29:46.193Z",
+   "ms": 990
   },
   {
    "id": "cbic-gst",
@@ -112,8 +112,8 @@
    "fetched": 25,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-09-20T14:34:02.645Z",
-   "ms": 1332
+   "lastOk": "2026-09-20T18:29:46.193Z",
+   "ms": 1171
   },
   {
    "id": "gst-council",
@@ -126,8 +126,8 @@
    "fetched": 18,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-09-20T14:34:02.645Z",
-   "ms": 2970
+   "lastOk": "2026-09-20T18:29:46.193Z",
+   "ms": 2919
   },
   {
    "id": "gst-portal-news",
@@ -140,8 +140,8 @@
    "fetched": 0,
    "kept": 0,
    "note": "page returned no usable links (it may need a real browser); this section relies on its other sources",
-   "lastOk": "2026-09-20T14:34:02.645Z",
-   "ms": 1656
+   "lastOk": "2026-09-20T18:29:46.193Z",
+   "ms": 1577
   },
   {
    "id": "news-gst",
@@ -154,8 +154,8 @@
    "fetched": 52,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-09-20T14:34:02.645Z",
-   "ms": 410
+   "lastOk": "2026-09-20T18:29:46.193Z",
+   "ms": 461
   },
   {
    "id": "taxguru-gst",
@@ -168,8 +168,8 @@
    "fetched": 100,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-09-20T14:34:02.645Z",
-   "ms": 1519
+   "lastOk": "2026-09-20T18:29:46.193Z",
+   "ms": 1855
   },
   {
    "id": "cbdt-communications",
@@ -183,7 +183,7 @@
    "kept": 0,
    "error": "HTTP 403",
    "lastOk": null,
-   "ms": 1974
+   "ms": 4553
   },
   {
    "id": "itd-latest",
@@ -196,8 +196,8 @@
    "fetched": 39,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-09-20T14:34:02.645Z",
-   "ms": 1484
+   "lastOk": "2026-09-20T18:29:46.193Z",
+   "ms": 1191
   },
   {
    "id": "news-it",
@@ -210,8 +210,8 @@
    "fetched": 53,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-09-20T14:34:02.645Z",
-   "ms": 344
+   "lastOk": "2026-09-20T18:29:46.193Z",
+   "ms": 320
   },
   {
    "id": "taxguru-it",
@@ -224,8 +224,8 @@
    "fetched": 100,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-09-20T14:34:02.645Z",
-   "ms": 681
+   "lastOk": "2026-09-20T18:29:46.193Z",
+   "ms": 942
   },
   {
    "id": "epfo-home",
@@ -239,7 +239,7 @@
    "kept": 0,
    "error": "HTTP 403",
    "lastOk": null,
-   "ms": 2248
+   "ms": 2005
   },
   {
    "id": "esic-home",
@@ -253,7 +253,7 @@
    "kept": 0,
    "error": "fetch failed",
    "lastOk": null,
-   "ms": 22422
+   "ms": 22202
   },
   {
    "id": "news-labour",
@@ -263,11 +263,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(EPFO%20OR%20ESIC%20OR%20%22labour%20code%22)%20(notification%20OR%20circular%20OR%20rules%20OR%20extended%20OR%20deadline)%20when%3A14d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 71,
-   "kept": 14,
+   "fetched": 75,
+   "kept": 15,
    "note": "",
-   "lastOk": "2026-09-20T14:34:02.645Z",
-   "ms": 398
+   "lastOk": "2026-09-20T18:29:46.193Z",
+   "ms": 412
   },
   {
    "id": "mca-home",
@@ -281,7 +281,7 @@
    "kept": 0,
    "error": "HTTP 403",
    "lastOk": null,
-   "ms": 331
+   "ms": 332
   },
   {
    "id": "news-mca",
@@ -291,11 +291,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=MCA%20(%22general%20circular%22%20OR%20notification%20OR%20%22Companies%20Act%22%20OR%20LLP%20OR%20extended)%20when%3A10d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 39,
-   "kept": 10,
+   "fetched": 42,
+   "kept": 9,
    "note": "",
-   "lastOk": "2026-09-20T14:34:02.645Z",
-   "ms": 346
+   "lastOk": "2026-09-20T18:29:46.193Z",
+   "ms": 310
   },
   {
    "id": "taxguru-company",
@@ -308,8 +308,8 @@
    "fetched": 100,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-09-20T14:34:02.645Z",
-   "ms": 913
+   "lastOk": "2026-09-20T18:29:46.193Z",
+   "ms": 962
   },
   {
    "id": "taxguru-corporate",
@@ -322,8 +322,8 @@
    "fetched": 100,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-09-20T14:34:02.645Z",
-   "ms": 1511
+   "lastOk": "2026-09-20T18:29:46.193Z",
+   "ms": 1449
   },
   {
    "id": "mahagst-pt",
@@ -337,7 +337,7 @@
    "kept": 0,
    "error": "fetch failed",
    "lastOk": null,
-   "ms": 21960
+   "ms": 21786
   },
   {
    "id": "news-mh",
@@ -348,10 +348,10 @@
    "url": "https://news.google.com/rss/search?q=Maharashtra%20(%22profession%20tax%22%20OR%20MahaGST%20OR%20%22stamp%20duty%22%20OR%20%22amnesty%20scheme%22)%20when%3A30d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
    "fetched": 46,
-   "kept": 13,
+   "kept": 12,
    "note": "",
-   "lastOk": "2026-09-20T14:34:02.645Z",
-   "ms": 422
+   "lastOk": "2026-09-20T18:29:46.193Z",
+   "ms": 297
   },
   {
    "id": "sebi-rss",
@@ -364,8 +364,8 @@
    "fetched": 30,
    "kept": 11,
    "note": "",
-   "lastOk": "2026-09-20T14:34:02.645Z",
-   "ms": 2209
+   "lastOk": "2026-09-20T18:29:46.193Z",
+   "ms": 1892
   },
   {
    "id": "taxguru-sebi",
@@ -378,8 +378,8 @@
    "fetched": 100,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-09-20T14:34:02.645Z",
-   "ms": 928
+   "lastOk": "2026-09-20T18:29:46.193Z",
+   "ms": 931
   },
   {
    "id": "news-tds",
@@ -389,14 +389,150 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(TDS%20OR%20TCS%20OR%20TRACES)%20(CBDT%20OR%20notification%20OR%20%22due%20date%22%20OR%20form)%20when%3A14d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 52,
+   "fetched": 53,
    "kept": 12,
    "note": "",
-   "lastOk": "2026-09-20T14:34:02.645Z",
-   "ms": 435
+   "lastOk": "2026-09-20T18:29:46.193Z",
+   "ms": 380
   }
  ],
  "items": [
+  {
+   "id": "18bc0f795dc0",
+   "area": "gst",
+   "sourceId": "taxguru-gst",
+   "source": "TaxGuru GST",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Goods and Services Tax | Calcutta HC Quashes GST Orders Over Notice Uploaded Under Additional Tab",
+   "link": "https://taxguru.in/goods-and-service-tax/calcutta-hc-quashes-gst-orders-notice-uploaded-additional-tab.html",
+   "published": "2026-09-20T18:27:55.000Z",
+   "firstSeen": "2026-09-20T18:29:46.193Z",
+   "summary": "Calcutta HC quashes GST adjudication and appeal orders after SCN was uploaded only under Additional Notice and Orders tab.The post Calcutta HC Quashes GST Orders Over Notice Uploaded Under Additional Tab appeared first…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "f65158e9cdc6",
+   "area": "gst",
+   "sourceId": "taxguru-gst",
+   "source": "TaxGuru GST",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Goods and Services Tax | GST Assessment Against Deceased Proprietor Remanded for Notice to Legal Heirs by Patna HC",
+   "link": "https://taxguru.in/goods-and-service-tax/gst-assessment-against-deceased-proprietor-remanded-notice-legal-heirs-patna-hc.html",
+   "published": "2026-09-20T18:25:13.000Z",
+   "firstSeen": "2026-09-20T18:29:46.193Z",
+   "summary": "Patna High Court sets aside GST assessment against deceased proprietor and remands matter for fresh notice, hearing and reasoned order to legal heirs.The post GST Assessment Against Deceased Proprietor Remanded for…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "2c0db614f4cb",
+   "area": "gst",
+   "sourceId": "taxguru-gst",
+   "source": "TaxGuru GST",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Goods and Services Tax | Karnataka HC Allows Taxpayer to Respond Before Continuation of ITC Block",
+   "link": "https://taxguru.in/goods-and-service-tax/karnataka-hc-taxpayer-respond-continuation-itc-block.html",
+   "published": "2026-09-20T18:20:40.000Z",
+   "firstSeen": "2026-09-20T18:29:46.193Z",
+   "summary": "Karnataka HC allows taxpayer to respond to SCN before authorities reconsider blocking of ITC under Rule 86A of GST Rules.The post Karnataka HC Allows Taxpayer to Respond Before Continuation of ITC Block appeared first…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "04cc341a4708",
+   "area": "gst",
+   "sourceId": "taxguru-gst",
+   "source": "TaxGuru GST",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Goods and Services Tax | GST Writ Dismissed as Alternative Remedy Available Under MGST Act: Meghalaya HC",
+   "link": "https://taxguru.in/goods-and-service-tax/gst-writ-dismissed-alternative-remedy-mgst-act-meghalaya-hc.html",
+   "published": "2026-09-20T18:09:20.000Z",
+   "firstSeen": "2026-09-20T18:29:46.193Z",
+   "summary": "Meghalaya HC dismissed GST writ over disputed sales and tax demand, directing the petitioner to pursue the statutory appellate remedy.The post GST Writ Dismissed as Alternative Remedy Available Under MGST Act: Meghalaya…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "09eaca4200d4",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | Transfer Pricing: ITAT Excludes Incomparable BPO Entities & Allows Working Capital Adjustment",
+   "link": "https://taxguru.in/income-tax/transfer-pricing-itat-excludes-incomparable-bpo-entities-working-capital-adjustment.html",
+   "published": "2026-09-20T18:19:19.000Z",
+   "firstSeen": "2026-09-20T18:29:46.193Z",
+   "summary": "ITAT partly allows cross appeals, excludes unsuitable comparables, grants working capital adjustment and deletes separate receivables interest adjustment for AY 2007-08.The post Transfer Pricing: ITAT Excludes…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "dc43df8aa7c5",
+   "area": "sebi",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | BSE Investor Protection Fund eligible for Section 11 & 10(23EA) Relief: ITAT Mumbai",
+   "link": "https://taxguru.in/income-tax/bse-investor-protection-fund-eligible-section-11-10-23ea-relief-itat-mumbai.html",
+   "published": "2026-09-20T18:18:20.000Z",
+   "firstSeen": "2026-09-20T18:29:46.193Z",
+   "summary": "ITAT Mumbai dismisses Revenue appeals, upholding Sections 11 and 10(23EA) exemption and rejecting Section 13(1)(c) benefit allegations.The post BSE Investor Protection Fund eligible for Section 11 & 10(23EA) Relief:…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "373677a912ea",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | Gujarat HC Allows Sections 11 and 12 Exemption to Gujarat Housing Board",
+   "link": "https://taxguru.in/income-tax/gujarat-hc-sections-11-12-exemption-gujarat-housing-board.html",
+   "published": "2026-09-20T18:11:05.000Z",
+   "firstSeen": "2026-09-20T18:29:46.193Z",
+   "summary": "Gujarat HC dismisses Revenue appeal, holding Section 2(15) read with Section 13(8) did not deny Gujarat Housing Board Sections 11 and 12 benefits.The post Gujarat HC Allows Sections 11 and 12 Exemption to Gujarat…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "5c3f5e1958c6",
+   "area": "it",
+   "sourceId": "news-it",
+   "source": "News search: Income tax",
+   "official": false,
+   "publisher": "Deccan Herald",
+   "type": "Judgment",
+   "title": "CBDT circulars: Supreme Court rules tax orders cannot override Income Tax Act",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPeW5Kck5Qck8xb2hPdVhKM2VfbjFNTzJ4RkRnZl80RE05aDhIa01aVF9mRjVsZ2NjbXc3dDZLdFBrM0VPdm05eVB1VTMxNXpuQ1dmZ2hiV0NTVk1JdW5zNVp4Qm96RFoyMVNLTVNDbkZqeC16M3poNWVHNTV5cHNfdERfM20teWtLdm1XMDVsakNhbXFsZENXb0dJa0tUVWZqak1UM0pwenJ2Nmt6QkxjX0FjcHU?oc=5",
+   "published": "2026-09-20T14:28:00.000Z",
+   "firstSeen": "2026-09-20T18:29:46.193Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
   {
    "id": "d886559cfc5a",
    "area": "gst",
