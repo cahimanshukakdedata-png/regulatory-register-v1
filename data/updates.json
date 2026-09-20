@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-09-20T05:40:54.853Z",
+ "generatedAt": "2026-09-20T09:39:54.272Z",
  "repo": "cahimanshukakdedata-png/regulatory-register-v1",
- "newThisRun": 11,
+ "newThisRun": 20,
  "sources": [
   {
    "id": "icai-home",
@@ -14,8 +14,8 @@
    "fetched": 37,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-09-20T05:40:54.853Z",
-   "ms": 1317
+   "lastOk": "2026-09-20T09:39:54.272Z",
+   "ms": 1247
   },
   {
    "id": "news-acc",
@@ -25,11 +25,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(ICAI%20OR%20NFRA%20OR%20%22Ind%20AS%22%20OR%20UDIN)%20(announcement%20OR%20notification%20OR%20amendment%20OR%20guidance)%20when%3A14d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 31,
+   "fetched": 32,
    "kept": 13,
    "note": "",
-   "lastOk": "2026-09-20T05:40:54.853Z",
-   "ms": 316
+   "lastOk": "2026-09-20T09:39:54.272Z",
+   "ms": 346
   },
   {
    "id": "nfra-home",
@@ -42,8 +42,8 @@
    "fetched": 28,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-09-20T05:40:54.853Z",
-   "ms": 1643
+   "lastOk": "2026-09-20T09:39:54.272Z",
+   "ms": 1576
   },
   {
    "id": "taxguru-ca",
@@ -56,8 +56,8 @@
    "fetched": 100,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-09-20T05:40:54.853Z",
-   "ms": 813
+   "lastOk": "2026-09-20T09:39:54.272Z",
+   "ms": 1177
   },
   {
    "id": "rbi-notifications",
@@ -70,8 +70,8 @@
    "fetched": 10,
    "kept": 4,
    "note": "",
-   "lastOk": "2026-09-20T05:40:54.853Z",
-   "ms": 1035
+   "lastOk": "2026-09-20T09:39:54.272Z",
+   "ms": 6599
   },
   {
    "id": "rbi-press",
@@ -84,8 +84,8 @@
    "fetched": 10,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-09-20T05:40:54.853Z",
-   "ms": 91
+   "lastOk": "2026-09-20T09:39:54.272Z",
+   "ms": 805
   },
   {
    "id": "taxguru-rbi",
@@ -98,8 +98,8 @@
    "fetched": 100,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-09-20T05:40:54.853Z",
-   "ms": 814
+   "lastOk": "2026-09-20T09:39:54.272Z",
+   "ms": 1097
   },
   {
    "id": "cbic-gst",
@@ -112,8 +112,8 @@
    "fetched": 25,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-09-20T05:40:54.853Z",
-   "ms": 1264
+   "lastOk": "2026-09-20T09:39:54.272Z",
+   "ms": 1247
   },
   {
    "id": "gst-council",
@@ -126,8 +126,8 @@
    "fetched": 18,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-09-20T05:40:54.853Z",
-   "ms": 2875
+   "lastOk": "2026-09-20T09:39:54.272Z",
+   "ms": 2867
   },
   {
    "id": "gst-portal-news",
@@ -140,8 +140,8 @@
    "fetched": 0,
    "kept": 0,
    "note": "page returned no usable links (it may need a real browser); this section relies on its other sources",
-   "lastOk": "2026-09-20T05:40:54.853Z",
-   "ms": 1528
+   "lastOk": "2026-09-20T09:39:54.272Z",
+   "ms": 1720
   },
   {
    "id": "news-gst",
@@ -151,11 +151,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(CBIC%20OR%20GSTN%20OR%20%22GST%20Council%22%20OR%20CGST)%20(notification%20OR%20circular%20OR%20advisory%20OR%20extended)%20when%3A10d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 55,
+   "fetched": 53,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-09-20T05:40:54.853Z",
-   "ms": 392
+   "lastOk": "2026-09-20T09:39:54.272Z",
+   "ms": 417
   },
   {
    "id": "taxguru-gst",
@@ -168,8 +168,8 @@
    "fetched": 100,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-09-20T05:40:54.853Z",
-   "ms": 1732
+   "lastOk": "2026-09-20T09:39:54.272Z",
+   "ms": 2293
   },
   {
    "id": "cbdt-communications",
@@ -183,7 +183,7 @@
    "kept": 0,
    "error": "HTTP 403",
    "lastOk": null,
-   "ms": 4030
+   "ms": 4322
   },
   {
    "id": "itd-latest",
@@ -196,8 +196,8 @@
    "fetched": 39,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-09-20T05:40:54.853Z",
-   "ms": 1135
+   "lastOk": "2026-09-20T09:39:54.272Z",
+   "ms": 1227
   },
   {
    "id": "news-it",
@@ -207,11 +207,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=CBDT%20(notification%20OR%20circular%20OR%20%22due%20date%22%20OR%20extended%20OR%20scheme)%20when%3A10d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 54,
+   "fetched": 52,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-09-20T05:40:54.853Z",
-   "ms": 351
+   "lastOk": "2026-09-20T09:39:54.272Z",
+   "ms": 317
   },
   {
    "id": "taxguru-it",
@@ -224,8 +224,8 @@
    "fetched": 100,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-09-20T05:40:54.853Z",
-   "ms": 864
+   "lastOk": "2026-09-20T09:39:54.272Z",
+   "ms": 1817
   },
   {
    "id": "epfo-home",
@@ -239,7 +239,7 @@
    "kept": 0,
    "error": "HTTP 403",
    "lastOk": null,
-   "ms": 2242
+   "ms": 2324
   },
   {
    "id": "esic-home",
@@ -253,7 +253,7 @@
    "kept": 0,
    "error": "fetch failed",
    "lastOk": null,
-   "ms": 22458
+   "ms": 22270
   },
   {
    "id": "news-labour",
@@ -263,11 +263,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(EPFO%20OR%20ESIC%20OR%20%22labour%20code%22)%20(notification%20OR%20circular%20OR%20rules%20OR%20extended%20OR%20deadline)%20when%3A14d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 78,
-   "kept": 17,
+   "fetched": 69,
+   "kept": 15,
    "note": "",
-   "lastOk": "2026-09-20T05:40:54.853Z",
-   "ms": 404
+   "lastOk": "2026-09-20T09:39:54.272Z",
+   "ms": 409
   },
   {
    "id": "mca-home",
@@ -281,7 +281,7 @@
    "kept": 0,
    "error": "HTTP 403",
    "lastOk": null,
-   "ms": 326
+   "ms": 378
   },
   {
    "id": "news-mca",
@@ -291,11 +291,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=MCA%20(%22general%20circular%22%20OR%20notification%20OR%20%22Companies%20Act%22%20OR%20LLP%20OR%20extended)%20when%3A10d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 41,
-   "kept": 13,
+   "fetched": 42,
+   "kept": 12,
    "note": "",
-   "lastOk": "2026-09-20T05:40:54.853Z",
-   "ms": 340
+   "lastOk": "2026-09-20T09:39:54.272Z",
+   "ms": 368
   },
   {
    "id": "taxguru-company",
@@ -308,8 +308,8 @@
    "fetched": 100,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-09-20T05:40:54.853Z",
-   "ms": 824
+   "lastOk": "2026-09-20T09:39:54.272Z",
+   "ms": 843
   },
   {
    "id": "taxguru-corporate",
@@ -322,8 +322,8 @@
    "fetched": 100,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-09-20T05:40:54.853Z",
-   "ms": 943
+   "lastOk": "2026-09-20T09:39:54.272Z",
+   "ms": 1134
   },
   {
    "id": "mahagst-pt",
@@ -337,7 +337,7 @@
    "kept": 0,
    "error": "fetch failed",
    "lastOk": null,
-   "ms": 21995
+   "ms": 21609
   },
   {
    "id": "news-mh",
@@ -347,11 +347,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=Maharashtra%20(%22profession%20tax%22%20OR%20MahaGST%20OR%20%22stamp%20duty%22%20OR%20%22amnesty%20scheme%22)%20when%3A30d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 48,
-   "kept": 15,
+   "fetched": 45,
+   "kept": 12,
    "note": "",
-   "lastOk": "2026-09-20T05:40:54.853Z",
-   "ms": 297
+   "lastOk": "2026-09-20T09:39:54.272Z",
+   "ms": 418
   },
   {
    "id": "sebi-rss",
@@ -364,8 +364,8 @@
    "fetched": 30,
    "kept": 11,
    "note": "",
-   "lastOk": "2026-09-20T05:40:54.853Z",
-   "ms": 1203
+   "lastOk": "2026-09-20T09:39:54.272Z",
+   "ms": 1453
   },
   {
    "id": "taxguru-sebi",
@@ -378,8 +378,8 @@
    "fetched": 100,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-09-20T05:40:54.853Z",
-   "ms": 913
+   "lastOk": "2026-09-20T09:39:54.272Z",
+   "ms": 1126
   },
   {
    "id": "news-tds",
@@ -389,14 +389,320 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(TDS%20OR%20TCS%20OR%20TRACES)%20(CBDT%20OR%20notification%20OR%20%22due%20date%22%20OR%20form)%20when%3A14d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 52,
+   "fetched": 53,
    "kept": 12,
    "note": "",
-   "lastOk": "2026-09-20T05:40:54.853Z",
-   "ms": 407
+   "lastOk": "2026-09-20T09:39:54.272Z",
+   "ms": 450
   }
  ],
  "items": [
+  {
+   "id": "312f705fa32e",
+   "area": "gst",
+   "sourceId": "taxguru-gst",
+   "source": "TaxGuru GST",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Goods and Services Tax | Overseas Student Recruitment Is Intermediary Service Under GST: Kerala AAR",
+   "link": "https://taxguru.in/goods-and-service-tax/overseas-student-recruitment-intermediary-service-gst-kerala-aar.html",
+   "published": "2026-09-20T07:49:07.000Z",
+   "firstSeen": "2026-09-20T09:39:54.272Z",
+   "summary": "Kerala AAR holds overseas university student recruitment is intermediary service; it becomes export of service from 30 March 2026.The post Overseas Student Recruitment Is Intermediary Service Under GST: Kerala AAR…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "2018ed693b2c",
+   "area": "gst",
+   "sourceId": "taxguru-gst",
+   "source": "TaxGuru GST",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Goods and Services Tax | Professional Coaching for ACCA, CMA and CPA Not GST Exempt: Kerala AAR",
+   "link": "https://taxguru.in/goods-and-service-tax/professional-coaching-acca-cma-cpa-not-gst-exempt-kerala-aar.html",
+   "published": "2026-09-20T07:48:34.000Z",
+   "firstSeen": "2026-09-20T09:39:54.272Z",
+   "summary": "Kerala AAR holds professional coaching not exempt as education; rules on exam fees, study materials, forex gains and university training fees.The post Professional Coaching for ACCA, CMA and CPA Not GST Exempt: Kerala…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "ec13f6ee6ead",
+   "area": "gst",
+   "sourceId": "taxguru-gst",
+   "source": "TaxGuru GST",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Goods and Services Tax | Government-Paid MEDISEP Insurance Premium Exempt From GST: Kerala AAR",
+   "link": "https://taxguru.in/goods-and-service-tax/government-paid-medisep-insurance-premium-exempt-gst-kerala-aar.html",
+   "published": "2026-09-20T07:47:45.000Z",
+   "firstSeen": "2026-09-20T09:39:54.272Z",
+   "summary": "Kerala AAR holds MEDISEP Phase-II insurance for Clause A beneficiaries exempt from GST where entire premium is paid by Kerala Government.The post Government-Paid MEDISEP Insurance Premium Exempt From GST: Kerala AAR…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "83e1b4a2915b",
+   "area": "gst",
+   "sourceId": "taxguru-gst",
+   "source": "TaxGuru GST",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Goods and Services Tax | NSQF-Aligned Junior Software Developer Course Exempt From GST: Kerala AAR",
+   "link": "https://taxguru.in/goods-and-service-tax/nsqf-aligned-junior-software-developer-exempt-gst-kerala-aar.html",
+   "published": "2026-09-20T07:46:31.000Z",
+   "firstSeen": "2026-09-20T09:39:54.272Z",
+   "summary": "Kerala AAR holds NASSCOM-accredited NSQF Junior Software Developer training and entire course fee exempt from GST.The post NSQF-Aligned Junior Software Developer Course Exempt From GST: Kerala AAR appeared first on…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "c5bd2508b304",
+   "area": "gst",
+   "sourceId": "taxguru-gst",
+   "source": "TaxGuru GST",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Goods and Services Tax | Turmeric Extract Nutraceutical Taxable at 5% GST: Kerala AAR",
+   "link": "https://taxguru.in/goods-and-service-tax/turmeric-extract-nutraceutical-taxable-5-percent-gst-kerala-aar.html",
+   "published": "2026-09-20T07:45:08.000Z",
+   "firstSeen": "2026-09-20T09:39:54.272Z",
+   "summary": "Kerala AAR classifies Turmeric Extract/Curcuma Elixir under HSN 2106 at 5% GST from 22 September 2025; MRP of Rs. 4,990 is irrelevant.The post Turmeric Extract Nutraceutical Taxable at 5% GST: Kerala AAR appeared first…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "94cbf8ff6fdf",
+   "area": "gst",
+   "sourceId": "taxguru-gst",
+   "source": "TaxGuru GST",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Goods and Services Tax | Home Healthcare GST Advance Ruling Application Dismissed as Withdrawn: Kerala AAR",
+   "link": "https://taxguru.in/goods-and-service-tax/home-healthcare-gst-advance-ruling-application-dismissed-withdrawn-kerala-aar.html",
+   "published": "2026-09-20T07:44:48.000Z",
+   "firstSeen": "2026-09-20T09:39:54.272Z",
+   "summary": "Kerala AAR dismisses as withdrawn Pulso Global's application seeking GST exemption ruling on home healthcare services.The post Home Healthcare GST Advance Ruling Application Dismissed as Withdrawn: Kerala AAR appeared…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "15aec8b6ecbc",
+   "area": "gst",
+   "sourceId": "taxguru-gst",
+   "source": "TaxGuru GST",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Goods and Services Tax | Customer-Supplied Paper Printing Is Job Work Under SAC 9988: Kerala AAR",
+   "link": "https://taxguru.in/goods-and-service-tax/customer-supplied-paper-printing-job-work-sac-9988-kerala-aar.html",
+   "published": "2026-09-20T07:43:34.000Z",
+   "firstSeen": "2026-09-20T09:39:54.272Z",
+   "summary": "Kerala AAR holds printing on customer-supplied paper is job work under SAC 9988; printing religious books with printer's paper attracts 18% GST.The post Customer-Supplied Paper Printing Is Job Work Under SAC 9988:…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "eb1c7cf52788",
+   "area": "gst",
+   "sourceId": "taxguru-gst",
+   "source": "TaxGuru GST",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Goods and Services Tax | KIIFB-Funded Project Management Services Attract 18% GST: Kerala AAR",
+   "link": "https://taxguru.in/goods-and-service-tax/kiifb-funded-project-management-services-attract-18-percent-gst-kerala-aar.html",
+   "published": "2026-09-20T07:42:00.000Z",
+   "firstSeen": "2026-09-20T09:39:54.272Z",
+   "summary": "Kerala AAR holds KRFB project management services funded through KIIFB taxable at 18% GST and requires invoices to Government department.The post KIIFB-Funded Project Management Services Attract 18% GST: Kerala AAR…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "f5a3776a0b53",
+   "area": "gst",
+   "sourceId": "taxguru-gst",
+   "source": "TaxGuru GST",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Goods and Services Tax | TSSC-Accredited NSQF Training Exempt From GST From 10.10.2024: Kerala AAR",
+   "link": "https://taxguru.in/goods-and-service-tax/tssc-accredited-nsqf-training-exempt-gst-10-10-2024-kerala-aar.html",
+   "published": "2026-09-20T07:41:33.000Z",
+   "firstSeen": "2026-09-20T09:39:54.272Z",
+   "summary": "Kerala AAR holds TSSC-accredited NSQF-aligned vocational training exempt from GST from 10.10.2024 and classifiable under SAC 999294.The post TSSC-Accredited NSQF Training Exempt From GST From 10.10.2024: Kerala AAR…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "98ab52fb722b",
+   "area": "gst",
+   "sourceId": "taxguru-gst",
+   "source": "TaxGuru GST",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Goods and Services Tax | New Residential Villa Projects Taxable at 5% Without ITC: Kerala AAR",
+   "link": "https://taxguru.in/goods-and-service-tax/residential-villa-projects-taxable-5-percent-without-itc-kerala-aar.html",
+   "published": "2026-09-20T07:40:13.000Z",
+   "firstSeen": "2026-09-20T09:39:54.272Z",
+   "summary": "Kerala AAR holds post-1 April 2019 non-affordable RREP villas taxable at effective 5% GST without ITC; higher-rate option with ITC unavailable.The post New Residential Villa Projects Taxable at 5% Without ITC: Kerala…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "593484cbf7e0",
+   "area": "gst",
+   "sourceId": "taxguru-gst",
+   "source": "TaxGuru GST",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Goods and Services Tax | Nata De Coco Classifiable Under HSN 21069099, GST Rates Clarified: Kerala AAR",
+   "link": "https://taxguru.in/goods-and-service-tax/nata-de-coco-classifiable-hsn-21069099-gst-rates-clarified-kerala-aar.html",
+   "published": "2026-09-20T07:39:21.000Z",
+   "firstSeen": "2026-09-20T09:39:54.272Z",
+   "summary": "Kerala AAR classifies Nata De Coco under HSN 21069099, taxable at 18% up to 21.09.2025 and 5% from 22.09.2025.The post Nata De Coco Classifiable Under HSN 21069099, GST Rates Clarified: Kerala AAR appeared first on…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "776fa3ba5b44",
+   "area": "gst",
+   "sourceId": "taxguru-gst",
+   "source": "TaxGuru GST",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Goods and Services Tax | Aquaculture Gear Boxes Taxable at 18% GST Under HSN 84834000: Tamil Nadu AAR",
+   "link": "https://taxguru.in/goods-and-service-tax/aquaculture-gear-boxes-taxable-18-percent-gst-hsn-84834000-tamil-nadu-aar.html",
+   "published": "2026-09-20T07:01:02.000Z",
+   "firstSeen": "2026-09-20T09:39:54.272Z",
+   "summary": "Tamil Nadu AAR holds aquaculture aerator gear boxes taxable at 18% under HSN 84834000 and separate spares under HSN 84839000.The post Aquaculture Gear Boxes Taxable at 18% GST Under HSN 84834000: Tamil Nadu AAR appeared…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "c8029d4d90b0",
+   "area": "gst",
+   "sourceId": "taxguru-gst",
+   "source": "TaxGuru GST",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Goods and Services Tax | Weekly Market Fee Collection by Town Panchayat Not GST Supply: Tamil Nadu AAR",
+   "link": "https://taxguru.in/goods-and-service-tax/weekly-market-fee-collection-town-panchayat-not-gst-supply-tamil-nadu-aar.html",
+   "published": "2026-09-20T06:55:44.000Z",
+   "firstSeen": "2026-09-20T09:39:54.272Z",
+   "summary": "Tamil Nadu AAR holds weekly market fee collection by Muthur Town Panchayat is neither supply of goods nor services under Section 7(2)(b).The post Weekly Market Fee Collection by Town Panchayat Not GST Supply: Tamil Nadu…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "3b1a3e88a075",
+   "area": "it",
+   "sourceId": "news-it",
+   "source": "News search: Income tax",
+   "official": false,
+   "publisher": "Live Law",
+   "type": "Judgment",
+   "title": "Income Tax | CBDT Circular Not Binding On Court : Supreme Court",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNQ0puTmJPbDh6eG5qa1R3SHdXMnVuTVEzMHJOZ0hZTUhCZEVsdXhiQmFUVDdSRkx5d1preDlPOVBJekpDb3NCWnNRS1llZW1NMzVucDBUVlFtamNaeVhqZWFTUTVPWk9vRDFNeXQ5b3JxdDkzZVlxU1lFZ2hlQmJMQzB1VmtlLUV5Q1V3Y0dZM2lZbnBfN1k4bTljcWhicHYtM2NhcXN30gGrAUFVX3lxTFBHT2c0WWR1RmNPa25IeTRrd3M1dGRWMURGQ2pEeXhNMF9FaEdTM1Q5b2NVZEF1Z09fRW4zZXlJRjVycktLSzNpY2tYQnIyNFU3T2tINmU0amxtUkRRejRyTUhpMjlsdDRMZDFMbHJUbzI0cXVMSTVaVnNDOGdPTVVCdG9EaGg1YTRiZlZuWG5remU4eVFrSks5d19VMHM2VzBpemRVLXlGMTJoTQ?oc=5",
+   "published": "2026-09-20T08:44:27.000Z",
+   "firstSeen": "2026-09-20T09:39:54.272Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "e116bd312e0d",
+   "area": "labour",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | ITAT Jaipur Allows Section 80JJAA, 80-IA and MEIS Claims; Disallows Delayed PF/ESI",
+   "link": "https://taxguru.in/income-tax/itat-jaipur-section-80jjaa-80-ia-meis-claims-disallows-delayed-pf-esi.html",
+   "published": "2026-09-20T08:57:44.000Z",
+   "firstSeen": "2026-09-20T09:39:54.272Z",
+   "summary": "ITAT Jaipur allowed 80JJAA, 80-IA, MEIS and section 14A claims but disallowed delayed employees' PF/ESI contributions.The post ITAT Jaipur Allows Section 80JJAA, 80-IA and MEIS Claims; Disallows Delayed PF/ESI appeared…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "d0d607e4f6a2",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | Raipur ITAT Restricts Section 272A(2)(e) Penalty to Section 139(4) Filing Period",
+   "link": "https://taxguru.in/income-tax/raipur-itat-restricts-section-272a-2-penalty-section-139-4-filing-period.html",
+   "published": "2026-09-20T08:56:33.000Z",
+   "firstSeen": "2026-09-20T09:39:54.272Z",
+   "summary": "Raipur ITAT held that penalty under section 272A(2)(e) cannot continue beyond the period available for filing a belated return under section 139(4).The post Raipur ITAT Restricts Section 272A(2)(e) Penalty to Section…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "9cbb5e819043",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | MEIS Reward Not Income under Section 2(24)(xviii) & is Capital Receipt: Delhi ITAT",
+   "link": "https://taxguru.in/income-tax/meis-reward-not-income-section-2-24-xviii-capital-receipt-delhi-itat.html",
+   "published": "2026-09-20T08:52:46.000Z",
+   "firstSeen": "2026-09-20T09:39:54.272Z",
+   "summary": "Delhi ITAT deletes section 14A disallowance and holds MEIS reward capital in nature, directing exclusion from taxable income and book profit.The post MEIS Reward Not Income under Section 2(24)(xviii) & is Capital…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "f545683485f3",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | MEIS Scrip Sale Proceeds Capital Receipts, Not Taxable: ITAT Chennai",
+   "link": "https://taxguru.in/income-tax/meis-scrip-sale-proceeds-capital-receipts-not-taxable-itat-chennai.html",
+   "published": "2026-09-20T08:46:37.000Z",
+   "firstSeen": "2026-09-20T09:39:54.272Z",
+   "summary": "ITAT Chennai holds MEIS scrip sale proceeds as capital receipts and allows construction costs on leasehold land as revenue expenditure.The post MEIS Scrip Sale Proceeds Capital Receipts, Not Taxable: ITAT Chennai…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
   {
    "id": "ab2e3a856d9b",
    "area": "gst",
@@ -3357,6 +3663,40 @@
    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNVll1MDhjaVJQWnlTOHVack5HanVRbWtPLUFldkN4V19YcnhlZTVtckNVcFJrYlVkNEV6UUcwYzNMdGhvZkhRSU1wNEVNQk9DRDBRaDhDZlZFTEUzRGVZamJmczVZaWUybVFNNlVhOF9maVI1YktERW5zZ0FYMGFyblNycExwbm5qVWJmTEstN3VRT3NFQ0VxZDBNSmZLWmxFRVQ5Uk4xLTN2dXhFQXh2MWdUZ0Q4d3ZxVnptMUdiMklSM0RNYWdrQS1lNXZYRTdFSWxsQVdwY2VyNWhsS1lnTQ?oc=5",
    "published": "2026-09-18T05:15:14.000Z",
    "firstSeen": "2026-09-18T19:21:02.564Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "8cb163625913",
+   "area": "it",
+   "sourceId": "news-it",
+   "source": "News search: Income tax",
+   "official": false,
+   "publisher": "financialexpress.com",
+   "type": "Due date",
+   "title": "Google Trends: Will the government extend the September 30 Income tax audit date?",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSk0xcWYwX3ZNWEJJWVdYWS10bi1IZzBsY1IxeWR2cXJtQnQ4REtUWGxBUTVGR3JYQnVPSWRqN0E0SEtwU1pUQTM1X2xhbV85ejRyci1rRW9SQmZYdEg4QWdUZ0x3YUYxa2FCV1djdG1ualZFdGM3Y3hkVFFET3gxVjJhSmZCVThvNUZ0b0RnSGRlZTBTcTdNaFhfcUh5NjhLOTFBTFROM2RlTHNEbzhvRC0xRGd1T3JXeXdwS2g1SHE2NjA3ZVHSAcwBQVVfeXFMUDhJdVN1dUNYYkZuUUhSR0VaeW92NS1rdnBIS0RNWVNVUl9HM00yOXZXaUFJZndBOXByejIxSWFTQ1E0UGsyMGo2OFVNRXF2UzVkLURHQ0hybkh3VHBjeWdvS0NFVUVjdmZwT0xwMy01RXdpaGNodFFiV1d2cV9jYUJkNW92M0x3XzhMSTJBbWoxX1VxUHpVejJjc3liUG1nTHpnVUQzamtFNk5id09kZ3RmTmJ0UEhPUEJObXFTSC0tbDVzcW9qdVU0NW10?oc=5",
+   "published": "2026-09-17T07:24:01.000Z",
+   "firstSeen": "2026-09-20T09:39:54.272Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "315c49a3d65f",
+   "area": "mca",
+   "sourceId": "news-mca",
+   "source": "News search: MCA",
+   "official": false,
+   "publisher": "Shiksha.com",
+   "type": "Update",
+   "title": "Karnataka PGCET 2026 Mock Allotment Delayed; KEA Extends Option Entry to Sep 18",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcnJITlJuMHZ1bWJPVlNwRVdWR1NPQ0NsQklPTklacWsxdUlVUmluSkQyNEZPcXVTNGJCbm1sLUU2WXo2QnpnVEYxMHlOOU5DVk5KNGhZTnh4cklRTGg5TTZtcVpUT3VTQi1oZnBHN2RGYkoxckg3SGl0Yl9Ya28tUFRQVzE2S3l2elVBaldTTWpmcHBYY1NFOUc5VFNwNjhna3QtQWpscmxEdDJJZ3ZYd1ZXakJwZFRTVFJfMTdPeEN2Vmc?oc=5",
+   "published": "2026-09-17T13:36:40.000Z",
+   "firstSeen": "2026-09-20T09:39:54.272Z",
    "summary": "",
    "notes": [],
    "refs": [],
