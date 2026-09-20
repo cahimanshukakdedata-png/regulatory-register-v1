@@ -1,6 +1,6 @@
 {
   "settings": {
-    "timeoutMs": 30000,
+    "timeoutMs": 45000,
     "concurrency": 4,
     "maxPerSource": 25,
     "enrichPerRun": 40,
@@ -11,7 +11,8 @@
     "redesignThreshold": 60,
     "proxies": [
       "https://api.allorigins.win/raw?url={enc}",
-      "https://api.codetabs.com/v1/proxy?quest={enc}"
+      "https://api.codetabs.com/v1/proxy?quest={enc}",
+      "https://r.jina.ai/{url}"
     ]
   },
   "sources": [
@@ -224,8 +225,9 @@
       "area": "labour",
       "kind": "page",
       "official": true,
-      "url": "https://www.epfindia.gov.in/site_en/index.php",
-      "linkInclude": "circular|notification|order|amendment|pension|scheme|\\.pdf"
+      "url": "https://www.epfindia.gov.in/site_en/Circulars.php",
+      "linkInclude": "circular|notification|order|amendment|pension|scheme|\\.pdf",
+      "proxyFirst": true
     },
     {
       "id": "esic-home",
@@ -234,7 +236,8 @@
       "kind": "page",
       "official": true,
       "url": "https://www.esic.gov.in/",
-      "linkExclude": "tender|recruitment|hospital|empanelment|vacanc"
+      "linkExclude": "tender|recruitment|hospital|empanelment|vacanc",
+      "proxyFirst": true
     },
     {
       "id": "news-labour",
@@ -252,7 +255,8 @@
       "kind": "page",
       "official": true,
       "url": "https://www.mahagst.gov.in/en/profession-tax-and-allied-acts-notifications?page=1",
-      "linkInclude": "notification|circular|trade circular|act|rules|\\.pdf"
+      "linkInclude": "notification|circular|trade circular|act|rules|\\.pdf",
+      "proxyFirst": true
     },
     {
       "id": "news-mh",
@@ -278,8 +282,9 @@
       "area": "loan",
       "kind": "page",
       "official": true,
-      "url": "https://www.kviconline.gov.in/pmegpeportal/pmegphome/index.jsp",
-      "linkInclude": "circular|guideline|subsid|margin money|notice|amendment|\\.pdf"
+      "url": "https://www.kviconline.gov.in/",
+      "linkInclude": "circular|guideline|subsid|margin money|notice|amendment|\\.pdf",
+      "proxyFirst": true
     },
     {
       "id": "cgtmse",
@@ -288,7 +293,8 @@
       "kind": "page",
       "official": true,
       "url": "https://www.cgtmse.in/",
-      "linkInclude": "circular|guideline|fee|coverage|scheme|\\.pdf"
+      "linkInclude": "circular|guideline|fee|coverage|scheme|\\.pdf",
+      "proxyFirst": true
     },
     {
       "id": "sidbi",
@@ -306,7 +312,8 @@
       "kind": "page",
       "official": true,
       "url": "https://www.nabard.org/",
-      "linkInclude": "circular|scheme|subsid|refinance|guideline|\\.pdf"
+      "linkInclude": "circular|scheme|subsid|refinance|guideline|\\.pdf",
+      "proxyFirst": true
     },
     {
       "id": "maitri-mh",

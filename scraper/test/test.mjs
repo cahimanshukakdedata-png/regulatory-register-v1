@@ -84,6 +84,27 @@ await t("fetcher: old TLS is retried, and proxy is skipped when told to", async 
   assert.ok(r.ok); assert.equal(r.text, "ok"); assert.ok(n >= 3, "retried with other TLS settings");
 });
 
+await t("fetcher: proxyFirst skips the direct attempt", async () => {
+  const calls = [];
+  const raw = async (url) => { calls.push(url); return { ok: true, status: 200, url, headers: { get: () => "text/html" }, text: async () => "y".repeat(400) }; };
+  const fetchText = makeFetcher({ userAgent: "t", timeoutMs: 5000, proxies: ["https://proxy.example/raw?url={enc}"] }, raw);
+  const r = await fetchText("https://www.esic.gov.in/", { proxyFirst: true });
+  assert.equal(calls.length, 1);
+  assert.ok(calls[0].startsWith("https://proxy.example/"), calls[0]);
+  assert.equal(r.via, "proxy.example");
+  assert.equal(r.finalUrl, "https://www.esic.gov.in/");
+});
+
+await t("fetcher: proxyFirst falls back to the site when every proxy fails", async () => {
+  const raw = async (url) => {
+    if (url.startsWith("https://proxy.example")) throw new Error("fetch failed");
+    return { ok: true, status: 200, url, headers: { get: () => "text/html" }, text: async () => "direct" };
+  };
+  const fetchText = makeFetcher({ userAgent: "t", timeoutMs: 5000, proxies: ["https://proxy.example/raw?url={enc}"] }, raw);
+  const r = await fetchText("https://www.esic.gov.in/", { proxyFirst: true });
+  assert.equal(r.text, "direct"); assert.equal(r.via, undefined);
+});
+
 await t("friendly errors", () => {
   const mk = (m, code) => Object.assign(new Error(m), { cause: { code } });
   assert.match(friendlyError(mk("fetch failed", "ENOTFOUND")), /could not be found/);

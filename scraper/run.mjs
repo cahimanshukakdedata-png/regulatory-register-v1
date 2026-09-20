@@ -45,8 +45,9 @@ export function makeFetcher(settings, rawFetch = undiciFetch) {
     };
   };
   return async function fetchText(url, opts = {}) {
+    const timeoutMs = opts.timeoutMs || settings.timeoutMs;
     const attempt = async (target, dispatcher) => {
-      const res = await rawFetch(target, { headers: baseHeaders(target), redirect: "follow", dispatcher, signal: AbortSignal.timeout(settings.timeoutMs) });
+      const res = await rawFetch(target, { headers: baseHeaders(target), redirect: "follow", dispatcher, signal: AbortSignal.timeout(timeoutMs) });
       const text = await res.text();
       return { ok: res.ok, status: res.status, text, finalUrl: res.url || target, contentType: res.headers.get("content-type") || "" };
     };
@@ -64,6 +65,13 @@ export function makeFetcher(settings, rawFetch = undiciFetch) {
       }
       return null;
     };
+
+    // Sites that always block or stall are read through the proxy straight away,
+    // so a run is not spent waiting for three timeouts.
+    if (opts.proxyFirst && opts.proxy !== false) {
+      const early = await viaProxy("known to refuse direct requests");
+      if (early) return early;
+    }
 
     let firstError = null, blockedStatus = 0;
     try {
@@ -149,7 +157,7 @@ export function gnewsUrl(query) {
 async function readSource(src, ctx) {
   const { fetchText, snapshots, settings } = ctx;
   const url = src.kind === "gnews" ? gnewsUrl(src.query) : src.url;
-  const r = await fetchText(url, { proxy: src.proxy !== false });
+  const r = await fetchText(url, { proxy: src.proxy !== false, proxyFirst: !!src.proxyFirst, timeoutMs: src.timeoutMs });
   if (!r.ok) throw new Error(r.status === 403 || r.status === 406 ? `the site refused the request (HTTP ${r.status}); a reader proxy did not help either`
     : r.status === 429 ? "the site asked us to slow down (HTTP 429)" : `HTTP ${r.status}`);
   const notes = [];
