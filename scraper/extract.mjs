@@ -3,7 +3,7 @@
 import crypto from "node:crypto";
 import * as cheerio from "cheerio";
 
-export const AREA_IDS = ["gst", "it", "tds", "mca", "acc", "sebi", "fema", "labour", "mh"];
+export const AREA_IDS = ["gst", "it", "tds", "mca", "acc", "sebi", "fema", "labour", "mh", "loan"];
 
 const MONTHS = { jan:0, feb:1, mar:2, apr:3, may:4, jun:5, jul:6, aug:7, sep:8, sept:8, oct:9, nov:10, dec:11,
   january:0, february:1, march:2, april:3, june:5, july:6, august:7, september:8, october:9, november:10, december:11 };
@@ -68,6 +68,7 @@ export function classifyType(title, text = "") {
 // Area override rules, checked in order. First match wins.
 const AREA_RULES = [
   ["tds", /\b(TDS|TCS|TRACES|Form (138|140|141|143|144|130|131|133)|24Q|26Q|27Q|27EQ|194[A-Z]{0,2}|206C|tax deducted at source|tax collected at source|lower deduction)\b/i],
+  ["loan", /\b(subsid(y|ies|ised)|subvention|PMEGP|MUDRA|Stand[- ]?Up India|CGTMSE|collateral[- ]free|credit guarantee|SIDBI|NABARD|margin money|industrial policy|incentive scheme|capital investment incentive|MSME loan|PMFME|PLI scheme|seed fund|startup policy|viability gap)\b/i],
   ["labour", /\b(EPFO?|provident fund|ESIC?|employees'? state insurance|labour codes?|code on wages|social security code|gratuity|minimum wages?|bonus act|shops and establishment)\b/i],
   ["mh", /\b(Maharashtra|MahaGST|profession(al)? tax|Mumbai stamp|MVAT)\b/i],
   ["fema", /\b(FEMA|foreign exchange management|RBI|Reserve Bank|ECB|external commercial borrowing|overseas investment|ODI|LRS|liberalised remittance|FDI|NDI rules|FIRMS|export proceeds)\b/i],
@@ -211,7 +212,26 @@ export function articleText(html) {
 
 // Links on a listing page that look like documents or announcements.
 const LINK_NOISE = /^(home|about( us)?|contact( us)?|login|log ?in|sign ?in|register|sitemap|site map|faqs?|help|feedback|privacy( policy)?|terms.*|disclaimer|copyright.*|screen reader.*|skip to.*|accessibility.*|search|more|read more|view all|click here|download|english|हिन्दी|hindi|marathi|मराठी|archives?|back|next|previous|go|submit|rti|tenders?|careers?|recruitment|photo gallery|videos?|a-|a\+|a)$/i;
+export function extractMarkdownLinks(text, baseUrl, linkInclude, linkExclude) {
+  const inc = linkInclude ? new RegExp(linkInclude, "i") : null;
+  const exc = linkExclude ? new RegExp(linkExclude, "i") : null;
+  const out = new Map();
+  for (const m of String(text).matchAll(/\[([^\]\n]{12,300})\]\(([^)\s]+)\)/g)) {
+    const title = clean(decodeEntities(m[1])).replace(/\n+/g, " ");
+    let abs; try { abs = new URL(m[2], baseUrl).toString(); } catch { continue; }
+    if (!/^https?:/i.test(abs) || LINK_NOISE.test(title)) continue;
+    const hay = `${title} ${abs}`;
+    if (inc && !inc.test(hay)) continue;
+    if (exc && exc.test(hay)) continue;
+    const key = abs.replace(/#.*$/, "");
+    if (!out.has(key)) out.set(key, { title, link: key, isPdf: /\.pdf(\?|$)/i.test(key) });
+  }
+  return [...out.values()];
+}
+
 export function extractLinks(html, baseUrl, linkInclude, linkExclude) {
+  // Some text proxies return markdown instead of HTML.
+  if (!/<a[\s>]/i.test(html) && /\]\(\S+\)/.test(html)) return extractMarkdownLinks(html, baseUrl, linkInclude, linkExclude);
   const $ = cheerio.load(html);
   $("script,style,noscript,header nav,footer").remove();
   const inc = linkInclude ? new RegExp(linkInclude, "i") : null;

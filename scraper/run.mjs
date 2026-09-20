@@ -6,6 +6,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import crypto from "node:crypto";
 import { XMLParser } from "fast-xml-parser";
 import { fetch as undiciFetch, Agent } from "undici";
 import {
@@ -16,36 +17,78 @@ import {
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 
 /* ---------------- Fetching ---------------- */
+// Government sites break in three ways: broken certificate chains, very old TLS,
+// and blocking anything that is not a browser. The fetcher climbs a ladder:
+// normal request -> relaxed certificate -> legacy TLS -> public text proxy.
 const insecureAgent = new Agent({ connect: { rejectUnauthorized: false } });
+const legacyAgent = new Agent({ connect: {
+  rejectUnauthorized: false, minVersion: "TLSv1", ciphers: "DEFAULT@SECLEVEL=0",
+  secureOptions: crypto.constants.SSL_OP_LEGACY_SERVER_CONNECT | crypto.constants.SSL_OP_ALLOW_UNSAFE_LEGACY_RENEGOTIATION
+} });
 const CERT_ERR = /CERT|certificate|UNABLE_TO_VERIFY|SELF_SIGNED|unable to get local issuer/i;
+const NET_ERR = /timeout|ECONNRESET|ECONNREFUSED|EPROTO|socket|fetch failed|handshake|SSL|TLS/i;
+const BLOCKED = new Set([401, 403, 405, 406, 409, 418, 429, 451, 503]);
 
-export function makeFetcher(settings) {
-  const headers = {
-    "user-agent": settings.userAgent,
-    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,application/rss+xml,*/*;q=0.8",
-    "accept-language": "en-IN,en;q=0.9"
-  };
-  return async function fetchText(url) {
-    const attempt = async (dispatcher) => {
-      const res = await undiciFetch(url, { headers, redirect: "follow", dispatcher, signal: AbortSignal.timeout(settings.timeoutMs) });
-      const text = await res.text();
-      return { ok: res.ok, status: res.status, text, finalUrl: res.url || url, contentType: res.headers.get("content-type") || "" };
+export function makeFetcher(settings, rawFetch = undiciFetch) {
+  const proxies = settings.proxies || [];
+  const baseHeaders = (url) => {
+    let origin = ""; try { origin = new URL(url).origin + "/"; } catch {}
+    return {
+      "user-agent": settings.userAgent,
+      "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,application/rss+xml,image/avif,image/webp,*/*;q=0.8",
+      "accept-language": "en-IN,en-GB;q=0.9,en;q=0.8",
+      "cache-control": "no-cache",
+      "pragma": "no-cache",
+      "upgrade-insecure-requests": "1",
+      "sec-fetch-dest": "document", "sec-fetch-mode": "navigate", "sec-fetch-site": "none", "sec-fetch-user": "?1",
+      ...(origin ? { referer: origin } : {})
     };
+  };
+  return async function fetchText(url, opts = {}) {
+    const attempt = async (target, dispatcher) => {
+      const res = await rawFetch(target, { headers: baseHeaders(target), redirect: "follow", dispatcher, signal: AbortSignal.timeout(settings.timeoutMs) });
+      const text = await res.text();
+      return { ok: res.ok, status: res.status, text, finalUrl: res.url || target, contentType: res.headers.get("content-type") || "" };
+    };
+    const viaProxy = async (reason) => {
+      if (opts.proxy === false || !proxies.length) return null;
+      for (const tpl of proxies) {
+        const target = tpl.replace("{enc}", encodeURIComponent(url)).replace("{url}", url);
+        try {
+          const r = await attempt(target, undefined);
+          if (r.ok && r.text && r.text.length > 200) {
+            r.via = new URL(target).hostname; r.viaReason = reason; r.finalUrl = url;
+            return r;
+          }
+        } catch { /* try the next proxy */ }
+      }
+      return null;
+    };
+
+    let firstError = null, blockedStatus = 0;
     try {
-      return await attempt(undefined);
+      const r = await attempt(url, undefined);
+      if (!BLOCKED.has(r.status)) return r;
+      blockedStatus = r.status;
     } catch (e) {
+      firstError = e;
       const msg = `${e?.message || e} ${e?.cause?.code || ""} ${e?.cause?.message || ""}`;
       if (CERT_ERR.test(msg)) {
-        const r = await attempt(insecureAgent);   // public government pages with broken certificate chains
-        r.certWarning = true;
-        return r;
+        try { const r = await attempt(url, insecureAgent); r.certWarning = true; if (!BLOCKED.has(r.status)) return r; blockedStatus = r.status; }
+        catch (e2) { firstError = e2; }
       }
-      if (/timeout|ECONNRESET|socket|fetch failed/i.test(msg)) {
-        await sleep(1500);
-        return await attempt(undefined);
+      if (!blockedStatus && NET_ERR.test(msg)) {
+        await sleep(1200);
+        for (const agent of [undefined, insecureAgent, legacyAgent]) {
+          try { const r = await attempt(url, agent); r.certWarning = agent !== undefined; if (!BLOCKED.has(r.status)) return r; blockedStatus = r.status; break; }
+          catch (e3) { firstError = e3; }
+        }
       }
-      throw e;
     }
+    const proxied = await viaProxy(blockedStatus ? `HTTP ${blockedStatus}` : "could not connect");
+    if (proxied) return proxied;
+    if (blockedStatus) return { ok: false, status: blockedStatus, text: "", finalUrl: url, contentType: "" };
+    throw firstError || new Error("could not connect");
   };
 }
 const sleep = ms => new Promise(r => setTimeout(r, ms));
@@ -106,10 +149,12 @@ export function gnewsUrl(query) {
 async function readSource(src, ctx) {
   const { fetchText, snapshots, settings } = ctx;
   const url = src.kind === "gnews" ? gnewsUrl(src.query) : src.url;
-  const r = await fetchText(url);
-  if (!r.ok) throw new Error(`HTTP ${r.status}`);
+  const r = await fetchText(url, { proxy: src.proxy !== false });
+  if (!r.ok) throw new Error(r.status === 403 || r.status === 406 ? `the site refused the request (HTTP ${r.status}); a reader proxy did not help either`
+    : r.status === 429 ? "the site asked us to slow down (HTTP 429)" : `HTTP ${r.status}`);
   const notes = [];
   if (r.certWarning) notes.push("site certificate is broken; read anyway");
+  if (r.via) notes.push(`site refused a direct request (${r.viaReason}); read through ${r.via}`);
   const inc = src.include ? new RegExp(src.include, "i") : null;
   const exc = src.exclude ? new RegExp(src.exclude, "i") : null;
 
@@ -170,6 +215,18 @@ async function readSource(src, ctx) {
   throw new Error(`Unknown source kind "${src.kind}"`);
 }
 
+export function friendlyError(e) {
+  const msg = `${e?.message || e} ${e?.cause?.code || ""} ${e?.cause?.message || ""}`.trim();
+  if (/ENOTFOUND|EAI_AGAIN/i.test(msg)) return "website address could not be found (DNS)";
+  if (/ECONNREFUSED/i.test(msg)) return "the website refused the connection";
+  if (/timeout|TimeoutError/i.test(msg)) return "the website did not answer in time";
+  if (CERT_ERR.test(msg)) return "the website's security certificate could not be read";
+  if (/EPROTO|SSL|TLS|handshake/i.test(msg)) return "the website's security settings are too old to connect to";
+  if (/fetch failed/i.test(msg)) return "could not connect to the website (network or TLS problem)";
+  if (/not an RSS or Atom feed/i.test(msg)) return "the address did not return a feed; check the URL";
+  return String(e?.message || e).slice(0, 200);
+}
+
 /* ---------------- Enrichment (note taking) ---------------- */
 async function enrich(item, cand, ctx) {
   const today = istToday(ctx.now);
@@ -186,7 +243,7 @@ async function enrich(item, cand, ctx) {
     ctx.visits++;
     try {
       if (ctx.settings.politeDelayMs) await sleep(ctx.settings.politeDelayMs);
-      const r = await ctx.fetchText(item.link);
+      const r = await ctx.fetchText(item.link, { proxy: true });
       if (r.ok && /html/i.test(r.contentType || "text/html")) {
         const a = articleText(r.text);
         body = a.text || body; meta = a.metaDesc;
@@ -240,7 +297,7 @@ export async function collect(opts = {}) {
       } catch (e) {
         const p = prevSourceMap[src.id];
         statuses.push({ id: src.id, name: src.name, area: src.area, kind: src.kind, official: !!src.official, url: src.kind === "gnews" ? gnewsUrl(src.query) : src.url,
-          ok: false, fetched: 0, kept: 0, error: String(e?.message || e).slice(0, 200), lastOk: p?.lastOk || null, ms: Date.now() - started });
+          ok: false, fetched: 0, kept: 0, error: friendlyError(e), lastOk: p?.lastOk || null, ms: Date.now() - started });
       }
     }
   }

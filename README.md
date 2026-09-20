@@ -31,14 +31,16 @@ The older file is loaded only when you open "Last 90 days" or pick an older date
 
 **Page watch** works like this. On its first visit to a government page, the collector saves every link on the page. On later visits it reports only the links that are new. So official websites start showing items from the **second run onward**. Feeds and news searches show items from the first run.
 
-## Set it up (about 15 minutes, no coding)
+## Set it up
+
+**See SETUP.md for the click-by-click version.** In brief (about 15 minutes, no coding):
 
 1. **Create a GitHub account** at github.com if you don't have one.
 2. **Create a repository.** Click **New repository**, name it `regulatory-register`, choose **Public**, and click **Create**.
    A public repository keeps GitHub Pages free. The page only holds public information. Your read marks, stars and own entries stay in your browser.
 3. **Upload the files.** On the new repository page, click **uploading an existing file**. Unzip the download and drag **everything inside the `regulatory-register` folder** onto the page. Then click **Commit changes**.
    - Check that `.github/workflows/update.yml` appears in the repository. Folders starting with a dot are sometimes hidden and skipped.
-   - If it is missing, click **Add file → Create new file**, type `.github/workflows/update.yml` as the name, paste the contents of that file, and commit.
+   - If it is missing, click **Add file → Create new file**, type `.github/workflows/update.yml` as the name, paste the contents of `workflow-file.txt` (the same file, kept visible for this purpose), and commit.
 4. **Turn on the website.** Go to **Settings → Pages**. Under *Build and deployment*, set **Source** to **GitHub Actions**.
 5. **Run the collector once.** Go to the **Actions** tab. If asked, click **I understand my workflows, go ahead and enable them**. Then select **Collect updates** and click **Run workflow**. It takes about 3 to 5 minutes and shows a green tick when done.
 6. **Open your register** at `https://YOUR-USERNAME.github.io/regulatory-register/` and bookmark it. It works on phone too.
@@ -48,6 +50,24 @@ After this, it runs by itself at about 7 am, 11 am, 3 pm and 8 pm IST.
 
 - **Refresh** loads the newest collection.
 - **Collect now** opens the GitHub page where you can start an extra run.
+
+## When a government site blocks the collector
+
+Several government sites refuse requests that do not come from a normal browser, or run very
+old security settings. The collector tries four ways, in order:
+
+1. a normal request with browser-like headers;
+2. again, accepting a broken security certificate;
+3. again, allowing old TLS versions, which several government servers still use;
+4. through a public reader service (`api.allorigins.win`, then `api.codetabs.com`), which
+   fetches the page and hands back its text.
+
+When step 4 is used, the Sources tab says so on that row, for example
+"site refused a direct request (HTTP 403); read through api.allorigins.win".
+
+Those reader services are free, third-party and outside your control. They only ever fetch
+public government pages, but if you would rather not use them, remove the `proxies` list in
+`scraper/sources.json`, or add `"proxy": false` to a single source.
 
 ## Check the Sources tab after the first run
 
@@ -79,6 +99,7 @@ Edit `scraper/sources.json` directly on GitHub: open the file and click the penc
 | `reclassify` | `true` lets the collector move items to a better tab (for example TDS news found in an income-tax feed) |
 | `requireSignal` | `true` drops explainers and keeps only items that mention notifications, circulars, extensions and similar |
 | `enabled` | `false` switches a source off without deleting it |
+| `proxy` | `false` stops this source from ever being read through a reader service |
 
 To stop a source, add `"enabled": false`. To test one source on your own computer, run `node scraper/run.mjs --only=cbic-gst`.
 

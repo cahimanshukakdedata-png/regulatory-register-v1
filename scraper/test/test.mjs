@@ -3,8 +3,8 @@ import fs from "node:fs/promises";
 import os from "node:os";
 import path from "node:path";
 import assert from "node:assert/strict";
-import { collect } from "../run.mjs";
-import { findDeadlines, findRefs, classifyType, classifyArea, pickNotes, extractLinks } from "../extract.mjs";
+import { collect, makeFetcher, friendlyError } from "../run.mjs";
+import { findDeadlines, findRefs, classifyType, classifyArea, pickNotes, extractLinks, extractMarkdownLinks } from "../extract.mjs";
 
 let passed = 0;
 const t = (name, fn) => Promise.resolve().then(fn).then(() => { passed++; console.log("ok  " + name); }, e => { console.error("FAIL " + name + "\n", e); process.exitCode = 1; });
@@ -32,6 +32,9 @@ await t("reclassifies area", () => {
   assert.equal(classifyArea("New Form 140 for TDS on non-salary payments", "it", true), "tds");
   assert.equal(classifyArea("EPFO revises interest rate", "mca", true), "labour");
   assert.equal(classifyArea("EPFO revises interest rate", "mca", false), "mca");
+  assert.equal(classifyArea("Maharashtra announces capital subsidy under new industrial policy", "mh", true), "loan");
+  assert.equal(classifyArea("CGTMSE revises guarantee fee for collateral-free MSME loans", "it", true), "loan");
+  assert.equal(classifyArea("Maharashtra profession tax return date advanced", "gst", true), "mh");
 });
 await t("picks notes from substance", () => {
   const n = pickNotes("Click here to join our WhatsApp group for updates on every topic we cover.\nThe Board has extended the due date for furnishing the audit report from 30 September 2026 to 31 October 2026.\nThis is a nice day and the weather in the city was pleasant for most of the week.\nThe extension applies to assessees referred to in section 139(1) and no interest under section 234A shall be charged.");
@@ -41,6 +44,51 @@ await t("picks notes from substance", () => {
 await t("extracts document links and skips navigation", () => {
   const l = extractLinks(`<a href="/">Home</a><a href="/c/notif-12.pdf">Notification No. 12/2026-Central Tax dated 10.09.2026</a><a href="javascript:void(0)">Screen Reader Access</a>`, "https://cbic-gst.gov.in/", "notification|\\.pdf");
   assert.equal(l.length, 1); assert.ok(l[0].isPdf); assert.equal(l[0].link, "https://cbic-gst.gov.in/c/notif-12.pdf");
+});
+
+await t("reads markdown from a text proxy when there is no HTML", () => {
+  const md = "Header\n\n[Notification No. 12/2026 dated 10.09.2026](/files/n12.pdf)\n[Home](/)\n";
+  const l = extractMarkdownLinks(md, "https://incometaxindia.gov.in/", "notification|\\.pdf");
+  assert.equal(l.length, 1); assert.equal(l[0].link, "https://incometaxindia.gov.in/files/n12.pdf"); assert.ok(l[0].isPdf);
+  const viaExtract = extractLinks(md, "https://incometaxindia.gov.in/", "notification|\\.pdf");
+  assert.equal(viaExtract.length, 1);
+});
+
+await t("fetcher: blocked site is retried through a proxy", async () => {
+  const calls = [];
+  const raw = async (url) => {
+    calls.push(url);
+    if (url.startsWith("https://www.mca.gov.in")) return { ok: false, status: 403, text: "", url, headers: { get: () => "text/html" } };
+    return { ok: true, status: 200, text: async () => "<html><body>" + "x".repeat(300) + "</body></html>", url, headers: { get: () => "text/html" } };
+  };
+  const wrap = async (url, o) => { const r = await raw(url, o); return { ...r, text: typeof r.text === "function" ? r.text : async () => "" }; };
+  const fetchText = makeFetcher({ userAgent: "test", timeoutMs: 5000, proxies: ["https://proxy.example/raw?url={enc}"] },
+    async (url, opts) => { const r = await raw(url, opts); return { ok: r.ok, status: r.status, url, headers: r.headers, text: r.text || (async () => "") }; });
+  const r = await fetchText("https://www.mca.gov.in/x");
+  assert.ok(r.ok, "proxy result returned");
+  assert.equal(r.via, "proxy.example");
+  assert.match(r.viaReason, /403/);
+  assert.equal(r.finalUrl, "https://www.mca.gov.in/x");
+  assert.equal(calls.length, 2);
+});
+
+await t("fetcher: old TLS is retried, and proxy is skipped when told to", async () => {
+  let n = 0;
+  const raw = async (url) => {
+    n++;
+    if (n < 3) { const e = new Error("fetch failed"); e.cause = { code: "EPROTO", message: "handshake failure" }; throw e; }
+    return { ok: true, status: 200, url, headers: { get: () => "text/html" }, text: async () => "ok" };
+  };
+  const fetchText = makeFetcher({ userAgent: "test", timeoutMs: 5000, proxies: ["https://proxy.example/raw?url={enc}"] }, raw);
+  const r = await fetchText("https://www.esic.gov.in/", { proxy: false });
+  assert.ok(r.ok); assert.equal(r.text, "ok"); assert.ok(n >= 3, "retried with other TLS settings");
+});
+
+await t("friendly errors", () => {
+  const mk = (m, code) => Object.assign(new Error(m), { cause: { code } });
+  assert.match(friendlyError(mk("fetch failed", "ENOTFOUND")), /could not be found/);
+  assert.match(friendlyError(mk("fetch failed", "EPROTO")), /too old/);
+  assert.match(friendlyError(new Error("Response is not an RSS or Atom feed")), /did not return a feed/);
 });
 
 /* ---- end-to-end with fixtures ---- */
@@ -104,7 +152,7 @@ await t("run 1: feeds collected, page baselined, broken source reported", () => 
   const cbic = d1.sources.find(s => s.id === "cbic");
   assert.ok(cbic.ok && cbic.kept === 0 && /first visit/.test(cbic.note), JSON.stringify(cbic));
   const dead = d1.sources.find(s => s.id === "dead");
-  assert.equal(dead.ok, false); assert.match(dead.error, /ENOTFOUND/);
+  assert.equal(dead.ok, false); assert.match(dead.error, /could not be found/);
 });
 await t("run 1: notes, refs, deadline, type and dedupe", () => {
   const g = d1.items.find(i => i.link === "https://t/gstr9");
