@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-09-22T09:41:11.101Z",
+ "generatedAt": "2026-09-22T14:37:43.855Z",
  "repo": "cahimanshukakdedata-png/regulatory-register-v1",
- "newThisRun": 28,
+ "newThisRun": 44,
  "sources": [
   {
    "id": "icai-home",
@@ -14,8 +14,8 @@
    "fetched": 37,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-09-22T09:41:11.101Z",
-   "ms": 1142
+   "lastOk": "2026-09-22T14:37:43.855Z",
+   "ms": 1290
   },
   {
    "id": "news-acc",
@@ -25,11 +25,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(ICAI%20OR%20NFRA%20OR%20%22Ind%20AS%22%20OR%20UDIN)%20(announcement%20OR%20notification%20OR%20amendment%20OR%20guidance)%20when%3A14d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 31,
+   "fetched": 33,
    "kept": 10,
    "note": "",
-   "lastOk": "2026-09-22T09:41:11.101Z",
-   "ms": 264
+   "lastOk": "2026-09-22T14:37:43.855Z",
+   "ms": 344
   },
   {
    "id": "nfra-home",
@@ -39,11 +39,11 @@
    "official": true,
    "url": "https://nfra.gov.in/",
    "ok": true,
-   "fetched": 28,
-   "kept": 0,
+   "fetched": 29,
+   "kept": 2,
    "note": "",
-   "lastOk": "2026-09-22T09:41:11.101Z",
-   "ms": 1897
+   "lastOk": "2026-09-22T14:37:43.855Z",
+   "ms": 1744
   },
   {
    "id": "taxguru-ca",
@@ -56,8 +56,8 @@
    "fetched": 100,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-09-22T09:41:11.101Z",
-   "ms": 1014
+   "lastOk": "2026-09-22T14:37:43.855Z",
+   "ms": 926
   },
   {
    "id": "rbi-notifications",
@@ -70,8 +70,8 @@
    "fetched": 10,
    "kept": 3,
    "note": "",
-   "lastOk": "2026-09-22T09:41:11.101Z",
-   "ms": 879
+   "lastOk": "2026-09-22T14:37:43.855Z",
+   "ms": 1137
   },
   {
    "id": "rbi-press",
@@ -82,10 +82,10 @@
    "url": "https://www.rbi.org.in/pressreleases_rss.xml",
    "ok": true,
    "fetched": 10,
-   "kept": 1,
+   "kept": 0,
    "note": "",
-   "lastOk": "2026-09-22T09:41:11.101Z",
-   "ms": 870
+   "lastOk": "2026-09-22T14:37:43.855Z",
+   "ms": 1124
   },
   {
    "id": "taxguru-rbi",
@@ -98,8 +98,8 @@
    "fetched": 100,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-09-22T09:41:11.101Z",
-   "ms": 1023
+   "lastOk": "2026-09-22T14:37:43.855Z",
+   "ms": 882
   },
   {
    "id": "cbic-gst",
@@ -112,8 +112,8 @@
    "fetched": 25,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-09-22T09:41:11.101Z",
-   "ms": 1286
+   "lastOk": "2026-09-22T14:37:43.855Z",
+   "ms": 1376
   },
   {
    "id": "gst-council",
@@ -126,8 +126,8 @@
    "fetched": 18,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-09-22T09:41:11.101Z",
-   "ms": 3004
+   "lastOk": "2026-09-22T14:37:43.855Z",
+   "ms": 3125
   },
   {
    "id": "gst-portal-news",
@@ -140,8 +140,8 @@
    "fetched": 0,
    "kept": 0,
    "note": "page returned no usable links (it may need a real browser); this section relies on its other sources",
-   "lastOk": "2026-09-22T09:41:11.101Z",
-   "ms": 1579
+   "lastOk": "2026-09-22T14:37:43.855Z",
+   "ms": 1819
   },
   {
    "id": "news-gst",
@@ -154,8 +154,8 @@
    "fetched": 55,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-09-22T09:41:11.101Z",
-   "ms": 397
+   "lastOk": "2026-09-22T14:37:43.855Z",
+   "ms": 554
   },
   {
    "id": "taxguru-gst",
@@ -168,8 +168,8 @@
    "fetched": 100,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-09-22T09:41:11.101Z",
-   "ms": 2110
+   "lastOk": "2026-09-22T14:37:43.855Z",
+   "ms": 1399
   },
   {
    "id": "cbdt-communications",
@@ -182,8 +182,8 @@
    "fetched": 4,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-09-22T09:41:11.101Z",
-   "ms": 1829
+   "lastOk": "2026-09-22T14:37:43.855Z",
+   "ms": 9533
   },
   {
    "id": "itd-latest",
@@ -196,8 +196,8 @@
    "fetched": 39,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-09-22T09:41:11.101Z",
-   "ms": 1528
+   "lastOk": "2026-09-22T14:37:43.855Z",
+   "ms": 1343
   },
   {
    "id": "news-it",
@@ -210,8 +210,8 @@
    "fetched": 60,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-09-22T09:41:11.101Z",
-   "ms": 384
+   "lastOk": "2026-09-22T14:37:43.855Z",
+   "ms": 393
   },
   {
    "id": "taxguru-it",
@@ -224,8 +224,8 @@
    "fetched": 100,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-09-22T09:41:11.101Z",
-   "ms": 1821
+   "lastOk": "2026-09-22T14:37:43.855Z",
+   "ms": 884
   },
   {
    "id": "epfo-home",
@@ -238,8 +238,8 @@
    "fetched": 0,
    "kept": 0,
    "note": "site refused a direct request (known to refuse direct requests); read through r.jina.ai; page returned no usable links (it may need a real browser); this section relies on its other sources",
-   "lastOk": "2026-09-22T09:41:11.101Z",
-   "ms": 31169
+   "lastOk": "2026-09-22T14:37:43.855Z",
+   "ms": 35096
   },
   {
    "id": "esic-home",
@@ -252,8 +252,8 @@
    "fetched": 78,
    "kept": 0,
    "note": "site refused a direct request (known to refuse direct requests); read through r.jina.ai",
-   "lastOk": "2026-09-22T09:41:11.101Z",
-   "ms": 57672
+   "lastOk": "2026-09-22T14:37:43.855Z",
+   "ms": 57988
   },
   {
    "id": "news-labour",
@@ -263,11 +263,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(EPFO%20OR%20ESIC%20OR%20%22labour%20code%22)%20(notification%20OR%20circular%20OR%20rules%20OR%20extended%20OR%20deadline)%20when%3A14d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 82,
+   "fetched": 83,
    "kept": 14,
    "note": "",
-   "lastOk": "2026-09-22T09:41:11.101Z",
-   "ms": 389
+   "lastOk": "2026-09-22T14:37:43.855Z",
+   "ms": 555
   },
   {
    "id": "cgtmse",
@@ -280,8 +280,8 @@
    "fetched": 1,
    "kept": 0,
    "note": "site refused a direct request (known to refuse direct requests); read through r.jina.ai",
-   "lastOk": "2026-09-22T09:41:11.101Z",
-   "ms": 57713
+   "lastOk": "2026-09-22T14:37:43.855Z",
+   "ms": 39430
   },
   {
    "id": "maitri-mh",
@@ -294,8 +294,8 @@
    "fetched": 1,
    "kept": 0,
    "note": "site certificate is broken; read anyway",
-   "lastOk": "2026-09-22T09:41:11.101Z",
-   "ms": 2093
+   "lastOk": "2026-09-22T14:37:43.855Z",
+   "ms": 2322
   },
   {
    "id": "msme-ministry",
@@ -308,8 +308,8 @@
    "fetched": 0,
    "kept": 0,
    "note": "page returned no usable links (it may need a real browser); this section relies on its other sources",
-   "lastOk": "2026-09-22T09:41:11.101Z",
-   "ms": 2697
+   "lastOk": "2026-09-22T14:37:43.855Z",
+   "ms": 3912
   },
   {
    "id": "nabard",
@@ -322,8 +322,8 @@
    "fetched": 5,
    "kept": 0,
    "note": "site refused a direct request (known to refuse direct requests); read through r.jina.ai",
-   "lastOk": "2026-09-22T09:41:11.101Z",
-   "ms": 57683
+   "lastOk": "2026-09-22T14:37:43.855Z",
+   "ms": 58602
   },
   {
    "id": "news-loan-central",
@@ -336,8 +336,8 @@
    "fetched": 44,
    "kept": 21,
    "note": "",
-   "lastOk": "2026-09-22T09:41:11.101Z",
-   "ms": 378
+   "lastOk": "2026-09-22T14:37:43.855Z",
+   "ms": 8127
   },
   {
    "id": "news-loan-east",
@@ -347,11 +347,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(%22West%20Bengal%22%20OR%20Odisha%20OR%20Jharkhand%20OR%20Chhattisgarh%20OR%20Assam%20OR%20%22North%20East%22)%20(subsidy%20OR%20incentive%20OR%20%22industrial%20policy%22%20OR%20%22loan%20scheme%22)%20when%3A21d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 46,
+   "fetched": 45,
    "kept": 8,
    "note": "",
-   "lastOk": "2026-09-22T09:41:11.101Z",
-   "ms": 378
+   "lastOk": "2026-09-22T14:37:43.855Z",
+   "ms": 463
   },
   {
    "id": "news-loan-farm",
@@ -361,11 +361,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(NABARD%20OR%20%22Kisan%20Credit%20Card%22%20OR%20%22agriculture%20subsidy%22%20OR%20%22food%20processing%20subsidy%22%20OR%20PMFME)%20(scheme%20OR%20subsidy%20OR%20guidelines%20OR%20notification)%20when%3A21d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 42,
-   "kept": 6,
+   "fetched": 45,
+   "kept": 5,
    "note": "",
-   "lastOk": "2026-09-22T09:41:11.101Z",
-   "ms": 346
+   "lastOk": "2026-09-22T14:37:43.855Z",
+   "ms": 405
   },
   {
    "id": "news-loan-mh",
@@ -375,11 +375,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=Maharashtra%20(subsidy%20OR%20incentive%20OR%20%22industrial%20policy%22%20OR%20%22loan%20scheme%22)%20(government%20OR%20notified%20OR%20launched%20OR%20guidelines)%20when%3A21d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 37,
+   "fetched": 36,
    "kept": 8,
    "note": "",
-   "lastOk": "2026-09-22T09:41:11.101Z",
-   "ms": 332
+   "lastOk": "2026-09-22T14:37:43.855Z",
+   "ms": 368
   },
   {
    "id": "news-loan-north",
@@ -392,8 +392,8 @@
    "fetched": 69,
    "kept": 23,
    "note": "",
-   "lastOk": "2026-09-22T09:41:11.101Z",
-   "ms": 405
+   "lastOk": "2026-09-22T14:37:43.855Z",
+   "ms": 614
   },
   {
    "id": "news-loan-south",
@@ -403,11 +403,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(%22Tamil%20Nadu%22%20OR%20Karnataka%20OR%20Telangana%20OR%20%22Andhra%20Pradesh%22%20OR%20Kerala)%20(subsidy%20OR%20incentive%20OR%20%22industrial%20policy%22%20OR%20%22loan%20scheme%22)%20when%3A21d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 61,
+   "fetched": 63,
    "kept": 13,
    "note": "",
-   "lastOk": "2026-09-22T09:41:11.101Z",
-   "ms": 342
+   "lastOk": "2026-09-22T14:37:43.855Z",
+   "ms": 426
   },
   {
    "id": "news-loan-west",
@@ -417,11 +417,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(Gujarat%20OR%20%22Madhya%20Pradesh%22%20OR%20Rajasthan%20OR%20Goa)%20(subsidy%20OR%20%22industrial%20policy%22%20OR%20incentive%20OR%20%22loan%20scheme%22)%20when%3A21d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 65,
-   "kept": 15,
+   "fetched": 66,
+   "kept": 13,
    "note": "",
-   "lastOk": "2026-09-22T09:41:11.101Z",
-   "ms": 390
+   "lastOk": "2026-09-22T14:37:43.855Z",
+   "ms": 387
   },
   {
    "id": "pmegp-kvic",
@@ -435,7 +435,7 @@
    "kept": 0,
    "error": "website address could not be found (DNS)",
    "lastOk": null,
-   "ms": 80846
+   "ms": 81902
   },
   {
    "id": "sidbi",
@@ -448,8 +448,8 @@
    "fetched": 8,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-09-22T09:41:11.101Z",
-   "ms": 3553
+   "lastOk": "2026-09-22T14:37:43.855Z",
+   "ms": 3964
   },
   {
    "id": "mca-home",
@@ -462,8 +462,8 @@
    "fetched": 32,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-09-22T09:41:11.101Z",
-   "ms": 2143
+   "lastOk": "2026-09-22T14:37:43.855Z",
+   "ms": 4084
   },
   {
    "id": "news-mca",
@@ -473,11 +473,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=MCA%20(%22general%20circular%22%20OR%20notification%20OR%20%22Companies%20Act%22%20OR%20LLP%20OR%20extended)%20when%3A10d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 40,
-   "kept": 10,
+   "fetched": 43,
+   "kept": 11,
    "note": "",
-   "lastOk": "2026-09-22T09:41:11.101Z",
-   "ms": 336
+   "lastOk": "2026-09-22T14:37:43.855Z",
+   "ms": 458
   },
   {
    "id": "taxguru-company",
@@ -490,8 +490,8 @@
    "fetched": 100,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-09-22T09:41:11.101Z",
-   "ms": 1556
+   "lastOk": "2026-09-22T14:37:43.855Z",
+   "ms": 834
   },
   {
    "id": "taxguru-corporate",
@@ -504,8 +504,8 @@
    "fetched": 100,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-09-22T09:41:11.101Z",
-   "ms": 1034
+   "lastOk": "2026-09-22T14:37:43.855Z",
+   "ms": 1705
   },
   {
    "id": "mahagst-pt",
@@ -519,7 +519,7 @@
    "kept": 0,
    "error": "the website did not answer in time",
    "lastOk": null,
-   "ms": 140655
+   "ms": 145582
   },
   {
    "id": "news-mh",
@@ -530,10 +530,10 @@
    "url": "https://news.google.com/rss/search?q=Maharashtra%20(%22profession%20tax%22%20OR%20MahaGST%20OR%20%22stamp%20duty%22%20OR%20%22amnesty%20scheme%22)%20when%3A30d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
    "fetched": 50,
-   "kept": 14,
+   "kept": 15,
    "note": "",
-   "lastOk": "2026-09-22T09:41:11.101Z",
-   "ms": 291
+   "lastOk": "2026-09-22T14:37:43.855Z",
+   "ms": 385
   },
   {
    "id": "sebi-rss",
@@ -544,10 +544,10 @@
    "url": "https://www.sebi.gov.in/sebirss.xml",
    "ok": true,
    "fetched": 30,
-   "kept": 13,
+   "kept": 15,
    "note": "",
-   "lastOk": "2026-09-22T09:41:11.101Z",
-   "ms": 2085
+   "lastOk": "2026-09-22T14:37:43.855Z",
+   "ms": 2493
   },
   {
    "id": "taxguru-sebi",
@@ -560,8 +560,8 @@
    "fetched": 100,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-09-22T09:41:11.101Z",
-   "ms": 1004
+   "lastOk": "2026-09-22T14:37:43.855Z",
+   "ms": 888
   },
   {
    "id": "news-tds",
@@ -571,14 +571,770 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(TDS%20OR%20TCS%20OR%20TRACES)%20(CBDT%20OR%20notification%20OR%20%22due%20date%22%20OR%20form)%20when%3A14d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 59,
-   "kept": 16,
+   "fetched": 60,
+   "kept": 17,
    "note": "",
-   "lastOk": "2026-09-22T09:41:11.101Z",
-   "ms": 425
+   "lastOk": "2026-09-22T14:37:43.855Z",
+   "ms": 645
   }
  ],
  "items": [
+  {
+   "id": "6ceb6a6555b8",
+   "area": "gst",
+   "sourceId": "taxguru-gst",
+   "source": "TaxGuru GST",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Goods and Services Tax | Godown Rent for Agricultural Warehousing Attracts 18% GST: AAR Gujarat",
+   "link": "https://taxguru.in/goods-and-service-tax/godown-rent-agricultural-warehousing-attracts-18-percent-gst-aar-gujarat.html",
+   "published": "2026-09-22T14:35:32.000Z",
+   "firstSeen": "2026-09-22T14:37:43.855Z",
+   "summary": "AAR Gujarat rules godown rent taxable at 18% GST; RCM applies to godowns hired from unregistered persons from 10.10.2024.The post Godown Rent for Agricultural Warehousing Attracts 18% GST: AAR Gujarat appeared first on…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "12b3cd4c8e34",
+   "area": "gst",
+   "sourceId": "taxguru-gst",
+   "source": "TaxGuru GST",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Goods and Services Tax | Delhi HC Orders Fresh GST Hearing After Officer Details Were Missing",
+   "link": "https://taxguru.in/goods-and-service-tax/delhi-hc-orders-fresh-gst-hearing-officer-details-missing.html",
+   "published": "2026-09-22T10:48:59.000Z",
+   "firstSeen": "2026-09-22T14:37:43.855Z",
+   "summary": "Delhi HC sets aside GST revocation rejection and orders a fresh personal hearing after the hearing notice failed to identify the concerned officer.The post Delhi HC Orders Fresh GST Hearing After Officer Details Were…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "b54d76c2dbae",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | ITAT Chennai Deletes Rs.85.30 Lakh Section 68 Addition on Cash Gifts",
+   "link": "https://taxguru.in/income-tax/itat-chennai-deletes-rs-85-30-lakh-section-68-addition-cash-gifts.html",
+   "published": "2026-09-22T13:21:12.000Z",
+   "firstSeen": "2026-09-22T14:37:43.855Z",
+   "summary": "ITAT Chennai deletes Rs.85.30 lakh gift addition after donors confirmed gifts and assessee furnished gift deeds, returns and financials.The post ITAT Chennai Deletes Rs.85.30 Lakh Section 68 Addition on Cash Gifts…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "b961fd7d8dbe",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | Scribbled Figures Are Not ₹10 Crore Income: Karnataka HC Rejects Addition Based on Loose Sheet",
+   "link": "https://taxguru.in/income-tax/scribbled-figures-not-rs-10-crore-income-karnataka-hc-rejects-addition-based-loose-sheet.html",
+   "published": "2026-09-22T12:34:50.000Z",
+   "firstSeen": "2026-09-22T14:37:43.855Z",
+   "summary": "Karnataka HC dismissed Revenue’s appeal, holding that uncorroborated loose sheets could not establish undisclosed cash payment of ₹10 crore.The post Scribbled Figures Are Not ₹10 Crore Income: Karnataka HC Rejects…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "018b1a22e1e0",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | AY 2015-16 Reassessment Notices Issued After 1 April 2021 Must Be Dropped: Karnataka HC",
+   "link": "https://taxguru.in/income-tax/ay-2015-16-reassessment-notices-issued-1-april-2021-dropped-karnataka-hc.html",
+   "published": "2026-09-22T12:23:57.000Z",
+   "firstSeen": "2026-09-22T14:37:43.855Z",
+   "summary": "Karnataka HC dismissed Revenue's appeal for AY 2015-16, following the Revenue's concession in Rajeev Bansal that notices from 01.04.2021 must be dropped.The post AY 2015-16 Reassessment Notices Issued After 1 April 2021…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "7669b0677217",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | Karnataka High Court upholds turnover filter and excludes Bodhtree in transfer pricing appeal",
+   "link": "https://taxguru.in/income-tax/karnataka-high-court-upholds-turnover-filter-excludes-bodhtree-transfer-pricing-appeal.html",
+   "published": "2026-09-22T12:11:12.000Z",
+   "firstSeen": "2026-09-22T14:37:43.855Z",
+   "summary": "Karnataka High Court upholds ₹1–200 crore turnover filter and excludes Bodhtree as functionally different in transfer pricing appeal.The post Karnataka High Court upholds turnover filter and excludes Bodhtree in…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "de8069a7bdcc",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | Higher AE Margin Leaves No Scope for TP Adjustment: Karnataka HC",
+   "link": "https://taxguru.in/income-tax/higher-ae-margin-leaves-no-scope-tp-adjustment-karnataka-hc.html",
+   "published": "2026-09-22T12:05:43.000Z",
+   "firstSeen": "2026-09-22T14:37:43.855Z",
+   "summary": "Karnataka HC upheld internal TNMM as certified segmental accounts showed AE margin of 11.32% against 2.42% for non-AE transactions.The post Higher AE Margin Leaves No Scope for TP Adjustment: Karnataka HC appeared first…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "5ce87e12b209",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | Cash Deposit Addition Remanded for Banker Verification: Karnataka High Court",
+   "link": "https://taxguru.in/income-tax/cash-deposit-addition-remanded-banker-verification-karnataka-high-court.html",
+   "published": "2026-09-22T11:55:29.000Z",
+   "firstSeen": "2026-09-22T14:37:43.855Z",
+   "summary": "Karnataka HC quashes cash deposit assessment and penalty notice, directing fresh examination of cash book and verification from banker.The post Cash Deposit Addition Remanded for Banker Verification: Karnataka High…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "fbf84c91c640",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | Karnataka HC Quashes Ex Parte Reassessment and Restores Proceedings for Fresh Response",
+   "link": "https://taxguru.in/income-tax/karnataka-hc-quashes-parte-reassessment-restores-proceedings-fresh-response.html",
+   "published": "2026-09-22T11:47:46.000Z",
+   "firstSeen": "2026-09-22T14:37:43.855Z",
+   "summary": "Karnataka HC quashes ex parte reassessment, demand and penalty notices, restoring proceedings after the assessee claimed statutory notices were not served.The post Karnataka HC Quashes Ex Parte Reassessment and Restores…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "830db1032ee8",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | TP Findings Cannot Be Reopened Without Perversity: Karnataka High Court",
+   "link": "https://taxguru.in/income-tax/tp-findings-cannot-reopened-without-perversity-karnataka-high-court.html",
+   "published": "2026-09-22T11:41:01.000Z",
+   "firstSeen": "2026-09-22T14:37:43.855Z",
+   "summary": "Karnataka HC holds factual TP findings cannot be reopened under Section 260A absent perversity, no evidence or statutory error.The post TP Findings Cannot Be Reopened Without Perversity: Karnataka High Court appeared…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "101b28944f75",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | Karnataka High Court quashes faceless assessment for Section 69A addition without show-cause notice",
+   "link": "https://taxguru.in/income-tax/karnataka-high-court-quashes-faceless-assessment-section-69a-addition-without-show-notice.html",
+   "published": "2026-09-22T11:31:48.000Z",
+   "firstSeen": "2026-09-22T14:37:43.855Z",
+   "summary": "Karnataka High Court quashes ₹2.38 crore Section 69A addition made without proposing it in the show-cause notice and sets aside penalty notices.The post Karnataka High Court quashes faceless assessment for Section 69A…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "b17e6ffe87cb",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | Seven-Day Section 148A Response Period Mandatory: Karnataka High Court",
+   "link": "https://taxguru.in/income-tax/day-section-148a-response-period-mandatory-karnataka-high-court.html",
+   "published": "2026-09-22T11:22:56.000Z",
+   "firstSeen": "2026-09-22T14:37:43.855Z",
+   "summary": "Karnataka High Court upheld quashing of Section 148A notices that failed to provide the mandatory minimum seven-day response period.The post Seven-Day Section 148A Response Period Mandatory: Karnataka High Court…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "698e0784365a",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | Karnataka HC Quashes Reassessment Notice for Failure to Consider Assessee’s Reply",
+   "link": "https://taxguru.in/income-tax/karnataka-hc-quashes-reassessment-notice-failure-assessees-reply.html",
+   "published": "2026-09-22T11:12:10.000Z",
+   "firstSeen": "2026-09-22T14:37:43.855Z",
+   "summary": "Karnataka HC quashes reassessment order and Section 148 notice for failure to consider the assessee’s reply and relevant income computation.The post Karnataka HC Quashes Reassessment Notice for Failure to Consider…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "5dd2f7edc42f",
+   "area": "tds",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | Indian Payer Alone Does Not Create Indian Income Nexus: Delhi High Court",
+   "link": "https://taxguru.in/income-tax/indian-payer-not-create-indian-income-nexus-delhi-high-court.html",
+   "published": "2026-09-22T09:50:50.000Z",
+   "firstSeen": "2026-09-22T14:37:43.855Z",
+   "summary": "Delhi HC quashes Teva reassessment, rejects payer-location source rule and orders ₹783 crore TDS refund with interest.The post Indian Payer Alone Does Not Create Indian Income Nexus: Delhi High Court appeared first on…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "4543a6f91f50",
+   "area": "it",
+   "sourceId": "news-it",
+   "source": "News search: Income tax",
+   "official": false,
+   "publisher": "Juris Hour",
+   "type": "Judgment",
+   "title": "Punjab & Haryana HC Condones 34-Day Delay in ITR Filing",
+   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE90MlhFRlYzYkNEaEY4Q3B3VVlaUjl2b2hZV2xLdWRqR093c3hwcjh0TlZ6N3hpV2ZLMGpvaC00b0VRa0tqSDBFbU13VzR3Q0VwRlNhRFdlT2RmX3owN1VPaUlkNHRHT3JrMm9qc1hVZklWekVnaW51TWVhVnM?oc=5",
+   "published": "2026-09-22T11:22:32.000Z",
+   "firstSeen": "2026-09-22T14:37:43.855Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "7e98162cd750",
+   "area": "tds",
+   "sourceId": "news-tds",
+   "source": "News search: TDS/TCS",
+   "official": false,
+   "publisher": "Juris Hour",
+   "type": "Due date",
+   "title": "MPTCA Seeks Extension of Tax Audit Due Date to November 30 and Audited ITR Deadline to December 31 for AY 2026-27",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPbjlPajRScjJqR2pvZTQ3RXNhdnpNWmZveXpVandjaUlldGRPc1NrTFE4Z3VqVFFOZWVrUnFZaWxWZlhJblBwdXVOZFpqNXY1SlJ6bjJHQXJzRnZIZ1Z1NTBuT1RYQnctUGhqMnRZM19EdWpHOHpkd2tyUkNkZTFrQ2lR?oc=5",
+   "published": "2026-09-22T10:54:27.000Z",
+   "firstSeen": "2026-09-22T14:37:43.855Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "b0a4dff4a43d",
+   "area": "tds",
+   "sourceId": "news-tds",
+   "source": "News search: TDS/TCS",
+   "official": false,
+   "publisher": "Moneycontrol.com",
+   "type": "Due date",
+   "title": "Tax audit deadline September 30: Professionals seek extension as due date draws closer",
+   "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQNk84NGhzOE9fTXNFdzZaeUZBTXV5emhiSVJka052Mk1qRGFfX1pjbTZROWJ1ZzFGWXF6c0xaX1ltYkFidTVYWTVhTDBWSTNpTHdtZzRVZGNHLXNaQklnZDdTV1JpODNjaG53Q2RCcmVqS2laeUswZDFsNkR4OVRod3pLeWZEN0t2M0xudExMbzE0OXRwVV9ra0RUU2ItODF0OUdHQnpCMFVoS2FXdVJrMWtQem5xcExNSE02Y2pCSFJLb01yejZGNl9FM2tjZ1Z2NUtzalh6RDZGaEVRTlNfaTlOajNKTlloMFozaWthNWF3b3N3NlHSAfYBQVVfeXFMUDZPODRoczhPX01zRXc2WnlGQU11eXpoYklSZGtOdjJNakRhX19aY202UTlidWcxRllxenNMWl9ZbWJBYnU1WFk1YUwwVkkzaUx3bWc0VWRjRy1zWkJJZ2Q3U1dSaTgzY2hud0NkQnJlaktpWnlLMGQxbDZEeDlUaHd6S3lmRDdLdjNMbnRMTG8xNDl0cFVfa2tEVFNiLTgxdDlHR0J6QjBVaEthV3VSazFrUHpucXBMTUhNNmNqQkhSS29Ncno2RjZfRTNrY2dWdjVLc2pYekQ2RmhFUU5TX2k5TmozSk5ZaDBaM2lrYTVhd29zdzZR?oc=5",
+   "published": "2026-09-22T12:21:20.000Z",
+   "firstSeen": "2026-09-22T14:37:43.855Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "251efc076bc6",
+   "area": "mca",
+   "sourceId": "news-mca",
+   "source": "News search: MCA",
+   "official": false,
+   "publisher": "A2Z Taxcorp LLP",
+   "type": "Draft",
+   "title": "CBIC Invites Stakeholder Comments on Draft Warehousing Operations Regulations, 2026",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUHVkWHprTXpGRkhuT1ZfYy00bDMzeUEwdmdLTnFBMXYyc1E2Mk41VjhnNHhidk96NFdPcVN2VWFfVHdhUHZkQ3dFNW9Vbi1sTnZBbG5ZVkNMUnV0MEpTVTVGc1o4ejFHQmhUa1FjLVZzSlZrS1Q4ZG56T3UxNWVpLUNsbktxeTNrTThYUzBpdUs5NFFUd2k3WmpyQjlrWnRZTEltemgyU09uQQ?oc=5",
+   "published": "2026-09-22T08:18:13.000Z",
+   "firstSeen": "2026-09-22T14:37:43.855Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "014d57a12b95",
+   "area": "mca",
+   "sourceId": "news-mca",
+   "source": "News search: MCA",
+   "official": false,
+   "publisher": "Career Power",
+   "type": "Notification",
+   "title": "BPSC TRE 4 Notification 2026 for 32,388 Teacher Posts, Apply Online Starts on 25 Sep",
+   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9CcFN2NkFjTEhZN2swQ2taSWdvUHVCeENJdmZtT0FtdXptOXQzME9adV9iM0hlemdtMnZYRTJ1Q1U0MDJwdFpFUkpjZmpFbUhhZW54NW5mVWdaSW9aV3lrdS05c000ekFuT1czQWZtQQ?oc=5",
+   "published": "2026-09-22T12:55:25.000Z",
+   "firstSeen": "2026-09-22T14:37:43.855Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "309bba8016aa",
+   "area": "mca",
+   "sourceId": "taxguru-corporate",
+   "source": "TaxGuru Corporate Law",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Corporate Law | Arrest of Accused Becomes Illegal If Grounds of Arrest Not Furnished In Writing: SC",
+   "link": "https://taxguru.in/corporate-law/arrest-accused-illegal-grounds-arrest-not-furnished-writing-sc.html",
+   "published": "2026-09-22T14:30:50.000Z",
+   "firstSeen": "2026-09-22T14:37:43.855Z",
+   "summary": "Supreme Court holds arrest illegal if written grounds are not furnished and mandates judicial approval and safeguards before re-arrest.The post Arrest of Accused Becomes Illegal If Grounds of Arrest Not Furnished In…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "fa87a8e8272a",
+   "area": "mca",
+   "sourceId": "taxguru-corporate",
+   "source": "TaxGuru Corporate Law",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Corporate Law | No Eyewitness to the Fall, Yet Railway Compensation Cannot Be Denied: Delhi High Court",
+   "link": "https://taxguru.in/corporate-law/no-eyewitness-fall-railway-compensation-cannot-denied-delhi-high-court.html",
+   "published": "2026-09-22T13:08:49.000Z",
+   "firstSeen": "2026-09-22T14:37:43.855Z",
+   "summary": "Delhi HC held that absence of eyewitness, ticket recovery or immediate railway report cannot alone defeat compensation for an accidental train fall.The post No Eyewitness to the Fall, Yet Railway Compensation Cannot Be…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "b9c5b64e3f23",
+   "area": "mca",
+   "sourceId": "taxguru-corporate",
+   "source": "TaxGuru Corporate Law",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Corporate Law | Supreme Court Requires Judicial Approval for Re-Arrest After Article 22 Violations",
+   "link": "https://taxguru.in/corporate-law/supreme-court-requires-judicial-approval-arrest-article-22-violations.html",
+   "published": "2026-09-22T12:57:38.000Z",
+   "firstSeen": "2026-09-22T14:37:43.855Z",
+   "summary": "Supreme Court sets safeguards for re-arrest after Article 22 violations, requiring judicial approval, investigation transfer and departmental accountability.The post Supreme Court Requires Judicial Approval for…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "999cc05b7e46",
+   "area": "mca",
+   "sourceId": "taxguru-corporate",
+   "source": "TaxGuru Corporate Law",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Corporate Law | Arbitration Initiated Without Consent Held Non Est in Law: Supreme Court",
+   "link": "https://taxguru.in/corporate-law/arbitration-initiated-without-consent-held-non-est-law-supreme-court.html",
+   "published": "2026-09-22T12:50:16.000Z",
+   "firstSeen": "2026-09-22T14:37:43.855Z",
+   "summary": "Supreme Court sets aside arbitration and Section 17 orders where appellants’ consent to appointment of Arbitral Tribunal was not established.The post Arbitration Initiated Without Consent Held Non Est in Law: Supreme…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "b246cc195e98",
+   "area": "mca",
+   "sourceId": "taxguru-corporate",
+   "source": "TaxGuru Corporate Law",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Corporate Law | Re-Arrest After Unconstitutional Arrest Requires Prior Judicial Approval: SC",
+   "link": "https://taxguru.in/corporate-law/arrest-unconstitutional-arrest-requires-prior-judicial-approval-sc.html",
+   "published": "2026-09-22T11:00:27.000Z",
+   "firstSeen": "2026-09-22T14:37:43.855Z",
+   "summary": "Supreme Court mandates judicial approval, superior endorsement and transfer of investigation before re-arrest after Article 22 breach.The post Re-Arrest After Unconstitutional Arrest Requires Prior Judicial Approval: SC…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "251f7514459d",
+   "area": "mca",
+   "sourceId": "taxguru-corporate",
+   "source": "TaxGuru Corporate Law",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Corporate Law | Kerala HC Rejects Civil Suit After DRT Loss Over Post-Mortgage Lease",
+   "link": "https://taxguru.in/corporate-law/kerala-hc-rejects-civil-suit-drt-loss-post-mortgage-lease.html",
+   "published": "2026-09-22T10:36:43.000Z",
+   "firstSeen": "2026-09-22T14:37:43.855Z",
+   "summary": "Kerala HC holds a post-mortgage nine-year lease cannot bind the secured creditor and civil suit is barred after adverse DRT proceedings.The post Kerala HC Rejects Civil Suit After DRT Loss Over Post-Mortgage Lease…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "a2c09c56b445",
+   "area": "mca",
+   "sourceId": "taxguru-corporate",
+   "source": "TaxGuru Corporate Law",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Corporate Law | False Stock Declarations Justify Complete Insurance Claim Repudiation: SC",
+   "link": "https://taxguru.in/corporate-law/false-stock-declarations-justify-complete-insurance-claim-repudiation-sc.html",
+   "published": "2026-09-22T10:25:58.000Z",
+   "firstSeen": "2026-09-22T14:37:43.855Z",
+   "summary": "Supreme Court upheld complete repudiation of an insurance claim based on false declarations, manipulated stock records and breach of policy conditions.The post False Stock Declarations Justify Complete Insurance Claim…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "5d086afdf675",
+   "area": "mca",
+   "sourceId": "taxguru-corporate",
+   "source": "TaxGuru Corporate Law",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Corporate Law | Allahabad High Court orders SBI to refund wife’s FD appropriated for deceased husband’s loan",
+   "link": "https://taxguru.in/corporate-law/allahabad-high-court-orders-sbi-refund-wifes-fd-appropriated-deceased-husbands-loan.html",
+   "published": "2026-09-22T10:16:32.000Z",
+   "firstSeen": "2026-09-22T14:37:43.855Z",
+   "summary": "Allahabad High Court directs SBI to refund ₹19,90,693 with FD interest and pay ₹1 lakh compensation after debiting widow’s independent fixed deposit.The post Allahabad High Court orders SBI to refund wife’s FD…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "439585548a44",
+   "area": "mca",
+   "sourceId": "taxguru-corporate",
+   "source": "TaxGuru Corporate Law",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Corporate Law | Karnataka HC Holds MSME Registration Alone Does Not Halt SARFAESI Recovery",
+   "link": "https://taxguru.in/corporate-law/karnataka-hc-holds-msme-registration-not-halt-sarfaesi-recovery.html",
+   "published": "2026-09-22T10:06:56.000Z",
+   "firstSeen": "2026-09-22T14:37:43.855Z",
+   "summary": "Karnataka HC holds MSME borrowers must cooperate with revival process and provide a viable proposal before seeking protection from SARFAESI recovery.The post Karnataka HC Holds MSME Registration Alone Does Not Halt…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "83131880dba2",
+   "area": "mca",
+   "sourceId": "taxguru-corporate",
+   "source": "TaxGuru Corporate Law",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Corporate Law | Partition suit against SARFAESI enforcement rejected under Section 34 by Karnataka High Court",
+   "link": "https://taxguru.in/corporate-law/partition-suit-against-sarfaesi-enforcement-rejected-section-34-karnataka-high-court.html",
+   "published": "2026-09-22T09:39:47.000Z",
+   "firstSeen": "2026-09-22T14:37:43.855Z",
+   "summary": "Karnataka High Court holds partition cannot shield a suit whose substance challenges a mortgage and SARFAESI enforcement under Section 34.The post Partition suit against SARFAESI enforcement rejected under Section 34 by…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "10b554144f57",
+   "area": "mca",
+   "sourceId": "taxguru-corporate",
+   "source": "TaxGuru Corporate Law",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Corporate Law | Preliminary Issue Cannot Be Severed After Composite Trial Begins: Supreme Court",
+   "link": "https://taxguru.in/corporate-law/preliminary-issue-cannot-severed-composite-trial-begins-supreme-court.html",
+   "published": "2026-09-22T09:26:58.000Z",
+   "firstSeen": "2026-09-22T14:37:43.855Z",
+   "summary": "Supreme Court holds Order XIV Rule 2 cannot sever an issue for preliminary adjudication after evidence on all issues has commenced.The post Preliminary Issue Cannot Be Severed After Composite Trial Begins: Supreme Court…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "d427256ced02",
+   "area": "mca",
+   "sourceId": "taxguru-corporate",
+   "source": "TaxGuru Corporate Law",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Corporate Law | Supreme Court Holds Revenue Cannot Cure Ineligible Tender Bid",
+   "link": "https://taxguru.in/corporate-law/supreme-court-holds-revenue-cannot-cure-ineligible-tender-bid.html",
+   "published": "2026-09-22T09:14:14.000Z",
+   "firstSeen": "2026-09-22T14:37:43.855Z",
+   "summary": "Supreme Court holds revenue considerations cannot cure ineligibility where bidder fails mandatory tender experience requirements.The post Supreme Court Holds Revenue Cannot Cure Ineligible Tender Bid appeared first on…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "b4b4e6f6a000",
+   "area": "acc",
+   "sourceId": "nfra-home",
+   "source": "NFRA",
+   "official": true,
+   "publisher": "",
+   "type": "Article",
+   "title": "NFRA Webinar on SA 260 Communication with Those Charged With Governance New",
+   "link": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2026/09/202609221960478438.pdf",
+   "published": null,
+   "firstSeen": "2026-09-22T14:37:43.855Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": [],
+   "pdf": true
+  },
+  {
+   "id": "aa50fa079d23",
+   "area": "acc",
+   "sourceId": "nfra-home",
+   "source": "NFRA",
+   "official": true,
+   "publisher": "",
+   "type": "Article",
+   "title": "NFRA Webinar on SA 260 Communication with Those Charged With Governance",
+   "link": "https://nfra.gov.in/nfra-webinar-on-sa-260-communication-with-those-charged-with-governance/",
+   "published": null,
+   "firstSeen": "2026-09-22T14:37:43.855Z",
+   "summary": "NFRA Webinar on SA 260 Communication with Those Charged With Governance",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "9eb4571e0f0f",
+   "area": "acc",
+   "sourceId": "news-acc",
+   "source": "News search: ICAI and Ind AS",
+   "official": false,
+   "publisher": "StudyCafe",
+   "type": "Due date",
+   "title": "RoDTEP Scheme Extended Till September 2026: Govt Continues Export Incentives with Unchanged Benefits",
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQQlNQWDdyY0Z3T1pYQ3lEeE95Y3c3THA0ZkpfWkxQdjI0T2VxZ3B1UzcxUkRJeHZEYUkzSVZvZmlpbUhPY3V4Y2hYVXJxNjBhOVl0eEZVNklXN19sd2xGSlBPNFctcDdkWkluZTlaWTBsYlRaOXpZN1lSTWEtN1k0UTViZ003QjJpNzg1T3B0QTR1RkE4emJlSlBMWWJ2MDFYQS1RRi1CNjJpdElQcHRXWTBiSktpUEdteXkxQXp4VE5fSWxPbFhuN1Y1d0k?oc=5",
+   "published": "2026-09-22T05:29:03.000Z",
+   "firstSeen": "2026-09-22T14:37:43.855Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "6fc8974c385a",
+   "area": "fema",
+   "sourceId": "rbi-notifications",
+   "source": "RBI notifications",
+   "official": true,
+   "publisher": "",
+   "type": "Amendment",
+   "title": "Reserve Bank of India (Payments Banks - Classification, Valuation, and Operation of Investment Portfolio) Second Amendment Directions, 2026",
+   "link": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13710&Mode=0",
+   "published": "2026-09-22T17:05:00.000Z",
+   "firstSeen": "2026-09-22T14:37:43.855Z",
+   "summary": "RBI/2026-27/267 DOR.MRG.REC.No.231/00-00-001/2026-27 September 22, 2026 Reserve Bank of India (Payments Banks - Classification, Valuation, and Operation of Investment Portfolio) Second Amendment Directions, 2026 Please refer to Chapter – IX of Reserve Bank of India (Payments Banks - Classification,…",
+   "notes": [
+    "In order to ensure clarity and uniform practices in the valuation of units of Infrastructure Investment Trust (InvIT) and Real Estate Investment Trusts (REIT), there is a need to amend the extant instructions.",
+    "Accordingly, in exercise of the powers conferred by Section 35A of the Banking Regulation Act, 1949 (hereinafter called the Act) and all other laws enabling the Reserve Bank in this regard, the Reserve Bank, being satisfied that it is necessary and…",
+    "(i) These Directions shall be called the Reserve Bank of India (Payments Banks – Classification, Valuation, and Operation of Investment Portfolio) Second Amendment Directions, 2026."
+   ],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "ba056f5d7e56",
+   "area": "fema",
+   "sourceId": "taxguru-rbi",
+   "source": "TaxGuru RBI/FEMA",
+   "official": false,
+   "publisher": "",
+   "type": "Amendment",
+   "title": "Fema / RBI | RBI Amends AIFI Investment Valuation Norms for InvIT and REIT Units",
+   "link": "https://taxguru.in/rbi/rbi-amends-aifi-investment-valuation-norms-invit-reit-units.html",
+   "published": "2026-09-22T13:45:04.000Z",
+   "firstSeen": "2026-09-22T14:37:43.855Z",
+   "summary": "RBI amends AIFI investment portfolio norms to prescribe valuation of quoted, unquoted and infrequently traded InvIT and REIT units.The post RBI Amends AIFI Investment Valuation Norms for InvIT and REIT Units appeared first on TaxGuru.",
+   "notes": [
+    "Summary: The Reserve Bank of India has issued the Reserve Bank of India (All India Financial Institutions – Classification, Valuation, and Operation of Investment Portfolio) Amendment Directions, 2026, vide RBI/2026-27/268 and…",
+    "In order to ensure clarity and uniform practices in the valuation of units of Infrastructure Investment Trust (InvIT) and Real Estate Investment Trusts (REIT), there is a need to amend the extant instructions.",
+    "Accordingly, in exercise of the powers conferred by Section 45L of the Reserve Bank of India Act, 1934 (hereinafter called the Act) and all other laws enabling the Reserve Bank in this regard, the Reserve Bank, being satisfied that it is necessary and…"
+   ],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "c251819011fa",
+   "area": "fema",
+   "sourceId": "taxguru-rbi",
+   "source": "TaxGuru RBI/FEMA",
+   "official": false,
+   "publisher": "",
+   "type": "Amendment",
+   "title": "Fema / RBI | RBI Amends Payments Banks Investment Valuation Norms for InvIT and REIT Units",
+   "link": "https://taxguru.in/rbi/rbi-amends-payments-banks-investment-valuation-norms-invit-reit-units.html",
+   "published": "2026-09-22T13:37:03.000Z",
+   "firstSeen": "2026-09-22T14:37:43.855Z",
+   "summary": "RBI amends Payments Banks investment valuation norms for quoted, unquoted and infrequently traded InvIT and REIT units.The post RBI Amends Payments Banks Investment Valuation Norms for InvIT and REIT Units appeared first on TaxGuru.",
+   "notes": [
+    "Summary: The Reserve Bank of India has issued the Reserve Bank of India (Payments Banks – Classification, Valuation, and Operation of Investment Portfolio) Second Amendment Directions, 2026, vide RBI/2026-27/267 and DOR.MRG.REC.No.231/00-00-001/2026-27…",
+    "In order to ensure clarity and uniform practices in the valuation of units of Infrastructure Investment Trust (InvIT) and Real Estate Investment Trusts (REIT), there is a need to amend the extant instructions.",
+    "Accordingly, in exercise of the powers conferred by Section 35A of the Banking Regulation Act, 1949 (hereinafter called the Act) and all other laws enabling the Reserve Bank in this regard, the Reserve Bank, being satisfied that it is necessary and…"
+   ],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "0090bdf7c757",
+   "area": "fema",
+   "sourceId": "taxguru-rbi",
+   "source": "TaxGuru RBI/FEMA",
+   "official": false,
+   "publisher": "",
+   "type": "Amendment",
+   "title": "Fema / RBI | RBI Amends Small Finance Banks Investment Valuation Norms for InvIT and REIT Units",
+   "link": "https://taxguru.in/rbi/rbi-amends-small-finance-banks-investment-valuation-norms-invit-reit-units.html",
+   "published": "2026-09-22T13:35:58.000Z",
+   "firstSeen": "2026-09-22T14:37:43.855Z",
+   "summary": "RBI amends Small Finance Banks investment valuation norms for quoted, unquoted and infrequently traded InvIT and REIT units.The post RBI Amends Small Finance Banks Investment Valuation Norms for InvIT and REIT Units appeared first on TaxGuru.",
+   "notes": [
+    "Summary: The Reserve Bank of India has issued the Reserve Bank of India (Small Finance Banks – Classification, Valuation, and Operation of Investment Portfolio) Second Amendment Directions, 2026, vide RBI/2026-27/266 and…",
+    "In order to ensure clarity and uniform practices in the valuation of units of Infrastructure Investment Trust (InvIT) and Real Estate Investment Trusts (REIT), there is a need to amend the extant instructions.",
+    "Accordingly, in exercise of the powers conferred by Section 35A of the Banking Regulation Act, 1949 (hereinafter called the Act) and all other laws enabling the Reserve Bank in this regard, the Reserve Bank, being satisfied that it is necessary and…"
+   ],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "2a37f8b9d20c",
+   "area": "fema",
+   "sourceId": "taxguru-rbi",
+   "source": "TaxGuru RBI/FEMA",
+   "official": false,
+   "publisher": "",
+   "type": "Amendment",
+   "title": "Fema / RBI | RBI Amends Local Area Banks Investment Valuation Norms for InvIT and REIT Units",
+   "link": "https://taxguru.in/rbi/rbi-amends-local-area-banks-investment-valuation-norms-invit-reit-units.html",
+   "published": "2026-09-22T13:29:19.000Z",
+   "firstSeen": "2026-09-22T14:37:43.855Z",
+   "summary": "RBI amends Local Area Banks investment valuation norms for quoted, unquoted and infrequently traded InvIT and REIT units.The post RBI Amends Local Area Banks Investment Valuation Norms for InvIT and REIT Units appeared first on TaxGuru.",
+   "notes": [
+    "Summary: The Reserve Bank of India has issued the Reserve Bank of India (Local Area Banks – Classification, Valuation, and Operation of Investment Portfolio) Second Amendment Directions, 2026, vide RBI/2026-27/265 and DOR.MRG.REC.No.229/00-00-001/2026-27…",
+    "In order to ensure clarity and uniform practices in the valuation of units of Infrastructure Investment Trust (InvIT) and Real Estate Investment Trusts (REIT), there is a need to amend the extant instructions.",
+    "Accordingly, in exercise of the powers conferred by Section 35A of the Banking Regulation Act, 1949 (hereinafter called the Act) and all other laws enabling the Reserve Bank in this regard, the Reserve Bank, being satisfied that it is necessary and…"
+   ],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "6403a790d8c3",
+   "area": "fema",
+   "sourceId": "taxguru-rbi",
+   "source": "TaxGuru RBI/FEMA",
+   "official": false,
+   "publisher": "",
+   "type": "Amendment",
+   "title": "Fema / RBI | RBI Amends Commercial Banks Investment Valuation Norms for InvIT and REIT Units",
+   "link": "https://taxguru.in/rbi/rbi-amends-commercial-banks-investment-valuation-norms-invit-reit-units.html",
+   "published": "2026-09-22T13:15:05.000Z",
+   "firstSeen": "2026-09-22T14:37:43.855Z",
+   "summary": "RBI amends Commercial Banks investment valuation norms for quoted, unquoted and infrequently traded InvIT and REIT units.The post RBI Amends Commercial Banks Investment Valuation Norms for InvIT and REIT Units appeared first on TaxGuru.",
+   "notes": [
+    "Summary: The Reserve Bank of India has issued the Reserve Bank of India (Commercial Banks – Classification, Valuation, and Operation of Investment Portfolio) Third Amendment Directions, 2026, vide RBI/2026-27/264 and DOR.MRG.REC.No.228/00-00-001/2026-27…",
+    "In order to ensure clarity and uniform practices in the valuation of units of Infrastructure Investment Trust (InvIT) and Real Estate Investment Trusts (REIT), there is a need to amend the extant instructions.",
+    "Accordingly, in exercise of the powers conferred by Section 35A of the Banking Regulation Act, 1949 (hereinafter called the Act) and all other laws enabling the Reserve Bank in this regard, the Reserve Bank, being satisfied that it is necessary and…"
+   ],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "1658b6f18e5d",
+   "area": "sebi",
+   "sourceId": "sebi-rss",
+   "source": "SEBI",
+   "official": true,
+   "publisher": "",
+   "type": "Article",
+   "title": "Appeal No. 7064 of 2026 filed by Amit Gangrade",
+   "link": "https://www.sebi.gov.in/enforcement/orders/sep-2026/appeal-no-7064-of-2026-filed-by-amit-gangrade_104657.html",
+   "published": "2026-09-22T00:00:00.000Z",
+   "firstSeen": "2026-09-22T14:37:43.855Z",
+   "summary": "Appeal No. 7064 of 2026 filed by Amit Gangrade",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "a9ba740ca912",
+   "area": "sebi",
+   "sourceId": "sebi-rss",
+   "source": "SEBI",
+   "official": true,
+   "publisher": "",
+   "type": "Article",
+   "title": "Appeal No. 7066 of 2026 filed by Saksham Puri",
+   "link": "https://www.sebi.gov.in/enforcement/orders/sep-2026/appeal-no-7066-of-2026-filed-by-saksham-puri_104655.html",
+   "published": "2026-09-22T00:00:00.000Z",
+   "firstSeen": "2026-09-22T14:37:43.855Z",
+   "summary": "Appeal No. 7066 of 2026 filed by Saksham Puri",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "eb8cf9810fa1",
+   "area": "sebi",
+   "sourceId": "sebi-rss",
+   "source": "SEBI",
+   "official": true,
+   "publisher": "",
+   "type": "Article",
+   "title": "Appeal No. 7063 of 2026 filed by Sanjay Shah",
+   "link": "https://www.sebi.gov.in/enforcement/orders/sep-2026/appeal-no-7063-of-2026-filed-by-sanjay-shah_104653.html",
+   "published": "2026-09-22T00:00:00.000Z",
+   "firstSeen": "2026-09-22T14:37:43.855Z",
+   "summary": "Appeal No. 7063 of 2026 filed by Sanjay Shah",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
   {
    "id": "7af11481924d",
    "area": "gst",
@@ -3224,7 +3980,10 @@
    "summary": "",
    "notes": [],
    "refs": [],
-   "deadlines": []
+   "deadlines": [],
+   "alsoIn": [
+    "News search: TDS/TCS"
+   ]
   },
   {
    "id": "ff1c923f3aef",
@@ -7407,6 +8166,23 @@
    "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxOUmlyZlpCQlljdnNjRHF5dkdjU0ZManFDczBpU1ZNaW9BU0FyNHpJUGtvNlIwdEFNcTBlbzZGbFF6SHZwbUl1OVFCS3VpalBzVUpvczNjOXhnM08zRzVpYU5ndUowT2MtdXFzdHp6SGdINXBGRGoxWUlZR0dfSzZXSmVPa0ZlenFMd2FVNGxhV2I0anY4aTJNcHJyNnVaX0N3YjN3UDZhRl9uOVl6Z0hGNExUcXhKNkFzNGJKTzJIV09JR25TblQ2b3NKYlJlM0VhZGpNY2UzOUlBVW41aGNNNElZOG9RYklTdXpnNDBkdTJ6VmV6bXU1Q0Q5VmdpaktqTm1WSC1GdDdUVWFqeE5KS25nNG03NnNwRE1udFFR0gGjAkFVX3lxTE1BWlZPYmVIZEdTZ0o3MlJfcFN4LW0wX0szRjZDZ0d5bk5ocDJNSFMwY2NXRmNlR3VOcEhsZHl0bThNT3FwMVBFNXduSTdYMzA5WUNDSU9JSEJrUU93dk1PNHlKeDREbnBLT3l1UGMyVkJXWm5DQk0wTmtEQUtFUHZYZFhIU19GbkdRalVTMmczaVh3S01CYV9TR3YyY29aaXVZbDZCRkZSWE5nZzFIMko5Y2NJTHlhYjVHNEdvYjlXdkw1VS1ydjd0X09JV1NsTzk1dFozWkZYV3RyRGszOUgtbmg5SXk3cnBIWGk3WFBtUlAwREdTMzRDOU1KdFprTFc4NG1YOUlRVW9OT3FlR1BCV3BZZTFnRWhYcjRUMzk5OENoNA?oc=5",
    "published": "2026-09-18T19:12:00.000Z",
    "firstSeen": "2026-09-18T19:21:02.564Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "7b7843013420",
+   "area": "mh",
+   "sourceId": "news-mh",
+   "source": "News search: Maharashtra levies",
+   "official": false,
+   "publisher": "Lawtext",
+   "type": "Judgment",
+   "title": "Bombay High Court Quashes Stamp Duty Demand on BOT Concession Agreement — Agreement Not a Lease Under Maharashtra Stamps Act. Concession Agreement for Build, Operate and Transfer of Bridge Held Not to Create Leasehold Interest Under Sect",
+   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8yOHdNS0ZtbWJXOEJFelZpSkMzZ0lEN1NBczZCZ2FGd2VnOW03c2dxazdXSVpmUGppVHVpQUxjWjhqTDNuOHhJdU1lZ2VKMkVYQmFveA?oc=5",
+   "published": "2026-09-18T07:00:00.000Z",
+   "firstSeen": "2026-09-22T14:37:43.855Z",
    "summary": "",
    "notes": [],
    "refs": [],
