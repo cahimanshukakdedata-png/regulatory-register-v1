@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-09-29T05:44:50.394Z",
+ "generatedAt": "2026-09-29T09:45:52.533Z",
  "repo": "cahimanshukakdedata-png/regulatory-register-v1",
- "newThisRun": 4,
+ "newThisRun": 33,
  "sources": [
   {
    "id": "icai-home",
@@ -14,8 +14,8 @@
    "fetched": 37,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-09-29T05:44:50.394Z",
-   "ms": 1151
+   "lastOk": "2026-09-29T09:45:52.533Z",
+   "ms": 1230
   },
   {
    "id": "news-acc",
@@ -26,10 +26,10 @@
    "url": "https://news.google.com/rss/search?q=(ICAI%20OR%20NFRA%20OR%20%22Ind%20AS%22%20OR%20UDIN)%20(announcement%20OR%20notification%20OR%20amendment%20OR%20guidance)%20when%3A14d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
    "fetched": 56,
-   "kept": 15,
+   "kept": 14,
    "note": "",
-   "lastOk": "2026-09-29T05:44:50.394Z",
-   "ms": 328
+   "lastOk": "2026-09-29T09:45:52.533Z",
+   "ms": 407
   },
   {
    "id": "nfra-home",
@@ -42,8 +42,8 @@
    "fetched": 29,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-09-29T05:44:50.394Z",
-   "ms": 1660
+   "lastOk": "2026-09-29T09:45:52.533Z",
+   "ms": 1905
   },
   {
    "id": "taxguru-ca",
@@ -56,8 +56,8 @@
    "fetched": 100,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-09-29T05:44:50.394Z",
-   "ms": 1060
+   "lastOk": "2026-09-29T09:45:52.533Z",
+   "ms": 1079
   },
   {
    "id": "rbi-notifications",
@@ -70,8 +70,8 @@
    "fetched": 10,
    "kept": 4,
    "note": "",
-   "lastOk": "2026-09-29T05:44:50.394Z",
-   "ms": 2387
+   "lastOk": "2026-09-29T09:45:52.533Z",
+   "ms": 3782
   },
   {
    "id": "rbi-press",
@@ -84,8 +84,8 @@
    "fetched": 10,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-09-29T05:44:50.394Z",
-   "ms": 977
+   "lastOk": "2026-09-29T09:45:52.533Z",
+   "ms": 1057
   },
   {
    "id": "taxguru-rbi",
@@ -98,8 +98,8 @@
    "fetched": 100,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-09-29T05:44:50.394Z",
-   "ms": 959
+   "lastOk": "2026-09-29T09:45:52.533Z",
+   "ms": 1049
   },
   {
    "id": "cbic-gst",
@@ -112,8 +112,8 @@
    "fetched": 25,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-09-29T05:44:50.394Z",
-   "ms": 1223
+   "lastOk": "2026-09-29T09:45:52.533Z",
+   "ms": 1311
   },
   {
    "id": "gst-council",
@@ -126,8 +126,8 @@
    "fetched": 18,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-09-29T05:44:50.394Z",
-   "ms": 2973
+   "lastOk": "2026-09-29T09:45:52.533Z",
+   "ms": 2950
   },
   {
    "id": "gst-portal-news",
@@ -140,8 +140,8 @@
    "fetched": 0,
    "kept": 0,
    "note": "page returned no usable links (it may need a real browser); this section relies on its other sources",
-   "lastOk": "2026-09-29T05:44:50.394Z",
-   "ms": 1625
+   "lastOk": "2026-09-29T09:45:52.533Z",
+   "ms": 1734
   },
   {
    "id": "news-gst",
@@ -154,8 +154,8 @@
    "fetched": 55,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-09-29T05:44:50.394Z",
-   "ms": 408
+   "lastOk": "2026-09-29T09:45:52.533Z",
+   "ms": 479
   },
   {
    "id": "taxguru-gst",
@@ -168,8 +168,8 @@
    "fetched": 100,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-09-29T05:44:50.394Z",
-   "ms": 1922
+   "lastOk": "2026-09-29T09:45:52.533Z",
+   "ms": 2053
   },
   {
    "id": "cbdt-communications",
@@ -179,11 +179,11 @@
    "official": true,
    "url": "https://incometaxindia.gov.in/pages/communications/index.aspx",
    "ok": true,
-   "fetched": 4,
+   "fetched": 6,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-09-29T05:44:50.394Z",
-   "ms": 3136
+   "lastOk": "2026-09-29T09:45:52.533Z",
+   "ms": 11996
   },
   {
    "id": "itd-latest",
@@ -196,8 +196,8 @@
    "fetched": 39,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-09-29T05:44:50.394Z",
-   "ms": 1274
+   "lastOk": "2026-09-29T09:45:52.533Z",
+   "ms": 1539
   },
   {
    "id": "news-it",
@@ -207,11 +207,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=CBDT%20(notification%20OR%20circular%20OR%20%22due%20date%22%20OR%20extended%20OR%20scheme)%20when%3A10d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 94,
+   "fetched": 91,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-09-29T05:44:50.394Z",
-   "ms": 480
+   "lastOk": "2026-09-29T09:45:52.533Z",
+   "ms": 475
   },
   {
    "id": "taxguru-it",
@@ -224,8 +224,8 @@
    "fetched": 100,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-09-29T05:44:50.394Z",
-   "ms": 1726
+   "lastOk": "2026-09-29T09:45:52.533Z",
+   "ms": 1801
   },
   {
    "id": "epfo-home",
@@ -238,8 +238,8 @@
    "fetched": 0,
    "kept": 0,
    "note": "site refused a direct request (known to refuse direct requests); read through r.jina.ai; page returned no usable links (it may need a real browser); this section relies on its other sources",
-   "lastOk": "2026-09-29T05:44:50.394Z",
-   "ms": 33977
+   "lastOk": "2026-09-29T09:45:52.533Z",
+   "ms": 44528
   },
   {
    "id": "esic-home",
@@ -252,8 +252,8 @@
    "fetched": 78,
    "kept": 0,
    "note": "site refused a direct request (known to refuse direct requests); read through r.jina.ai",
-   "lastOk": "2026-09-29T05:44:50.394Z",
-   "ms": 57837
+   "lastOk": "2026-09-29T09:45:52.533Z",
+   "ms": 57829
   },
   {
    "id": "news-labour",
@@ -263,11 +263,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(EPFO%20OR%20ESIC%20OR%20%22labour%20code%22)%20(notification%20OR%20circular%20OR%20rules%20OR%20extended%20OR%20deadline)%20when%3A14d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 67,
+   "fetched": 66,
    "kept": 14,
    "note": "",
-   "lastOk": "2026-09-29T05:44:50.394Z",
-   "ms": 425
+   "lastOk": "2026-09-29T09:45:52.533Z",
+   "ms": 378
   },
   {
    "id": "cgtmse",
@@ -280,8 +280,8 @@
    "fetched": 1,
    "kept": 0,
    "note": "site refused a direct request (known to refuse direct requests); read through r.jina.ai",
-   "lastOk": "2026-09-29T05:44:50.394Z",
-   "ms": 57539
+   "lastOk": "2026-09-29T09:45:52.533Z",
+   "ms": 42258
   },
   {
    "id": "maitri-mh",
@@ -294,8 +294,8 @@
    "fetched": 1,
    "kept": 0,
    "note": "site certificate is broken; read anyway",
-   "lastOk": "2026-09-29T05:44:50.394Z",
-   "ms": 2044
+   "lastOk": "2026-09-29T09:45:52.533Z",
+   "ms": 5840
   },
   {
    "id": "msme-ministry",
@@ -308,8 +308,8 @@
    "fetched": 0,
    "kept": 0,
    "note": "page returned no usable links (it may need a real browser); this section relies on its other sources",
-   "lastOk": "2026-09-29T05:44:50.394Z",
-   "ms": 1559
+   "lastOk": "2026-09-29T09:45:52.533Z",
+   "ms": 2295
   },
   {
    "id": "nabard",
@@ -322,8 +322,8 @@
    "fetched": 5,
    "kept": 0,
    "note": "site refused a direct request (known to refuse direct requests); read through r.jina.ai",
-   "lastOk": "2026-09-29T05:44:50.394Z",
-   "ms": 45737
+   "lastOk": "2026-09-29T09:45:52.533Z",
+   "ms": 40152
   },
   {
    "id": "news-loan-central",
@@ -334,10 +334,10 @@
    "url": "https://news.google.com/rss/search?q=(MSME%20OR%20PMEGP%20OR%20MUDRA%20OR%20CGTMSE%20OR%20%22Stand-Up%20India%22%20OR%20%22interest%20subvention%22)%20(scheme%20OR%20subsidy%20OR%20guidelines%20OR%20extended%20OR%20notification)%20when%3A14d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
    "fetched": 47,
-   "kept": 18,
+   "kept": 20,
    "note": "",
-   "lastOk": "2026-09-29T05:44:50.394Z",
-   "ms": 449
+   "lastOk": "2026-09-29T09:45:52.533Z",
+   "ms": 487
   },
   {
    "id": "news-loan-east",
@@ -350,8 +350,8 @@
    "fetched": 51,
    "kept": 10,
    "note": "",
-   "lastOk": "2026-09-29T05:44:50.394Z",
-   "ms": 377
+   "lastOk": "2026-09-29T09:45:52.533Z",
+   "ms": 534
   },
   {
    "id": "news-loan-farm",
@@ -361,11 +361,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(NABARD%20OR%20%22Kisan%20Credit%20Card%22%20OR%20%22agriculture%20subsidy%22%20OR%20%22food%20processing%20subsidy%22%20OR%20PMFME)%20(scheme%20OR%20subsidy%20OR%20guidelines%20OR%20notification)%20when%3A21d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 51,
+   "fetched": 50,
    "kept": 8,
    "note": "",
-   "lastOk": "2026-09-29T05:44:50.394Z",
-   "ms": 409
+   "lastOk": "2026-09-29T09:45:52.533Z",
+   "ms": 392
   },
   {
    "id": "news-loan-mh",
@@ -375,11 +375,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=Maharashtra%20(subsidy%20OR%20incentive%20OR%20%22industrial%20policy%22%20OR%20%22loan%20scheme%22)%20(government%20OR%20notified%20OR%20launched%20OR%20guidelines)%20when%3A21d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 31,
+   "fetched": 32,
    "kept": 6,
    "note": "",
-   "lastOk": "2026-09-29T05:44:50.394Z",
-   "ms": 285
+   "lastOk": "2026-09-29T09:45:52.533Z",
+   "ms": 316
   },
   {
    "id": "news-loan-north",
@@ -389,11 +389,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(%22Uttar%20Pradesh%22%20OR%20Delhi%20OR%20Punjab%20OR%20Haryana%20OR%20Bihar%20OR%20Uttarakhand%20OR%20%22Himachal%20Pradesh%22)%20(subsidy%20OR%20incentive%20OR%20%22industrial%20policy%22%20OR%20%22loan%20scheme%22)%20when%3A21d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 70,
-   "kept": 21,
+   "fetched": 66,
+   "kept": 20,
    "note": "",
-   "lastOk": "2026-09-29T05:44:50.394Z",
-   "ms": 559
+   "lastOk": "2026-09-29T09:45:52.533Z",
+   "ms": 494
   },
   {
    "id": "news-loan-south",
@@ -403,11 +403,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(%22Tamil%20Nadu%22%20OR%20Karnataka%20OR%20Telangana%20OR%20%22Andhra%20Pradesh%22%20OR%20Kerala)%20(subsidy%20OR%20incentive%20OR%20%22industrial%20policy%22%20OR%20%22loan%20scheme%22)%20when%3A21d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 55,
-   "kept": 9,
+   "fetched": 56,
+   "kept": 10,
    "note": "",
-   "lastOk": "2026-09-29T05:44:50.394Z",
-   "ms": 409
+   "lastOk": "2026-09-29T09:45:52.533Z",
+   "ms": 421
   },
   {
    "id": "news-loan-west",
@@ -417,11 +417,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(Gujarat%20OR%20%22Madhya%20Pradesh%22%20OR%20Rajasthan%20OR%20Goa)%20(subsidy%20OR%20%22industrial%20policy%22%20OR%20incentive%20OR%20%22loan%20scheme%22)%20when%3A21d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 56,
-   "kept": 13,
+   "fetched": 54,
+   "kept": 15,
    "note": "",
-   "lastOk": "2026-09-29T05:44:50.394Z",
-   "ms": 330
+   "lastOk": "2026-09-29T09:45:52.533Z",
+   "ms": 493
   },
   {
    "id": "pmegp-kvic",
@@ -435,7 +435,7 @@
    "kept": 0,
    "error": "website address could not be found (DNS)",
    "lastOk": "2026-09-29T01:36:20.178Z",
-   "ms": 67178
+   "ms": 83823
   },
   {
    "id": "sidbi",
@@ -448,8 +448,8 @@
    "fetched": 10,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-09-29T05:44:50.394Z",
-   "ms": 3439
+   "lastOk": "2026-09-29T09:45:52.533Z",
+   "ms": 4077
   },
   {
    "id": "mca-home",
@@ -462,8 +462,8 @@
    "fetched": 32,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-09-29T05:44:50.394Z",
-   "ms": 3154
+   "lastOk": "2026-09-29T09:45:52.533Z",
+   "ms": 4184
   },
   {
    "id": "news-mca",
@@ -473,11 +473,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=MCA%20(%22general%20circular%22%20OR%20notification%20OR%20%22Companies%20Act%22%20OR%20LLP%20OR%20extended)%20when%3A10d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 48,
+   "fetched": 47,
    "kept": 11,
    "note": "",
-   "lastOk": "2026-09-29T05:44:50.394Z",
-   "ms": 328
+   "lastOk": "2026-09-29T09:45:52.533Z",
+   "ms": 407
   },
   {
    "id": "taxguru-company",
@@ -490,8 +490,8 @@
    "fetched": 100,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-09-29T05:44:50.394Z",
-   "ms": 1578
+   "lastOk": "2026-09-29T09:45:52.533Z",
+   "ms": 2019
   },
   {
    "id": "taxguru-corporate",
@@ -504,8 +504,8 @@
    "fetched": 100,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-09-29T05:44:50.394Z",
-   "ms": 1034
+   "lastOk": "2026-09-29T09:45:52.533Z",
+   "ms": 1088
   },
   {
    "id": "mahagst-pt",
@@ -519,7 +519,7 @@
    "kept": 0,
    "error": "the website did not answer in time",
    "lastOk": null,
-   "ms": 157178
+   "ms": 138187
   },
   {
    "id": "news-mh",
@@ -530,10 +530,10 @@
    "url": "https://news.google.com/rss/search?q=Maharashtra%20(%22profession%20tax%22%20OR%20MahaGST%20OR%20%22stamp%20duty%22%20OR%20%22amnesty%20scheme%22)%20when%3A30d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
    "fetched": 54,
-   "kept": 21,
+   "kept": 20,
    "note": "",
-   "lastOk": "2026-09-29T05:44:50.394Z",
-   "ms": 341
+   "lastOk": "2026-09-29T09:45:52.533Z",
+   "ms": 343
   },
   {
    "id": "sebi-rss",
@@ -544,10 +544,10 @@
    "url": "https://www.sebi.gov.in/sebirss.xml",
    "ok": true,
    "fetched": 30,
-   "kept": 5,
+   "kept": 10,
    "note": "",
-   "lastOk": "2026-09-29T05:44:50.394Z",
-   "ms": 2271
+   "lastOk": "2026-09-29T09:45:52.533Z",
+   "ms": 1039
   },
   {
    "id": "taxguru-sebi",
@@ -560,8 +560,8 @@
    "fetched": 100,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-09-29T05:44:50.394Z",
-   "ms": 1336
+   "lastOk": "2026-09-29T09:45:52.533Z",
+   "ms": 1030
   },
   {
    "id": "news-tds",
@@ -571,14 +571,576 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(TDS%20OR%20TCS%20OR%20TRACES)%20(CBDT%20OR%20notification%20OR%20%22due%20date%22%20OR%20form)%20when%3A14d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 60,
+   "fetched": 64,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-09-29T05:44:50.394Z",
-   "ms": 413
+   "lastOk": "2026-09-29T09:45:52.533Z",
+   "ms": 538
   }
  ],
  "items": [
+  {
+   "id": "cc5e2fbf40f6",
+   "area": "gst",
+   "sourceId": "taxguru-gst",
+   "source": "TaxGuru GST",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Goods and Services Tax | Madhya Pradesh HC Grants Bail in Pan Masala GST & HSNS Cess Evasion Case",
+   "link": "https://taxguru.in/goods-and-service-tax/madhya-pradesh-hc-grants-bail-pan-masala-gst-hsns-cess-evasion-case.html",
+   "published": "2026-09-29T08:47:40.000Z",
+   "firstSeen": "2026-09-29T09:45:52.533Z",
+   "summary": "Madhya Pradesh HC grants bail where complaint was filed, evidence seized, no police custody sought and alleged offences carried maximum five-year term.The post Madhya Pradesh HC Grants Bail in Pan Masala GST & HSNS Cess…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "f61afd3f03fd",
+   "area": "gst",
+   "sourceId": "taxguru-gst",
+   "source": "TaxGuru GST",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Goods and Services Tax | CRS Services IGST Demand Against Singapore Airlines Requires Deeper Examination: Bombay HC",
+   "link": "https://taxguru.in/goods-and-service-tax/crs-services-igst-demand-against-singapore-airlines-requires-deeper-examination-bombay-hc.html",
+   "published": "2026-09-29T08:43:15.000Z",
+   "firstSeen": "2026-09-29T09:45:52.533Z",
+   "summary": "Bombay HC grants interim relief to Singapore Airlines in ₹24.42 crore IGST dispute and agrees to examine whether Indian operator was service recipient.The post CRS Services IGST Demand Against Singapore Airlines…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "e2a6dfdff9a3",
+   "area": "it",
+   "sourceId": "news-it",
+   "source": "News search: Income tax",
+   "official": false,
+   "publisher": "LawBeat",
+   "type": "Judgment",
+   "title": "CBDT Circulars Cannot Override Income Tax Act, Not Binding on Courts: Supreme Court",
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPWktnV2huM3c4M0ZSc2R0Z0pEbktBZmZXemJtSExlMWpVTjNBNTRlbUxkS25jRUo3TkI5RTZPOVZkUUw4REZicjE0YWxtblpOcUdMMThEelgtSG5MZnBoblNybzhqSzRqNF9zTFI0VFpBaXQtSnNRNEl0VU10UlJtYXhJTkRhaFF2XzhNMEZmM05hdUg2VXM2QTN6MmVNVHUxRWo1THQzUjY3NHVrU3dGdHpDdzdlT09QZ3hYeG9IcVpEX2hkRVlGZzNwM1c?oc=5",
+   "published": "2026-09-29T06:42:26.000Z",
+   "firstSeen": "2026-09-29T09:45:52.533Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "f1f169354e0e",
+   "area": "it",
+   "sourceId": "news-it",
+   "source": "News search: Income tax",
+   "official": false,
+   "publisher": "SAG Infotech Official Tax Blog",
+   "type": "Due date",
+   "title": "CBDT Extends Tax Audit Report Due Date to 21st October 2026",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE92a0ZENE1XdXJyTGJoNWQ5Mk1Mc1drZTdKSlB1ME96dl9SU2ljM3VheVFwR1d3Q3FkV0lwUE41MV8zUHFTV05saVRnVnpTQnlfRjhrSTRmRU5DbW51MFRvdU93azNLRzVGWkZFVFFIb2x5Y2JTVnc?oc=5",
+   "published": "2026-09-29T06:00:06.000Z",
+   "firstSeen": "2026-09-29T09:45:52.533Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": [
+    {
+     "date": "2026-10-21",
+     "kind": "deadline",
+     "context": "CBDT Extends Tax Audit Report Due Date to 21st October 2026"
+    }
+   ]
+  },
+  {
+   "id": "ea2459b71f4b",
+   "area": "it",
+   "sourceId": "news-it",
+   "source": "News search: Income tax",
+   "official": false,
+   "publisher": "News18",
+   "type": "Update",
+   "title": "Income Tax Audit, ITR Deadlines Extended For AY 2026-27: Check Revised Dates",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPLTV4VWlEeGpFOV8xWmk5Z1ZscUQ4cXJrZFA4VHJJNFhzRTdvdE1hOGdPaloyRWd0NzVpdEhPbGhKVmR0akYxZl8tQTZYN29WNVpBdUNXd0EtRnpoSVJRenh4Vy1NbGZGdWs0NVRXalQwTVQzMjNFV3hlYzUyMldmdnZRTG5zUHM4Z29GRlZQYnJkZTBic3V3bnU4Uko1MkVxZ1A3SUw3eTA2a09aaDNiVkQwUXRNTFlkQ085Ql9qQkU3Z9IBxwFBVV95cUxQNDBXN2c2MlBTay1pTy11UUZNT2tIa2hzU1dPVU1qX2JLa2tFdU8xMUptcGJhbmR5M203MWp1V3RhVmMybFA1MzRCVi1RejJKSGVyTUg3WlNjdUNFekRoYnhuOC1pUEZKNk9kSkprRTlJVi1HYzVXYjdDSG1TTTE4UXMzMjI5RW1MRTJUYXhEeFlsRnlnbXUwMTFXeHh3WXBpcWZJajdMcUNfdXg5WHYzcTNOczlWX2FUMzFzSWR4SmVOUDNMRE5F?oc=5",
+   "published": "2026-09-29T03:30:31.000Z",
+   "firstSeen": "2026-09-29T09:45:52.533Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "4b169d4fdece",
+   "area": "it",
+   "sourceId": "news-it",
+   "source": "News search: Income tax",
+   "official": false,
+   "publisher": "jagranjosh.com",
+   "type": "Due date",
+   "title": "ITR Filing Deadline 2026: CBDT Extends Tax Audit And ITR Due Dates; How Will This Benefit Taxpayers?",
+   "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQZTJIWFZBZE5mM3lpdzh6QkRsdkFxRHdGa1dDNkFPUEpJY2RxR05WR08tdlBqQThOUnlDR2k4VVFxNlJrLXhFaDV0N0ZSbUtCS3JCa1V5QnQ0SUl0NUhZMy1OU3JTUGNxSS1wbWZnTmNtU0Y3VEJTTEd3aVR6WUlUU1FMNUVCUDFRYnA0bUpSU2h6bDZEX21ETXNYX1NQdWNsWjJPdDBqZ1dtLS1kM1B5ZWtxMExyMVJTV1A5OWRKWURWRkhTbEZWZm9xNzN5ek9Ja1NidGJ3bGE5VldvU29rcXZtdWthY2lRX1RZ?oc=5",
+   "published": "2026-09-29T02:43:12.000Z",
+   "firstSeen": "2026-09-29T09:45:52.533Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "1f04b0029a7b",
+   "area": "gst",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | GST Authorities Cannot Seize Cash During Section 67 Search: Rajasthan HC",
+   "link": "https://taxguru.in/income-tax/gst-authorities-cannot-seize-cash-section-67-search-rajasthan-hc.html",
+   "published": "2026-09-29T09:16:19.000Z",
+   "firstSeen": "2026-09-29T09:45:52.533Z",
+   "summary": "Rajasthan High Court holds GST authorities cannot seize cash or securities under Section 67(2) and directs refund of seized money.The post GST Authorities Cannot Seize Cash During Section 67 Search: Rajasthan HC…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "8a431e76ffa6",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | High Share Premium Alone Cannot Justify Section 68 Addition When Investor Credentials Proved: Bombay HC",
+   "link": "https://taxguru.in/income-tax/high-share-premium-cannot-justify-section-68-addition-investor-credentials-proved-bombay-hc.html",
+   "published": "2026-09-29T09:06:14.000Z",
+   "firstSeen": "2026-09-29T09:45:52.533Z",
+   "summary": "Bombay HC upheld deletion of Section 68 share premium addition where investor identity, creditworthiness, genuineness and money trail stood proved.The post High Share Premium Alone Cannot Justify Section 68 Addition…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "9afab4132430",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | Bombay HC Grants Fresh Section 264 Hearing Subject to ₹1 Lakh Costs on ₹4.24 Crore Addition",
+   "link": "https://taxguru.in/income-tax/bombay-hc-grants-fresh-section-264-hearing-subject-rs-1-lakh-costs-rs-4-24-crore-addition.html",
+   "published": "2026-09-29T09:05:45.000Z",
+   "firstSeen": "2026-09-29T09:45:52.533Z",
+   "summary": "Bombay HC conditionally restored Section 264 revision to permit additional evidence on ₹4.24 crore Section 69 addition.The post Bombay HC Grants Fresh Section 264 Hearing Subject to ₹1 Lakh Costs on ₹4.24 Crore Addition…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "2de0e67617f7",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | SC Declines to Interfere With Quashing of Section 153C Notices Lacking Search Nexus",
+   "link": "https://taxguru.in/income-tax/sc-declines-interfere-quashing-section-153c-notices-lacking-search-nexus.html",
+   "published": "2026-09-29T08:44:58.000Z",
+   "firstSeen": "2026-09-29T09:45:52.533Z",
+   "summary": "Supreme Court refused to interfere with Gujarat HC order quashing Section 153C proceedings where seized material had no nexus with assessee.The post SC Declines to Interfere With Quashing of Section 153C Notices Lacking…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "af89adf40cde",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | Rule 8D Cannot Apply Without AO Recording Dissatisfaction: ITAT Bangalore",
+   "link": "https://taxguru.in/income-tax/rule-8d-cannot-apply-without-ao-recording-dissatisfaction-itat-bangalore.html",
+   "published": "2026-09-29T08:35:45.000Z",
+   "firstSeen": "2026-09-29T09:45:52.533Z",
+   "summary": "ITAT Bangalore deletes ₹9.46 lakh rent addition on real-income principle and ₹25.88 lakh Section 14A disallowance for lack of AO satisfaction.The post Rule 8D Cannot Apply Without AO Recording Dissatisfaction: ITAT…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "4f0d1d007c3e",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | ITAT Bangalore Allows ₹25 Lakh Leave Encashment Limit for AY 2020-21",
+   "link": "https://taxguru.in/income-tax/itat-bangalore-rs-25-lakh-leave-encashment-limit-ay-2020-21.html",
+   "published": "2026-09-29T07:36:14.000Z",
+   "firstSeen": "2026-09-29T09:45:52.533Z",
+   "summary": "ITAT Bangalore condones 1,102-day delay and applies ₹25 lakh leave encashment limit to AY 2020-21, allowing full ₹9.22 lakh exemption.The post ITAT Bangalore Allows ₹25 Lakh Leave Encashment Limit for AY 2020-21…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "3d7724619693",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | ITAT Chennai: Goetze Does Not Bar Appellate Claim for BSNL VRS Exemption",
+   "link": "https://taxguru.in/income-tax/itat-chennai-goetze-not-bar-appellate-claim-bsnl-vrs-exemption.html",
+   "published": "2026-09-29T07:23:02.000Z",
+   "firstSeen": "2026-09-29T09:45:52.533Z",
+   "summary": "ITAT Chennai holds Goetze bar does not restrict appellate authorities and directs AO to allow Section 10(10B) claim on BSNL VRS-2019 compensation.The post ITAT Chennai: Goetze Does Not Bar Appellate Claim for BSNL VRS…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "3525a27bd17f",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | ITAT Chennai Remands Quarry Client Deposits and ₹13.07 Lakh Property Sale Issue",
+   "link": "https://taxguru.in/income-tax/itat-chennai-remands-quarry-client-deposits-rs-13-07-lakh-property-sale-issue.html",
+   "published": "2026-09-29T07:12:43.000Z",
+   "firstSeen": "2026-09-29T09:45:52.533Z",
+   "summary": "ITAT Chennai condones 124-day appeal delay and remands quarry commission deposits and property capital-gain issues to CIT(A) for fresh examination.The post ITAT Chennai Remands Quarry Client Deposits and ₹13.07 Lakh…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "a0302981b076",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | ITAT Chennai: Commercial Sales Not Essential Once Bio-Pharma Business Is Set Up",
+   "link": "https://taxguru.in/income-tax/itat-chennai-commercial-sales-not-essential-bio-pharma-business-set.html",
+   "published": "2026-09-29T07:00:54.000Z",
+   "firstSeen": "2026-09-29T09:45:52.533Z",
+   "summary": "ITAT Chennai deletes ₹10.70 crore Bio-Pharma disallowance, holding that business set-up and commercial commencement are distinct stages.The post ITAT Chennai: Commercial Sales Not Essential Once Bio-Pharma Business Is…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "5e4e6bfa5211",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | ITAT Chennai Deletes ₹1.25 Crore Section 69A Addition as Assessee Acted Only as Power Agent",
+   "link": "https://taxguru.in/income-tax/itat-chennai-deletes-rs-1-25-crore-section-69a-addition-assessee-acted-power-agent.html",
+   "published": "2026-09-29T06:09:20.000Z",
+   "firstSeen": "2026-09-29T09:45:52.533Z",
+   "summary": "ITAT Chennai deleted ₹1.91 crore Section 69A additions after accepting the power-agent fund trail and explained sources of ₹66 lakh cash deposits.The post ITAT Chennai Deletes ₹1.25 Crore Section 69A Addition as…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "e1e4ded2280f",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | ₹9.65 Crore Section 69C Addition on Gold Job Work Deleted: ITAT Chennai",
+   "link": "https://taxguru.in/income-tax/rs-9-65-crore-section-69c-addition-gold-job-work-deleted-itat-chennai.html",
+   "published": "2026-09-29T06:00:12.000Z",
+   "firstSeen": "2026-09-29T09:45:52.533Z",
+   "summary": "ITAT Chennai upheld deletion of ₹9.65 crore Section 69C addition as job-work records supported assessee and third-party statement remained untested.The post ₹9.65 Crore Section 69C Addition on Gold Job Work Deleted:…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "8c14e977a831",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | ITAT Mumbai Restores ₹43.18 Lakh Section 50C Adjustment Dispute to CIT(A)",
+   "link": "https://taxguru.in/income-tax/itat-mumbai-restores-rs-43-18-lakh-section-50c-adjustment-dispute-cit.html",
+   "published": "2026-09-29T05:41:04.000Z",
+   "firstSeen": "2026-09-29T09:45:52.533Z",
+   "summary": "ITAT Mumbai restored ₹43.18 lakh Section 50C CPC adjustment to CIT(A) for verification of agreement, receipts, MIDC approval and valuation evidence.The post ITAT Mumbai Restores ₹43.18 Lakh Section 50C Adjustment…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "8b9830a6455f",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Update",
+   "title": "Income Tax | CBDT Approves Santhigiri Ashram for Scientific Research under Income-tax Act, 2025",
+   "link": "https://taxguru.in/income-tax/cbdt-approves-santhigiri-ashram-scientific-research-income-tax-act-2025.html",
+   "published": "2026-09-29T04:01:41.000Z",
+   "firstSeen": "2026-09-29T09:45:52.533Z",
+   "summary": "CBDT approves Santhigiri Ashram for scientific research for tax years 2026-27 to 2030-31, subject to prescribed conditions.The post CBDT Approves Santhigiri Ashram for Scientific Research under Income-tax Act, 2025 appeared first on TaxGuru.",
+   "notes": [
+    "Notification No. 131 of 2026-Income Tax| Dated: 28th September, 2026",
+    "ii. prepare statement under section 45(4)(a) of the Income-tax Act, 2025 for each tax year in Form No.15 and deliver or cause to be delivered to the Director General of Income-tax (Systems) or the person authorised by him on or before the 31st May,…",
+    "This notification shall be effective for the tax years 2026-2027 to 2030-2031."
+   ],
+   "refs": [
+    "S.O. 5334(E)"
+   ],
+   "deadlines": []
+  },
+  {
+   "id": "4808bcda781b",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Update",
+   "title": "Income Tax | CBDT Approves UPASI Tea Research Foundation for Scientific Research under Income-tax Act, 2025",
+   "link": "https://taxguru.in/income-tax/cbdt-approves-upasi-tea-research-foundation-scientific-research-income-tax-act-2025.html",
+   "published": "2026-09-29T03:59:38.000Z",
+   "firstSeen": "2026-09-29T09:45:52.533Z",
+   "summary": "CBDT approves UPASI Tea Research Foundation for scientific research under Section 45 of Income-tax Act, 2025 for tax years 2026-27 to 2030-31.The post CBDT Approves UPASI Tea Research Foundation for Scientific Research under Income-tax Act, 2025 appeared first on TaxGuru.",
+   "notes": [
+    "The foundation must continue to be approved as a Scientific and Industrial Research Organization (SIRO) by the Department of Scientific and Industrial Research, Government of India, during each tax year for which the notification remains effective.",
+    "Notification No. 129 of 2026-Income Tax | Dated: 28th September, 2026",
+    "ii. prepare statement under section 45(4)(a) of the Income-tax Act, 2025 for each tax year in Form No.15 and deliver or cause to be delivered to the Director General of Income-tax (Systems) or the person authorised by him on or before the 31st May,…"
+   ],
+   "refs": [
+    "S.O. 5332(E)"
+   ],
+   "deadlines": []
+  },
+  {
+   "id": "2026181f152e",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Update",
+   "title": "Income Tax | CBDT Approves Indian Institute of Health Management Research, Jaipur for Scientific Research",
+   "link": "https://taxguru.in/income-tax/cbdt-approves-indian-institute-health-management-research-jaipur-scientific-research.html",
+   "published": "2026-09-29T03:57:32.000Z",
+   "firstSeen": "2026-09-29T09:45:52.533Z",
+   "summary": "CBDT approves Indian Institute of Health Management Research, Jaipur for Scientific Research under Section 45 of Income-tax Act, 2025 for tax years 2026-27 to 2030-31.The post CBDT Approves Indian Institute of Health Management Research, Jaipur for Scientific Research appeared first on TaxGuru.",
+   "notes": [
+    "Notification No. 127 of 2026-Income Tax |Dated: 28th September, 2026",
+    "ii. prepare statement under section 45(4)(a) of the Income-tax Act, 2025 for each tax year in Form No.15 and deliver or cause to be delivered to the Director General of Income-tax (Systems) or the person authorised by him on or before the 31st May,…",
+    "This notification shall be effective for the tax years 2026-2027 to 2030-2031."
+   ],
+   "refs": [
+    "S.O. 5330(E)"
+   ],
+   "deadlines": []
+  },
+  {
+   "id": "4463bcc518a9",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Update",
+   "title": "Income Tax | CBDT Approves Bhartiya Sanskriti Darshan Trust for Scientific Research",
+   "link": "https://taxguru.in/income-tax/cbdt-approves-bhartiya-sanskriti-darshan-trust-scientific-research.html",
+   "published": "2026-09-29T03:56:51.000Z",
+   "firstSeen": "2026-09-29T09:45:52.533Z",
+   "summary": "CBDT approves Bhartiya Sanskriti Darshan Trust, Pune for scientific research for tax years 2026-27 to 2030-31 under the Income-tax Act, 2025.The post CBDT Approves Bhartiya Sanskriti Darshan Trust for Scientific Research appeared first on TaxGuru.",
+   "notes": [
+    "The Trust must comply with rule 34, prepare a statement under section 45(4)(a) in Form No. 15 for each tax year in which the donation is received and deliver it to the Director General of Income-tax (Systems) or the authorised person on or before 31 May…",
+    "The notification is No. 126 of 2026-CBDT dated 28 September 2026, bearing S.O. 5329(E).",
+    "Notification No. 126 of 2026-Income Tax | Dated: 28th September, 2026"
+   ],
+   "refs": [
+    "S.O. 5329(E)"
+   ],
+   "deadlines": []
+  },
+  {
+   "id": "0d46bd03fffc",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Update",
+   "title": "Income Tax | CBDT Approves Voluntary Health Services, Chennai for Scientific Research under Income-tax Act, 2025",
+   "link": "https://taxguru.in/income-tax/cbdt-approves-voluntary-health-services-chennai-scientific-research-income-tax-act-2025.html",
+   "published": "2026-09-29T03:55:29.000Z",
+   "firstSeen": "2026-09-29T09:45:52.533Z",
+   "summary": "CBDT approves The Voluntary Health Services, Chennai for scientific research under Section 45 of Income-tax Act, 2025 for tax years 2026-27 to 2030-31.The post CBDT Approves Voluntary Health Services, Chennai for Scientific Research under Income-tax Act, 2025 appeared first on TaxGuru.",
+   "notes": [
+    "The Voluntary Health Services, Chennai must continue to be approved as a Scientific and Industrial Research Organization (SIRO) by the Department of Scientific and Industrial Research, Government of India, during each tax year for which the notification…",
+    "Notification No. 125 of 2026-Income Tax|Dated: 28th September, 2026",
+    "(ii) prepare statement under section 45(4)(a) of the Income-tax Act, 2025 for each tax year in Form No.15 and deliver or cause to be delivered to the Director General of Income-tax (Systems) or the person authorised by him on or before the 31st May,…"
+   ],
+   "refs": [
+    "S.O. 5328(E)"
+   ],
+   "deadlines": []
+  },
+  {
+   "id": "fdc50627bb45",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Update",
+   "title": "Income Tax | CBDT Approves Schizophrenia Research Foundation for Scientific Research under Income-tax Act, 2025",
+   "link": "https://taxguru.in/income-tax/cbdt-approves-schizophrenia-research-foundation-scientific-research-income-tax-act-2025.html",
+   "published": "2026-09-29T03:52:34.000Z",
+   "firstSeen": "2026-09-29T09:45:52.533Z",
+   "summary": "CBDT approves Schizophrenia Research Foundation, Chennai for Scientific Research under section 45 of the Income-tax Act, 2025 for tax years 2026-27 to 2030-31.The post CBDT Approves Schizophrenia Research Foundation for Scientific Research under Income-tax Act, 2025 appeared first on TaxGuru.",
+   "notes": [
+    "Notification No. 122 of 2026-Income Tax| Dated: 28th September, 2026",
+    "ii. prepare statement under section 45(4)(a) of the Income-tax Act, 2025 for each tax year in Form No.15 and deliver or cause to be delivered to the Director General of Income-tax (Systems) or the person authorised by him on or before the 31st May,…",
+    "This notification shall be effective for the tax years 2026-2027 to 2030-2031."
+   ],
+   "refs": [
+    "S.O. 5325(E)"
+   ],
+   "deadlines": []
+  },
+  {
+   "id": "bda97c85c41e",
+   "area": "loan",
+   "sourceId": "taxguru-corporate",
+   "source": "TaxGuru Corporate Law",
+   "official": false,
+   "publisher": "",
+   "type": "Scheme",
+   "title": "Corporate Law | PLI Scheme for Bulk Drugs Strengthens Domestic Pharmaceutical Supply Chain",
+   "link": "https://taxguru.in/corporate-law/pli-scheme-bulk-drugs-strengthens-domestic-pharmaceutical-supply-chain.html",
+   "published": "2026-09-29T08:58:36.000Z",
+   "firstSeen": "2026-09-29T09:45:52.533Z",
+   "summary": "PLI Scheme for Bulk Drugs strengthens domestic manufacturing of KSMs, DIs and APIs, reducing import dependence and enhancing pharmaceutical supply-chain resilience.The post PLI Scheme for Bulk Drugs Strengthens Domestic Pharmaceutical Supply Chain appeared first on TaxGuru.",
+   "notes": [
+    "The projects are intended to promote import substitution, backward integration, indigenous technological capabilities and supply security for strategically important pharmaceutical inputs and medicines."
+   ],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "8b19e1137f67",
+   "area": "mca",
+   "sourceId": "taxguru-corporate",
+   "source": "TaxGuru Corporate Law",
+   "official": false,
+   "publisher": "",
+   "type": "Update",
+   "title": "Corporate Law | FSSAI Proposes Ban on ‘Paneer’ Term for Non-Milk-Derived Products",
+   "link": "https://taxguru.in/corporate-law/fssai-proposes-ban-paneer-term-non-milk-derived-products.html",
+   "published": "2026-09-29T08:58:09.000Z",
+   "firstSeen": "2026-09-29T09:45:52.533Z",
+   "summary": "FSSAI proposes draft amendment to restrict use of ‘Paneer’ for non-milk-derived products and invites objections and suggestions for 60 days.The post FSSAI Proposes Ban on ‘Paneer’ Term for Non-Milk-Derived Products appeared first on TaxGuru.",
+   "notes": [
+    "Summary: The Food Safety and Standards Authority of India (FSSAI) has proposed the Food Safety and Standards (Prohibition and Restrictions on Sales) Amendment Regulations, 2026, to restrict the manufacture and sale of analogue products as “Paneer” and…",
+    "The principal regulations were notified in 2011 and have been amended from time to time.",
+    "The principal Food Safety and Standards (Prohibition and Restrictions on Sales) Regulations were notified in 2011 and have been amended from time to time."
+   ],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "4ece5308f535",
+   "area": "mca",
+   "sourceId": "taxguru-corporate",
+   "source": "TaxGuru Corporate Law",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Corporate Law | NCLT Guwahati Admits CIRP Against Atlanta Modular Over ₹17.16 Crore Unpaid Operational Debt",
+   "link": "https://taxguru.in/corporate-law/nclt-guwahati-admits-cirp-against-atlanta-modular-rs-17-16-crore-unpaid-operational-debt.html",
+   "published": "2026-09-29T08:42:14.000Z",
+   "firstSeen": "2026-09-29T09:45:52.533Z",
+   "summary": "NCLT Guwahati admits Section 9 CIRP against Atlanta Modular over ₹17.16 crore operational debt, finding default and no pre-existing dispute.The post NCLT Guwahati Admits CIRP Against Atlanta Modular Over ₹17.16 Crore…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "7249e2dfe368",
+   "area": "mca",
+   "sourceId": "taxguru-company",
+   "source": "TaxGuru Company Law",
+   "official": false,
+   "publisher": "",
+   "type": "Update",
+   "title": "Company Law | Deposits under Companies Act, 2013: Meaning, Exclusions, DPT-3 & Shareholder Loans",
+   "link": "https://taxguru.in/company-law/deposits-companies-act-2013-meaning-exclusions-dpt-3-shareholder-loans.html",
+   "published": "2026-09-29T09:12:14.000Z",
+   "firstSeen": "2026-09-29T09:45:52.533Z",
+   "summary": "Understand deposits under the Companies Act, 2013, exclusions under Rule 2(1)(c), shareholder loans, director loans and DPT-3 reporting.The post Deposits under Companies Act, 2013: Meaning, Exclusions, DPT-3 & Shareholder Loans appeared first on TaxGuru.",
+   "notes": [
+    "A private company may be eligible for exemptions from certain requirements of section 73(2) where it accepts money from members within prescribed limits or satisfies other notified conditions.",
+    "The annual form is generally filed on or before 30 June each year for the position as on 31 March of that financial year.",
+    "The MCA instruction kit states that the auditor must certify these particulars where the form includes a return of deposits."
+   ],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "d9eb060402b0",
+   "area": "sebi",
+   "sourceId": "taxguru-sebi",
+   "source": "TaxGuru SEBI",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "SEBI | SAT Mumbai Quashes SEBI Order Against Raj Oil Mills Following Monnet Ispat Ruling",
+   "link": "https://taxguru.in/sebi/sat-mumbai-quashes-sebi-order-against-raj-oil-mills-monnet-ispat-ruling.html",
+   "published": "2026-09-29T09:07:46.000Z",
+   "firstSeen": "2026-09-29T09:45:52.533Z",
+   "summary": "SAT Mumbai quashed SEBIs order against Raj Oil Mills as the controversy was squarely covered by its Monnet Ispat ruling.The post SAT Mumbai Quashes SEBI Order Against Raj Oil Mills Following Monnet Ispat Ruling appeared…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "6969a1d27a2b",
+   "area": "loan",
+   "sourceId": "news-loan-central",
+   "source": "News search: central schemes",
+   "official": false,
+   "publisher": "MSME Africa",
+   "type": "Scheme",
+   "title": "Osun Residents Lament as Food Scheme Crashes",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBjZnhRNUNMc3FqWFV1RTlwTVBDVzJoaDhxN2pydVhNbnR5a1JrOUV0OS15SUhwQV9RSm96ajJUUEFoSnIybGJIS282d3R2ekdjcE1ndWdwU01RdGwzYk1rcGN4cjMyeUdfaXBYakNEZ01LeGpmaHEwRC1WcWptQkE?oc=5",
+   "published": "2026-09-29T09:34:16.000Z",
+   "firstSeen": "2026-09-29T09:45:52.533Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
   {
    "id": "deffea800ccd",
    "area": "gst",
@@ -1544,6 +2106,23 @@
    "deadlines": []
   },
   {
+   "id": "bdd672423715",
+   "area": "gst",
+   "sourceId": "news-gst",
+   "source": "News search: GST",
+   "official": false,
+   "publisher": "Lawtext",
+   "type": "Judgment",
+   "title": "Bombay High Court Quashes GST Demand Against University for Violation of Natural Justice — Failure to Grant Personal Hearing Renders Order Illegal Under Section 74(1) of CGST Act, 2017. Circulars Mandating Personal Hearing Before Adverse Order Are",
+   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9nX2pWanhFWTJpblFUdW9QNXBtbzl3NnFqN0pJdF94UkFuaWhUWlhhZ0w1bXVMWGFiLXBzTjJ6T0I1ZzVlTmdKMUhsdGtVYlQ3T1NVRE9xWm5UaktsUUQ0RzlIZDZ4d0po?oc=5",
+   "published": "2026-09-27T22:09:46.000Z",
+   "firstSeen": "2026-09-29T09:45:52.533Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
    "id": "7751b990c5a7",
    "area": "gst",
    "sourceId": "taxguru-gst",
@@ -2108,7 +2687,10 @@
    "summary": "",
    "notes": [],
    "refs": [],
-   "deadlines": []
+   "deadlines": [],
+   "alsoIn": [
+    "News search: agriculture and MSME credit"
+   ]
   },
   {
    "id": "926a8c1147dd",
@@ -4183,6 +4765,23 @@
    "alsoIn": [
     "TaxGuru Corporate Law"
    ]
+  },
+  {
+   "id": "2d6596efe57c",
+   "area": "loan",
+   "sourceId": "news-loan-west",
+   "source": "News search: Gujarat, MP, Rajasthan, Goa",
+   "official": false,
+   "publisher": "Free Press Journal",
+   "type": "Judgment",
+   "title": "Madhya Pradesh High Court Orders Full Pay For 11 Probationer Forest Guards In Jabalpur",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRG1pbFZBQkZvZGJQdVlxSDNpNWpKZk9ZRmRIOTZfT1V4aUJOems1RndBcjkxc0RYWm5yZUpPeVUtYVVta1pfZDJxVXpjdXJ5Mjk2bWlrbVdLdElxbzVlbjVzUUlOZEhJMGZ1aFBOSUtvS2VxeDJLVm5hN3AxMVpXTEpaekRCa1FmcHcyYkxkem5kNjgyUXJQWU1wYW81Wlo2M0o0QWp4SE1iVEFiZVpTbjJUcGZYR3hMNUliOUczU2xJSVHSAcgBQVVfeXFMTVdnejNINnpfdE5VeTBySllPUTNJTjZhSEY2WmpOSHJXMXFqMThvWmdDWGZMMUFEdjAybExUeEFwYTg4TDhzN25FNGtadE9qZEUzTTBmWkZxQll2aVVXM2FPUWVpUTM0V2tEeUxrZkJNaDNOUzE5TDBYdjlYS0QyR0pOTDJOSF9JZWJNd0pfVXZLMmlYNjN2UFo3c2RaUTNMdnlxUk83WTQ4VmhfWm5adVNfc1lLLXRFeTQ1M0ptSDZ5UG1aalFsd0Q?oc=5",
+   "published": "2026-09-25T23:04:00.000Z",
+   "firstSeen": "2026-09-29T09:45:52.533Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
   },
   {
    "id": "c61ea23f6ac2",
@@ -6319,6 +6918,23 @@
    "published": null,
    "firstSeen": "2026-09-26T01:34:59.407Z",
    "summary": "View latest Income Tax notifications, amendments, circulars and CBDT announcements in one place.",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "699d041def24",
+   "area": "gst",
+   "sourceId": "news-gst",
+   "source": "News search: GST",
+   "official": false,
+   "publisher": "Lawtext",
+   "type": "Judgment",
+   "title": "Karnataka High Court Dharwad Bench Considers Writ Petition by Regional Rural Bank Against Show Cause Notices for GST on Commission Paid to Pigmy Agents. Court Examines Whether Pigmy Agents Qualify as Employees Under Industrial Disputes Act, T",
+   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5MYWhYdXJJNGpMVUdwUmdsRloyUDRzSEY4UHduQkEzRzBxZ3MxRVp1VVpvcnFMN2RUUURkMnZsVFBOWDhsekJIWXpDV2Rld1lVSllmbFp2RlVwRXRNeWd2ZDVFa01qdTRQ?oc=5",
+   "published": "2026-09-25T02:11:09.000Z",
+   "firstSeen": "2026-09-29T09:45:52.533Z",
+   "summary": "",
    "notes": [],
    "refs": [],
    "deadlines": []
@@ -21073,7 +21689,10 @@
    "summary": "",
    "notes": [],
    "refs": [],
-   "deadlines": []
+   "deadlines": [],
+   "alsoIn": [
+    "News search: central schemes"
+   ]
   },
   {
    "id": "27c9de959206",
