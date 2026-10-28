@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-10-28T16:13:13.050Z",
+ "generatedAt": "2026-10-28T19:41:18.579Z",
  "repo": "cahimanshukakdedata-png/regulatory-register-v1",
- "newThisRun": 45,
+ "newThisRun": 52,
  "sources": [
   {
    "id": "icai-home",
@@ -14,8 +14,8 @@
    "fetched": 36,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-10-28T16:13:13.050Z",
-   "ms": 1094
+   "lastOk": "2026-10-28T19:41:18.579Z",
+   "ms": 1099
   },
   {
    "id": "news-acc",
@@ -28,8 +28,8 @@
    "fetched": 45,
    "kept": 2,
    "note": "",
-   "lastOk": "2026-10-28T16:13:13.050Z",
-   "ms": 407
+   "lastOk": "2026-10-28T19:41:18.579Z",
+   "ms": 341
   },
   {
    "id": "nfra-home",
@@ -42,8 +42,8 @@
    "fetched": 26,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-10-28T16:13:13.050Z",
-   "ms": 1713
+   "lastOk": "2026-10-28T19:41:18.579Z",
+   "ms": 1683
   },
   {
    "id": "taxguru-ca",
@@ -56,8 +56,8 @@
    "fetched": 75,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-10-28T16:13:13.050Z",
-   "ms": 885
+   "lastOk": "2026-10-28T19:41:18.579Z",
+   "ms": 1079
   },
   {
    "id": "rbi-notifications",
@@ -70,8 +70,8 @@
    "fetched": 10,
    "kept": 4,
    "note": "",
-   "lastOk": "2026-10-28T16:13:13.050Z",
-   "ms": 1015
+   "lastOk": "2026-10-28T19:41:18.579Z",
+   "ms": 2157
   },
   {
    "id": "rbi-press",
@@ -84,8 +84,8 @@
    "fetched": 10,
    "kept": 2,
    "note": "",
-   "lastOk": "2026-10-28T16:13:13.050Z",
-   "ms": 72
+   "lastOk": "2026-10-28T19:41:18.579Z",
+   "ms": 1080
   },
   {
    "id": "taxguru-rbi",
@@ -98,8 +98,8 @@
    "fetched": 75,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-10-28T16:13:13.050Z",
-   "ms": 612
+   "lastOk": "2026-10-28T19:41:18.579Z",
+   "ms": 838
   },
   {
    "id": "cbic-gst",
@@ -112,8 +112,8 @@
    "fetched": 20,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-10-28T16:13:13.050Z",
-   "ms": 1510
+   "lastOk": "2026-10-28T19:41:18.579Z",
+   "ms": 1491
   },
   {
    "id": "gst-council",
@@ -126,8 +126,8 @@
    "fetched": 20,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-10-28T16:13:13.050Z",
-   "ms": 2991
+   "lastOk": "2026-10-28T19:41:18.579Z",
+   "ms": 3046
   },
   {
    "id": "gst-portal-news",
@@ -140,8 +140,8 @@
    "fetched": 0,
    "kept": 0,
    "note": "page returned no usable links (it may need a real browser); this section relies on its other sources",
-   "lastOk": "2026-10-28T16:13:13.050Z",
-   "ms": 1635
+   "lastOk": "2026-10-28T19:41:18.579Z",
+   "ms": 1703
   },
   {
    "id": "news-gst",
@@ -151,11 +151,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(CBIC%20OR%20GSTN%20OR%20%22GST%20Council%22%20OR%20CGST)%20(notification%20OR%20circular%20OR%20advisory%20OR%20extended)%20when%3A10d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 85,
+   "fetched": 96,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-10-28T16:13:13.050Z",
-   "ms": 574
+   "lastOk": "2026-10-28T19:41:18.579Z",
+   "ms": 538
   },
   {
    "id": "taxguru-gst",
@@ -168,8 +168,8 @@
    "fetched": 75,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-10-28T16:13:13.050Z",
-   "ms": 1305
+   "lastOk": "2026-10-28T19:41:18.579Z",
+   "ms": 1225
   },
   {
    "id": "cbdt-communications",
@@ -179,11 +179,11 @@
    "official": true,
    "url": "https://incometaxindia.gov.in/pages/communications/index.aspx",
    "ok": true,
-   "fetched": 5,
+   "fetched": 4,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-10-28T16:13:13.050Z",
-   "ms": 5189
+   "lastOk": "2026-10-28T19:41:18.579Z",
+   "ms": 4340
   },
   {
    "id": "itd-latest",
@@ -196,8 +196,8 @@
    "fetched": 39,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-10-28T16:13:13.050Z",
-   "ms": 1369
+   "lastOk": "2026-10-28T19:41:18.579Z",
+   "ms": 1188
   },
   {
    "id": "news-it",
@@ -207,11 +207,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=CBDT%20(notification%20OR%20circular%20OR%20%22due%20date%22%20OR%20extended%20OR%20scheme)%20when%3A10d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 28,
-   "kept": 19,
+   "fetched": 27,
+   "kept": 18,
    "note": "",
-   "lastOk": "2026-10-28T16:13:13.050Z",
-   "ms": 320
+   "lastOk": "2026-10-28T19:41:18.579Z",
+   "ms": 337
   },
   {
    "id": "taxguru-it",
@@ -224,8 +224,8 @@
    "fetched": 75,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-10-28T16:13:13.050Z",
-   "ms": 851
+   "lastOk": "2026-10-28T19:41:18.579Z",
+   "ms": 671
   },
   {
    "id": "epfo-home",
@@ -238,8 +238,8 @@
    "fetched": 0,
    "kept": 0,
    "note": "site refused a direct request (known to refuse direct requests); read through r.jina.ai; page returned no usable links (it may need a real browser); this section relies on its other sources",
-   "lastOk": "2026-10-28T16:13:13.050Z",
-   "ms": 30857
+   "lastOk": "2026-10-28T19:41:18.579Z",
+   "ms": 33486
   },
   {
    "id": "esic-home",
@@ -252,8 +252,8 @@
    "fetched": 52,
    "kept": 0,
    "note": "site refused a direct request (known to refuse direct requests); read through r.jina.ai",
-   "lastOk": "2026-10-28T16:13:13.050Z",
-   "ms": 51936
+   "lastOk": "2026-10-28T19:41:18.579Z",
+   "ms": 58047
   },
   {
    "id": "news-labour",
@@ -263,11 +263,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(EPFO%20OR%20ESIC%20OR%20%22labour%20code%22)%20(notification%20OR%20circular%20OR%20rules%20OR%20extended%20OR%20deadline)%20when%3A14d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 80,
+   "fetched": 48,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-10-28T16:13:13.050Z",
-   "ms": 679
+   "lastOk": "2026-10-28T19:41:18.579Z",
+   "ms": 307
   },
   {
    "id": "cgtmse",
@@ -280,8 +280,8 @@
    "fetched": 1,
    "kept": 0,
    "note": "site refused a direct request (known to refuse direct requests); read through r.jina.ai",
-   "lastOk": "2026-10-28T16:13:13.050Z",
-   "ms": 47132
+   "lastOk": "2026-10-28T19:41:18.579Z",
+   "ms": 50949
   },
   {
    "id": "maitri-mh",
@@ -294,8 +294,8 @@
    "fetched": 0,
    "kept": 0,
    "note": "site refused a direct request (HTTP 503); read through r.jina.ai; page returned no usable links (it may need a real browser); this section relies on its other sources",
-   "lastOk": "2026-10-28T16:13:13.050Z",
-   "ms": 46584
+   "lastOk": "2026-10-28T19:41:18.579Z",
+   "ms": 47349
   },
   {
    "id": "msme-ministry",
@@ -308,8 +308,8 @@
    "fetched": 0,
    "kept": 0,
    "note": "page returned no usable links (it may need a real browser); this section relies on its other sources",
-   "lastOk": "2026-10-28T16:13:13.050Z",
-   "ms": 2142
+   "lastOk": "2026-10-28T19:41:18.579Z",
+   "ms": 2307
   },
   {
    "id": "nabard",
@@ -322,8 +322,8 @@
    "fetched": 5,
    "kept": 0,
    "note": "site refused a direct request (known to refuse direct requests); read through r.jina.ai",
-   "lastOk": "2026-10-28T16:13:13.050Z",
-   "ms": 58905
+   "lastOk": "2026-10-28T19:41:18.579Z",
+   "ms": 59022
   },
   {
    "id": "news-loan-central",
@@ -333,11 +333,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(MSME%20OR%20PMEGP%20OR%20MUDRA%20OR%20CGTMSE%20OR%20%22Stand-Up%20India%22%20OR%20%22interest%20subvention%22)%20(scheme%20OR%20subsidy%20OR%20guidelines%20OR%20extended%20OR%20notification)%20when%3A14d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 52,
-   "kept": 25,
+   "fetched": 24,
+   "kept": 16,
    "note": "",
-   "lastOk": "2026-10-28T16:13:13.050Z",
-   "ms": 519
+   "lastOk": "2026-10-28T19:41:18.579Z",
+   "ms": 448
   },
   {
    "id": "news-loan-east",
@@ -347,11 +347,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(%22West%20Bengal%22%20OR%20Odisha%20OR%20Jharkhand%20OR%20Chhattisgarh%20OR%20Assam%20OR%20%22North%20East%22)%20(subsidy%20OR%20incentive%20OR%20%22industrial%20policy%22%20OR%20%22loan%20scheme%22)%20when%3A21d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 65,
-   "kept": 18,
+   "fetched": 63,
+   "kept": 19,
    "note": "",
-   "lastOk": "2026-10-28T16:13:13.050Z",
-   "ms": 393
+   "lastOk": "2026-10-28T19:41:18.579Z",
+   "ms": 487
   },
   {
    "id": "news-loan-farm",
@@ -362,10 +362,10 @@
    "url": "https://news.google.com/rss/search?q=(NABARD%20OR%20%22Kisan%20Credit%20Card%22%20OR%20%22agriculture%20subsidy%22%20OR%20%22food%20processing%20subsidy%22%20OR%20PMFME)%20(scheme%20OR%20subsidy%20OR%20guidelines%20OR%20notification)%20when%3A21d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
    "fetched": 26,
-   "kept": 8,
+   "kept": 7,
    "note": "",
-   "lastOk": "2026-10-28T16:13:13.050Z",
-   "ms": 330
+   "lastOk": "2026-10-28T19:41:18.579Z",
+   "ms": 294
   },
   {
    "id": "news-loan-mh",
@@ -375,11 +375,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=Maharashtra%20(subsidy%20OR%20incentive%20OR%20%22industrial%20policy%22%20OR%20%22loan%20scheme%22)%20(government%20OR%20notified%20OR%20launched%20OR%20guidelines)%20when%3A21d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 46,
-   "kept": 7,
+   "fetched": 26,
+   "kept": 6,
    "note": "",
-   "lastOk": "2026-10-28T16:13:13.050Z",
-   "ms": 438
+   "lastOk": "2026-10-28T19:41:18.579Z",
+   "ms": 288
   },
   {
    "id": "news-loan-north",
@@ -389,11 +389,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(%22Uttar%20Pradesh%22%20OR%20Delhi%20OR%20Punjab%20OR%20Haryana%20OR%20Bihar%20OR%20Uttarakhand%20OR%20%22Himachal%20Pradesh%22)%20(subsidy%20OR%20incentive%20OR%20%22industrial%20policy%22%20OR%20%22loan%20scheme%22)%20when%3A21d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 96,
-   "kept": 25,
+   "fetched": 46,
+   "kept": 15,
    "note": "",
-   "lastOk": "2026-10-28T16:13:13.050Z",
-   "ms": 510
+   "lastOk": "2026-10-28T19:41:18.579Z",
+   "ms": 381
   },
   {
    "id": "news-loan-south",
@@ -403,11 +403,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(%22Tamil%20Nadu%22%20OR%20Karnataka%20OR%20Telangana%20OR%20%22Andhra%20Pradesh%22%20OR%20Kerala)%20(subsidy%20OR%20incentive%20OR%20%22industrial%20policy%22%20OR%20%22loan%20scheme%22)%20when%3A21d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 60,
-   "kept": 12,
+   "fetched": 35,
+   "kept": 7,
    "note": "",
-   "lastOk": "2026-10-28T16:13:13.050Z",
-   "ms": 385
+   "lastOk": "2026-10-28T19:41:18.579Z",
+   "ms": 357
   },
   {
    "id": "news-loan-west",
@@ -417,11 +417,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(Gujarat%20OR%20%22Madhya%20Pradesh%22%20OR%20Rajasthan%20OR%20Goa)%20(subsidy%20OR%20%22industrial%20policy%22%20OR%20incentive%20OR%20%22loan%20scheme%22)%20when%3A21d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 62,
-   "kept": 11,
+   "fetched": 38,
+   "kept": 4,
    "note": "",
-   "lastOk": "2026-10-28T16:13:13.050Z",
-   "ms": 455
+   "lastOk": "2026-10-28T19:41:18.579Z",
+   "ms": 294
   },
   {
    "id": "pmegp-kvic",
@@ -435,7 +435,7 @@
    "kept": 0,
    "error": "website address could not be found (DNS)",
    "lastOk": "2026-09-29T01:36:20.178Z",
-   "ms": 82908
+   "ms": 63396
   },
   {
    "id": "sidbi",
@@ -448,8 +448,8 @@
    "fetched": 10,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-10-28T16:13:13.050Z",
-   "ms": 3476
+   "lastOk": "2026-10-28T19:41:18.579Z",
+   "ms": 8647
   },
   {
    "id": "mca-home",
@@ -462,8 +462,8 @@
    "fetched": 33,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-10-28T16:13:13.050Z",
-   "ms": 3455
+   "lastOk": "2026-10-28T19:41:18.579Z",
+   "ms": 1779
   },
   {
    "id": "news-mca",
@@ -473,11 +473,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=MCA%20(%22general%20circular%22%20OR%20notification%20OR%20%22Companies%20Act%22%20OR%20LLP%20OR%20extended)%20when%3A10d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 41,
-   "kept": 23,
+   "fetched": 28,
+   "kept": 17,
    "note": "",
-   "lastOk": "2026-10-28T16:13:13.050Z",
-   "ms": 461
+   "lastOk": "2026-10-28T19:41:18.579Z",
+   "ms": 260
   },
   {
    "id": "taxguru-company",
@@ -490,8 +490,8 @@
    "fetched": 75,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-10-28T16:13:13.050Z",
-   "ms": 865
+   "lastOk": "2026-10-28T19:41:18.579Z",
+   "ms": 978
   },
   {
    "id": "taxguru-corporate",
@@ -504,8 +504,8 @@
    "fetched": 75,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-10-28T16:13:13.050Z",
-   "ms": 650
+   "lastOk": "2026-10-28T19:41:18.579Z",
+   "ms": 1690
   },
   {
    "id": "mahagst-pt",
@@ -519,7 +519,7 @@
    "kept": 0,
    "error": "the website did not answer in time",
    "lastOk": null,
-   "ms": 157984
+   "ms": 157690
   },
   {
    "id": "news-mh",
@@ -529,11 +529,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=Maharashtra%20(%22profession%20tax%22%20OR%20MahaGST%20OR%20%22stamp%20duty%22%20OR%20%22amnesty%20scheme%22)%20when%3A30d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 12,
-   "kept": 7,
+   "fetched": 42,
+   "kept": 19,
    "note": "",
-   "lastOk": "2026-10-28T16:13:13.050Z",
-   "ms": 289
+   "lastOk": "2026-10-28T19:41:18.579Z",
+   "ms": 340
   },
   {
    "id": "sebi-rss",
@@ -546,8 +546,8 @@
    "fetched": 30,
    "kept": 7,
    "note": "",
-   "lastOk": "2026-10-28T16:13:13.050Z",
-   "ms": 1062
+   "lastOk": "2026-10-28T19:41:18.579Z",
+   "ms": 947
   },
   {
    "id": "taxguru-sebi",
@@ -560,8 +560,8 @@
    "fetched": 75,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-10-28T16:13:13.050Z",
-   "ms": 848
+   "lastOk": "2026-10-28T19:41:18.579Z",
+   "ms": 1037
   },
   {
    "id": "news-tds",
@@ -571,11 +571,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(TDS%20OR%20TCS%20OR%20TRACES)%20(CBDT%20OR%20notification%20OR%20%22due%20date%22%20OR%20form)%20when%3A14d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 61,
-   "kept": 13,
+   "fetched": 63,
+   "kept": 15,
    "note": "",
-   "lastOk": "2026-10-28T16:13:13.050Z",
-   "ms": 543
+   "lastOk": "2026-10-28T19:41:18.579Z",
+   "ms": 532
   }
  ],
  "items": [
@@ -591,6 +591,1033 @@
    "link": "https://pledge.mygov.in/cvc/",
    "published": "2026-11-01T00:00:00.000Z",
    "firstSeen": "2026-10-27T15:29:57.191Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "d06138e20fbc",
+   "area": "gst",
+   "sourceId": "taxguru-gst",
+   "source": "TaxGuru GST",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Goods and Services Tax | GST Notices and Orders Valid Without Visible Digital Signature: Telangana HC Full Bench",
+   "link": "https://taxguru.in/goods-and-service-tax/gst-notices-orders-valid-without-visible-digital-signature-telangana-hc-full-bench.html",
+   "published": "2026-10-28T18:48:34.000Z",
+   "firstSeen": "2026-10-28T19:41:18.579Z",
+   "summary": "Telangana HC Full Bench rules GST notices and orders need no visible digital signature when electronically authenticated under GST law.The post GST Notices and Orders Valid Without Visible Digital Signature: Telangana…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "ea1fa45c4d4e",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | Section 11 Exempt Hospital Receipts Not Subject to Tax Audit Penalty: ITAT Amritsar",
+   "link": "https://taxguru.in/income-tax/section-11-exempt-hospital-receipts-not-subject-tax-audit-penalty-itat-amritsar.html",
+   "published": "2026-10-28T19:39:14.000Z",
+   "firstSeen": "2026-10-28T19:41:18.579Z",
+   "summary": "ITAT Amritsar deletes Rs. 26,572 tax audit penalty on charitable trust operating a hospital, holding Section 44AB inapplicable to its exempt income.The post Section 11 Exempt Hospital Receipts Not Subject to Tax Audit…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "3086f4459e26",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | Section 14A Disallowance Invalid Without Proper AO Satisfaction: ITAT Mumbai",
+   "link": "https://taxguru.in/income-tax/section-14a-disallowance-invalid-without-proper-ao-satisfaction-itat-mumbai.html",
+   "published": "2026-10-28T19:31:30.000Z",
+   "firstSeen": "2026-10-28T19:41:18.579Z",
+   "summary": "ITAT Mumbai deletes Section 14A disallowance where AO failed to record proper dissatisfaction; 1% ad hoc disallowance also rejected.The post Section 14A Disallowance Invalid Without Proper AO Satisfaction: ITAT Mumbai…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "1b24acacae0f",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | Section 80P(2)(d) Deduction Allowed on Co-operative Bank Interest: ITAT Mumbai",
+   "link": "https://taxguru.in/income-tax/section-80p-2-deduction-allowed-operative-bank-interest-itat-mumbai.html",
+   "published": "2026-10-28T19:30:52.000Z",
+   "firstSeen": "2026-10-28T19:41:18.579Z",
+   "summary": "ITAT Mumbai allows Section 80P(2)(d) deduction on ₹5.74 lakh interest earned by a housing society from co-operative banks.The post Section 80P(2)(d) Deduction Allowed on Co-operative Bank Interest: ITAT Mumbai appeared…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "69f769c4dc1d",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | Reassessment Notice by Non-Jurisdictional AO Quashed; Supreme Court Dismisses SLP",
+   "link": "https://taxguru.in/income-tax/reassessment-notice-non-jurisdictional-ao-quashed-supreme-court-dismisses-slp.html",
+   "published": "2026-10-28T19:28:33.000Z",
+   "firstSeen": "2026-10-28T19:41:18.579Z",
+   "summary": "Supreme Court dismisses Revenue's SLP against quashing of Section 148 reassessment notice issued by a non-jurisdictional officer.The post Reassessment Notice by Non-Jurisdictional AO Quashed; Supreme Court Dismisses SLP…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "24175ef3ba02",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | ITAT Mumbai Quashes Reassessment for Time Bar and Wrong Section 151 Sanction",
+   "link": "https://taxguru.in/income-tax/itat-mumbai-quashes-reassessment-time-bar-wrong-section-151-sanction.html",
+   "published": "2026-10-28T19:27:12.000Z",
+   "firstSeen": "2026-10-28T19:41:18.579Z",
+   "summary": "ITAT Mumbai quashes Manish Financial reassessments for AYs 2015-16 and 2016-17 due to limitation and invalid Section 151 approval.The post ITAT Mumbai Quashes Reassessment for Time Bar and Wrong Section 151 Sanction…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "f0088f8be7d5",
+   "area": "mca",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | CSR Donations Eligible for Section 80G; PCIT Revision Quashed by ITAT Mumbai",
+   "link": "https://taxguru.in/income-tax/csr-donations-eligible-section-80g-pcit-revision-quashed-itat-mumbai.html",
+   "published": "2026-10-28T19:25:47.000Z",
+   "firstSeen": "2026-10-28T19:41:18.579Z",
+   "summary": "ITAT Mumbai quashes Section 263 revision over CSR-linked Section 80G deduction; Section 37(1) does not impose a blanket bar.The post CSR Donations Eligible for Section 80G; PCIT Revision Quashed by ITAT Mumbai appeared…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "767c8ab1eb4a",
+   "area": "mca",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | CSR Donations Eligible for Section 80G Despite Section 37(1) Disallowance: ITAT Mumbai",
+   "link": "https://taxguru.in/income-tax/csr-donations-eligible-section-80g-section-37-1-disallowance-itat-mumbai.html",
+   "published": "2026-10-28T19:24:13.000Z",
+   "firstSeen": "2026-10-28T19:41:18.579Z",
+   "summary": "ITAT Mumbai holds eligible CSR donations deductible under Section 80G and quashes PCIT’s revision under Section 263.The post CSR Donations Eligible for Section 80G Despite Section 37(1) Disallowance: ITAT Mumbai…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "d0730bd0c3c4",
+   "area": "mca",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | No Enquiry into CSR Donation Claim: ITAT Upholds Section 263 Revision",
+   "link": "https://taxguru.in/income-tax/no-enquiry-csr-donation-claim-itat-upholds-section-263-revision.html",
+   "published": "2026-10-28T19:22:47.000Z",
+   "firstSeen": "2026-10-28T19:41:18.579Z",
+   "summary": "ITAT Mumbai upheld Section 263 revision where AO allowed ₹16.21 lakh CSR-related Section 80G deduction without enquiry; assessee’s appeal dismissed.The post No Enquiry into CSR Donation Claim: ITAT Upholds Section 263…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "42f9e00c49a0",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | Delayed 80G Application Must Be Considered Under Amended Clause: ITAT Chennai",
+   "link": "https://taxguru.in/income-tax/delayed-80g-application-considered-amended-clause-itat-chennai.html",
+   "published": "2026-10-28T19:21:53.000Z",
+   "firstSeen": "2026-10-28T19:41:18.579Z",
+   "summary": "ITAT Chennai directed CIT(E) to reconsider Aalayam’s Section 80G approval application under the amended clause (iv)(B) introduced in 2024.The post Delayed 80G Application Must Be Considered Under Amended Clause: ITAT…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "688eaff1e891",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | Structured Sanskrit Education Qualifies for Section 12AB Registration and 80G Approval: ITAT Chennai",
+   "link": "https://taxguru.in/income-tax/structured-sanskrit-education-qualifies-section-12ab-registration-80g-approval-itat-chennai.html",
+   "published": "2026-10-28T19:21:42.000Z",
+   "firstSeen": "2026-10-28T19:41:18.579Z",
+   "summary": "ITAT Chennai directs 12AB registration and 80G approval for a trust conducting structured Sanskrit courses despite nominal fees.The post Structured Sanskrit Education Qualifies for Section 12AB Registration and 80G…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "b7e1e8dc3ee1",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | Indian Hotel Support Services Do Not Create Expedia’s Dependent Agent PE: ITAT Delhi",
+   "link": "https://taxguru.in/income-tax/indian-hotel-support-services-not-create-expedias-dependent-agent-pe-itat-delhi.html",
+   "published": "2026-10-28T18:52:24.000Z",
+   "firstSeen": "2026-10-28T19:41:18.579Z",
+   "summary": "ITAT Delhi rules Expedia India’s hotel liaison services do not create a dependent agent PE under the India–Switzerland DTAA; ₹44.44 lakh attribution fails.The post Indian Hotel Support Services Do Not Create Expedia’s…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "aca93cb7237b",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | Reassessment Notice Invalid Without Proper Section 151 Sanction: Bombay High Court",
+   "link": "https://taxguru.in/income-tax/reassessment-notice-invalid-without-proper-section-151-sanction-bombay-high-court.html",
+   "published": "2026-10-28T18:51:31.000Z",
+   "firstSeen": "2026-10-28T19:41:18.579Z",
+   "summary": "Bombay HC quashes reassessment: Additional Commissioner lacked Section 151 authority; TOLA extension could not cure invalid sanction.The post Reassessment Notice Invalid Without Proper Section 151 Sanction: Bombay High…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "95c23a7289af",
+   "area": "mca",
+   "sourceId": "taxguru-corporate",
+   "source": "TaxGuru Corporate Law",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Corporate Law | Assam Rural Medical Diploma Law Invalid; SC Upholds Legislative Competence Ruling",
+   "link": "https://taxguru.in/corporate-law/assam-rural-medical-diploma-law-invalid-supreme-court-upholds-legislative-competence-ruling.html",
+   "published": "2026-10-28T19:32:16.000Z",
+   "firstSeen": "2026-10-28T19:41:18.579Z",
+   "summary": "Supreme Court invalidates Assam's 2004 rural medical diploma law but upholds the 2015 Community Health Professionals legislation.The post Assam Rural Medical Diploma Law Invalid; SC Upholds Legislative Competence Ruling…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "f2b2bd29a986",
+   "area": "loan",
+   "sourceId": "taxguru-corporate",
+   "source": "TaxGuru Corporate Law",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Corporate Law | LC Margin Money Not Corporate Debtor Asset During IBC Moratorium: NCLAT Delhi",
+   "link": "https://taxguru.in/corporate-law/lc-margin-money-not-corporate-debtor-asset-ibc-moratorium-nclat-delhi.html",
+   "published": "2026-10-28T19:21:02.000Z",
+   "firstSeen": "2026-10-28T19:41:18.579Z",
+   "summary": "NCLAT allows banks to appropriate letter-of-credit margin money during CIRP, holding that earmarked funds are not corporate debtor assets.The post LC Margin Money Not Corporate Debtor Asset During IBC Moratorium: NCLAT…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "b06cdee6fcd5",
+   "area": "gst",
+   "sourceId": "taxguru-gst",
+   "source": "TaxGuru GST",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Goods and Services Tax | GST Appeal Dismissed for Non-Prosecution Restored by Karnataka High Court",
+   "link": "https://taxguru.in/goods-and-service-tax/gst-appeal-dismissed-non-prosecution-restored-karnataka-high-court.html",
+   "published": "2026-10-28T17:29:22.000Z",
+   "firstSeen": "2026-10-28T19:41:18.579Z",
+   "summary": "Karnataka High Court sets aside GST appeal dismissal for non-prosecution and remands the matter for fresh consideration on merits.The post GST Appeal Dismissed for Non-Prosecution Restored by Karnataka High Court…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "76d211d8d410",
+   "area": "gst",
+   "sourceId": "taxguru-gst",
+   "source": "TaxGuru GST",
+   "official": false,
+   "publisher": "",
+   "type": "Advisory",
+   "title": "Goods and Services Tax | e-Invoice Services Maintenance on 31 Oct–1 Nov 2026: GSTN",
+   "link": "https://taxguru.in/goods-and-service-tax/invoice-services-maintenance-31-oct-1-nov-2026-gstn.html",
+   "published": "2026-10-28T17:17:41.000Z",
+   "firstSeen": "2026-10-28T19:41:18.579Z",
+   "summary": "GSTN schedules e-Invoice service maintenance from 31 October 2026, 9 AM, to 1 November 2026, 1 PM IST, affecting data, GSTR-1 and JSON downloads.The post e-Invoice Services Maintenance on 31 Oct–1 Nov 2026: GSTN appeared first on TaxGuru.",
+   "notes": [
+    "Summary: GSTN has issued an advisory dated 28 October 2026 announcing the temporary unavailability of certain e-Invoice-related services because of a scheduled infrastructure upgrade.",
+    "The maintenance period will begin at 9:00 AM IST on 31 October 2026 and end at 1:00 PM IST on 1 November 2026.",
+    "Advisory – Scheduled Maintenance of e-Invoice Services (31 October – 1 November 2026)"
+   ],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "59467fdbbdff",
+   "area": "gst",
+   "sourceId": "taxguru-gst",
+   "source": "TaxGuru GST",
+   "official": false,
+   "publisher": "",
+   "type": "Update",
+   "title": "Goods and Services Tax | TOT Road O&M: UTGST Payable on Escrow Debits from 1 November 2026",
+   "link": "https://taxguru.in/goods-and-service-tax/tot-road-utgst-payable-escrow-debits-1-november-2026.html",
+   "published": "2026-10-28T16:56:13.000Z",
+   "firstSeen": "2026-10-28T19:41:18.579Z",
+   "summary": "Notification 10/2026-UT Tax (Rate) requires TOT concessionaires to pay UTGST on O&M expenses charged or debited from escrow from 1 November 2026.The post TOT Road O&M: UTGST Payable on Escrow Debits from 1 November 2026 appeared first on TaxGuru.",
+   "notes": [
+    "Summary: Notification No. 10/2026-Union Territory Tax (Rate), dated 27 October 2026, specifies the payment of Union Territory tax by registered concessionaires supplying operation and maintenance services to concessioning authorities during the concession…",
+    "The notified concessionaires must pay tax on the amount charged or debited from the Escrow Account maintained in accordance with the concession agreement towards operation and maintenance expenses incurred by them.",
+    "This notification shall come into force with effect from the 1st day of November, 2026."
+   ],
+   "refs": [
+    "Notification No. 10/2026-Union Territory Tax (Rate)",
+    "G.S.R. 950(E)",
+    "F. No. 190354/142/2026-TRU"
+   ],
+   "deadlines": []
+  },
+  {
+   "id": "f4ef16e4c8aa",
+   "area": "gst",
+   "sourceId": "taxguru-gst",
+   "source": "TaxGuru GST",
+   "official": false,
+   "publisher": "",
+   "type": "Update",
+   "title": "Goods and Services Tax | IGST on Toll-Operate-Transfer Road Maintenance Linked to Escrow Debits",
+   "link": "https://taxguru.in/goods-and-service-tax/igst-toll-operate-transfer-road-maintenance-linked-escrow-debits-notification-no-10-2026-integrated-tax-rate.html",
+   "published": "2026-10-28T16:55:53.000Z",
+   "firstSeen": "2026-10-28T19:41:18.579Z",
+   "summary": "Notification 10/2026-Integrated Tax (Rate) specifies IGST payment on escrow debits for road maintenance under TOT concessions from 1 November 2026. The post IGST on Toll-Operate-Transfer Road Maintenance Linked to Escrow Debits appeared first on TaxGuru.",
+   "notes": [
+    "Summary: The Ministry of Finance (Department of Revenue) has issued Notification No. 10/2026-Integrated Tax (Rate), dated 27 October 2026, specifying a special procedure for payment of integrated tax on operation and maintenance services supplied by…",
+    "The notification comes into force on 1 November 2026.",
+    "This notification shall come into force with effect from the 1st day of November, 2026."
+   ],
+   "refs": [
+    "Notification No. 10/2026-Integrated Tax (Rate)",
+    "G.S.R. 949(E)",
+    "F. No. 190354/142/2026-TRU"
+   ],
+   "deadlines": [
+    {
+     "date": "2026-11-01",
+     "kind": "effective",
+     "context": "The notification comes into force on 1 November 2026."
+    }
+   ]
+  },
+  {
+   "id": "c676ba41e90e",
+   "area": "gst",
+   "sourceId": "taxguru-gst",
+   "source": "TaxGuru GST",
+   "official": false,
+   "publisher": "",
+   "type": "Amendment",
+   "title": "Goods and Services Tax | Delivery Services Under UTGST E-Commerce Operator Rules Amended from 1 November 2026",
+   "link": "https://taxguru.in/goods-and-service-tax/delivery-services-utgst-commerce-operator-rules-amended-1-november-2026-notification-no-09-2026-union-territory-tax-rate.html",
+   "published": "2026-10-28T16:54:32.000Z",
+   "firstSeen": "2026-10-28T19:41:18.579Z",
+   "summary": "Notification 09/2026-Union Territory Tax (Rate) revises GST treatment of delivery services through e-commerce operators from 1 November 2026.The post Delivery Services Under UTGST E-Commerce Operator Rules Amended from 1 November 2026 appeared first on TaxGuru.",
+   "notes": [
+    "Summary: The Ministry of Finance (Department of Revenue) has issued Notification No. 09/2026-Union Territory Tax (Rate), dated 27 October 2026, to amend the existing framework governing delivery services supplied through electronic commerce operators under…",
+    "The Central Government has exercised its powers under sub-section (5) of section 7 of the UTGST Act, 2017, on the recommendations of the GST Council, to substitute clause (v) of the principal Notification No. 17/2017-Union Territory Tax (Rate), dated 28…",
+    "The amendment will come into force on 1 November 2026."
+   ],
+   "refs": [
+    "Notification No. 09/2026-Union Territory Tax (Rate)",
+    "Notification No. 17/2017-Union Territory Tax (Rate)",
+    "Notification No. 17/2025-Union Territory Tax (Rate)",
+    "G.S.R. 947(E)"
+   ],
+   "deadlines": [
+    {
+     "date": "2026-11-01",
+     "kind": "effective",
+     "context": "The amendment will come into force on 1 November 2026."
+    }
+   ]
+  },
+  {
+   "id": "e375c52a8e17",
+   "area": "gst",
+   "sourceId": "taxguru-gst",
+   "source": "TaxGuru GST",
+   "official": false,
+   "publisher": "",
+   "type": "Amendment",
+   "title": "Goods and Services Tax | IGST on Delivery Services Through E-Commerce Operators Amended from 1 November 2026",
+   "link": "https://taxguru.in/goods-and-service-tax/igst-delivery-services-commerce-operators-amended-1-november-2026-notification-no-09-2026-integrated-tax-rate.html",
+   "published": "2026-10-28T16:53:41.000Z",
+   "firstSeen": "2026-10-28T19:41:18.579Z",
+   "summary": "Notification 09/2026-Integrated Tax (Rate) substitutes the delivery services clause under Section 5(5) of the IGST Act, effective 1 November 2026.The post IGST on Delivery Services Through E-Commerce Operators Amended from 1 November 2026 appeared first on TaxGuru.",
+   "notes": [
+    "The notification also records that the principal Notification No. 14/2017-Integrated Tax (Rate) was last amended by Notification No. 17/2025-Integrated Tax (Rate), dated 17 September 2025.",
+    "In the said notification, for clause (v) the following clause shall be substituted, namely: –",
+    "This notification shall come into force with effect from the 1st day of November, 2026."
+   ],
+   "refs": [
+    "Notification No. 09/2026-Integrated Tax (Rate)",
+    "Notification No. 14/2017-Integrated Tax (Rate)",
+    "Notification No. 17/2025-Integrated Tax (Rate)",
+    "Notification No. 09/2026- Integrated Tax (Rate)"
+   ],
+   "deadlines": []
+  },
+  {
+   "id": "65a2ccadbc9b",
+   "area": "gst",
+   "sourceId": "taxguru-gst",
+   "source": "TaxGuru GST",
+   "official": false,
+   "publisher": "",
+   "type": "Notification",
+   "title": "Goods and Services Tax | GST Notification No. 09/2026 Revises E-Commerce Operator Liability for Delivery Services from 1 November 2026",
+   "link": "https://taxguru.in/goods-and-service-tax/gst-notification-no-09-2026-revises-commerce-operator-liability-delivery-services-1-november-2026.html",
+   "published": "2026-10-28T16:52:33.000Z",
+   "firstSeen": "2026-10-28T19:41:18.579Z",
+   "summary": "CBIC Notification 09/2026 revises GST liability for delivery services through e-commerce operators, effective 1 November 2026.The post GST Notification No. 09/2026 Revises E-Commerce Operator Liability for Delivery Services from 1 November 2026 appeared first on TaxGuru.",
+   "notes": [
+    "It also records that the principal Notification No. 17/2017-Central Tax (Rate) was last amended by Notification No. 17/2025-Central Tax (Rate), dated 17 September 2025.",
+    "In the said notification, for clause (v), the following clause shall be substituted, namely: –",
+    "This notification shall come into force with effect from 1st day of November, 2026."
+   ],
+   "refs": [
+    "Notification No. 09/2026",
+    "Notification No. 09/2026-Central Tax (Rate)",
+    "Notification No. 17/2017-Central Tax (Rate)",
+    "Notification No. 17/2025-Central Tax (Rate)"
+   ],
+   "deadlines": []
+  },
+  {
+   "id": "44ce1bd826da",
+   "area": "gst",
+   "sourceId": "taxguru-gst",
+   "source": "TaxGuru GST",
+   "official": false,
+   "publisher": "",
+   "type": "Notification",
+   "title": "Goods and Services Tax | UTGST Notification No. 08/2026 Raises Rate from 6% to 9% under Entry 15 from 1 November 2026",
+   "link": "https://taxguru.in/goods-and-service-tax/utgst-notification-no-08-2026-raises-rate-6-percent-9-percent-entry-15-1-november-2026.html",
+   "published": "2026-10-28T16:50:38.000Z",
+   "firstSeen": "2026-10-28T19:41:18.579Z",
+   "summary": "Notification No. 08/2026-UT Tax (Rate) substitutes 9 for 6 in Entry 15 of Notification No. 13/2017, effective 1 November 2026.The post UTGST Notification No. 08/2026 Raises Rate from 6% to 9% under Entry 15 from 1 November 2026 appeared first on TaxGuru.",
+   "notes": [
+    "Summary: The Ministry of Finance (Department of Revenue) has issued Notification No. 08/2026-Union Territory Tax (Rate), dated 27 October 2026, amending the existing provisions under Notification No. 13/2017-Union Territory Tax (Rate), dated 28 June 2017.",
+    "The notification also records that the principal notification was previously amended by Notification No. 07/2025-Union Territory Tax (Rate), dated 16 January 2025.",
+    "This notification shall come into force with effect from the 1st day of November, 2026."
+   ],
+   "refs": [
+    "Notification No. 08/2026",
+    "Notification No. 08/2026-UT",
+    "Notification No. 13/2017",
+    "Notification No. 08/2026-Union Territory Tax (Rate)"
+   ],
+   "deadlines": [
+    {
+     "date": "2026-11-01",
+     "kind": "effective",
+     "context": "The revised provision will come into force on 1 November 2026."
+    }
+   ]
+  },
+  {
+   "id": "900af53242f1",
+   "area": "gst",
+   "sourceId": "taxguru-gst",
+   "source": "TaxGuru GST",
+   "official": false,
+   "publisher": "",
+   "type": "Notification",
+   "title": "Goods and Services Tax | IGST Notification No. 08/2026 Raises Entry 17 Rate from 12% to 18% from 1 November 2026",
+   "link": "https://taxguru.in/goods-and-service-tax/igst-notification-no-08-2026-raises-entry-17-rate-12-percent-18-percent-1-november-2026.html",
+   "published": "2026-10-28T16:50:17.000Z",
+   "firstSeen": "2026-10-28T19:41:18.579Z",
+   "summary": "Notification No. 08/2026-Integrated Tax (Rate) substitutes 18 for 12 in Entry 17 of Notification 10/2017, effective 1 November 2026.The post IGST Notification No. 08/2026 Raises Entry 17 Rate from 12% to 18% from 1 November 2026 appeared first on TaxGuru.",
+   "notes": [
+    "The notification will come into force on 1 November 2026.",
+    "It also records that the principal notification was previously amended by Notification No. 07/2025-Integrated Tax (Rate), dated 16 January 2025.",
+    "This notification shall come into force with effect from the 1st day of November, 2026."
+   ],
+   "refs": [
+    "Notification No. 08/2026",
+    "Notification No. 08/2026-Integrated Tax (Rate)",
+    "Notification No. 10/2017-Integrated Tax (Rate)",
+    "Notification No. 07/2025-Integrated Tax (Rate)"
+   ],
+   "deadlines": [
+    {
+     "date": "2026-11-01",
+     "kind": "effective",
+     "context": "The notification will come into force on 1 November 2026."
+    }
+   ]
+  },
+  {
+   "id": "5d7d224cfd70",
+   "area": "gst",
+   "sourceId": "taxguru-gst",
+   "source": "TaxGuru GST",
+   "official": false,
+   "publisher": "",
+   "type": "Notification",
+   "title": "Goods and Services Tax | GST RCM on Passenger Vehicle Renting: Notification 08/2026 Amends Entry 15",
+   "link": "https://taxguru.in/goods-and-service-tax/gst-rcm-passenger-vehicle-renting-notification-08-2026-amends-entry-15.html",
+   "published": "2026-10-28T16:37:36.000Z",
+   "firstSeen": "2026-10-28T19:41:18.579Z",
+   "summary": "CBIC Notification 08/2026-Central Tax (Rate) amends Entry 15 of the GST reverse charge notification, substituting figure 6 with 9 from 1 November 2026.The post GST RCM on Passenger Vehicle Renting: Notification 08/2026 Amends Entry 15 appeared first on TaxGuru.",
+   "notes": [
+    "Summary: The Ministry of Finance (Department of Revenue), through Notification No. 08/2026-Central Tax (Rate), dated 27 October 2026, has amended Notification No. 13/2017-Central Tax (Rate), dated 28 June 2017, issued under Section 9(3) of the Central…",
+    "In the said notification, in the Table, against serial number 15, in column (3), for the figure “6”, the figure “9” shall be substituted.",
+    "This notification shall come into force with effect from the 1st day of November, 2026."
+   ],
+   "refs": [
+    "Notification No. 08/2026-Central Tax (Rate)",
+    "Notification No. 13/2017-Central Tax (Rate)",
+    "notification No. 13/2017 – Central Tax (Rate)",
+    "G.S.R. 942(E)"
+   ],
+   "deadlines": []
+  },
+  {
+   "id": "b48dc5083bca",
+   "area": "gst",
+   "sourceId": "taxguru-gst",
+   "source": "TaxGuru GST",
+   "official": false,
+   "publisher": "",
+   "type": "Amendment",
+   "title": "Goods and Services Tax | GST Exemptions Amended for Helicopter Travel, GTA, Warehousing and Toll Rights from 1 November 2026",
+   "link": "https://taxguru.in/goods-and-service-tax/gst-exemptions-amended-helicopter-travel-gta-warehousing-toll-rights-1-november-2026.html",
+   "published": "2026-10-28T16:35:01.000Z",
+   "firstSeen": "2026-10-28T19:41:18.579Z",
+   "summary": "CBIC Notification 07/2026-UTTR revises GST exemptions for helicopter travel, GTA, warehousing, toll rights, coffee curing and other services from 1 November 2026.The post GST Exemptions Amended for Helicopter Travel, GTA, Warehousing and Toll Rights from 1 November 2026 appeared first on TaxGuru.",
+   "notes": [
+    "Summary: The Ministry of Finance (Department of Revenue), through Notification No. 07/2026–Union Territory Tax (Rate), dated 27 October 2026, has amended Notification No. 12/2017–Union Territory Tax (Rate), revising several GST exemptions applicable to…",
+    "The notification also clarifies that the exemption under serial number 21A does not extend to GTA services relating to goods supplied through an electronic commerce operator.",
+    "This notification shall come into force with effect from the 1st day of November, 2026."
+   ],
+   "refs": [
+    "Notification No. 07/2026–Union Territory Tax (Rate)",
+    "Notification No. 12/2017–Union Territory Tax (Rate)",
+    "notification No. 12/2017–Union Territory Tax (Rate)",
+    "G.S.R. 941(E)"
+   ],
+   "deadlines": [
+    {
+     "date": "2026-11-01",
+     "kind": "effective",
+     "context": "12/2017–Union Territory Tax (Rate), revising several GST exemptions applicable to specified services with effect from 1 November 2026."
+    }
+   ]
+  },
+  {
+   "id": "5c6d98bc4733",
+   "area": "gst",
+   "sourceId": "taxguru-gst",
+   "source": "TaxGuru GST",
+   "official": false,
+   "publisher": "",
+   "type": "Notification",
+   "title": "Goods and Services Tax | IGST Service Exemptions Revised: Notification No. 07/2026-Integrated Tax (Rate)",
+   "link": "https://taxguru.in/goods-and-service-tax/igst-service-exemptions-revised-notification-no-07-2026-integrated-tax-rate.html",
+   "published": "2026-10-28T16:23:12.000Z",
+   "firstSeen": "2026-10-28T19:41:18.579Z",
+   "summary": "Notification 07/2026 revises IGST service exemptions for shipping, helicopters, warehousing, toll rights and coffee curing from 1 November 2026.The post IGST Service Exemptions Revised: Notification No. 07/2026-Integrated Tax (Rate) appeared first on TaxGuru.",
+   "notes": [
+    "Summary: Notification No. 07/2026-Integrated Tax (Rate), dated 27 October 2026, amends Notification No. 9/2017-Integrated Tax (Rate) with effect from 1 November 2026.",
+    "Notification No. 07/2026- Integrated Tax (Rate) | Dated: 27th October, 2026",
+    "This notification shall come into force with effect from the 1st day of November, 2026."
+   ],
+   "refs": [
+    "Notification No. 07/2026-Integrated Tax (Rate)",
+    "Notification No. 9/2017-Integrated Tax (Rate)",
+    "Notification No. 07/2026- Integrated Tax (Rate)",
+    "G.S.R. 940(E)"
+   ],
+   "deadlines": [
+    {
+     "date": "2026-11-01",
+     "kind": "effective",
+     "context": "9/2017-Integrated Tax (Rate) with effect from 1 November 2026."
+    }
+   ]
+  },
+  {
+   "id": "e5f9ac366ba0",
+   "area": "gst",
+   "sourceId": "taxguru-gst",
+   "source": "TaxGuru GST",
+   "official": false,
+   "publisher": "",
+   "type": "Notification",
+   "title": "Goods and Services Tax | GST Service Exemptions Amended: Notification No. 07/2026-Central Tax (Rate)",
+   "link": "https://taxguru.in/goods-and-service-tax/gst-service-exemptions-amended-notification-no-07-2026-central-tax-rate.html",
+   "published": "2026-10-28T16:22:54.000Z",
+   "firstSeen": "2026-10-28T19:41:18.579Z",
+   "summary": "Notification 07/2026 revises GST exemptions for helicopter travel, warehousing, GTA services, toll rights, coffee curing and SPFO from 1 November 2026.The post GST Service Exemptions Amended: Notification No. 07/2026-Central Tax (Rate) appeared first on TaxGuru.",
+   "notes": [
+    "Summary: Notification No. 07/2026-Central Tax (Rate), dated 27 October 2026, amends Notification No. 12/2017-Central Tax (Rate) with effect from 1 November 2026.",
+    "Notification No. 07/2026- Central Tax (Rate) | Dated: 27th October, 2026",
+    "This notification shall come into force with effect from the 1st day of November, 2026."
+   ],
+   "refs": [
+    "Notification No. 07/2026-Central Tax (Rate)",
+    "Notification No. 12/2017-Central Tax (Rate)",
+    "Notification No. 07/2026- Central Tax (Rate)",
+    "G.S.R. 939(E)"
+   ],
+   "deadlines": [
+    {
+     "date": "2026-11-01",
+     "kind": "effective",
+     "context": "12/2017-Central Tax (Rate) with effect from 1 November 2026."
+    }
+   ]
+  },
+  {
+   "id": "93de05830cf7",
+   "area": "gst",
+   "sourceId": "taxguru-gst",
+   "source": "TaxGuru GST",
+   "official": false,
+   "publisher": "",
+   "type": "Notification",
+   "title": "Goods and Services Tax | UTGST Notification 06/2026 Revises ITC Conditions for Hotels, Catering, Electric Vehicles and Delivery Services",
+   "link": "https://taxguru.in/goods-and-service-tax/utgst-notification-06-2026-revises-itc-conditions-hotels-catering-electric-vehicles-delivery-services.html",
+   "published": "2026-10-28T16:22:25.000Z",
+   "firstSeen": "2026-10-28T19:41:18.579Z",
+   "summary": "UTGST Notification 06/2026 revises ITC conditions for hospitality, EV transport, vehicle renting and delivery services from 1 November 2026.The post UTGST Notification 06/2026 Revises ITC Conditions for Hotels, Catering, Electric Vehicles and Delivery Services appeared first on TaxGuru.",
+   "notes": [
+    "Summary: Notification No. 06/2026-Union Territory Tax (Rate), dated 27 October 2026, issued through G.S.R. 938(E), amends Notification No. 11/2017-Union Territory Tax (Rate), dated 28 June 2017.",
+    "Notification No. 06/2026-Union Territory Tax (Rate) | Dated: 27th October, 2026",
+    "This notification shall come into force with effect from the 1stday of November 2026."
+   ],
+   "refs": [
+    "Notification No. 06/2026-Union Territory Tax (Rate)",
+    "Notification No. 11/2017-Union Territory Tax (Rate)",
+    "G.S.R. 938(E)",
+    "G.S.R. 702(E)"
+   ],
+   "deadlines": []
+  },
+  {
+   "id": "db2f5b8dfc85",
+   "area": "gst",
+   "sourceId": "taxguru-gst",
+   "source": "TaxGuru GST",
+   "official": false,
+   "publisher": "",
+   "type": "Notification",
+   "title": "Goods and Services Tax | IGST Notification 06/2026 Revises ITC Rules for Hotels, Catering, EV Transport and Delivery",
+   "link": "https://taxguru.in/goods-and-service-tax/igst-notification-06-2026-revises-itc-rules-hotels-catering-ev-transport-delivery.html",
+   "published": "2026-10-28T16:22:09.000Z",
+   "firstSeen": "2026-10-28T19:41:18.579Z",
+   "summary": "Notification 06/2026-Integrated Tax (Rate) revises ITC conditions for hospitality, electric vehicles and delivery services from 1 November 2026.The post IGST Notification 06/2026 Revises ITC Rules for Hotels, Catering, EV Transport and Delivery appeared first on TaxGuru.",
+   "notes": [
+    "Summary: Notification No. 06/2026-Integrated Tax (Rate), dated 27 October 2026, issued by the Ministry of Finance (Department of Revenue) through G.S.R. 937(E), amends Notification No. 8/2017-Integrated Tax (Rate), dated 28 June 2017.",
+    "Exercising powers under Sections 5, 6 and 20 of the Integrated Goods and Services Tax Act, 2017, read with Sections 15, 16 and 148 of the Central Goods and Services Tax Act, 2017, the Central Government revises input tax credit conditions and introduces…",
+    "Notification No. 06/2026-Integrated Tax (Rate) | Dated: 27th October, 2026"
+   ],
+   "refs": [
+    "Notification No. 06/2026-Integrated Tax (Rate)",
+    "Notification No. 8/2017-Integrated Tax (Rate)",
+    "notification no. 15/2025- Integrated Tax (Rate)",
+    "G.S.R. 937(E)"
+   ],
+   "deadlines": [
+    {
+     "date": "2026-11-01",
+     "kind": "effective",
+     "context": "Exercising powers under Sections 5, 6 and 20 of the Integrated Goods and Services Tax Act, 2017, read with Sections 15, 16 and 148 of the Central Goods and Services Tax Act, 2017, the Central Government revises input tax credit conditions and introduces speci"
+    }
+   ]
+  },
+  {
+   "id": "3ceb51e7132e",
+   "area": "gst",
+   "sourceId": "taxguru-gst",
+   "source": "TaxGuru GST",
+   "official": false,
+   "publisher": "",
+   "type": "Notification",
+   "title": "Goods and Services Tax | GST Rate Notification 06/2026: New ITC Conditions for Hotels, Catering, EV Transport and Delivery Services",
+   "link": "https://taxguru.in/goods-and-service-tax/gst-rate-notification-06-2026-itc-conditions-hotels-catering-ev-transport-delivery-services.html",
+   "published": "2026-10-28T16:21:45.000Z",
+   "firstSeen": "2026-10-28T19:41:18.579Z",
+   "summary": "CBIC Notification 06/2026-Central Tax (Rate) revises ITC conditions and GST rates for hospitality, EV transport, renting and delivery from 1 November 2026.The post GST Rate Notification 06/2026: New ITC Conditions for Hotels, Catering, EV Transport and Delivery Services appeared first on TaxGuru.",
+   "notes": [
+    "Summary: Notification No. 06/2026-Central Tax (Rate), dated 27 October 2026, issued by the Ministry of Finance (Department of Revenue) through G.S.R. 936(E), amends Notification No. 11/2017-Central Tax (Rate), dated 28 June 2017.",
+    "Exercising powers under Sections 9, 11, 15, 16 and 148 of the Central Goods and Services Tax Act, 2017, the Central Government introduces revised input tax credit (ITC) conditions and rate entries for specified services, effective from 1 November 2026.",
+    "This notification shall come into force with effect from the 1stday of November, 2026."
+   ],
+   "refs": [
+    "Notification No. 06/2026-Central Tax (Rate)",
+    "Notification No. 11/2017-Central Tax (Rate)",
+    "Notification No. 06/2026- Central Tax (Rate)",
+    "G.S.R. 936(E)"
+   ],
+   "deadlines": [
+    {
+     "date": "2026-11-01",
+     "kind": "effective",
+     "context": "Exercising powers under Sections 9, 11, 15, 16 and 148 of the Central Goods and Services Tax Act, 2017, the Central Government introduces revised input tax credit (ITC) conditions and rate entries for specified services, effective from 1 November 2026."
+    }
+   ]
+  },
+  {
+   "id": "4fee8635457e",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | Reassessment Based on Inflated Cash Deposits Quashed as Time-Barred: ITAT Hyderabad",
+   "link": "https://taxguru.in/income-tax/reassessment-based-inflated-cash-deposits-quashed-time-barred-itat-hyderabad.html",
+   "published": "2026-10-28T18:29:42.000Z",
+   "firstSeen": "2026-10-28T19:41:18.579Z",
+   "summary": "ITAT Hyderabad quashes AY 2017-18 reassessment as actual cash deposits were ₹19.50 lakh, below the ₹50 lakh threshold for extended limitation.The post Reassessment Based on Inflated Cash Deposits Quashed as Time-Barred:…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "b995094b3d66",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | Reduction in Escaped Income Below ₹50 Lakh Does Not Invalidate Reassessment: Allahabad HC",
+   "link": "https://taxguru.in/income-tax/reduction-escaped-income-rs-50-lakh-not-invalidate-reassessment-allahabad-hc.html",
+   "published": "2026-10-28T18:28:47.000Z",
+   "firstSeen": "2026-10-28T19:41:18.579Z",
+   "summary": "Allahabad HC declines to quash reassessment where initial information alleged ₹54 lakh escapement, despite later reduction to ₹27 lakh.The post Reduction in Escaped Income Below ₹50 Lakh Does Not Invalidate…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "477fab17354b",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | Controlled Transaction Cannot Be Used as CUP Comparable for Brand Royalty: ITAT Mumbai",
+   "link": "https://taxguru.in/income-tax/controlled-transaction-cannot-cup-comparable-brand-royalty-itat-mumbai.html",
+   "published": "2026-10-28T18:28:06.000Z",
+   "firstSeen": "2026-10-28T19:41:18.579Z",
+   "summary": "ITAT Mumbai deletes Vodafone royalty and AMP adjustments, grants telecom deductions and dismisses Revenue appeal for AY 2011-12.The post Controlled Transaction Cannot Be Used as CUP Comparable for Brand Royalty: ITAT…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "9d9f9872c935",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | ITAT allows Prepaid Distributor Discount & Depreciation on 3G Spectrum Rights",
+   "link": "https://taxguru.in/income-tax/itat-prepaid-distributor-discount-depreciation-3g-spectrum-rights.html",
+   "published": "2026-10-28T18:21:35.000Z",
+   "firstSeen": "2026-10-28T19:41:18.579Z",
+   "summary": "ITAT grants Vodafone relief on royalty, spectrum depreciation, prepaid discounts and WPC expenses for AY 2013-14.The post ITAT allows Prepaid Distributor Discount & Depreciation on 3G Spectrum Rights appeared first on…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "1f72670bfa5d",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | ₹1,879.70 Crore MAT Addition on Merger Write-Off Deleted: ITAT Delhi",
+   "link": "https://taxguru.in/income-tax/rs-1-879-70-crore-mat-addition-merger-write-off-deleted-itat-delhi.html",
+   "published": "2026-10-28T18:20:03.000Z",
+   "firstSeen": "2026-10-28T19:41:18.579Z",
+   "summary": "ITAT Mumbai partly allows Vodafone Idea appeal on royalty, spectrum depreciation, distributor discounts, IBM lease and MAT adjustments.The post ₹1,879.70 Crore MAT Addition on Merger Write-Off Deleted: ITAT Delhi…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "8610588d0713",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | SC Dismisses Revenue SLPs in Whirlpool Transfer Pricing Dispute",
+   "link": "https://taxguru.in/income-tax/supreme-court-dismisses-revenue-slps-whirlpool-transfer-pricing-dispute.html",
+   "published": "2026-10-28T18:15:56.000Z",
+   "firstSeen": "2026-10-28T19:41:18.579Z",
+   "summary": "Supreme Court dismisses Revenue's SLPs in Whirlpool case; Delhi HC ruling on AMP expenses and transfer pricing remains undisturbed.The post SC Dismisses Revenue SLPs in Whirlpool Transfer Pricing Dispute appeared first…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "9f8256ce77de",
+   "area": "tds",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | Prepaid SIM Discounts Not Commission Liable to Section 194H TDS: ITAT Mumbai",
+   "link": "https://taxguru.in/income-tax/prepaid-sim-discounts-not-commission-liable-section-194h-tds-itat-mumbai.html",
+   "published": "2026-10-28T17:57:06.000Z",
+   "firstSeen": "2026-10-28T19:41:18.579Z",
+   "summary": "ITAT Mumbai grants Vodafone relief on Section 14A, interest, roaming charges, distributor discounts and AMP adjustments.The post Prepaid SIM Discounts Not Commission Liable to Section 194H TDS: ITAT Mumbai appeared…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "dec00147b55f",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | ITAT Mumbai Deletes Vodafone Section 14A Disallowance of ₹357.23 Crore",
+   "link": "https://taxguru.in/income-tax/itat-mumbai-deletes-vodafone-section-14a-disallowance-rs-357-23-crore.html",
+   "published": "2026-10-28T17:51:57.000Z",
+   "firstSeen": "2026-10-28T19:41:18.579Z",
+   "summary": "ITAT Mumbai deletes Vodafone's Section 14A, interest, roaming and distributor discount disallowances; remands royalty transfer pricing issues.The post ITAT Mumbai Deletes Vodafone Section 14A Disallowance of ₹357.23…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "b6dc67b73e00",
+   "area": "tds",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | ITAT Mumbai Allows Vodafone Section 80-IA Deduction; Deletes TDS and Interest Disallowances",
+   "link": "https://taxguru.in/income-tax/itat-mumbai-vodafone-section-80-ia-deduction-deletes-tds-interest-disallowances.html",
+   "published": "2026-10-28T17:51:12.000Z",
+   "firstSeen": "2026-10-28T19:41:18.579Z",
+   "summary": "ITAT Mumbai allows Vodafone’s Section 80-IA claim, deletes TDS and interest disallowances, and remands transfer pricing issues.The post ITAT Mumbai Allows Vodafone Section 80-IA Deduction; Deletes TDS and Interest…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "cd7016d66e08",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | ITAT Amritsar Deletes ₹42,000 Section 271B Tax Audit Penalty on Educational Society",
+   "link": "https://taxguru.in/income-tax/itat-amritsar-deletes-%e2%82%b942000-section-271b-tax-audit-penalty-on-educational-society.html",
+   "published": "2026-10-28T17:39:01.000Z",
+   "firstSeen": "2026-10-28T19:41:18.579Z",
+   "summary": "ITAT Amritsar deletes Section 271B penalty of ₹42,000 where educational society believed its receipts were not business income.The post ITAT Amritsar Deletes ₹42,000 Section 271B Tax Audit Penalty on Educational Society…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "de79b62aa6ed",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | No Section 271B Penalty for Non-Maintenance of Books: ITAT Rajkot",
+   "link": "https://taxguru.in/income-tax/no-section-271b-penalty-non-maintenance-books-itat-rajkot.html",
+   "published": "2026-10-28T17:35:37.000Z",
+   "firstSeen": "2026-10-28T19:41:18.579Z",
+   "summary": "ITAT Rajkot deletes Section 271B penalties, holding that failure to maintain books attracts Section 271A, not tax audit penalty under Section 271B.The post No Section 271B Penalty for Non-Maintenance of Books: ITAT…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "4514c290f8ef",
+   "area": "tds",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | Revenue-Share Telecom Licence Fees Allowable as Revenue Expense: ITAT Delhi",
+   "link": "https://taxguru.in/income-tax/revenue-share-telecom-licence-fees-allowable-revenue-expense-itat-delhi.html",
+   "published": "2026-10-28T17:34:53.000Z",
+   "firstSeen": "2026-10-28T19:41:18.579Z",
+   "summary": "ITAT Delhi partly allows Vodafone Essar Digilink appeal on licence fees, roaming TDS, distributor discounts, Section 80-IA and transfer pricing.The post Revenue-Share Telecom Licence Fees Allowable as Revenue Expense:…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "95d43e6c498f",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | ITAT Deletes ₹9.35 Crore Additions Against Celio Future Fashions Over Invalid DRP Directions",
+   "link": "https://taxguru.in/income-tax/itat-deletes-rs-9-35-crore-additions-against-celio-future-fashions-invalid-drp-directions.html",
+   "published": "2026-10-28T17:33:00.000Z",
+   "firstSeen": "2026-10-28T19:41:18.579Z",
+   "summary": "ITAT Mumbai deletes ₹9.35 crore additions under Section 69C as DRP exceeded Section 144C(8) powers; directs fresh RPM benchmarking.The post ITAT Deletes ₹9.35 Crore Additions Against Celio Future Fashions Over Invalid…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "ffc6afa3b427",
+   "area": "tds",
+   "sourceId": "news-tds",
+   "source": "News search: TDS/TCS",
+   "official": false,
+   "publisher": "A2Z Taxcorp LLP",
+   "type": "Update",
+   "title": "Exemption from GST registration for persons making only reverse-charge supplies withdrawn for suppliers of used cooking oil, waste and scrap of plastics, waste and scrap of tyres, metal scrap and electrical and electronics waste and scrap w.e.f. 01.11.2026",
+   "link": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxNSllHZ3A5SGlFN3lzeU9HM0w2blg3MGxGUUwyc3JvdElSeF9GN295QS1kZE5xelhFRldxWFI4SDhxcmlKeUlyY05FMGxRZnlqaUQ5dFdjZWJRY3pBYmNGM2QtbXNGUXd2dlFCUWpGNXNjTVlMLXJETU9OQWhxYkk2bHo4Wlk4OHFDRzN6NXZyOXZ3Uk1INjFnc1duaHhwQ3R6d0E1RHJPMjBickNDUU51VU1WQjNVSUE2WkFBNDZ1RVRYWnl0X2ZVRzdnOTZiMEtvcWtxY05TYngyVEVzczZWZ0U2X2dfYkpiQnJVbXFsbjNrczNRZzRURTdmVUJHcW8tM0pnWXRZN1NRbGE5LW80Z2hGWGdMMHdqN3plOGJ5U3ZVNUdFRmlyNXQ5V1RNUUVLQUo3V09fR1B5MVlYV1VsQmNFMA?oc=5",
+   "published": "2026-10-28T16:58:48.000Z",
+   "firstSeen": "2026-10-28T19:41:18.579Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": [
+    {
+     "date": "2026-11-01",
+     "kind": "effective",
+     "context": "01.11.2026"
+    }
+   ]
+  },
+  {
+   "id": "65438ecbd96a",
+   "area": "tds",
+   "sourceId": "news-tds",
+   "source": "News search: TDS/TCS",
+   "official": false,
+   "publisher": "A2Z Taxcorp LLP",
+   "type": "Update",
+   "title": "Reverse charge extended to supply of used cooking oil, waste and scrap of plastics, waste and scrap of tyres and electrical and electronics waste and scrap by unregistered persons to registered persons w.e.f. 01.11.2026",
+   "link": "https://news.google.com/rss/articles/CBMixAJBVV95cUxOUUpJanZaUWRrWm43X0xwbW05Zm50cTVrOFNNUm40ajJjOThrekpBeWozV204UXUzMHZYd2ZTbjQwVTVJRGcxbEJkNk85TFZrUXhjaDRaLUl1TlptVWRuUmRTQmhFNnJ1dWN4Y1NwNDNOV3FUdlNvanNWUmppbmFHTlVYR2pkcGExM1NXOFBsMGpOYWtqaEw3N05iWV91SkdzZDBFQlZuc1NIVUdUZWZoTHRPajBHMVp1UXd4Y2dnZEtHeWpPZmNPOHYydmx6YkhnSXJKNktUUWV5V21zUzl1Tmx2TS1tQ0lCd0VZS25mQWhHRENVZUtxUEJvN2tZZUYxamRiS1ZDZE5Rem8xZXdnM3NCaE5LTElUSGZrNEVNd3FtOWEyekdpLWxpQ0EtNlBNQjRCcUVSUW1tZVRTS1lQR2FUOHo?oc=5",
+   "published": "2026-10-28T16:58:25.000Z",
+   "firstSeen": "2026-10-28T19:41:18.579Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": [
+    {
+     "date": "2026-11-01",
+     "kind": "effective",
+     "context": "01.11.2026"
+    }
+   ]
+  },
+  {
+   "id": "8e3b86d17364",
+   "area": "mca",
+   "sourceId": "taxguru-corporate",
+   "source": "TaxGuru Corporate Law",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Corporate Law | Letter of Intent Not Binding Without Fulfilment of Tender Conditions: Supreme Court",
+   "link": "https://taxguru.in/corporate-law/letter-intent-not-binding-without-fulfilment-tender-conditions-supreme-court.html",
+   "published": "2026-10-28T17:46:57.000Z",
+   "firstSeen": "2026-10-28T19:41:18.579Z",
+   "summary": "Supreme Court rules that an LoI does not create a binding contract where mandatory performance security and Integrity Pact conditions remain unmet.The post Letter of Intent Not Binding Without Fulfilment of Tender…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "4fb94970da4e",
+   "area": "mh",
+   "sourceId": "news-mh",
+   "source": "News search: Maharashtra levies",
+   "official": false,
+   "publisher": "LiveLawBiz",
+   "type": "Judgment",
+   "title": "Rise In Property Value Alone Cannot Justify Fresh Stamp Duty On Subsequent Conveyance: Bombay High Court",
+   "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOQ0VpOUU2Y3d3NWY0RGJpQ0hoSElrY3Itdlc2Unp4LTlFSTlIMHh6UlJ5S3RZdVYxRlAtN0ZGQUVGVmRLanBjeXRKNEtEUlliU0dYM3BoNDVsVG9oV3Y5c1BXd3QyU0gzTHVxZVoyOWc1SThoLWFoZnlScmlnSm91ckxuVy1GcFNBNUUtbEN3d1FDSlJESUxmLVlqRHFxMGNpOUU0Y2xwVFROaGFtVTVjb1dSRko5a3pCVFJYTktwYmVhN29TNGRtTmNNaUFZLWpvV3MxdG94aU02U1MwOWh6SVlDVVEyLWRtM3Zlbmw4R0tMSEJnQkRIY2lkV3PSAfwBQVVfeXFMTkNFaTlFNmN3dzVmNERiaUNIaEhJa2NyLXZXNlJ6eC05RUk5SDB4elJSeUt0WXVWMUZQLTdGRkFFRlZkS2pwY3l0SjRLRFJZYlNHWDNwaDQ1bFRvaFd2OXNQV3d0MlNIM0x1cWVaMjlnNUk4aC1haGZ5UnJpZ0pvdXJMblctRnBTQTVFLWxDd3dRQ0pSRElMZi1ZakRxcTBjaTlFNGNscFRUTmhhbVU1Y29XUkZKOWt6QlRSWE5LcGJlYTdvUzRkbU5jTWlBWS1qb1dzMXRveGlNNlNTMDloeklZQ1VRMi1kbTN2ZW5sOEdLTEhCZ0JESGNpZFdz?oc=5",
+   "published": "2026-10-28T15:11:34.000Z",
+   "firstSeen": "2026-10-28T19:41:18.579Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "9cc953d73210",
+   "area": "loan",
+   "sourceId": "news-loan-central",
+   "source": "News search: central schemes",
+   "official": false,
+   "publisher": "Traders Union",
+   "type": "Scheme",
+   "title": "EBRD, Raiffeisen Bank Serbia expand MSME financing in Serbia under EU-backed scheme",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNjBnTjRXRklvS2Uwc0FFcVNFQklmdnJXRUNnQ2RNSlE1QlBia3BqWlYwNXRGWnJSNkEzYjhHb3lKZVBHM0NPSWhkVXhDU2lYRzJBT0hWZ2JaWXVxTzVFUzUzLVRSY05RMUFkS2g4NUpub2puNC1iNHBjM2ZvaVJXNFNFRmx2OUVhRDVTajFpWXh3SHV6dGdFOEdn?oc=5",
+   "published": "2026-10-28T12:21:30.000Z",
+   "firstSeen": "2026-10-28T19:41:18.579Z",
    "summary": "",
    "notes": [],
    "refs": [],
@@ -1315,7 +2342,10 @@
    "summary": "",
    "notes": [],
    "refs": [],
-   "deadlines": []
+   "deadlines": [],
+   "alsoIn": [
+    "News search: eastern and north-eastern states"
+   ]
   },
   {
    "id": "af865deef78e",
@@ -6228,6 +7258,40 @@
    "deadlines": []
   },
   {
+   "id": "160c240c5014",
+   "area": "mh",
+   "sourceId": "news-mh",
+   "source": "News search: Maharashtra levies",
+   "official": false,
+   "publisher": "Lawtext",
+   "type": "Judgment",
+   "title": "Bombay High Court Quashes Stamp Duty Demand Against IT Company in Lease Deed Classification Dispute. Lease Deed for Software Development Held Not a 'Building Lease' Under Maharashtra Stamp Act, 1958.",
+   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9ZVS1hQzlTdUk4ZHg0eWRTay1vUDVPM3JKZFJ0dWxzcF9Xanl4dV9FMXVkMEZUY0ZzbXN6SzlSaFpPT085NkpGNjFQUm9XeFpLbWdOc1hRTGN0ZTBOTzFEZGJxbUpkUQ?oc=5",
+   "published": "2026-10-26T07:00:00.000Z",
+   "firstSeen": "2026-10-28T19:41:18.579Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "6e80e506faad",
+   "area": "loan",
+   "sourceId": "news-loan-central",
+   "source": "News search: central schemes",
+   "official": false,
+   "publisher": "Lawtext",
+   "type": "Judgment",
+   "title": "Bombay High Court Allows MSME to Claim VSV Scheme Benefits Despite Reclassification as 'Not an MSME' — Legal Fiction Under Clause 8(5) Notification Extends Non-Tax Benefits for Three Years. The Court held that the Petitioner, re-classified as 'not an M",
+   "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE83R1VIa1E5eloxdDZmZjluOUdfRlVzSmc5VkZSNk1oeUYxbXJtNGh3eFlSLURpeXFOaGdTQURxMTFoTG16emxvYWMtRE1FQ0k1bUE?oc=5",
+   "published": "2026-10-26T07:00:00.000Z",
+   "firstSeen": "2026-10-28T19:41:18.579Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
    "id": "19c8e1799414",
    "area": "labour",
    "sourceId": "news-labour",
@@ -9365,6 +10429,23 @@
    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZV9DaUVKVnd3Z1hVU0pPYUptLXh5QzVaYTlfdi15LVg4UW5VUGV1YUt6dW5YVEgxMmFaMHFMRjUtdUo2bWI1T3A3TjBHdzM0T21lSzJiX1NrbmY0VUpLNmpMVWF5VDVKODRmdVlESGw4OTd3VEtmWE5zVFZodEJkNnJ0bmNBMzNsWFFBRUVSUEs1akVRU0hXa2ttbnpfbHFQN1dTVGR1eEJHZW1HRHpQNNIBtgFBVV95cUxPU1N2aTdJakk1aEU2RlIzWURRejNUelB6QWlUUTdUVXhwS3B1dXkxeDBXZHZBekJTUVlSZFFqbWswLXBjTG5fUnRjV1ozLW5qR2hFV1FvUEhmeFN2NklLNjlGQm1ET3gybjR2N3dmYjNaRFp2UTA3R0lndE1OVEpLSFg1NHdVcnhBdUxQTU1JdHFLcWk1STlwU1VsYklsOGZrOU82LTR1dVFpMWZxUnBMX2NYTVNTZw?oc=5",
    "published": "2026-10-14T07:00:00.000Z",
    "firstSeen": "2026-10-27T15:29:57.191Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "33c5207fcbf8",
+   "area": "loan",
+   "sourceId": "news-loan-east",
+   "source": "News search: eastern and north-eastern states",
+   "official": false,
+   "publisher": "Shiksha.com",
+   "type": "Notification",
+   "title": "DME Releases Notification for Additional Weightage in Assam NEET PG 2026 Counselling: Apply Online by Oct 15",
+   "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQaE56Yld5UDdtM3lvQ2ZRVXMzV1RnWlZaV1c2a0xQUFZ0b0RJLUNGSVFNY0ltQ3pwcGswcEpwZDd6M0U3YW9ud0xxX2ptTGFuZjVXUkVHLWUtZFl6Z21RNWF3Q3cyVmxzbWR0clJ4bnZzazB0S3BSMVFoaXZXVTA1TjNRdHN2eTBTdXdDdjR5QnhqOXRoN0xLd3ZpLVF2UW1NNmJNbXJRa3Yxd3EtY1U2TV8yWnBOTDRia3RIVXJPanFRTVV5TVNoUzAyUTRmNmJScGlScGZyY2FSeXFxdTNaS1YtT0VqS2VORmFpakRyRUU3bVhUVW9yZkMyWnRWNzFrc0ZFdVp3?oc=5",
+   "published": "2026-10-13T07:00:00.000Z",
+   "firstSeen": "2026-10-28T19:41:18.579Z",
    "summary": "",
    "notes": [],
    "refs": [],
