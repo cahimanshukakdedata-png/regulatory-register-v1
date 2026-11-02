@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-11-01T19:00:13.969Z",
+ "generatedAt": "2026-11-02T07:51:08.601Z",
  "repo": "cahimanshukakdedata-png/regulatory-register-v1",
- "newThisRun": 31,
+ "newThisRun": 25,
  "sources": [
   {
    "id": "icai-home",
@@ -14,8 +14,8 @@
    "fetched": 36,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-01T19:00:13.969Z",
-   "ms": 1414
+   "lastOk": "2026-11-02T07:51:08.601Z",
+   "ms": 1049
   },
   {
    "id": "news-acc",
@@ -25,11 +25,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(ICAI%20OR%20NFRA%20OR%20%22Ind%20AS%22%20OR%20UDIN)%20(announcement%20OR%20notification%20OR%20amendment%20OR%20guidance)%20when%3A14d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 44,
-   "kept": 8,
+   "fetched": 45,
+   "kept": 7,
    "note": "",
-   "lastOk": "2026-11-01T19:00:13.969Z",
-   "ms": 353
+   "lastOk": "2026-11-02T07:51:08.601Z",
+   "ms": 346
   },
   {
    "id": "nfra-home",
@@ -42,8 +42,8 @@
    "fetched": 26,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-01T19:00:13.969Z",
-   "ms": 1961
+   "lastOk": "2026-11-02T07:51:08.601Z",
+   "ms": 1936
   },
   {
    "id": "taxguru-ca",
@@ -56,8 +56,8 @@
    "fetched": 75,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-11-01T19:00:13.969Z",
-   "ms": 864
+   "lastOk": "2026-11-02T07:51:08.601Z",
+   "ms": 993
   },
   {
    "id": "rbi-notifications",
@@ -70,8 +70,8 @@
    "fetched": 10,
    "kept": 5,
    "note": "",
-   "lastOk": "2026-11-01T19:00:13.969Z",
-   "ms": 999
+   "lastOk": "2026-11-02T07:51:08.601Z",
+   "ms": 2138
   },
   {
    "id": "rbi-press",
@@ -84,8 +84,8 @@
    "fetched": 10,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-01T19:00:13.969Z",
-   "ms": 820
+   "lastOk": "2026-11-02T07:51:08.601Z",
+   "ms": 958
   },
   {
    "id": "taxguru-rbi",
@@ -98,8 +98,8 @@
    "fetched": 75,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-11-01T19:00:13.969Z",
-   "ms": 768
+   "lastOk": "2026-11-02T07:51:08.601Z",
+   "ms": 762
   },
   {
    "id": "cbic-gst",
@@ -112,8 +112,8 @@
    "fetched": 20,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-01T19:00:13.969Z",
-   "ms": 1320
+   "lastOk": "2026-11-02T07:51:08.601Z",
+   "ms": 1427
   },
   {
    "id": "gst-council",
@@ -126,8 +126,8 @@
    "fetched": 20,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-01T19:00:13.969Z",
-   "ms": 1811
+   "lastOk": "2026-11-02T07:51:08.601Z",
+   "ms": 1832
   },
   {
    "id": "gst-portal-news",
@@ -140,8 +140,8 @@
    "fetched": 0,
    "kept": 0,
    "note": "page returned no usable links (it may need a real browser); this section relies on its other sources",
-   "lastOk": "2026-11-01T19:00:13.969Z",
-   "ms": 1747
+   "lastOk": "2026-11-02T07:51:08.601Z",
+   "ms": 1728
   },
   {
    "id": "news-gst",
@@ -151,11 +151,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(CBIC%20OR%20GSTN%20OR%20%22GST%20Council%22%20OR%20CGST)%20(notification%20OR%20circular%20OR%20advisory%20OR%20extended)%20when%3A10d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 77,
+   "fetched": 79,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-11-01T19:00:13.969Z",
-   "ms": 459
+   "lastOk": "2026-11-02T07:51:08.601Z",
+   "ms": 410
   },
   {
    "id": "taxguru-gst",
@@ -168,8 +168,8 @@
    "fetched": 75,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-11-01T19:00:13.969Z",
-   "ms": 1066
+   "lastOk": "2026-11-02T07:51:08.601Z",
+   "ms": 1722
   },
   {
    "id": "cbdt-communications",
@@ -182,8 +182,8 @@
    "fetched": 4,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-01T19:00:13.969Z",
-   "ms": 1723
+   "lastOk": "2026-11-02T07:51:08.601Z",
+   "ms": 5954
   },
   {
    "id": "itd-latest",
@@ -196,8 +196,8 @@
    "fetched": 39,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-01T19:00:13.969Z",
-   "ms": 1250
+   "lastOk": "2026-11-02T07:51:08.601Z",
+   "ms": 1315
   },
   {
    "id": "news-it",
@@ -207,11 +207,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=CBDT%20(notification%20OR%20circular%20OR%20%22due%20date%22%20OR%20extended%20OR%20scheme)%20when%3A10d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 25,
-   "kept": 17,
+   "fetched": 55,
+   "kept": 25,
    "note": "",
-   "lastOk": "2026-11-01T19:00:13.969Z",
-   "ms": 300
+   "lastOk": "2026-11-02T07:51:08.601Z",
+   "ms": 331
   },
   {
    "id": "taxguru-it",
@@ -224,8 +224,8 @@
    "fetched": 75,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-11-01T19:00:13.969Z",
-   "ms": 669
+   "lastOk": "2026-11-02T07:51:08.601Z",
+   "ms": 1532
   },
   {
    "id": "epfo-home",
@@ -238,8 +238,8 @@
    "fetched": 0,
    "kept": 0,
    "note": "site refused a direct request (known to refuse direct requests); read through r.jina.ai; page returned no usable links (it may need a real browser); this section relies on its other sources",
-   "lastOk": "2026-11-01T19:00:13.969Z",
-   "ms": 51989
+   "lastOk": "2026-11-02T07:51:08.601Z",
+   "ms": 44186
   },
   {
    "id": "esic-home",
@@ -252,8 +252,8 @@
    "fetched": 52,
    "kept": 0,
    "note": "site refused a direct request (known to refuse direct requests); read through r.jina.ai",
-   "lastOk": "2026-11-01T19:00:13.969Z",
-   "ms": 51216
+   "lastOk": "2026-11-02T07:51:08.601Z",
+   "ms": 58161
   },
   {
    "id": "news-labour",
@@ -263,11 +263,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(EPFO%20OR%20ESIC%20OR%20%22labour%20code%22)%20(notification%20OR%20circular%20OR%20rules%20OR%20extended%20OR%20deadline)%20when%3A14d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 44,
+   "fetched": 45,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-11-01T19:00:13.969Z",
-   "ms": 322
+   "lastOk": "2026-11-02T07:51:08.601Z",
+   "ms": 292
   },
   {
    "id": "cgtmse",
@@ -280,8 +280,8 @@
    "fetched": 1,
    "kept": 0,
    "note": "site refused a direct request (known to refuse direct requests); read through r.jina.ai",
-   "lastOk": "2026-11-01T19:00:13.969Z",
-   "ms": 46823
+   "lastOk": "2026-11-02T07:51:08.601Z",
+   "ms": 57738
   },
   {
    "id": "maitri-mh",
@@ -294,8 +294,8 @@
    "fetched": 0,
    "kept": 0,
    "note": "site refused a direct request (HTTP 503); read through r.jina.ai; page returned no usable links (it may need a real browser); this section relies on its other sources",
-   "lastOk": "2026-11-01T19:00:13.969Z",
-   "ms": 42135
+   "lastOk": "2026-11-02T07:51:08.601Z",
+   "ms": 51641
   },
   {
    "id": "msme-ministry",
@@ -308,8 +308,8 @@
    "fetched": 0,
    "kept": 0,
    "note": "page returned no usable links (it may need a real browser); this section relies on its other sources",
-   "lastOk": "2026-11-01T19:00:13.969Z",
-   "ms": 2477
+   "lastOk": "2026-11-02T07:51:08.601Z",
+   "ms": 2263
   },
   {
    "id": "nabard",
@@ -322,8 +322,8 @@
    "fetched": 5,
    "kept": 0,
    "note": "site refused a direct request (known to refuse direct requests); read through r.jina.ai",
-   "lastOk": "2026-11-01T19:00:13.969Z",
-   "ms": 58612
+   "lastOk": "2026-11-02T07:51:08.601Z",
+   "ms": 57663
   },
   {
    "id": "news-loan-central",
@@ -333,11 +333,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(MSME%20OR%20PMEGP%20OR%20MUDRA%20OR%20CGTMSE%20OR%20%22Stand-Up%20India%22%20OR%20%22interest%20subvention%22)%20(scheme%20OR%20subsidy%20OR%20guidelines%20OR%20extended%20OR%20notification)%20when%3A14d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 58,
+   "fetched": 61,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-11-01T19:00:13.969Z",
-   "ms": 469
+   "lastOk": "2026-11-02T07:51:08.601Z",
+   "ms": 487
   },
   {
    "id": "news-loan-east",
@@ -347,11 +347,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(%22West%20Bengal%22%20OR%20Odisha%20OR%20Jharkhand%20OR%20Chhattisgarh%20OR%20Assam%20OR%20%22North%20East%22)%20(subsidy%20OR%20incentive%20OR%20%22industrial%20policy%22%20OR%20%22loan%20scheme%22)%20when%3A21d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 62,
-   "kept": 14,
+   "fetched": 60,
+   "kept": 16,
    "note": "",
-   "lastOk": "2026-11-01T19:00:13.969Z",
-   "ms": 429
+   "lastOk": "2026-11-02T07:51:08.601Z",
+   "ms": 363
   },
   {
    "id": "news-loan-farm",
@@ -361,11 +361,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(NABARD%20OR%20%22Kisan%20Credit%20Card%22%20OR%20%22agriculture%20subsidy%22%20OR%20%22food%20processing%20subsidy%22%20OR%20PMFME)%20(scheme%20OR%20subsidy%20OR%20guidelines%20OR%20notification)%20when%3A21d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 61,
+   "fetched": 62,
    "kept": 8,
    "note": "",
-   "lastOk": "2026-11-01T19:00:13.969Z",
-   "ms": 454
+   "lastOk": "2026-11-02T07:51:08.601Z",
+   "ms": 347
   },
   {
    "id": "news-loan-mh",
@@ -375,11 +375,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=Maharashtra%20(subsidy%20OR%20incentive%20OR%20%22industrial%20policy%22%20OR%20%22loan%20scheme%22)%20(government%20OR%20notified%20OR%20launched%20OR%20guidelines)%20when%3A21d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 54,
-   "kept": 10,
+   "fetched": 56,
+   "kept": 9,
    "note": "",
-   "lastOk": "2026-11-01T19:00:13.969Z",
-   "ms": 464
+   "lastOk": "2026-11-02T07:51:08.601Z",
+   "ms": 396
   },
   {
    "id": "news-loan-north",
@@ -389,11 +389,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(%22Uttar%20Pradesh%22%20OR%20Delhi%20OR%20Punjab%20OR%20Haryana%20OR%20Bihar%20OR%20Uttarakhand%20OR%20%22Himachal%20Pradesh%22)%20(subsidy%20OR%20incentive%20OR%20%22industrial%20policy%22%20OR%20%22loan%20scheme%22)%20when%3A21d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 79,
+   "fetched": 76,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-11-01T19:00:13.969Z",
-   "ms": 537
+   "lastOk": "2026-11-02T07:51:08.601Z",
+   "ms": 437
   },
   {
    "id": "news-loan-south",
@@ -403,11 +403,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(%22Tamil%20Nadu%22%20OR%20Karnataka%20OR%20Telangana%20OR%20%22Andhra%20Pradesh%22%20OR%20Kerala)%20(subsidy%20OR%20incentive%20OR%20%22industrial%20policy%22%20OR%20%22loan%20scheme%22)%20when%3A21d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 49,
-   "kept": 12,
+   "fetched": 30,
+   "kept": 6,
    "note": "",
-   "lastOk": "2026-11-01T19:00:13.969Z",
-   "ms": 425
+   "lastOk": "2026-11-02T07:51:08.601Z",
+   "ms": 285
   },
   {
    "id": "news-loan-west",
@@ -417,11 +417,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(Gujarat%20OR%20%22Madhya%20Pradesh%22%20OR%20Rajasthan%20OR%20Goa)%20(subsidy%20OR%20%22industrial%20policy%22%20OR%20incentive%20OR%20%22loan%20scheme%22)%20when%3A21d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 59,
-   "kept": 8,
+   "fetched": 58,
+   "kept": 7,
    "note": "",
-   "lastOk": "2026-11-01T19:00:13.969Z",
-   "ms": 432
+   "lastOk": "2026-11-02T07:51:08.601Z",
+   "ms": 350
   },
   {
    "id": "pmegp-kvic",
@@ -435,7 +435,7 @@
    "kept": 0,
    "error": "website address could not be found (DNS)",
    "lastOk": "2026-09-29T01:36:20.178Z",
-   "ms": 77537
+   "ms": 107783
   },
   {
    "id": "sidbi",
@@ -448,8 +448,8 @@
    "fetched": 10,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-01T19:00:13.969Z",
-   "ms": 3831
+   "lastOk": "2026-11-02T07:51:08.601Z",
+   "ms": 3769
   },
   {
    "id": "mca-home",
@@ -462,8 +462,8 @@
    "fetched": 33,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-01T19:00:13.969Z",
-   "ms": 1160
+   "lastOk": "2026-11-02T07:51:08.601Z",
+   "ms": 3496
   },
   {
    "id": "news-mca",
@@ -473,11 +473,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=MCA%20(%22general%20circular%22%20OR%20notification%20OR%20%22Companies%20Act%22%20OR%20LLP%20OR%20extended)%20when%3A10d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 50,
-   "kept": 25,
+   "fetched": 30,
+   "kept": 17,
    "note": "",
-   "lastOk": "2026-11-01T19:00:13.969Z",
-   "ms": 387
+   "lastOk": "2026-11-02T07:51:08.601Z",
+   "ms": 253
   },
   {
    "id": "taxguru-company",
@@ -490,8 +490,8 @@
    "fetched": 75,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-11-01T19:00:13.969Z",
-   "ms": 695
+   "lastOk": "2026-11-02T07:51:08.601Z",
+   "ms": 891
   },
   {
    "id": "taxguru-corporate",
@@ -504,8 +504,8 @@
    "fetched": 75,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-11-01T19:00:13.969Z",
-   "ms": 1198
+   "lastOk": "2026-11-02T07:51:08.601Z",
+   "ms": 817
   },
   {
    "id": "mahagst-pt",
@@ -519,7 +519,7 @@
    "kept": 0,
    "error": "the website did not answer in time",
    "lastOk": null,
-   "ms": 142144
+   "ms": 138905
   },
   {
    "id": "news-mh",
@@ -529,11 +529,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=Maharashtra%20(%22profession%20tax%22%20OR%20MahaGST%20OR%20%22stamp%20duty%22%20OR%20%22amnesty%20scheme%22)%20when%3A30d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 23,
+   "fetched": 22,
    "kept": 11,
    "note": "",
-   "lastOk": "2026-11-01T19:00:13.969Z",
-   "ms": 285
+   "lastOk": "2026-11-02T07:51:08.601Z",
+   "ms": 242
   },
   {
    "id": "sebi-rss",
@@ -546,8 +546,8 @@
    "fetched": 30,
    "kept": 10,
    "note": "",
-   "lastOk": "2026-11-01T19:00:13.969Z",
-   "ms": 841
+   "lastOk": "2026-11-02T07:51:08.601Z",
+   "ms": 1946
   },
   {
    "id": "taxguru-sebi",
@@ -560,8 +560,8 @@
    "fetched": 75,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-11-01T19:00:13.969Z",
-   "ms": 639
+   "lastOk": "2026-11-02T07:51:08.601Z",
+   "ms": 782
   },
   {
    "id": "news-tds",
@@ -571,14 +571,511 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(TDS%20OR%20TCS%20OR%20TRACES)%20(CBDT%20OR%20notification%20OR%20%22due%20date%22%20OR%20form)%20when%3A14d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 25,
+   "fetched": 28,
    "kept": 6,
    "note": "",
-   "lastOk": "2026-11-01T19:00:13.969Z",
-   "ms": 314
+   "lastOk": "2026-11-02T07:51:08.601Z",
+   "ms": 271
   }
  ],
  "items": [
+  {
+   "id": "c1e0dfe57c47",
+   "area": "gst",
+   "sourceId": "taxguru-gst",
+   "source": "TaxGuru GST",
+   "official": false,
+   "publisher": "",
+   "type": "Amendment",
+   "title": "Goods and Services Tax | CBIC Invites Public Suggestions on Proposed GST Liability and ITC Amendment Mechanism",
+   "link": "https://taxguru.in/goods-and-service-tax/cbic-invites-public-suggestions-proposed-gst-liability-itc-amendment-mechanism.html",
+   "published": "2026-11-02T06:12:35.000Z",
+   "firstSeen": "2026-11-02T07:51:08.601Z",
+   "summary": "CBIC invites suggestions from 1–30 November 2026 on a proposed alternate mechanism to amend GST return liabilities and input tax credit.The post CBIC Invites Public Suggestions on Proposed GST Liability and ITC Amendment Mechanism appeared first on TaxGuru.",
+   "notes": [
+    "Recommended at the 57th GST Council meeting held on 8 October 2026, the mechanism aims to minimise return mismatches and reduce resulting notices and intimations.",
+    "The consultation runs from 1 November to 30 November 2026 and is open to taxpayers, tax practitioners, industry associations and other stakeholders.",
+    "The GST Council in the 57th meeting held on 08th October, 2026, has recommended an Alternate mechanism for making amendment of liabilities and input tax credit in GST returns to minimize mismatches and reduction of notices/intimations on account thereof."
+   ],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "1749e34ab291",
+   "area": "gst",
+   "sourceId": "taxguru-gst",
+   "source": "TaxGuru GST",
+   "official": false,
+   "publisher": "",
+   "type": "Amendment",
+   "title": "Goods and Services Tax | GST Registration Amendment Rules 2026: Automatic Approval, REG-14 and OTP Verification",
+   "link": "https://taxguru.in/goods-and-service-tax/gst-registration-amendment-rules-2026-automatic-approval-reg-14-otp-verification.html",
+   "published": "2026-11-02T06:04:31.000Z",
+   "firstSeen": "2026-11-02T07:51:08.601Z",
+   "summary": "GSTN revises Rule 19 registration amendments with automatic approval, REG-14 filing, OTP verification and three-day ARN validation.The post GST Registration Amendment Rules 2026: Automatic Approval, REG-14 and OTP Verification appeared first on TaxGuru.",
+   "notes": [
+    "Summary: The Goods and Services Tax Network (GSTN), through its advisory dated 1 November 2026, has announced changes to the process for amending GST registration particulars following Notification No. 05/2026-Central Tax dated 26 October 2026.",
+    "Taxpayers must complete this verification within three days of submitting the amendment application; otherwise, the Application Reference Number will not be generated.",
+    "Vide Notification No. 05/2026-Central Tax Dated:26.10.2026, Rule 21 of Central Goods and Services Tax Rules, 2017, the provisions relating to amendment of registration under Rule 19 of the CGST Rules, 2017 have been substituted."
+   ],
+   "refs": [
+    "Notification No. 05/2026-Central Tax"
+   ],
+   "deadlines": []
+  },
+  {
+   "id": "6a9c51506126",
+   "area": "gst",
+   "sourceId": "taxguru-gst",
+   "source": "TaxGuru GST",
+   "official": false,
+   "publisher": "",
+   "type": "Advisory",
+   "title": "Goods and Services Tax | GSTN Introduces Section 10(2A) Composition Levy Category and REG-14 Amendment Facility",
+   "link": "https://taxguru.in/goods-and-service-tax/gstn-introduces-section-10-2a-composition-levy-category-reg-14-amendment-facility.html",
+   "published": "2026-11-02T06:04:13.000Z",
+   "firstSeen": "2026-11-02T07:51:08.601Z",
+   "summary": "GSTN adds Section 10(2A) composition category and REG-14 amendment facility. Check category selection rules and PAN-linked GSTIN requirements.The post GSTN Introduces Section 10(2A) Composition Levy Category and REG-14 Amendment Facility appeared first on TaxGuru.",
+   "notes": [
+    "Summary: The Goods and Services Tax Network (GSTN), through an advisory dated 1 November 2026, has announced enhancements to the composition levy functionality on the GST portal.",
+    "The changes apply to taxpayers registered under or opting for the Composition Scheme and affect applications filed through FORM GST REG-01, FORM GST CMP-02, FORM GST CMP-04 and FORM GST REG-14.",
+    "GSTN has also introduced a facility for composition taxpayers to change or update their selected composition category through an amendment application in FORM GST REG-14."
+   ],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "beccbc56b969",
+   "area": "tds",
+   "sourceId": "taxguru-gst",
+   "source": "TaxGuru GST",
+   "official": false,
+   "publisher": "",
+   "type": "Update",
+   "title": "Goods and Services Tax | GST TDS Registration Extended to Used Cooking Oil, Plastic, Tyre and E-Waste Scrap Dealers from November 2026",
+   "link": "https://taxguru.in/goods-and-service-tax/gst-tds-registration-extended-cooking-oil-plastic-tyre-waste-scrap-dealers-november-2026.html",
+   "published": "2026-11-02T06:03:10.000Z",
+   "firstSeen": "2026-11-02T07:51:08.601Z",
+   "summary": "GSTN advises TDS registration in GST REG-07 for metal scrap, used cooking oil, plastic, tyre and e-waste dealers under Notification 07/2026.The post GST TDS Registration Extended to Used Cooking Oil, Plastic, Tyre and E-Waste Scrap Dealers from November 2026 appeared first on TaxGuru.",
+   "notes": [
+    "Summary: The Goods and Services Tax Network (GSTN), through its advisory dated 1 November 2026, has informed taxpayers about the extension of Tax Deducted at Source (TDS) compliance requirements under Section 51 of the CGST Act, 2017, to additional…",
+    "Earlier, Notification No. 25/2024-Central Tax dated 9 October 2024 had introduced TDS requirements for registered businesses receiving supplies of metal scrap falling under Chapters 72 to 81 of the Customs Tariff Act, 1975.",
+    "The advisory extends the earlier GSTN guidance issued on 22 October 2024 for metal scrap dealers to the additional notified categories."
+   ],
+   "refs": [
+    "Notification No. 25/2024-Central Tax",
+    "Notification No. 07/2026-Central Tax"
+   ],
+   "deadlines": []
+  },
+  {
+   "id": "7770e6fec568",
+   "area": "gst",
+   "sourceId": "taxguru-gst",
+   "source": "TaxGuru GST",
+   "official": false,
+   "publisher": "",
+   "type": "Advisory",
+   "title": "Goods and Services Tax | GSTN Revises GST REG-16 Cancellation Process: Automatic Approval, Return Filing and ₹2.5 Lakh Limit",
+   "link": "https://taxguru.in/goods-and-service-tax/gstn-revises-gst-reg-16-cancellation-process-automatic-approval-return-filing-rs-2-5-lakh-limit.html",
+   "published": "2026-11-02T06:02:36.000Z",
+   "firstSeen": "2026-11-02T07:51:08.601Z",
+   "summary": "GSTN revises GST REG-16 cancellation with automated approvals, return filing checks, ₹2.5 lakh tax limit and GSTR-10 requirements.The post GSTN Revises GST REG-16 Cancellation Process: Automatic Approval, Return Filing and ₹2.5 Lakh Limit appeared first on TaxGuru.",
+   "notes": [
+    "Summary: The Goods and Services Tax Network (GSTN), through its advisory dated 1 November 2026, has announced a revised process for taxpayer-initiated cancellation of GST registration through FORM GST REG-16.",
+    "The revised procedure incorporates system-based validation of pending returns and electronic approval of eligible applications under Rule 20 of the CGST Rules, 2017, as amended by Notification No. 05/2026-Central Tax dated 26 October 2026.",
+    "OTL exceeding ₹2.5 lakh for any tax period: Where applicable, the taxpayer must furnish Form GSTR-10 within three days from the due date of the returns identified in the “Pending for Returns Filing” stage."
+   ],
+   "refs": [
+    "Notification No. 05/2026-Central Tax"
+   ],
+   "deadlines": []
+  },
+  {
+   "id": "9071b44fe246",
+   "area": "gst",
+   "sourceId": "taxguru-gst",
+   "source": "TaxGuru GST",
+   "official": false,
+   "publisher": "",
+   "type": "Advisory",
+   "title": "Goods and Services Tax | GSTN Rule 14B Simplified Registration Scheme for E-Commerce Sellers: Eligibility, Process and ECO Consent",
+   "link": "https://taxguru.in/goods-and-service-tax/gstn-rule-14b-simplified-registration-scheme-commerce-sellers-eligibility-process-eco-consent.html",
+   "published": "2026-11-02T06:02:09.000Z",
+   "firstSeen": "2026-11-02T07:51:08.601Z",
+   "summary": "GSTN introduces Rule 14B simplified GST registration for e-commerce sellers. Check eligibility, ₹2.5 lakh tax limit, ECO consent and verification.The post GSTN Rule 14B Simplified Registration Scheme for E-Commerce Sellers: Eligibility, Process and ECO Consent appeared first on TaxGuru.",
+   "notes": [
+    "Summary: The Goods and Services Tax Network (GSTN), through an advisory dated 1 November 2026, has announced the introduction of the Simplified Registration Scheme under Rule 14B of the CGST Rules, 2017.",
+    "The facility, introduced pursuant to Notification No. 05/2026-Central Tax dated 26 October 2026, enables eligible suppliers selling goods exclusively through e-commerce operators collecting tax at source under Section 52 of the CGST Act, 2017, to obtain…",
+    "Pursuant to Notification No. 05/2026-Central Tax dated 26.10.2026, GSTN has introduced a facility on the GST Portal to enable eligible suppliers selling goods through e-Commerce Operators (ECOs) that collect tax at source under Section 52 of the CGST Act,…"
+   ],
+   "refs": [
+    "Notification No. 05/2026-Central Tax"
+   ],
+   "deadlines": []
+  },
+  {
+   "id": "3c516eed32c3",
+   "area": "gst",
+   "sourceId": "taxguru-gst",
+   "source": "TaxGuru GST",
+   "official": false,
+   "publisher": "",
+   "type": "Advisory",
+   "title": "Goods and Services Tax | GSTN Revises FORM GST REG-01: Nine Major GST Registration Changes from November 2026",
+   "link": "https://taxguru.in/goods-and-service-tax/gstn-revises-form-gst-reg-01-major-gst-registration-november-2026.html",
+   "published": "2026-11-02T06:01:27.000Z",
+   "firstSeen": "2026-11-02T07:51:08.601Z",
+   "summary": "GSTN revises GST REG-01 with new OPC, SEZ, e-commerce, business premises, bank account and identity validation requirements.The post GSTN Revises FORM GST REG-01: Nine Major GST Registration Changes from November 2026 appeared first on TaxGuru.",
+   "notes": [
+    "Summary: The Goods and Services Tax Network (GSTN), through an advisory dated 1 November 2026, has informed taxpayers about important changes introduced in FORM GST REG-01 on the GST portal.",
+    "The advisory refers to Notification No. 05/2026-Central Tax and Circular No. 257/03/2026-GST, both dated 26 October 2026.",
+    "For further details, taxpayers may refer to Notification No. 05/2026-Central Tax dated 26.10.2026 (pages 16 to 42) and Circular No. 257/03/2026-GST dated 26.10.2026."
+   ],
+   "refs": [
+    "Notification No. 05/2026-Central Tax",
+    "Circular No. 257/03/2026-GST"
+   ],
+   "deadlines": []
+  },
+  {
+   "id": "13f98efd9f5a",
+   "area": "gst",
+   "sourceId": "news-gst",
+   "source": "News search: GST",
+   "official": false,
+   "publisher": "Magzter",
+   "type": "Update",
+   "title": "CGST rule 96(10): Govt must return recovered money | Business Standard - newspaper",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNa1ZXblpnaHpRVUYtVXA5T0xHXy05UW5lZXV5ZG1MSHlpNkJDY3F0T2U1ZHhIZWRKYy1GWnFBZnQ0TnZiXzNxZEJpcnVNQ1BwWjRPeW13RjNKUzNoMXV5bjBlcFlPaDMyOTFOU2hEMTZLem1KSks0cFhyeC04d2dxM0t5OF8wdEd1bjFYYlhsQlNaWnlZY19nam5ZUDBULXRicE42MDdxVWIxWWc?oc=5",
+   "published": "2026-11-01T20:02:32.000Z",
+   "firstSeen": "2026-11-02T07:51:08.601Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "a779d0ae1684",
+   "area": "tds",
+   "sourceId": "news-tds",
+   "source": "News search: TDS/TCS",
+   "official": false,
+   "publisher": "CAclubindia",
+   "type": "Advisory",
+   "title": "GSTN Issues TDS Registration Advisory for Scrap and Other Notified Goods",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUkNGaXc5bnhtdHdRU20tU2FQdFdzOEtKWmgtNHhiUjFVSnM3VjQwUWtudGYxNjBCbUE5S242WnozWGtwTEVYQ3ZGM1pPMGpJWmtZY3k1ZktMMXVaLTRPNlM2UV9NaXdJMXdFaXVYREMxV2xLVGZKSTMzcjJpU2tLT2h4Q1k0dTRYenhJeUlLQ3hTZFhSQkV3cy1jbmlSUWMxNzdvcjBSWEQ3UzVSSFF0dkduSHJXUQ?oc=5",
+   "published": "2026-11-02T04:19:00.000Z",
+   "firstSeen": "2026-11-02T07:51:08.601Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "de9b0202176e",
+   "area": "tds",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Update",
+   "title": "Income Tax | Section 9 of Income-tax Act, 2025: Income Deemed to Accrue or Arise in India",
+   "link": "https://taxguru.in/income-tax/section-9-income-tax-act-2025-income-deemed-accrue-arise-india.html",
+   "published": "2026-11-02T07:39:36.000Z",
+   "firstSeen": "2026-11-02T07:51:08.601Z",
+   "summary": "nderstand Section 9 of Income-tax Act 2025 covering business connection, SEP, indirect transfers, royalty, FTS, treaties and TDS.The post Section 9 of Income-tax Act, 2025: Income Deemed to Accrue or Arise in India appeared first on TaxGuru.",
+   "notes": [
+    "It replaces Form 49D under the old Section 285A.",
+    "For failure, Section 458 allows a penalty of 2% of the transaction value where the transaction transfers management or control, and ₹5 lakh in any other case.",
+    "Under Section 159 (earlier Section 90), where India has a notified agreement with another country, the Act applies only to the extent it is more beneficial to the taxpayer."
+   ],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "300c26c18f08",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | Section 9(10) Vodafone Case: Supreme Court Ruling and Indirect Transfer Tax",
+   "link": "https://taxguru.in/income-tax/section-9-10-vodafone-case-supreme-court-ruling-indirect-transfer-tax.html",
+   "published": "2026-11-02T07:38:20.000Z",
+   "firstSeen": "2026-11-02T07:51:08.601Z",
+   "summary": "Vodafone Supreme Court ruling, retrospective tax amendments, Section 9(10), indirect transfer thresholds, exemptions and Form 163 explained.The post Section 9(10) Vodafone Case: Supreme Court Ruling and Indirect…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "13905b45b89d",
+   "area": "tds",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Update",
+   "title": "Income Tax | Software Payments to Foreign Vendors: Royalty or Business Income After Engineering Analysis?",
+   "link": "https://taxguru.in/income-tax/software-payments-foreign-vendors-royalty-business-income-engineering-analysis.html",
+   "published": "2026-11-02T07:37:12.000Z",
+   "firstSeen": "2026-11-02T07:51:08.601Z",
+   "summary": "Supreme Court clarifies TDS on foreign software licence payments, royalty under DTAA, Section 393, Forms 145 and 146, and compliance requirements.The post Software Payments to Foreign Vendors: Royalty or Business Income After Engineering Analysis? appeared first on TaxGuru.",
+   "notes": [
+    "The retrospective amendments made in 2012 to section 9(1)(vi) did not change the position for tax treaty purposes, because the treaty definition of royalty was not amended.",
+    "GST on Intermediary Services After Section 13(8)(b) Omission From 30 March 2026"
+   ],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "f7efb6cef01b",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | Section 80P Deduction Denied Without Valid Income Tax Return: ITAT Visakhapatnam",
+   "link": "https://taxguru.in/income-tax/section-80p-deduction-denied-without-valid-income-tax-return-itat-visakhapatnam.html",
+   "published": "2026-11-02T07:22:08.000Z",
+   "firstSeen": "2026-11-02T07:51:08.601Z",
+   "summary": "The post Section 80P Deduction Denied Without Valid Income Tax Return: ITAT Visakhapatnam appeared first on TaxGuru.",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "c7983dbd5869",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | Infrastructure Fund Receipts of Development Authority Taxable: Uttarakhand High Court",
+   "link": "https://taxguru.in/income-tax/infrastructure-fund-receipts-development-authority-taxable-uttarakhand-high-court.html",
+   "published": "2026-11-02T07:08:09.000Z",
+   "firstSeen": "2026-11-02T07:51:08.601Z",
+   "summary": "The post Infrastructure Fund Receipts of Development Authority Taxable: Uttarakhand High Court appeared first on TaxGuru.",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "7d5aeb89cff4",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | Quantifiable Tax Effect Below ₹2 Crore Bars Revenue Appeal: Allahabad High Court",
+   "link": "https://taxguru.in/income-tax/quantifiable-tax-effect-rs-2-crore-bars-revenue-appeal-allahabad-high-court.html",
+   "published": "2026-11-02T06:46:42.000Z",
+   "firstSeen": "2026-11-02T07:51:08.601Z",
+   "summary": "The post Quantifiable Tax Effect Below ₹2 Crore Bars Revenue Appeal: Allahabad High Court appeared first on TaxGuru.",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "e4a5911fdc11",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | Penalty on Income Estimated at 5% Deleted Under Section 271(1)(c): ITAT Chennai",
+   "link": "https://taxguru.in/income-tax/penalty-income-estimated-5-percent-deleted-section-271-1-itat-chennai.html",
+   "published": "2026-11-02T06:36:41.000Z",
+   "firstSeen": "2026-11-02T07:51:08.601Z",
+   "summary": "The post Penalty on Income Estimated at 5% Deleted Under Section 271(1)(c): ITAT Chennai appeared first on TaxGuru.",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "ea99a452f18a",
+   "area": "mca",
+   "sourceId": "taxguru-company",
+   "source": "TaxGuru Company Law",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Company Law | Resolution Plan May Change Corporate Debtor’s Business Model: NCLAT Delhi",
+   "link": "https://taxguru.in/company-law/resolution-plan-change-corporate-debtors-business-model-nclat-delhi.html",
+   "published": "2026-11-02T07:22:42.000Z",
+   "firstSeen": "2026-11-02T07:51:08.601Z",
+   "summary": "The post Resolution Plan May Change Corporate Debtor’s Business Model: NCLAT Delhi appeared first on TaxGuru.",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "e1392d730a37",
+   "area": "mca",
+   "sourceId": "taxguru-corporate",
+   "source": "TaxGuru Corporate Law",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Corporate Law | Civil Court Jurisdiction Not Barred in Boundary Disputes by NGT Act: Kerala HC",
+   "link": "https://taxguru.in/corporate-law/civil-court-jurisdiction-not-barred-boundary-disputes-ngt-act-kerala-hc.html",
+   "published": "2026-11-02T07:22:23.000Z",
+   "firstSeen": "2026-11-02T07:51:08.601Z",
+   "summary": "The post Civil Court Jurisdiction Not Barred in Boundary Disputes by NGT Act: Kerala HC appeared first on TaxGuru.",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "964185f29650",
+   "area": "mca",
+   "sourceId": "taxguru-corporate",
+   "source": "TaxGuru Corporate Law",
+   "official": false,
+   "publisher": "",
+   "type": "Circular",
+   "title": "Corporate Law | Delayed UPS Contributions: DoPPW Clarifies Restoration of Pension Units Under Rule 8(1)",
+   "link": "https://taxguru.in/corporate-law/delayed-ups-contributions-doppw-clarifies-restoration-pension-units-rule-8-1.html",
+   "published": "2026-11-02T07:17:31.000Z",
+   "firstSeen": "2026-11-02T07:51:08.601Z",
+   "summary": "DoPPW clarifies Rule 8(1) on delayed UPS contributions, covering enrolment, salary deductions, Government credits and restoration of pension units.The post Delayed UPS Contributions: DoPPW Clarifies Restoration of Pension Units Under Rule 8(1) appeared first on TaxGuru.",
+   "notes": [
+    "Summary: The Department of Pension and Pensioners’ Welfare (DoPPW), Ministry of Personnel, Public Grievances and Pensions, issued an Office Memorandum dated 27 October 2026 explaining the treatment of delayed contributions under the Unified Pension Scheme…",
+    "The third concerns delays in crediting Government monthly contributions to the subscriber’s individual corpus beyond the deadline prescribed under Rule 7."
+   ],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "1a7993cfd934",
+   "area": "mca",
+   "sourceId": "taxguru-corporate",
+   "source": "TaxGuru Corporate Law",
+   "official": false,
+   "publisher": "",
+   "type": "Update",
+   "title": "Corporate Law | UPS Jeevan Setu Digital Life Certificate Facility Launched; Annual Submission by 30 November",
+   "link": "https://taxguru.in/corporate-law/ups-jeevan-setu-digital-life-certificate-facility-launched-annual-submission-30-november.html",
+   "published": "2026-11-02T06:06:38.000Z",
+   "firstSeen": "2026-11-02T07:51:08.601Z",
+   "summary": "PFRDA launches UPS Jeevan Setu Digital Life Certificate facility through NPS by Protean eGov app. UPS pensioners must submit DLC by 30 November.The post UPS Jeevan Setu Digital Life Certificate Facility Launched; Annual Submission by 30 November appeared first on TaxGuru.",
+   "notes": [
+    "Summary: The Pension Fund Regulatory and Development Authority (PFRDA), through Circular No.",
+    "Under the circular, all UPS pensioners are required to submit their Digital Life Certificates annually by 30 November to ensure uninterrupted continuation of monthly assured payouts.",
+    "Circular No.: PFRDA/2026/54/SUP-CG-SG/02 Date: 30 October 2026"
+   ],
+   "refs": [
+    "Circular No. PFRDA/2026/54/SUP-CG-SG/02"
+   ],
+   "deadlines": []
+  },
+  {
+   "id": "9c29a5f17d2b",
+   "area": "mca",
+   "sourceId": "taxguru-corporate",
+   "source": "TaxGuru Corporate Law",
+   "official": false,
+   "publisher": "",
+   "type": "Circular",
+   "title": "Corporate Law | UPS Contributions During Suspension: DoPPW Clarifies Rules 6(2) and 7(3)",
+   "link": "https://taxguru.in/corporate-law/ups-contributions-suspension-doppw-clarifies-rules-6-2-7-3.html",
+   "published": "2026-11-02T05:35:17.000Z",
+   "firstSeen": "2026-11-02T07:51:08.601Z",
+   "summary": "DoPPW clarifies optional subscriber and conditional Government UPS contributions during suspension under Rules 6(2) and 7(3).The post UPS Contributions During Suspension: DoPPW Clarifies Rules 6(2) and 7(3) appeared first on TaxGuru.",
+   "notes": [
+    "Summary: The Department of Pension and Pensioners’ Welfare (DoPPW), Ministry of Personnel, Public Grievances and Pensions, issued an Office Memorandum dated 27 October 2026 clarifying subscriber and Government contributions under the Unified Pension Scheme…",
+    "Where the final Government order, following an inquiry, treats the suspension period as duty or leave for which leave salary is payable, the subscriber’s contribution is determined using the emoluments subsequently payable for that period."
+   ],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "87f6db806dca",
+   "area": "mca",
+   "sourceId": "taxguru-corporate",
+   "source": "TaxGuru Corporate Law",
+   "official": false,
+   "publisher": "",
+   "type": "Circular",
+   "title": "Corporate Law | UPS Pension Benefits on Deputation: DoPPW Clarifies Rule 27 Authorisation Responsibilities",
+   "link": "https://taxguru.in/corporate-law/ups-pension-benefits-deputation-doppw-clarifies-rule-27-authorisation-responsibilities.html",
+   "published": "2026-11-02T05:34:02.000Z",
+   "firstSeen": "2026-11-02T07:51:08.601Z",
+   "summary": "DoPPW clarifies which authority authorises UPS retirement benefits for employees on Central, State Government or foreign-service deputation.The post UPS Pension Benefits on Deputation: DoPPW Clarifies Rule 27 Authorisation Responsibilities appeared first on TaxGuru.",
+   "notes": [
+    "Summary: The Department of Pension and Pensioners’ Welfare (DoPPW), Ministry of Personnel, Public Grievances and Pensions, issued an Office Memorandum dated 27 October 2026 clarifying the responsibility for authorising retirement benefits of subscribers…"
+   ],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "dc9b2577b017",
+   "area": "mca",
+   "sourceId": "taxguru-corporate",
+   "source": "TaxGuru Corporate Law",
+   "official": false,
+   "publisher": "",
+   "type": "Update",
+   "title": "Corporate Law | UPS Contribution Mandatory During Probation Under Rule 6(6)",
+   "link": "https://taxguru.in/corporate-law/ups-contribution-mandatory-probation-rule-6-6.html",
+   "published": "2026-11-02T05:33:13.000Z",
+   "firstSeen": "2026-11-02T07:51:08.601Z",
+   "summary": "DoPPW clarifies that UPS subscribers must contribute during probation under Rule 6(6) of the CCS Unified Pension Scheme Rules, 2025.The post UPS Contribution Mandatory During Probation Under Rule 6(6) appeared first on TaxGuru.",
+   "notes": [
+    "Summary: The Department of Pension and Pensioners’ Welfare (DoPPW), Ministry of Personnel, Public Grievances and Pensions, has issued an Office Memorandum dated 27 October 2026 clarifying the requirement for subscribers to contribute to the Unified Pension…",
+    "The instruction extends to attached and subordinate offices under the respective Ministries and Departments."
+   ],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "89b481570d5a",
+   "area": "mca",
+   "sourceId": "taxguru-corporate",
+   "source": "TaxGuru Corporate Law",
+   "official": false,
+   "publisher": "",
+   "type": "Circular",
+   "title": "Corporate Law | No UPS Contribution During Unpaid Absence: DoPPW Clarifies Rules 6(3) and 7(2)",
+   "link": "https://taxguru.in/corporate-law/no-ups-contribution-unpaid-absence-doppw-clarifies-rules-6-3-7-2.html",
+   "published": "2026-11-02T05:32:11.000Z",
+   "firstSeen": "2026-11-02T07:51:08.601Z",
+   "summary": "DoPPW clarifies UPS subscriber and government contributions during unpaid absence under Rules 6(3) and 7(2) of the UPS Rules, 2025.The post No UPS Contribution During Unpaid Absence: DoPPW Clarifies Rules 6(3) and 7(2) appeared first on TaxGuru.",
+   "notes": [
+    "Summary: The Department of Pension and Pensioners’ Welfare (DoPPW), Ministry of Personnel, Public Grievances and Pensions, issued an Office Memorandum dated 27 October 2026 clarifying the treatment of subscriber and Government contributions under the…",
+    "The memorandum explains that, under Rule 6(3), a subscriber is not required to make contributions for a period of absence from duty, whether on leave or otherwise, where neither pay nor leave salary is payable.",
+    "The Department further refers to Rule 7(2), under which, subject to the proviso to Rule 7(1), the Government is not required to contribute for a period during which the subscriber is not required to make contributions in accordance with the rules."
+   ],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "4b1da5a96a5d",
+   "area": "mca",
+   "sourceId": "taxguru-corporate",
+   "source": "TaxGuru Corporate Law",
+   "official": false,
+   "publisher": "",
+   "type": "Update",
+   "title": "Corporate Law | Past Service Counts Towards Pension After Reinstatement Under Rule 25: DoPPW Office Memorandum",
+   "link": "https://taxguru.in/corporate-law/counting-service-reinstatement-central-civil-service-pension-rules-2021.html",
+   "published": "2026-11-02T05:31:08.000Z",
+   "firstSeen": "2026-11-02T07:51:08.601Z",
+   "summary": "DoPPW clarifies Rule 25 of CCS Pension Rules, 2021 on counting past service after reinstatement and conditions for interruption and suspension periods.The post Past Service Counts Towards Pension After Reinstatement Under Rule 25: DoPPW Office Memorandum appeared first on TaxGuru.",
+   "notes": [
+    "Summary: The Department of Pension and Pensioners’ Welfare (DoPPW), Ministry of Personnel, Public Grievances and Pensions, issued an Office Memorandum dated 26 October 2026 clarifying the counting of past service on reinstatement under Rule 25 of the…",
+    "Similarly, any period of suspension is excluded from qualifying service unless the authority responsible for passing the reinstatement order specifically regularises the relevant period as duty or leave.",
+    "The communication emphasises strict implementation of Rule 25 of the Central Civil Services (Pension) Rules, 2021, which replaced the corresponding pension rules of 1972."
+   ],
+   "refs": [],
+   "deadlines": []
+  },
   {
    "id": "ebae20070d53",
    "area": "gst",
@@ -3137,7 +3634,10 @@
    "summary": "",
    "notes": [],
    "refs": [],
-   "deadlines": []
+   "deadlines": [],
+   "alsoIn": [
+    "News search: MCA"
+   ]
   },
   {
    "id": "2389c8a13acb",
@@ -17502,7 +18002,10 @@
    "summary": "",
    "notes": [],
    "refs": [],
-   "deadlines": []
+   "deadlines": [],
+   "alsoIn": [
+    "News search: Income tax"
+   ]
   },
   {
    "id": "946a0530ce14",
