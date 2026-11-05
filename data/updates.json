@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-11-05T08:02:17.679Z",
+ "generatedAt": "2026-11-05T13:26:22.798Z",
  "repo": "cahimanshukakdedata-png/regulatory-register-v1",
- "newThisRun": 64,
+ "newThisRun": 15,
  "sources": [
   {
    "id": "icai-home",
@@ -14,8 +14,8 @@
    "fetched": 36,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-05T08:02:17.679Z",
-   "ms": 938
+   "lastOk": "2026-11-05T13:26:22.798Z",
+   "ms": 1363
   },
   {
    "id": "news-acc",
@@ -25,11 +25,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(ICAI%20OR%20NFRA%20OR%20%22Ind%20AS%22%20OR%20UDIN)%20(announcement%20OR%20notification%20OR%20amendment%20OR%20guidance)%20when%3A14d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 21,
+   "fetched": 20,
    "kept": 2,
    "note": "",
-   "lastOk": "2026-11-05T08:02:17.679Z",
-   "ms": 259
+   "lastOk": "2026-11-05T13:26:22.798Z",
+   "ms": 299
   },
   {
    "id": "nfra-home",
@@ -42,8 +42,8 @@
    "fetched": 26,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-05T08:02:17.679Z",
-   "ms": 1878
+   "lastOk": "2026-11-05T13:26:22.798Z",
+   "ms": 1727
   },
   {
    "id": "taxguru-ca",
@@ -52,12 +52,12 @@
    "kind": "rss",
    "official": false,
    "url": "https://taxguru.in/category/chartered-accountant/feed/",
-   "ok": true,
-   "fetched": 75,
-   "kept": 25,
-   "note": "",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "the address did not return a feed; check the URL",
    "lastOk": "2026-11-05T08:02:17.679Z",
-   "ms": 928
+   "ms": 254
   },
   {
    "id": "rbi-notifications",
@@ -68,10 +68,10 @@
    "url": "https://www.rbi.org.in/notifications_rss.xml",
    "ok": true,
    "fetched": 10,
-   "kept": 6,
+   "kept": 7,
    "note": "",
-   "lastOk": "2026-11-05T08:02:17.679Z",
-   "ms": 1101
+   "lastOk": "2026-11-05T13:26:22.798Z",
+   "ms": 998
   },
   {
    "id": "rbi-press",
@@ -82,10 +82,10 @@
    "url": "https://www.rbi.org.in/pressreleases_rss.xml",
    "ok": true,
    "fetched": 10,
-   "kept": 2,
+   "kept": 8,
    "note": "",
-   "lastOk": "2026-11-05T08:02:17.679Z",
-   "ms": 218
+   "lastOk": "2026-11-05T13:26:22.798Z",
+   "ms": 48
   },
   {
    "id": "taxguru-rbi",
@@ -94,12 +94,12 @@
    "kind": "rss",
    "official": false,
    "url": "https://taxguru.in/category/rbi/feed/",
-   "ok": true,
-   "fetched": 75,
-   "kept": 25,
-   "note": "",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "the address did not return a feed; check the URL",
    "lastOk": "2026-11-05T08:02:17.679Z",
-   "ms": 968
+   "ms": 254
   },
   {
    "id": "cbic-gst",
@@ -112,8 +112,8 @@
    "fetched": 20,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-05T08:02:17.679Z",
-   "ms": 1186
+   "lastOk": "2026-11-05T13:26:22.798Z",
+   "ms": 1409
   },
   {
    "id": "gst-council",
@@ -126,8 +126,8 @@
    "fetched": 20,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-05T08:02:17.679Z",
-   "ms": 1774
+   "lastOk": "2026-11-05T13:26:22.798Z",
+   "ms": 1734
   },
   {
    "id": "gst-portal-news",
@@ -140,8 +140,8 @@
    "fetched": 0,
    "kept": 0,
    "note": "page returned no usable links (it may need a real browser); this section relies on its other sources",
-   "lastOk": "2026-11-05T08:02:17.679Z",
-   "ms": 1473
+   "lastOk": "2026-11-05T13:26:22.798Z",
+   "ms": 1630
   },
   {
    "id": "news-gst",
@@ -151,11 +151,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(CBIC%20OR%20GSTN%20OR%20%22GST%20Council%22%20OR%20CGST)%20(notification%20OR%20circular%20OR%20advisory%20OR%20extended)%20when%3A10d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 62,
+   "fetched": 59,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-11-05T08:02:17.679Z",
-   "ms": 476
+   "lastOk": "2026-11-05T13:26:22.798Z",
+   "ms": 376
   },
   {
    "id": "taxguru-gst",
@@ -164,12 +164,12 @@
    "kind": "rss",
    "official": false,
    "url": "https://taxguru.in/category/goods-and-service-tax/feed/",
-   "ok": true,
-   "fetched": 75,
-   "kept": 25,
-   "note": "",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "the address did not return a feed; check the URL",
    "lastOk": "2026-11-05T08:02:17.679Z",
-   "ms": 1840
+   "ms": 1225
   },
   {
    "id": "cbdt-communications",
@@ -179,11 +179,11 @@
    "official": true,
    "url": "https://incometaxindia.gov.in/pages/communications/index.aspx",
    "ok": true,
-   "fetched": 4,
+   "fetched": 5,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-05T08:02:17.679Z",
-   "ms": 4163
+   "lastOk": "2026-11-05T13:26:22.798Z",
+   "ms": 1614
   },
   {
    "id": "itd-latest",
@@ -196,8 +196,8 @@
    "fetched": 39,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-05T08:02:17.679Z",
-   "ms": 1103
+   "lastOk": "2026-11-05T13:26:22.798Z",
+   "ms": 1367
   },
   {
    "id": "news-it",
@@ -207,11 +207,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=CBDT%20(notification%20OR%20circular%20OR%20%22due%20date%22%20OR%20extended%20OR%20scheme)%20when%3A10d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 28,
-   "kept": 19,
+   "fetched": 26,
+   "kept": 16,
    "note": "",
-   "lastOk": "2026-11-05T08:02:17.679Z",
-   "ms": 216
+   "lastOk": "2026-11-05T13:26:22.798Z",
+   "ms": 294
   },
   {
    "id": "taxguru-it",
@@ -220,12 +220,12 @@
    "kind": "rss",
    "official": false,
    "url": "https://taxguru.in/category/income-tax/feed/",
-   "ok": true,
-   "fetched": 75,
-   "kept": 25,
-   "note": "",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "the address did not return a feed; check the URL",
    "lastOk": "2026-11-05T08:02:17.679Z",
-   "ms": 1621
+   "ms": 247
   },
   {
    "id": "epfo-home",
@@ -238,8 +238,8 @@
    "fetched": 0,
    "kept": 0,
    "note": "site refused a direct request (known to refuse direct requests); read through r.jina.ai; page returned no usable links (it may need a real browser); this section relies on its other sources",
-   "lastOk": "2026-11-05T08:02:17.679Z",
-   "ms": 68327
+   "lastOk": "2026-11-05T13:26:22.798Z",
+   "ms": 43365
   },
   {
    "id": "esic-home",
@@ -252,8 +252,8 @@
    "fetched": 52,
    "kept": 0,
    "note": "site refused a direct request (known to refuse direct requests); read through r.jina.ai",
-   "lastOk": "2026-11-05T08:02:17.679Z",
-   "ms": 58056
+   "lastOk": "2026-11-05T13:26:22.798Z",
+   "ms": 58363
   },
   {
    "id": "news-labour",
@@ -263,11 +263,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(EPFO%20OR%20ESIC%20OR%20%22labour%20code%22)%20(notification%20OR%20circular%20OR%20rules%20OR%20extended%20OR%20deadline)%20when%3A14d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 30,
-   "kept": 19,
+   "fetched": 31,
+   "kept": 20,
    "note": "",
-   "lastOk": "2026-11-05T08:02:17.679Z",
-   "ms": 345
+   "lastOk": "2026-11-05T13:26:22.798Z",
+   "ms": 376
   },
   {
    "id": "cgtmse",
@@ -280,8 +280,8 @@
    "fetched": 1,
    "kept": 0,
    "note": "site refused a direct request (known to refuse direct requests); read through r.jina.ai",
-   "lastOk": "2026-11-05T08:02:17.679Z",
-   "ms": 49327
+   "lastOk": "2026-11-05T13:26:22.798Z",
+   "ms": 52184
   },
   {
    "id": "maitri-mh",
@@ -294,8 +294,8 @@
    "fetched": 0,
    "kept": 0,
    "note": "site refused a direct request (HTTP 503); read through r.jina.ai; page returned no usable links (it may need a real browser); this section relies on its other sources",
-   "lastOk": "2026-11-05T08:02:17.679Z",
-   "ms": 42756
+   "lastOk": "2026-11-05T13:26:22.798Z",
+   "ms": 44955
   },
   {
    "id": "msme-ministry",
@@ -308,8 +308,8 @@
    "fetched": 0,
    "kept": 0,
    "note": "page returned no usable links (it may need a real browser); this section relies on its other sources",
-   "lastOk": "2026-11-05T08:02:17.679Z",
-   "ms": 1950
+   "lastOk": "2026-11-05T13:26:22.798Z",
+   "ms": 2124
   },
   {
    "id": "nabard",
@@ -322,8 +322,8 @@
    "fetched": 5,
    "kept": 0,
    "note": "site refused a direct request (known to refuse direct requests); read through r.jina.ai",
-   "lastOk": "2026-11-05T08:02:17.679Z",
-   "ms": 78101
+   "lastOk": "2026-11-05T13:26:22.798Z",
+   "ms": 58545
   },
   {
    "id": "news-loan-central",
@@ -333,11 +333,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(MSME%20OR%20PMEGP%20OR%20MUDRA%20OR%20CGTMSE%20OR%20%22Stand-Up%20India%22%20OR%20%22interest%20subvention%22)%20(scheme%20OR%20subsidy%20OR%20guidelines%20OR%20extended%20OR%20notification)%20when%3A14d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 27,
-   "kept": 9,
+   "fetched": 26,
+   "kept": 10,
    "note": "",
-   "lastOk": "2026-11-05T08:02:17.679Z",
-   "ms": 456
+   "lastOk": "2026-11-05T13:26:22.798Z",
+   "ms": 337
   },
   {
    "id": "news-loan-east",
@@ -347,11 +347,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(%22West%20Bengal%22%20OR%20Odisha%20OR%20Jharkhand%20OR%20Chhattisgarh%20OR%20Assam%20OR%20%22North%20East%22)%20(subsidy%20OR%20incentive%20OR%20%22industrial%20policy%22%20OR%20%22loan%20scheme%22)%20when%3A21d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 23,
-   "kept": 3,
+   "fetched": 21,
+   "kept": 1,
    "note": "",
-   "lastOk": "2026-11-05T08:02:17.679Z",
-   "ms": 277
+   "lastOk": "2026-11-05T13:26:22.798Z",
+   "ms": 358
   },
   {
    "id": "news-loan-farm",
@@ -364,8 +364,8 @@
    "fetched": 23,
    "kept": 7,
    "note": "",
-   "lastOk": "2026-11-05T08:02:17.679Z",
-   "ms": 263
+   "lastOk": "2026-11-05T13:26:22.798Z",
+   "ms": 348
   },
   {
    "id": "news-loan-mh",
@@ -375,11 +375,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=Maharashtra%20(subsidy%20OR%20incentive%20OR%20%22industrial%20policy%22%20OR%20%22loan%20scheme%22)%20(government%20OR%20notified%20OR%20launched%20OR%20guidelines)%20when%3A21d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 28,
-   "kept": 8,
+   "fetched": 27,
+   "kept": 9,
    "note": "",
-   "lastOk": "2026-11-05T08:02:17.679Z",
-   "ms": 316
+   "lastOk": "2026-11-05T13:26:22.798Z",
+   "ms": 380
   },
   {
    "id": "news-loan-north",
@@ -392,8 +392,8 @@
    "fetched": 30,
    "kept": 11,
    "note": "",
-   "lastOk": "2026-11-05T08:02:17.679Z",
-   "ms": 317
+   "lastOk": "2026-11-05T13:26:22.798Z",
+   "ms": 410
   },
   {
    "id": "news-loan-south",
@@ -404,10 +404,10 @@
    "url": "https://news.google.com/rss/search?q=(%22Tamil%20Nadu%22%20OR%20Karnataka%20OR%20Telangana%20OR%20%22Andhra%20Pradesh%22%20OR%20Kerala)%20(subsidy%20OR%20incentive%20OR%20%22industrial%20policy%22%20OR%20%22loan%20scheme%22)%20when%3A21d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
    "fetched": 28,
-   "kept": 5,
+   "kept": 6,
    "note": "",
-   "lastOk": "2026-11-05T08:02:17.679Z",
-   "ms": 267
+   "lastOk": "2026-11-05T13:26:22.798Z",
+   "ms": 416
   },
   {
    "id": "news-loan-west",
@@ -417,11 +417,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(Gujarat%20OR%20%22Madhya%20Pradesh%22%20OR%20Rajasthan%20OR%20Goa)%20(subsidy%20OR%20%22industrial%20policy%22%20OR%20incentive%20OR%20%22loan%20scheme%22)%20when%3A21d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 32,
+   "fetched": 34,
    "kept": 5,
    "note": "",
-   "lastOk": "2026-11-05T08:02:17.679Z",
-   "ms": 310
+   "lastOk": "2026-11-05T13:26:22.798Z",
+   "ms": 352
   },
   {
    "id": "pmegp-kvic",
@@ -435,7 +435,7 @@
    "kept": 0,
    "error": "website address could not be found (DNS)",
    "lastOk": "2026-09-29T01:36:20.178Z",
-   "ms": 74920
+   "ms": 80706
   },
   {
    "id": "sidbi",
@@ -448,8 +448,8 @@
    "fetched": 10,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-05T08:02:17.679Z",
-   "ms": 3548
+   "lastOk": "2026-11-05T13:26:22.798Z",
+   "ms": 3467
   },
   {
    "id": "mca-home",
@@ -462,8 +462,8 @@
    "fetched": 33,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-05T08:02:17.679Z",
-   "ms": 683
+   "lastOk": "2026-11-05T13:26:22.798Z",
+   "ms": 869
   },
   {
    "id": "news-mca",
@@ -474,10 +474,10 @@
    "url": "https://news.google.com/rss/search?q=MCA%20(%22general%20circular%22%20OR%20notification%20OR%20%22Companies%20Act%22%20OR%20LLP%20OR%20extended)%20when%3A10d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
    "fetched": 33,
-   "kept": 21,
+   "kept": 23,
    "note": "",
-   "lastOk": "2026-11-05T08:02:17.679Z",
-   "ms": 302
+   "lastOk": "2026-11-05T13:26:22.798Z",
+   "ms": 387
   },
   {
    "id": "taxguru-company",
@@ -486,12 +486,12 @@
    "kind": "rss",
    "official": false,
    "url": "https://taxguru.in/category/company-law/feed/",
-   "ok": true,
-   "fetched": 75,
-   "kept": 25,
-   "note": "",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "the address did not return a feed; check the URL",
    "lastOk": "2026-11-05T08:02:17.679Z",
-   "ms": 745
+   "ms": 246
   },
   {
    "id": "taxguru-corporate",
@@ -500,12 +500,12 @@
    "kind": "rss",
    "official": false,
    "url": "https://taxguru.in/category/corporate-law/feed/",
-   "ok": true,
-   "fetched": 75,
-   "kept": 25,
-   "note": "",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "the address did not return a feed; check the URL",
    "lastOk": "2026-11-05T08:02:17.679Z",
-   "ms": 1269
+   "ms": 228
   },
   {
    "id": "mahagst-pt",
@@ -519,7 +519,7 @@
    "kept": 0,
    "error": "the website did not answer in time",
    "lastOk": null,
-   "ms": 157389
+   "ms": 157153
   },
   {
    "id": "news-mh",
@@ -529,11 +529,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=Maharashtra%20(%22profession%20tax%22%20OR%20MahaGST%20OR%20%22stamp%20duty%22%20OR%20%22amnesty%20scheme%22)%20when%3A30d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 18,
+   "fetched": 17,
    "kept": 9,
    "note": "",
-   "lastOk": "2026-11-05T08:02:17.679Z",
-   "ms": 239
+   "lastOk": "2026-11-05T13:26:22.798Z",
+   "ms": 277
   },
   {
    "id": "sebi-rss",
@@ -546,8 +546,8 @@
    "fetched": 30,
    "kept": 17,
    "note": "",
-   "lastOk": "2026-11-05T08:02:17.679Z",
-   "ms": 2042
+   "lastOk": "2026-11-05T13:26:22.798Z",
+   "ms": 884
   },
   {
    "id": "taxguru-sebi",
@@ -556,12 +556,12 @@
    "kind": "rss",
    "official": false,
    "url": "https://taxguru.in/category/sebi/feed/",
-   "ok": true,
-   "fetched": 75,
-   "kept": 25,
-   "note": "",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "the address did not return a feed; check the URL",
    "lastOk": "2026-11-05T08:02:17.679Z",
-   "ms": 946
+   "ms": 261
   },
   {
    "id": "news-tds",
@@ -571,14 +571,280 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(TDS%20OR%20TCS%20OR%20TRACES)%20(CBDT%20OR%20notification%20OR%20%22due%20date%22%20OR%20form)%20when%3A14d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 22,
-   "kept": 6,
+   "fetched": 26,
+   "kept": 5,
    "note": "",
-   "lastOk": "2026-11-05T08:02:17.679Z",
-   "ms": 279
+   "lastOk": "2026-11-05T13:26:22.798Z",
+   "ms": 344
   }
  ],
  "items": [
+  {
+   "id": "c8faa0debe03",
+   "area": "it",
+   "sourceId": "news-it",
+   "source": "News search: Income tax",
+   "official": false,
+   "publisher": "A2Z Taxcorp LLP",
+   "type": "Update",
+   "title": "CBDT Exempts TDS on Dividend Payments to IFSC Aircraft-Leasing Companies; Relief Effective from April 1, 2026",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQcmQwNGpsZjJOQ0Ntb01pckRFT3dJZkpKZEgwMnRXNXBWR3g3TXAxZkxiZ3ZhczVRNjhYWmlsZlNNeHlvV3dtN0pvT3pQYjZzWU5ER2NYVld3NEx5M2ZwNVF5VUlwWjlWRnp6ejl0UmdnemxiSU1LUF9wUjZqenhxdXo5YzRQcHFUY0xCblMtXzd2aDlreTJZOWJVUDdibmU5VXBvSkdsS1NMUGRhbnVfXzlZN3FOMU44d2E2T25uU1ZhN1ltbWJheWpKMA?oc=5",
+   "published": "2026-11-05T09:09:05.000Z",
+   "firstSeen": "2026-11-05T13:26:22.798Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "3531656732a6",
+   "area": "mca",
+   "sourceId": "news-mca",
+   "source": "News search: MCA",
+   "official": false,
+   "publisher": "KollegeApply News",
+   "type": "Update",
+   "title": "Karnataka PGCET 2026 Extended Round Seat Allotment Result Today: Check MBA and MCA Link",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOVUFYZURteHlPSmhnWkJTYlpDT2RUZ2tvbzZTRHlCWldmaFNKM0dvZUw2TmJzckNGQk5tYWsxV3VtRkRETTVWQ0RSNjZEVV9Zdm5WZXhjWHQ0REpCRFNhRFhJOS1CcTZnZDhYMVQ5R2dHZHd6eHYxZm00bV9OVGpndlBmM21uMHpaS203ZmVZb19sMld1ZjdBZ01URFRZV3hEb1Z4YnhIMnJFb0tVOHVGdEdzS3UzZ095M0VGbEdn?oc=5",
+   "published": "2026-11-05T06:55:16.000Z",
+   "firstSeen": "2026-11-05T13:26:22.798Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "c6d7d303724b",
+   "area": "fema",
+   "sourceId": "rbi-press",
+   "source": "RBI press releases",
+   "official": true,
+   "publisher": "",
+   "type": "Article",
+   "title": "Foreign Exchange Turnover Data: October 26, 2026 – October 30, 2026",
+   "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63930",
+   "published": "2026-11-05T17:30:00.000Z",
+   "firstSeen": "2026-11-05T13:26:22.798Z",
+   "summary": "The Reserve Bank of India today released the data showing daily merchant and Inter-Bank transactions in foreign exchange for the period October 26, 2026 – October 30, 2026. All Figures are in USD Millions Position Date MERCHANT INTER BANK FCY / INR FCY / FCY FCY / INR FCY / FCY Spot Forward…",
+   "notes": [
+    "The Reserve Bank of India today released the data showing daily merchant and Inter-Bank transactions in foreign exchange for the period October 26, 2026 – October 30, 2026.",
+    "26-10-2026 6,163 2,081 1,337 698 519 382 16,861 29,033 2,348 6,018 3,362 308",
+    "27-10-2026 7,324 930 1,790 455 519 490 18,888 30,734 2,161 5,798 2,791 388"
+   ],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "2bbe979fd51b",
+   "area": "fema",
+   "sourceId": "rbi-press",
+   "source": "RBI press releases",
+   "official": true,
+   "publisher": "",
+   "type": "Article",
+   "title": "Foreign Exchange Turnover Data: October 19, 2026 – October 23, 2026",
+   "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63929",
+   "published": "2026-11-05T17:25:00.000Z",
+   "firstSeen": "2026-11-05T13:26:22.798Z",
+   "summary": "The Reserve Bank of India today released the data showing daily merchant and Inter-Bank transactions in foreign exchange for the period October 19, 2026 – October 23, 2026. All Figures are in USD Millions Position Date MERCHANT INTER BANK FCY / INR FCY / FCY FCY / INR FCY / FCY Spot Forward…",
+   "notes": [
+    "The Reserve Bank of India today released the data showing daily merchant and Inter-Bank transactions in foreign exchange for the period October 19, 2026 – October 23, 2026.",
+    "19-10-2026 7,522 2,005 811 409 194 185 13,232 18,988 929 6,739 3,093 298",
+    "21-10-2026 7,820 1,122 2,741 408 215 225 18,514 28,706 2,147 6,702 4,177 214"
+   ],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "8b3a974ee678",
+   "area": "fema",
+   "sourceId": "rbi-press",
+   "source": "RBI press releases",
+   "official": true,
+   "publisher": "",
+   "type": "Article",
+   "title": "Foreign Exchange Turnover Data: October 12, 2026 – October 16, 2026",
+   "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63928",
+   "published": "2026-11-05T17:20:00.000Z",
+   "firstSeen": "2026-11-05T13:26:22.798Z",
+   "summary": "The Reserve Bank of India today released the data showing daily merchant and Inter-Bank transactions in foreign exchange for the period October 12, 2026 – October 16, 2026. All Figures are in USD Millions Position Date MERCHANT INTER BANK FCY / INR FCY / FCY FCY / INR FCY / FCY Spot Forward…",
+   "notes": [
+    "The Reserve Bank of India today released the data showing daily merchant and Inter-Bank transactions in foreign exchange for the period October 12, 2026 – October 16, 2026.",
+    "12-10-2026 1,575 2,544 1,466 684 533 365 16,180 12,321 1,917 6,016 1,140 182",
+    "13-10-2026 3,782 1,685 1,653 313 255 200 23,191 28,956 2,597 6,254 2,765 179"
+   ],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "7737bffb99c3",
+   "area": "fema",
+   "sourceId": "rbi-press",
+   "source": "RBI press releases",
+   "official": true,
+   "publisher": "",
+   "type": "Article",
+   "title": "Foreign Exchange Turnover Data: October 05, 2026 – October 09, 2026",
+   "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63927",
+   "published": "2026-11-05T17:15:00.000Z",
+   "firstSeen": "2026-11-05T13:26:22.798Z",
+   "summary": "The Reserve Bank of India today released the data showing daily merchant and Inter-Bank transactions in foreign exchange for the period October 05, 2026 – October 09, 2026. All Figures are in USD Millions Position Date MERCHANT INTER BANK FCY / INR FCY / FCY FCY / INR FCY / FCY Spot Forward…",
+   "notes": [
+    "The Reserve Bank of India today released the data showing daily merchant and Inter-Bank transactions in foreign exchange for the period October 05, 2026 – October 09, 2026.",
+    "05-10-2026 5,896 1,321 2,166 558 461 404 17,067 34,987 1,589 11,003 4,440 267",
+    "06-10-2026 5,660 3,075 3,149 402 258 428 19,812 37,662 1,898 11,304 2,525 323"
+   ],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "43cf79bb0035",
+   "area": "fema",
+   "sourceId": "rbi-press",
+   "source": "RBI press releases",
+   "official": true,
+   "publisher": "",
+   "type": "Article",
+   "title": "Foreign Exchange Turnover Data: September 28, 2026 – October 01, 2026",
+   "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63926",
+   "published": "2026-11-05T17:10:00.000Z",
+   "firstSeen": "2026-11-05T13:26:22.798Z",
+   "summary": "The Reserve Bank of India today released the data showing daily merchant and Inter-Bank transactions in foreign exchange for the period September 28, 2026 – October 01, 2026. All Figures are in USD Millions Position Date MERCHANT INTER BANK FCY / INR FCY / FCY FCY / INR FCY / FCY Spot Forward…",
+   "notes": [
+    "The Reserve Bank of India today released the data showing daily merchant and Inter-Bank transactions in foreign exchange for the period September 28, 2026 – October 01, 2026.",
+    "28-09-2026 8,928 4,361 5,948 564 1,675 1,135 25,879 36,393 1,975 9,910 4,702 440",
+    "29-09-2026 7,343 3,626 4,366 742 1,153 1,063 21,785 43,311 2,078 9,866 4,408 429"
+   ],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "ead1dd391db1",
+   "area": "fema",
+   "sourceId": "rbi-press",
+   "source": "RBI press releases",
+   "official": true,
+   "publisher": "",
+   "type": "Update",
+   "title": "Consolidation of Instructions Related to Priority Sector Lending – Drafts for Comments",
+   "link": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63925",
+   "published": "2026-11-05T17:05:00.000Z",
+   "firstSeen": "2026-11-05T13:26:22.798Z",
+   "summary": "As part of the ongoing effort towards consolidation of various instructions issued from time to time, the Reserve Bank has undertaken a review of the extant guidelines relating to Priority Sector Lending (PSL) and proposes to issue Directions on the subject RE-wise. 2. Accordingly, the following…",
+   "notes": [
+    "The comments / feedback may be submitted on or before November 26, 2026, through the following channels:"
+   ],
+   "refs": [],
+   "deadlines": [
+    {
+     "date": "2026-11-26",
+     "kind": "deadline",
+     "context": "The comments / feedback may be submitted on or before November 26, 2026, through the following channels:\ni."
+    }
+   ]
+  },
+  {
+   "id": "634ba95b0a01",
+   "area": "sebi",
+   "sourceId": "sebi-rss",
+   "source": "SEBI",
+   "official": true,
+   "publisher": "",
+   "type": "Article",
+   "title": "Review of the framework for Accredited Investors",
+   "link": "https://www.sebi.gov.in/legal/circulars/nov-2026/review-of-the-framework-for-accredited-investors_105618.html",
+   "published": "2026-11-05T00:00:00.000Z",
+   "firstSeen": "2026-11-05T13:26:22.798Z",
+   "summary": "Review of the framework for Accredited Investors",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "b11b7bcce1ea",
+   "area": "sebi",
+   "sourceId": "sebi-rss",
+   "source": "SEBI",
+   "official": true,
+   "publisher": "",
+   "type": "Article",
+   "title": "Framework for net settlement of funds for transactions undertaken by mutual fund schemes in cash market",
+   "link": "https://www.sebi.gov.in/legal/circulars/nov-2026/framework-for-net-settlement-of-funds-for-transactions-undertaken-by-mutual-fund-schemes-in-cash-market_105616.html",
+   "published": "2026-11-05T00:00:00.000Z",
+   "firstSeen": "2026-11-05T13:26:22.798Z",
+   "summary": "Framework for net settlement of funds for transactions undertaken by mutual fund schemes in cash market",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "27b742eb913c",
+   "area": "sebi",
+   "sourceId": "sebi-rss",
+   "source": "SEBI",
+   "official": true,
+   "publisher": "",
+   "type": "Article",
+   "title": "Revision of limits relating to requirement of underlying exposure for currency derivatives contracts",
+   "link": "https://www.sebi.gov.in/legal/circulars/nov-2026/revision-of-limits-relating-to-requirement-of-underlying-exposure-for-currency-derivatives-contracts_105614.html",
+   "published": "2026-11-05T00:00:00.000Z",
+   "firstSeen": "2026-11-05T13:26:22.798Z",
+   "summary": "Revision of limits relating to requirement of underlying exposure for currency derivatives contracts",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "209bf116806a",
+   "area": "fema",
+   "sourceId": "rbi-notifications",
+   "source": "RBI notifications",
+   "official": true,
+   "publisher": "",
+   "type": "Article",
+   "title": "Master Directions on Cyber Resilience and Digital Payment Security Controls for non-bank Payment System Operators",
+   "link": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13751&Mode=0",
+   "published": "2026-11-05T18:20:00.000Z",
+   "firstSeen": "2026-11-05T13:26:22.798Z",
+   "summary": "Notifications - Reserve Bank of India",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "37070a0e3d39",
+   "area": "loan",
+   "sourceId": "news-loan-central",
+   "source": "News search: central schemes",
+   "official": false,
+   "publisher": "LiveChennai",
+   "type": "Scheme",
+   "title": "Annal Ambedkar Business Champions Scheme 2026: Eligibility, Benefits and How to Apply",
+   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA0TkhLcDFkQTBpU0d5RlJWRFlHZXJHWllqU1Fva1Z6ZVlMdWctRGtyXzJESWJQVWdIVWY5b3p4RThuQXNSS1otUnVrU3VBMHIwMHo5YXY4emZNME9CRWxRb1hUNE5OcXhKTEFsOWROSQ?oc=5",
+   "published": "2026-11-05T09:58:54.000Z",
+   "firstSeen": "2026-11-05T13:26:22.798Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "7f35981f7dbc",
+   "area": "loan",
+   "sourceId": "news-loan-south",
+   "source": "News search: southern states",
+   "official": false,
+   "publisher": "Daily Pioneer",
+   "type": "Update",
+   "title": "Karnataka launches first drought subsidy instalment, seeks Rs 22,400-Crore from Centre",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQczRwbkxheXhYVDBRa0lRbUhUa0RmemJpYzMtTThUSTg1UW5abUNYRnFlOUhqWHg5dmxUMkJFZ1VKa2pxRk1YUktVdGJCeTNVdGc1eklJSjltLWllU2Z1WExyT25sNm41NkptOTJoY2hHcWtGVm8tclg4ci1VUHRnaGVJSjdLSDZ5SGt2QkVrM2tPN0hXN3pwd25nMmdleVUwV0xLZ2tLbUFHRHg4ODNBUU1DbTBNUdIBwwFBVV95cUxOQzBKVmhNX0VLMmtXc0ZLVHV2cjJURG9yajRSRnZwMUtNTUd2bWpwSnotUHdXUWNzbGdDamJSYmsyWjNoYXhjTzJkeVJhaTQ0NEZKVjEwV1BrYlpYV01GWFdwMUVBTlJVRUlUQWV3MWxvZlBuMFFxczBFSmF5RWhQZ1VuTUlXMmNzQTNoTHpKVnZDRXNDZmV5VjdkZy15dm9ENW5LanpwOVVvRnNEbHJybkllcU55NDlOMzFsZm15VHJRb0U?oc=5",
+   "published": "2026-11-05T10:53:14.000Z",
+   "firstSeen": "2026-11-05T13:26:22.798Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
   {
    "id": "b177c4860c41",
    "area": "gst",
@@ -1581,7 +1847,10 @@
    "summary": "",
    "notes": [],
    "refs": [],
-   "deadlines": []
+   "deadlines": [],
+   "alsoIn": [
+    "News search: Maharashtra levies"
+   ]
   },
   {
    "id": "714a90f399e7",
@@ -9605,6 +9874,23 @@
    "link": "https://pledge.mygov.in/cvc/",
    "published": "2026-11-01T00:00:00.000Z",
    "firstSeen": "2026-10-27T15:29:57.191Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "419286cf6042",
+   "area": "mca",
+   "sourceId": "news-mca",
+   "source": "News search: MCA",
+   "official": false,
+   "publisher": "FreeJobAlert.Com",
+   "type": "Update",
+   "title": "Karnataka PGCET 2026 Extended Counselling Started - Fresh Option Entry & Seat Allotment",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQaWprV01OQXg0cENUUHJtMWh3d1FGUWQ4TGdVYWlKUGliNmVveExBRGw1MnJEbmhUSGtNRENaUG1vWDFZRUpLZENCb2VKVkMwa1pzLXpqNG5wZG5NeThhZGVWQ25XLXFPM09kX2wtVUFMQ1RIdWVlb2NPYUFrMUEycEZ5VTZ4R2NXaE9XaFFFTTQ?oc=5",
+   "published": "2026-10-31T11:01:18.000Z",
+   "firstSeen": "2026-11-05T13:26:22.798Z",
    "summary": "",
    "notes": [],
    "refs": [],
