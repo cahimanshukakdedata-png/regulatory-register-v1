@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-11-11T17:22:33.660Z",
+ "generatedAt": "2026-11-11T21:28:34.878Z",
  "repo": "cahimanshukakdedata-png/regulatory-register-v1",
- "newThisRun": 24,
+ "newThisRun": 6,
  "sources": [
   {
    "id": "icai-home",
@@ -14,8 +14,8 @@
    "fetched": 36,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-11T17:22:33.660Z",
-   "ms": 991
+   "lastOk": "2026-11-11T21:28:34.878Z",
+   "ms": 1176
   },
   {
    "id": "news-acc",
@@ -26,10 +26,10 @@
    "url": "https://news.google.com/rss/search?q=(ICAI%20OR%20NFRA%20OR%20%22Ind%20AS%22%20OR%20UDIN)%20(announcement%20OR%20notification%20OR%20amendment%20OR%20guidance)%20when%3A14d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
    "fetched": 21,
-   "kept": 5,
+   "kept": 4,
    "note": "",
-   "lastOk": "2026-11-11T17:22:33.660Z",
-   "ms": 319
+   "lastOk": "2026-11-11T21:28:34.878Z",
+   "ms": 270
   },
   {
    "id": "nfra-home",
@@ -42,8 +42,8 @@
    "fetched": 24,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-11T17:22:33.660Z",
-   "ms": 1946
+   "lastOk": "2026-11-11T21:28:34.878Z",
+   "ms": 1619
   },
   {
    "id": "taxguru-ca",
@@ -56,8 +56,8 @@
    "fetched": 75,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-11-11T17:22:33.660Z",
-   "ms": 939
+   "lastOk": "2026-11-11T21:28:34.878Z",
+   "ms": 866
   },
   {
    "id": "rbi-notifications",
@@ -70,8 +70,8 @@
    "fetched": 10,
    "kept": 7,
    "note": "",
-   "lastOk": "2026-11-11T17:22:33.660Z",
-   "ms": 1240
+   "lastOk": "2026-11-11T21:28:34.878Z",
+   "ms": 159
   },
   {
    "id": "rbi-press",
@@ -84,8 +84,8 @@
    "fetched": 10,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-11T17:22:33.660Z",
-   "ms": 1226
+   "lastOk": "2026-11-11T21:28:34.878Z",
+   "ms": 952
   },
   {
    "id": "taxguru-rbi",
@@ -98,8 +98,8 @@
    "fetched": 75,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-11-11T17:22:33.660Z",
-   "ms": 764
+   "lastOk": "2026-11-11T21:28:34.878Z",
+   "ms": 642
   },
   {
    "id": "cbic-gst",
@@ -112,8 +112,8 @@
    "fetched": 20,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-11T17:22:33.660Z",
-   "ms": 1499
+   "lastOk": "2026-11-11T21:28:34.878Z",
+   "ms": 1388
   },
   {
    "id": "gst-council",
@@ -126,8 +126,8 @@
    "fetched": 20,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-11T17:22:33.660Z",
-   "ms": 1927
+   "lastOk": "2026-11-11T21:28:34.878Z",
+   "ms": 1741
   },
   {
    "id": "gst-portal-news",
@@ -140,8 +140,8 @@
    "fetched": 0,
    "kept": 0,
    "note": "page returned no usable links (it may need a real browser); this section relies on its other sources",
-   "lastOk": "2026-11-11T17:22:33.660Z",
-   "ms": 1582
+   "lastOk": "2026-11-11T21:28:34.878Z",
+   "ms": 1486
   },
   {
    "id": "news-gst",
@@ -151,11 +151,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(CBIC%20OR%20GSTN%20OR%20%22GST%20Council%22%20OR%20CGST)%20(notification%20OR%20circular%20OR%20advisory%20OR%20extended)%20when%3A10d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 19,
-   "kept": 13,
+   "fetched": 17,
+   "kept": 11,
    "note": "",
-   "lastOk": "2026-11-11T17:22:33.660Z",
-   "ms": 350
+   "lastOk": "2026-11-11T21:28:34.878Z",
+   "ms": 258
   },
   {
    "id": "taxguru-gst",
@@ -168,8 +168,8 @@
    "fetched": 75,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-11-11T17:22:33.660Z",
-   "ms": 1890
+   "lastOk": "2026-11-11T21:28:34.878Z",
+   "ms": 1687
   },
   {
    "id": "cbdt-communications",
@@ -182,8 +182,8 @@
    "fetched": 4,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-11T17:22:33.660Z",
-   "ms": 4891
+   "lastOk": "2026-11-11T21:28:34.878Z",
+   "ms": 3991
   },
   {
    "id": "itd-latest",
@@ -196,8 +196,8 @@
    "fetched": 39,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-11T17:22:33.660Z",
-   "ms": 1265
+   "lastOk": "2026-11-11T21:28:34.878Z",
+   "ms": 1220
   },
   {
    "id": "news-it",
@@ -207,11 +207,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=CBDT%20(notification%20OR%20circular%20OR%20%22due%20date%22%20OR%20extended%20OR%20scheme)%20when%3A10d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 24,
-   "kept": 19,
+   "fetched": 22,
+   "kept": 18,
    "note": "",
-   "lastOk": "2026-11-11T17:22:33.660Z",
-   "ms": 287
+   "lastOk": "2026-11-11T21:28:34.878Z",
+   "ms": 304
   },
   {
    "id": "taxguru-it",
@@ -224,8 +224,8 @@
    "fetched": 75,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-11-11T17:22:33.660Z",
-   "ms": 934
+   "lastOk": "2026-11-11T21:28:34.878Z",
+   "ms": 869
   },
   {
    "id": "epfo-home",
@@ -238,8 +238,8 @@
    "fetched": 0,
    "kept": 0,
    "note": "site refused a direct request (known to refuse direct requests); read through r.jina.ai; page returned no usable links (it may need a real browser); this section relies on its other sources",
-   "lastOk": "2026-11-11T17:22:33.660Z",
-   "ms": 42802
+   "lastOk": "2026-11-11T21:28:34.878Z",
+   "ms": 39156
   },
   {
    "id": "esic-home",
@@ -252,8 +252,8 @@
    "fetched": 52,
    "kept": 0,
    "note": "site refused a direct request (known to refuse direct requests); read through r.jina.ai",
-   "lastOk": "2026-11-11T17:22:33.660Z",
-   "ms": 75779
+   "lastOk": "2026-11-11T21:28:34.878Z",
+   "ms": 57404
   },
   {
    "id": "news-labour",
@@ -264,10 +264,10 @@
    "url": "https://news.google.com/rss/search?q=(EPFO%20OR%20ESIC%20OR%20%22labour%20code%22)%20(notification%20OR%20circular%20OR%20rules%20OR%20extended%20OR%20deadline)%20when%3A14d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
    "fetched": 26,
-   "kept": 15,
+   "kept": 16,
    "note": "",
-   "lastOk": "2026-11-11T17:22:33.660Z",
-   "ms": 390
+   "lastOk": "2026-11-11T21:28:34.878Z",
+   "ms": 313
   },
   {
    "id": "cgtmse",
@@ -280,8 +280,8 @@
    "fetched": 1,
    "kept": 0,
    "note": "site refused a direct request (known to refuse direct requests); read through r.jina.ai",
-   "lastOk": "2026-11-11T17:22:33.660Z",
-   "ms": 53317
+   "lastOk": "2026-11-11T21:28:34.878Z",
+   "ms": 57467
   },
   {
    "id": "maitri-mh",
@@ -294,8 +294,8 @@
    "fetched": 0,
    "kept": 0,
    "note": "site refused a direct request (HTTP 503); read through r.jina.ai; page returned no usable links (it may need a real browser); this section relies on its other sources",
-   "lastOk": "2026-11-11T17:22:33.660Z",
-   "ms": 43306
+   "lastOk": "2026-11-11T21:28:34.878Z",
+   "ms": 44044
   },
   {
    "id": "msme-ministry",
@@ -308,8 +308,8 @@
    "fetched": 0,
    "kept": 0,
    "note": "page returned no usable links (it may need a real browser); this section relies on its other sources",
-   "lastOk": "2026-11-11T17:22:33.660Z",
-   "ms": 2216
+   "lastOk": "2026-11-11T21:28:34.878Z",
+   "ms": 1841
   },
   {
    "id": "nabard",
@@ -322,8 +322,8 @@
    "fetched": 5,
    "kept": 0,
    "note": "site refused a direct request (known to refuse direct requests); read through r.jina.ai",
-   "lastOk": "2026-11-11T17:22:33.660Z",
-   "ms": 58808
+   "lastOk": "2026-11-11T21:28:34.878Z",
+   "ms": 58515
   },
   {
    "id": "news-loan-central",
@@ -333,11 +333,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(MSME%20OR%20PMEGP%20OR%20MUDRA%20OR%20CGTMSE%20OR%20%22Stand-Up%20India%22%20OR%20%22interest%20subvention%22)%20(scheme%20OR%20subsidy%20OR%20guidelines%20OR%20extended%20OR%20notification)%20when%3A14d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 78,
+   "fetched": 95,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-11-11T17:22:33.660Z",
-   "ms": 502
+   "lastOk": "2026-11-11T21:28:34.878Z",
+   "ms": 497
   },
   {
    "id": "news-loan-east",
@@ -350,8 +350,8 @@
    "fetched": 34,
    "kept": 1,
    "note": "",
-   "lastOk": "2026-11-11T17:22:33.660Z",
-   "ms": 352
+   "lastOk": "2026-11-11T21:28:34.878Z",
+   "ms": 334
   },
   {
    "id": "news-loan-farm",
@@ -364,8 +364,8 @@
    "fetched": 12,
    "kept": 4,
    "note": "",
-   "lastOk": "2026-11-11T17:22:33.660Z",
-   "ms": 281
+   "lastOk": "2026-11-11T21:28:34.878Z",
+   "ms": 268
   },
   {
    "id": "news-loan-mh",
@@ -375,11 +375,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=Maharashtra%20(subsidy%20OR%20incentive%20OR%20%22industrial%20policy%22%20OR%20%22loan%20scheme%22)%20(government%20OR%20notified%20OR%20launched%20OR%20guidelines)%20when%3A21d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 23,
-   "kept": 8,
+   "fetched": 24,
+   "kept": 9,
    "note": "",
-   "lastOk": "2026-11-11T17:22:33.660Z",
-   "ms": 312
+   "lastOk": "2026-11-11T21:28:34.878Z",
+   "ms": 348
   },
   {
    "id": "news-loan-north",
@@ -389,11 +389,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(%22Uttar%20Pradesh%22%20OR%20Delhi%20OR%20Punjab%20OR%20Haryana%20OR%20Bihar%20OR%20Uttarakhand%20OR%20%22Himachal%20Pradesh%22)%20(subsidy%20OR%20incentive%20OR%20%22industrial%20policy%22%20OR%20%22loan%20scheme%22)%20when%3A21d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 32,
+   "fetched": 31,
    "kept": 11,
    "note": "",
-   "lastOk": "2026-11-11T17:22:33.660Z",
-   "ms": 344
+   "lastOk": "2026-11-11T21:28:34.878Z",
+   "ms": 384
   },
   {
    "id": "news-loan-south",
@@ -406,8 +406,8 @@
    "fetched": 27,
    "kept": 5,
    "note": "",
-   "lastOk": "2026-11-11T17:22:33.660Z",
-   "ms": 350
+   "lastOk": "2026-11-11T21:28:34.878Z",
+   "ms": 339
   },
   {
    "id": "news-loan-west",
@@ -420,8 +420,8 @@
    "fetched": 31,
    "kept": 2,
    "note": "",
-   "lastOk": "2026-11-11T17:22:33.660Z",
-   "ms": 403
+   "lastOk": "2026-11-11T21:28:34.878Z",
+   "ms": 350
   },
   {
    "id": "pmegp-kvic",
@@ -435,7 +435,7 @@
    "kept": 0,
    "error": "website address could not be found (DNS)",
    "lastOk": "2026-09-29T01:36:20.178Z",
-   "ms": 103079
+   "ms": 80651
   },
   {
    "id": "sidbi",
@@ -448,8 +448,8 @@
    "fetched": 10,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-11T17:22:33.660Z",
-   "ms": 4100
+   "lastOk": "2026-11-11T21:28:34.878Z",
+   "ms": 3087
   },
   {
    "id": "mca-home",
@@ -462,8 +462,8 @@
    "fetched": 33,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-11T17:22:33.660Z",
-   "ms": 1553
+   "lastOk": "2026-11-11T21:28:34.878Z",
+   "ms": 723
   },
   {
    "id": "news-mca",
@@ -473,11 +473,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=MCA%20(%22general%20circular%22%20OR%20notification%20OR%20%22Companies%20Act%22%20OR%20LLP%20OR%20extended)%20when%3A10d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 21,
+   "fetched": 22,
    "kept": 12,
    "note": "",
-   "lastOk": "2026-11-11T17:22:33.660Z",
-   "ms": 276
+   "lastOk": "2026-11-11T21:28:34.878Z",
+   "ms": 279
   },
   {
    "id": "taxguru-company",
@@ -490,8 +490,8 @@
    "fetched": 75,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-11-11T17:22:33.660Z",
-   "ms": 696
+   "lastOk": "2026-11-11T21:28:34.878Z",
+   "ms": 708
   },
   {
    "id": "taxguru-corporate",
@@ -504,8 +504,8 @@
    "fetched": 75,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-11-11T17:22:33.660Z",
-   "ms": 905
+   "lastOk": "2026-11-11T21:28:34.878Z",
+   "ms": 989
   },
   {
    "id": "mahagst-pt",
@@ -519,7 +519,7 @@
    "kept": 0,
    "error": "the website did not answer in time",
    "lastOk": null,
-   "ms": 157197
+   "ms": 158543
   },
   {
    "id": "news-mh",
@@ -532,7 +532,7 @@
    "fetched": 12,
    "kept": 7,
    "note": "",
-   "lastOk": "2026-11-11T17:22:33.660Z",
+   "lastOk": "2026-11-11T21:28:34.878Z",
    "ms": 251
   },
   {
@@ -546,8 +546,8 @@
    "fetched": 30,
    "kept": 9,
    "note": "",
-   "lastOk": "2026-11-11T17:22:33.660Z",
-   "ms": 2156
+   "lastOk": "2026-11-11T21:28:34.878Z",
+   "ms": 920
   },
   {
    "id": "taxguru-sebi",
@@ -560,8 +560,8 @@
    "fetched": 75,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-11-11T17:22:33.660Z",
-   "ms": 904
+   "lastOk": "2026-11-11T21:28:34.878Z",
+   "ms": 674
   },
   {
    "id": "news-tds",
@@ -571,14 +571,82 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(TDS%20OR%20TCS%20OR%20TRACES)%20(CBDT%20OR%20notification%20OR%20%22due%20date%22%20OR%20form)%20when%3A14d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 29,
-   "kept": 7,
+   "fetched": 30,
+   "kept": 6,
    "note": "",
-   "lastOk": "2026-11-11T17:22:33.660Z",
-   "ms": 289
+   "lastOk": "2026-11-11T21:28:34.878Z",
+   "ms": 343
   }
  ],
  "items": [
+  {
+   "id": "ecf5adadd772",
+   "area": "loan",
+   "sourceId": "news-loan-central",
+   "source": "News search: central schemes",
+   "official": false,
+   "publisher": "MillenniumPost",
+   "type": "Due date",
+   "title": "Stand-Up India Scheme extended till Mar 2031",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbmp5Y1JJdzJvNnJCVWVWXzRHNHNScjVFbXBjTVZ4MUhxM29LNWhDNVk5YnpVR3pBVVhWNzRNNHUwWW42MGk5WlAwZUtfZ2Y1WlJHZ1FONkZtbWZGTW1hYzU0eEd0QndZY3p4MjBvTWh0VG52MllkVjhJdzZvWnJ5ZlJsNmh6YnFkQ25KWjFsS01iWmPSAZgBQVVfeXFMT1F0eVppR19EUmh4QllrQ3RHdjVTM0s2cFQzQVRMYmx2UDNCeFFZTXRIZy1VTTd6emp2UkVMVmxzMmJKRzBwRFdJUXd5QjlQSzgtclZaZHp3T3V1X2lCVmJUejNiOURxQzJyTGdtVWlOLWZOZGRuQy1rV2RjTElwZmlJZFF2THprbjM4OGk5djQ0YS1iTU5FOXE?oc=5",
+   "published": "2026-11-11T18:42:20.000Z",
+   "firstSeen": "2026-11-11T21:28:34.878Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "62db272d2dcf",
+   "area": "loan",
+   "sourceId": "news-loan-central",
+   "source": "News search: central schemes",
+   "official": false,
+   "publisher": "Devdiscourse",
+   "type": "Due date",
+   "title": "Cabinet extends Stand-Up India Scheme till 2031, approves Rs 4,111 crore corpus to support 2.5 lakh more entrepreneurs",
+   "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNbGhwUlYxVjh4WFFpdjhhcjJPYkZmMFZHLTJLd1BMNEdLWkFXVkpicG1LSlFhMUhGRHB2Q0NqVEpkRGdvaHBiZVlvOVo1cU5ocjluZFlmVVpkNE5WSUxJblBrLWNaMTg3djFoMWdRRlJ5aGR2WlY5ck9KYW5mRk9yN1l6cGEyNG9ISGVybDM2ZnktbVFRNFZFWTRnUTQ5NlpoY2FPSjJTb2tYRE5VOTE3cXA2WkExem1kMjZXTEx1LW00N3lZMllmUFdGRUQ0akJEVlBhd1NGVHlfTEVyYXNyakJFb05fZDlsNXRYbTVQUDBsYnNnS1NESDNDVDVaWk5BMTg00gGDAkFVX3lxTE1saHBSVjFWOHhYUWl2OGFyMk9iRmYwVkctMkt3UEw0R0taQVdWSmJwbUtKUWExSEZEcHZDQ2pUSmREZ29ocGJlWW85WjVxTmhyOW5kWWZVWmQ0TlZJTEluUGstY1oxODd2MWgxZ1FGUnloZHZaVjlyT0phbmZGT3I3WXpwYTI0b0hIZXJsMzZmeS1tUVE0VkVZNGdRNDk2WmhjYU9KMlNva1hETlU5MTdxcDZaQTF6bWQyNldMTHUtbTQ3eVkyWWZQV0ZFRDRqQkRWUGF3U0ZUeV9MRXJhc3JqQkVvTl9kOWw1dFhtNVBQMGxic2dLU0RIM0NUNVpaTkExODQ?oc=5",
+   "published": "2026-11-11T10:44:45.000Z",
+   "firstSeen": "2026-11-11T21:28:34.878Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "22cf64e36c2a",
+   "area": "loan",
+   "sourceId": "news-loan-central",
+   "source": "News search: central schemes",
+   "official": false,
+   "publisher": "Swarajya",
+   "type": "Judgment",
+   "title": "Centre Approves Five-Year Extension Of Stand-Up India Scheme, Rs 4,111 Crore Corpus To Support Women And SC/ST Entrepreneurs",
+   "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNcEVfaWZNcXZINTA1Y2oydEQyRFpaSzV4TlBkdHBJNk90blU2ZmM1RzdzendBdlNac2NpSDhZaURSamI0cXNSekVYYld0bFNtTTdpZjQ3dzh2TzRXa0tOYmdkVnRsaGwtUWppbk9MVzdyMW0xVXNtaFp1OGg1S2dpeUUta3RDLS1YZGlwME85V0JsNXZBY2FXWWp1RnFwdDhRT0JnUUViZzFwQ05RWmhua0tSaDlkeXlxbTdmVjRMUFZBa1VYVGMwd0VFSVVjdG85T1oweWhjVHVXU1luVzNmMUtMZE95bnlza0NCUnJfVTE2b1VoZ0ZhOFVR0gH6AUFVX3lxTE1wRV9pZk1xdkg1MDVjajJ0RDJEWlpLNXhOUGR0cEk2T3RuVTZmYzVHN3N6d0F2U1pzY2lIOFlpRFJqYjRxc1J6RVhiV3RsU21NN2lmNDd3OHZPNFdrS05iZ2RWdGxobC1RamluT0xXN3IxbTFVc21oWnU4aDVLZ2l5RS1rdEMtLVhkaXAwTzlXQmw1dkFjYVdZanVGcXB0OFFPQmdRRWJnMXBDTlFaaG5rS1JoOWR5eXFtN2ZWNExQVkFrVVhUYzB3RUVJVWN0bzlPWjB5aGNUdVdTWW5XM2YxS0xkT3lueXNrQ0JScl9VMTZvVWhnRmE4VVE?oc=5",
+   "published": "2026-11-11T12:05:13.000Z",
+   "firstSeen": "2026-11-11T21:28:34.878Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "631e6b9a13dc",
+   "area": "loan",
+   "sourceId": "news-loan-central",
+   "source": "News search: central schemes",
+   "official": false,
+   "publisher": "prameyanews.com",
+   "type": "Scheme",
+   "title": "Union Cabinet approves continuation of Stand-Up India scheme",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMVoxbEdnc25QSVk0cExpS0dXTEFkX1ZicDhsMXpOcHRhT3ZBNWhGTjVhRzFQbzFKTURyMWpuaXNPMEFxT0Z5M25FdFRnNGttN05jazUwZjhaamZfMk8tdGpGT3o1bUYza0dfWWZpREczZ2lKaGJKYUxpU2dhX2tpaE80YXB0b2RyWUZfbV9rRFBIQQ?oc=5",
+   "published": "2026-11-11T10:17:55.000Z",
+   "firstSeen": "2026-11-11T21:28:34.878Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
   {
    "id": "56651bc22aeb",
    "area": "gst",
@@ -696,7 +764,10 @@
    "summary": "",
    "notes": [],
    "refs": [],
-   "deadlines": []
+   "deadlines": [],
+   "alsoIn": [
+    "News search: central schemes"
+   ]
   },
   {
    "id": "83378af33c3a",
@@ -906,6 +977,9 @@
      "kind": "deadline",
      "context": "Union cabinet extends Stand-Up India Scheme till March 31, 2031"
     }
+   ],
+   "alsoIn": [
+    "News search: central schemes"
    ]
   },
   {
@@ -957,7 +1031,10 @@
    "summary": "",
    "notes": [],
    "refs": [],
-   "deadlines": []
+   "deadlines": [],
+   "alsoIn": [
+    "News search: central schemes"
+   ]
   },
   {
    "id": "3db7a59badef",
@@ -2862,6 +2939,23 @@
    "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQMUlzQXBEMnFCQTJYVGZwbzBMR0dqVHI1cTFER002eWRUNS1GczVUQ1VKcm1qdlExRWxNMGYzOU16TllvUlVtT0FxTHZ3MWd3MTFHdWo4d1F0ZmRYSlk5THNSNVJzYURGMzdVQ0VIMThSbi1jVGFCTHRDdGFvanFld2d0UDgwV2JTeGpmUmtfYkJLbi1YQnlhdGd4ZzZrOHdQcmtvUXM5N1RNLXAxNXUyRUJKX0MxbmFIOWhRWG81aXd1UHlFTVNsa0NTbzBBVUNlYmd2LVFxS0dFaUJESWlMT0w3NlY3Q0g4cTFWWUFhMXBwVjFJRTJXTEVDVWFwemvSAYYCQVVfeXFMT0Z2MkQ4Wm9XWk51YVU0UHBIUWVqanE5QXhvRWFQeU5od0k4VWlyTWwxWU9MOGwtdTVoZ0RCV2VYWmt5cWdURjFPM2ZDRVdsQ1g1TDdTSEI1TzNOZmVseDg3X0FBb3V5dzJWVnBDb2VvcFRSRl9SSmtrNGl4MXcwSlFfU3BTV2dlSkxpWm9kOE5RSWVOTk5HTnNQWVRpbldjOWhmdDhyemh2dVppWHVNMEE3LUpxSVROblE0SnBqS2JrQ0RzSFBpX09mdUhUYUFLTWJsX3BfdnNwVGRXblJCMUhCVmhUVmtjNXprcHF4RVJsNU5hVWU2eXpSVHBaSmpqNXVOSVVrZw?oc=5",
    "published": "2026-11-09T22:16:00.000Z",
    "firstSeen": "2026-11-09T23:29:05.992Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "c69f5cfb05e4",
+   "area": "mh",
+   "sourceId": "news-mh",
+   "source": "News search: Maharashtra levies",
+   "official": false,
+   "publisher": "Lawtext",
+   "type": "Judgment",
+   "title": "Bombay High Court Quashes Trial Court Order Impounding Unregistered Partition Deed — Registration Not Mandatory for Partition of Joint Hindu Family Property Under Article 46 of Maharashtra Stamp Act, 1958. The court held that the trial court erred in mixin",
+   "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1UQXNha2U4MjMxN3g3S1ViWWlRcWZCRGQ3QkhHeVNIdXZ6TWdKcVhsR3ZNSWYtdUh1dVlSUmh1c3lheVJfckhNRW54NUZVbWNTYjhB?oc=5",
+   "published": "2026-11-09T08:00:00.000Z",
+   "firstSeen": "2026-11-11T21:28:34.878Z",
    "summary": "",
    "notes": [],
    "refs": [],
@@ -10379,6 +10473,23 @@
    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxObWQzdUl2a0k0Q3M0dkhWeENOT1pCVHlRZWo5SW4yeW4zYzJQUWViMG5fYkhxSFU0Yl84ZndYb0g3WDNfTzhaUlZHZHJuZVBIXzJtZEEwdHJXRXltRWhZWktkc1RseUZybTF3OEYyTjhsb2xVZVoybDNqTnpnWjRvUjJUM1RJSmkyLS1FOGl4WmhseHlISWZ3?oc=5",
    "published": "2026-11-04T18:49:51.000Z",
    "firstSeen": "2026-11-04T20:51:50.581Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "b886d4855d88",
+   "area": "loan",
+   "sourceId": "news-loan-central",
+   "source": "News search: central schemes",
+   "official": false,
+   "publisher": "Elets BFSI",
+   "type": "Update",
+   "title": "PM Modi launches Mudra bank under Pradhan Mantri Jan Dhan Yojana",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOYVNfVDNtTDRFSnk5V0o5eW5iMEZVR0ZuVTlDSlNoTGhFVXloUVZQM2FGQWk2RHpBYjRzc1Y5eGwzUnpVcVJBT3g5eHh0eGxnWTV4emJmZzd5NjltZHpSeVA1S2xVQWdCSF9kQzJvRXN3RDVJTHBiVG9teE5ybUhiTnRRYkRadzZad2RHVGh1UWNyRnowRXVLdlZR?oc=5",
+   "published": "2026-11-04T08:00:00.000Z",
+   "firstSeen": "2026-11-11T21:28:34.878Z",
    "summary": "",
    "notes": [],
    "refs": [],
