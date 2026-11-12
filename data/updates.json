@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-11-11T21:28:34.878Z",
+ "generatedAt": "2026-11-12T08:31:43.970Z",
  "repo": "cahimanshukakdedata-png/regulatory-register-v1",
- "newThisRun": 6,
+ "newThisRun": 21,
  "sources": [
   {
    "id": "icai-home",
@@ -14,8 +14,8 @@
    "fetched": 36,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-11T21:28:34.878Z",
-   "ms": 1176
+   "lastOk": "2026-11-12T08:31:43.970Z",
+   "ms": 1092
   },
   {
    "id": "news-acc",
@@ -25,11 +25,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(ICAI%20OR%20NFRA%20OR%20%22Ind%20AS%22%20OR%20UDIN)%20(announcement%20OR%20notification%20OR%20amendment%20OR%20guidance)%20when%3A14d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 21,
+   "fetched": 23,
    "kept": 4,
    "note": "",
-   "lastOk": "2026-11-11T21:28:34.878Z",
-   "ms": 270
+   "lastOk": "2026-11-12T08:31:43.970Z",
+   "ms": 234
   },
   {
    "id": "nfra-home",
@@ -42,8 +42,8 @@
    "fetched": 24,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-11T21:28:34.878Z",
-   "ms": 1619
+   "lastOk": "2026-11-12T08:31:43.970Z",
+   "ms": 1789
   },
   {
    "id": "taxguru-ca",
@@ -56,8 +56,8 @@
    "fetched": 75,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-11-11T21:28:34.878Z",
-   "ms": 866
+   "lastOk": "2026-11-12T08:31:43.970Z",
+   "ms": 1059
   },
   {
    "id": "rbi-notifications",
@@ -70,8 +70,8 @@
    "fetched": 10,
    "kept": 7,
    "note": "",
-   "lastOk": "2026-11-11T21:28:34.878Z",
-   "ms": 159
+   "lastOk": "2026-11-12T08:31:43.970Z",
+   "ms": 1114
   },
   {
    "id": "rbi-press",
@@ -84,8 +84,8 @@
    "fetched": 10,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-11T21:28:34.878Z",
-   "ms": 952
+   "lastOk": "2026-11-12T08:31:43.970Z",
+   "ms": 714
   },
   {
    "id": "taxguru-rbi",
@@ -98,8 +98,8 @@
    "fetched": 75,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-11-11T21:28:34.878Z",
-   "ms": 642
+   "lastOk": "2026-11-12T08:31:43.970Z",
+   "ms": 1054
   },
   {
    "id": "cbic-gst",
@@ -112,8 +112,8 @@
    "fetched": 20,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-11T21:28:34.878Z",
-   "ms": 1388
+   "lastOk": "2026-11-12T08:31:43.970Z",
+   "ms": 1325
   },
   {
    "id": "gst-council",
@@ -126,8 +126,8 @@
    "fetched": 20,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-11T21:28:34.878Z",
-   "ms": 1741
+   "lastOk": "2026-11-12T08:31:43.970Z",
+   "ms": 1883
   },
   {
    "id": "gst-portal-news",
@@ -140,8 +140,8 @@
    "fetched": 0,
    "kept": 0,
    "note": "page returned no usable links (it may need a real browser); this section relies on its other sources",
-   "lastOk": "2026-11-11T21:28:34.878Z",
-   "ms": 1486
+   "lastOk": "2026-11-12T08:31:43.970Z",
+   "ms": 1632
   },
   {
    "id": "news-gst",
@@ -152,10 +152,10 @@
    "url": "https://news.google.com/rss/search?q=(CBIC%20OR%20GSTN%20OR%20%22GST%20Council%22%20OR%20CGST)%20(notification%20OR%20circular%20OR%20advisory%20OR%20extended)%20when%3A10d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
    "fetched": 17,
-   "kept": 11,
+   "kept": 8,
    "note": "",
-   "lastOk": "2026-11-11T21:28:34.878Z",
-   "ms": 258
+   "lastOk": "2026-11-12T08:31:43.970Z",
+   "ms": 347
   },
   {
    "id": "taxguru-gst",
@@ -168,8 +168,8 @@
    "fetched": 75,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-11-11T21:28:34.878Z",
-   "ms": 1687
+   "lastOk": "2026-11-12T08:31:43.970Z",
+   "ms": 1380
   },
   {
    "id": "cbdt-communications",
@@ -182,8 +182,8 @@
    "fetched": 4,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-11T21:28:34.878Z",
-   "ms": 3991
+   "lastOk": "2026-11-12T08:31:43.970Z",
+   "ms": 3864
   },
   {
    "id": "itd-latest",
@@ -196,8 +196,8 @@
    "fetched": 39,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-11T21:28:34.878Z",
-   "ms": 1220
+   "lastOk": "2026-11-12T08:31:43.970Z",
+   "ms": 1360
   },
   {
    "id": "news-it",
@@ -208,10 +208,10 @@
    "url": "https://news.google.com/rss/search?q=CBDT%20(notification%20OR%20circular%20OR%20%22due%20date%22%20OR%20extended%20OR%20scheme)%20when%3A10d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
    "fetched": 22,
-   "kept": 18,
+   "kept": 16,
    "note": "",
-   "lastOk": "2026-11-11T21:28:34.878Z",
-   "ms": 304
+   "lastOk": "2026-11-12T08:31:43.970Z",
+   "ms": 235
   },
   {
    "id": "taxguru-it",
@@ -224,8 +224,8 @@
    "fetched": 75,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-11-11T21:28:34.878Z",
-   "ms": 869
+   "lastOk": "2026-11-12T08:31:43.970Z",
+   "ms": 1853
   },
   {
    "id": "epfo-home",
@@ -238,8 +238,8 @@
    "fetched": 0,
    "kept": 0,
    "note": "site refused a direct request (known to refuse direct requests); read through r.jina.ai; page returned no usable links (it may need a real browser); this section relies on its other sources",
-   "lastOk": "2026-11-11T21:28:34.878Z",
-   "ms": 39156
+   "lastOk": "2026-11-12T08:31:43.970Z",
+   "ms": 42810
   },
   {
    "id": "esic-home",
@@ -252,8 +252,8 @@
    "fetched": 52,
    "kept": 0,
    "note": "site refused a direct request (known to refuse direct requests); read through r.jina.ai",
-   "lastOk": "2026-11-11T21:28:34.878Z",
-   "ms": 57404
+   "lastOk": "2026-11-12T08:31:43.970Z",
+   "ms": 51346
   },
   {
    "id": "news-labour",
@@ -263,11 +263,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(EPFO%20OR%20ESIC%20OR%20%22labour%20code%22)%20(notification%20OR%20circular%20OR%20rules%20OR%20extended%20OR%20deadline)%20when%3A14d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 26,
-   "kept": 16,
+   "fetched": 24,
+   "kept": 11,
    "note": "",
-   "lastOk": "2026-11-11T21:28:34.878Z",
-   "ms": 313
+   "lastOk": "2026-11-12T08:31:43.970Z",
+   "ms": 244
   },
   {
    "id": "cgtmse",
@@ -280,8 +280,8 @@
    "fetched": 1,
    "kept": 0,
    "note": "site refused a direct request (known to refuse direct requests); read through r.jina.ai",
-   "lastOk": "2026-11-11T21:28:34.878Z",
-   "ms": 57467
+   "lastOk": "2026-11-12T08:31:43.970Z",
+   "ms": 48815
   },
   {
    "id": "maitri-mh",
@@ -294,8 +294,8 @@
    "fetched": 0,
    "kept": 0,
    "note": "site refused a direct request (HTTP 503); read through r.jina.ai; page returned no usable links (it may need a real browser); this section relies on its other sources",
-   "lastOk": "2026-11-11T21:28:34.878Z",
-   "ms": 44044
+   "lastOk": "2026-11-12T08:31:43.970Z",
+   "ms": 37962
   },
   {
    "id": "msme-ministry",
@@ -308,8 +308,8 @@
    "fetched": 0,
    "kept": 0,
    "note": "page returned no usable links (it may need a real browser); this section relies on its other sources",
-   "lastOk": "2026-11-11T21:28:34.878Z",
-   "ms": 1841
+   "lastOk": "2026-11-12T08:31:43.970Z",
+   "ms": 2098
   },
   {
    "id": "nabard",
@@ -322,8 +322,8 @@
    "fetched": 5,
    "kept": 0,
    "note": "site refused a direct request (known to refuse direct requests); read through r.jina.ai",
-   "lastOk": "2026-11-11T21:28:34.878Z",
-   "ms": 58515
+   "lastOk": "2026-11-12T08:31:43.970Z",
+   "ms": 61530
   },
   {
    "id": "news-loan-central",
@@ -333,11 +333,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(MSME%20OR%20PMEGP%20OR%20MUDRA%20OR%20CGTMSE%20OR%20%22Stand-Up%20India%22%20OR%20%22interest%20subvention%22)%20(scheme%20OR%20subsidy%20OR%20guidelines%20OR%20extended%20OR%20notification)%20when%3A14d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 95,
+   "fetched": 78,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-11-11T21:28:34.878Z",
-   "ms": 497
+   "lastOk": "2026-11-12T08:31:43.970Z",
+   "ms": 400
   },
   {
    "id": "news-loan-east",
@@ -347,11 +347,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(%22West%20Bengal%22%20OR%20Odisha%20OR%20Jharkhand%20OR%20Chhattisgarh%20OR%20Assam%20OR%20%22North%20East%22)%20(subsidy%20OR%20incentive%20OR%20%22industrial%20policy%22%20OR%20%22loan%20scheme%22)%20when%3A21d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 34,
+   "fetched": 32,
    "kept": 1,
    "note": "",
-   "lastOk": "2026-11-11T21:28:34.878Z",
-   "ms": 334
+   "lastOk": "2026-11-12T08:31:43.970Z",
+   "ms": 303
   },
   {
    "id": "news-loan-farm",
@@ -364,8 +364,8 @@
    "fetched": 12,
    "kept": 4,
    "note": "",
-   "lastOk": "2026-11-11T21:28:34.878Z",
-   "ms": 268
+   "lastOk": "2026-11-12T08:31:43.970Z",
+   "ms": 230
   },
   {
    "id": "news-loan-mh",
@@ -375,11 +375,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=Maharashtra%20(subsidy%20OR%20incentive%20OR%20%22industrial%20policy%22%20OR%20%22loan%20scheme%22)%20(government%20OR%20notified%20OR%20launched%20OR%20guidelines)%20when%3A21d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 24,
+   "fetched": 22,
    "kept": 9,
    "note": "",
-   "lastOk": "2026-11-11T21:28:34.878Z",
-   "ms": 348
+   "lastOk": "2026-11-12T08:31:43.970Z",
+   "ms": 254
   },
   {
    "id": "news-loan-north",
@@ -389,11 +389,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(%22Uttar%20Pradesh%22%20OR%20Delhi%20OR%20Punjab%20OR%20Haryana%20OR%20Bihar%20OR%20Uttarakhand%20OR%20%22Himachal%20Pradesh%22)%20(subsidy%20OR%20incentive%20OR%20%22industrial%20policy%22%20OR%20%22loan%20scheme%22)%20when%3A21d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 31,
-   "kept": 11,
+   "fetched": 29,
+   "kept": 10,
    "note": "",
-   "lastOk": "2026-11-11T21:28:34.878Z",
-   "ms": 384
+   "lastOk": "2026-11-12T08:31:43.970Z",
+   "ms": 300
   },
   {
    "id": "news-loan-south",
@@ -406,8 +406,8 @@
    "fetched": 27,
    "kept": 5,
    "note": "",
-   "lastOk": "2026-11-11T21:28:34.878Z",
-   "ms": 339
+   "lastOk": "2026-11-12T08:31:43.970Z",
+   "ms": 275
   },
   {
    "id": "news-loan-west",
@@ -417,11 +417,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(Gujarat%20OR%20%22Madhya%20Pradesh%22%20OR%20Rajasthan%20OR%20Goa)%20(subsidy%20OR%20%22industrial%20policy%22%20OR%20incentive%20OR%20%22loan%20scheme%22)%20when%3A21d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 31,
+   "fetched": 30,
    "kept": 2,
    "note": "",
-   "lastOk": "2026-11-11T21:28:34.878Z",
-   "ms": 350
+   "lastOk": "2026-11-12T08:31:43.970Z",
+   "ms": 278
   },
   {
    "id": "pmegp-kvic",
@@ -435,7 +435,7 @@
    "kept": 0,
    "error": "website address could not be found (DNS)",
    "lastOk": "2026-09-29T01:36:20.178Z",
-   "ms": 80651
+   "ms": 66909
   },
   {
    "id": "sidbi",
@@ -448,8 +448,8 @@
    "fetched": 10,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-11T21:28:34.878Z",
-   "ms": 3087
+   "lastOk": "2026-11-12T08:31:43.970Z",
+   "ms": 3261
   },
   {
    "id": "mca-home",
@@ -462,8 +462,8 @@
    "fetched": 33,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-11T21:28:34.878Z",
-   "ms": 723
+   "lastOk": "2026-11-12T08:31:43.970Z",
+   "ms": 741
   },
   {
    "id": "news-mca",
@@ -473,11 +473,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=MCA%20(%22general%20circular%22%20OR%20notification%20OR%20%22Companies%20Act%22%20OR%20LLP%20OR%20extended)%20when%3A10d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 22,
-   "kept": 12,
+   "fetched": 24,
+   "kept": 13,
    "note": "",
-   "lastOk": "2026-11-11T21:28:34.878Z",
-   "ms": 279
+   "lastOk": "2026-11-12T08:31:43.970Z",
+   "ms": 291
   },
   {
    "id": "taxguru-company",
@@ -490,8 +490,8 @@
    "fetched": 75,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-11-11T21:28:34.878Z",
-   "ms": 708
+   "lastOk": "2026-11-12T08:31:43.970Z",
+   "ms": 1025
   },
   {
    "id": "taxguru-corporate",
@@ -504,8 +504,8 @@
    "fetched": 75,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-11-11T21:28:34.878Z",
-   "ms": 989
+   "lastOk": "2026-11-12T08:31:43.970Z",
+   "ms": 1037
   },
   {
    "id": "mahagst-pt",
@@ -519,7 +519,7 @@
    "kept": 0,
    "error": "the website did not answer in time",
    "lastOk": null,
-   "ms": 158543
+   "ms": 157618
   },
   {
    "id": "news-mh",
@@ -532,8 +532,8 @@
    "fetched": 12,
    "kept": 7,
    "note": "",
-   "lastOk": "2026-11-11T21:28:34.878Z",
-   "ms": 251
+   "lastOk": "2026-11-12T08:31:43.970Z",
+   "ms": 228
   },
   {
    "id": "sebi-rss",
@@ -546,8 +546,8 @@
    "fetched": 30,
    "kept": 9,
    "note": "",
-   "lastOk": "2026-11-11T21:28:34.878Z",
-   "ms": 920
+   "lastOk": "2026-11-12T08:31:43.970Z",
+   "ms": 1514
   },
   {
    "id": "taxguru-sebi",
@@ -560,8 +560,8 @@
    "fetched": 75,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-11-11T21:28:34.878Z",
-   "ms": 674
+   "lastOk": "2026-11-12T08:31:43.970Z",
+   "ms": 1059
   },
   {
    "id": "news-tds",
@@ -571,14 +571,346 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(TDS%20OR%20TCS%20OR%20TRACES)%20(CBDT%20OR%20notification%20OR%20%22due%20date%22%20OR%20form)%20when%3A14d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 30,
-   "kept": 6,
+   "fetched": 29,
+   "kept": 8,
    "note": "",
-   "lastOk": "2026-11-11T21:28:34.878Z",
-   "ms": 343
+   "lastOk": "2026-11-12T08:31:43.970Z",
+   "ms": 297
   }
  ],
  "items": [
+  {
+   "id": "52cd2b930462",
+   "area": "gst",
+   "sourceId": "taxguru-gst",
+   "source": "TaxGuru GST",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Goods and Services Tax | Supreme Court to Decide Three-Month Limitation for GST Section 73 Notices",
+   "link": "https://taxguru.in/goods-and-service-tax/supreme-court-decide-month-limitation-gst-section-73-notices.html",
+   "published": "2026-11-12T08:16:00.000Z",
+   "firstSeen": "2026-11-12T08:31:43.970Z",
+   "summary": "The post Supreme Court to Decide Three-Month Limitation for GST Section 73 Notices appeared first on TaxGuru.",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "6b26ed3792c4",
+   "area": "gst",
+   "sourceId": "taxguru-gst",
+   "source": "TaxGuru GST",
+   "official": false,
+   "publisher": "",
+   "type": "Update",
+   "title": "Goods and Services Tax | How to Download Your GST Registration Certificate (REG-06) Yourself: Step-by-Step Guide",
+   "link": "https://taxguru.in/goods-and-service-tax/download-gst-registration-certificate-reg-06-step-step-guide.html",
+   "published": "2026-11-12T07:31:46.000Z",
+   "firstSeen": "2026-11-12T08:31:43.970Z",
+   "summary": "Download GST certificate REG-06 from gst.gov.in. Learn login steps, first-time access, amended certificates and GSTIN verification without login.The post How to Download Your GST Registration Certificate (REG-06) Yourself: Step-by-Step Guide appeared first on TaxGuru.",
+   "notes": [
+    "Summary: The GST registration certificate issued in Form GST REG-06 is an electronic document available to registered taxpayers through the official GST portal.",
+    "Where registration particulars are amended, the taxpayer should access the certificates section and download the latest updated certificate.",
+    "The approval order for an amendment is Form REG-15."
+   ],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "787aae60f1e9",
+   "area": "gst",
+   "sourceId": "taxguru-gst",
+   "source": "TaxGuru GST",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Goods and Services Tax | Gauhati High Court Bars Coercive Recovery in ₹2 Crore GST ITC Dispute",
+   "link": "https://taxguru.in/goods-and-service-tax/gauhati-high-court-bars-coercive-recovery-rs-2-crore-gst-itc-dispute.html",
+   "published": "2026-11-12T06:36:25.000Z",
+   "firstSeen": "2026-11-12T08:31:43.970Z",
+   "summary": "The post Gauhati High Court Bars Coercive Recovery in ₹2 Crore GST ITC Dispute appeared first on TaxGuru.",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "543b36f20235",
+   "area": "tds",
+   "sourceId": "news-tds",
+   "source": "News search: TDS/TCS",
+   "official": false,
+   "publisher": "SAG Infotech Official Tax Blog",
+   "type": "Update",
+   "title": "What Should Salaried Taxpayers Check Before Filing ITR Under IT Act 2025?",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQjctZUdwTHBLU2VlYXQ1aS1BRGZoRDBQRmNEcW1hc0tFelBuWjZFYVhCQUYxVTh4ck1xWXYtNnltVVc5eGZzWnJyTjhxSU04emJTTVlLa0t3cm1lUHVvS1pPRzJ6ajA3bVNJb19xT2EwZ3VPOUsxQ0dNa3k0VU93THdPcU5nT2ZydEIyQkc0alFJVklqWWNmczJiODk?oc=5",
+   "published": "2026-11-12T06:53:19.000Z",
+   "firstSeen": "2026-11-12T08:31:43.970Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "762e7ebebfda",
+   "area": "tds",
+   "sourceId": "news-tds",
+   "source": "News search: TDS/TCS",
+   "official": false,
+   "publisher": "Taxscan",
+   "type": "Judgment",
+   "title": "Jharkhand HC Refuses Discharge in CBI Fraudulent Refund Case",
+   "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQcjhnbHRQeDdnNnpSTEtaZDlYTXVjZHk0cGVraG5BVkk3eHkzZ0huMUNHZF90UUpZRTFmd2hjS2ZEUnlzeVpWMzF6d0pKNVI2d0Rqem9sNHVXR1JOYnZicm5kbFF2Um5hZlA5RjlzZFRNWGxaQWk2czBXVEpFdWttQlFPa01rYUpLMnFPWTAyaEFjSW5TQWxMbVIyX25TVUNrMGF2UEV3TFdsQ1k3Y183V1hyNjdHZmpLSjJrUnhKQk9HYzRTSkpENDNhX1BRSWVpX3FhWlZzZVpIMUdpWmQtMVU1d2NHa2g2ZHZKYkFnWTVUZw?oc=5",
+   "published": "2026-11-12T08:02:00.000Z",
+   "firstSeen": "2026-11-12T08:31:43.970Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "7b0917b98e92",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Amendment",
+   "title": "Income Tax | Safe Harbour Rules 2026 & Transfer Pricing for Indian Subsidiaries of Foreign Parents",
+   "link": "https://taxguru.in/income-tax/safe-harbour-rules-2026-transfer-pricing-indian-subsidiaries-foreign-parents.html",
+   "published": "2026-11-12T07:37:33.000Z",
+   "firstSeen": "2026-11-12T08:31:43.970Z",
+   "summary": "Income-tax Rules 2026 safe harbour: 15.5% IT margin, ₹2,000 crore threshold, Form 49, data centres, APAs and transfer pricing compliance.The post Safe Harbour Rules 2026 & Transfer Pricing for Indian Subsidiaries of Foreign Parents appeared first on TaxGuru.",
+   "notes": [
+    "Summary: The Income-tax Rules, 2026, notified through Notification No. 22/2026 dated 20 March 2026, introduce significant changes to India’s transfer pricing safe harbour framework under the Income-tax Act, 2025.",
+    "The eligibility threshold is substantially increased to ₹2,000 crore, while the special procedure for IT services permits a five-consecutive-tax-year safe harbour option through electronic Form 49.",
+    "Taxpayers must evaluate whether the certainty of safe harbour compensates for any margin exceeding their independently benchmarked arm’s length result."
+   ],
+   "refs": [
+    "Notification No. 22/2026"
+   ],
+   "deadlines": [
+    {
+     "date": "2047-03-31",
+     "kind": "deadline",
+     "context": "The Budget also exempts, until the year ending 31 March 2047, a foreign company’s income from procuring data centre services from a specified data centre, subject to conditions."
+    }
+   ]
+  },
+  {
+   "id": "a67ddcccddd4",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | AO’s Failure to Follow DRP Directions Invalidates Assessment: Delhi HC",
+   "link": "https://taxguru.in/income-tax/aos-failure-follow-drp-directions-invalidates-assessment-delhi-hc.html",
+   "published": "2026-11-12T07:18:28.000Z",
+   "firstSeen": "2026-11-12T08:31:43.970Z",
+   "summary": "The post AO’s Failure to Follow DRP Directions Invalidates Assessment: Delhi HC appeared first on TaxGuru.",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "27ee42f3f462",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | ITAT Chennai Dismisses Revenue Appeal Below ₹60 Lakh Tax Effect in AY 2017-18",
+   "link": "https://taxguru.in/income-tax/itat-chennai-dismisses-revenue-appeal-rs-60-lakh-tax-effect-ay-2017-18.html",
+   "published": "2026-11-12T06:43:01.000Z",
+   "firstSeen": "2026-11-12T08:31:43.970Z",
+   "summary": "The post ITAT Chennai Dismisses Revenue Appeal Below ₹60 Lakh Tax Effect in AY 2017-18 appeared first on TaxGuru.",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "a792b0ee6a67",
+   "area": "acc",
+   "sourceId": "taxguru-corporate",
+   "source": "TaxGuru Corporate Law",
+   "official": false,
+   "publisher": "",
+   "type": "Update",
+   "title": "Corporate Law | IRDAI Constitutes Life and Non-Life Working Groups for Risk-Based Capital and Ind AS Convergence",
+   "link": "https://taxguru.in/corporate-law/irdai-constitutes-life-non-life-working-groups-risk-based-capital-ind-convergence.html",
+   "published": "2026-11-12T08:27:52.000Z",
+   "firstSeen": "2026-11-12T08:31:43.970Z",
+   "summary": "IRDAI forms two working groups to align risk-based capital with Ind AS, develop draft regulations and submit recommendations within one month.The post IRDAI Constitutes Life and Non-Life Working Groups for Risk-Based Capital and Ind AS Convergence appeared first on TaxGuru.",
+   "notes": [
+    "Summary: The Insurance Regulatory and Development Authority of India (IRDAI), through Office Order Ref.",
+    "Following the notification of the IRDAI (Actuarial, Finance and Investment Functions of Insurers) (Amendment) Regulations, 2026 on 30 March 2026, the Authority proposes using Ind AS financial statements as the starting point for RBC calculations, subject…",
+    "Insurance Regulatory and Development Authority of India (Actuarial, Finance and Investment Functions of Insurers), (Amendment) Regulations, 2026 were notified on 30th March, 2026 wherein the financial statements are prepared and reported in accordance with…"
+   ],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "180276f308d4",
+   "area": "mca",
+   "sourceId": "taxguru-corporate",
+   "source": "TaxGuru Corporate Law",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Corporate Law | IBBI Directs Disclosure of Delegation of Powers Under RTI, Upholds Privacy Exemption for Officers",
+   "link": "https://taxguru.in/corporate-law/ibbi-directs-disclosure-delegation-powers-rti-upholds-privacy-exemption-officers.html",
+   "published": "2026-11-12T08:27:38.000Z",
+   "firstSeen": "2026-11-12T08:31:43.970Z",
+   "summary": "IBBI directs CPIO to furnish delegation of powers but upholds refusal to disclose officers' personal information under RTI.The post IBBI Directs Disclosure of Delegation of Powers Under RTI, Upholds Privacy Exemption…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "2f6669c3d76e",
+   "area": "mca",
+   "sourceId": "taxguru-corporate",
+   "source": "TaxGuru Corporate Law",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Corporate Law | IBBI Upholds RTI Reply on Historical CIRP Data Available in Public Domain",
+   "link": "https://taxguru.in/corporate-law/ibbi-upholds-rti-reply-historical-cirp-data-public-domain.html",
+   "published": "2026-11-12T08:22:49.000Z",
+   "firstSeen": "2026-11-12T08:31:43.970Z",
+   "summary": "IBBI rules that CPIO need not compile CIRP data in a requested format when historical insolvency information is available online.The post IBBI Upholds RTI Reply on Historical CIRP Data Available in Public Domain…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "3277c3fe21a0",
+   "area": "mca",
+   "sourceId": "taxguru-corporate",
+   "source": "TaxGuru Corporate Law",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Corporate Law | IBBI Upholds RTI Reply on Pancard Clubs Claim Disbursement: Appeal Disposed Of",
+   "link": "https://taxguru.in/corporate-law/ibbi-upholds-rti-reply-pancard-clubs-claim-disbursement-appeal-disposed.html",
+   "published": "2026-11-12T08:21:47.000Z",
+   "firstSeen": "2026-11-12T08:31:43.970Z",
+   "summary": "IBBI holds that RTI cannot compel claim-wise information compilation or grievance resolution where CIRP records are publicly available.The post IBBI Upholds RTI Reply on Pancard Clubs Claim Disbursement: Appeal Disposed…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "58ba4e9d37d3",
+   "area": "mca",
+   "sourceId": "taxguru-corporate",
+   "source": "TaxGuru Corporate Law",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Corporate Law | Gauhati HC Stays CIRP After Objections to Section 8 Demand Notice",
+   "link": "https://taxguru.in/corporate-law/gauhati-high-court-stays-cirp-objections-section-8-demand-notice.html",
+   "published": "2026-11-12T06:37:49.000Z",
+   "firstSeen": "2026-11-12T08:31:43.970Z",
+   "summary": "The post Gauhati HC Stays CIRP After Objections to Section 8 Demand Notice appeared first on TaxGuru.",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "b9d57d40df20",
+   "area": "sebi",
+   "sourceId": "taxguru-sebi",
+   "source": "TaxGuru SEBI",
+   "official": false,
+   "publisher": "",
+   "type": "Amendment",
+   "title": "SEBI | SEBI Revises FATCA and CRS Reporting for Intermediaries Under Income-tax Rules, 2026",
+   "link": "https://taxguru.in/sebi/sebi-revises-fatca-crs-reporting-intermediaries-income-tax-rules-2026.html",
+   "published": "2026-11-12T08:25:13.000Z",
+   "firstSeen": "2026-11-12T08:31:43.970Z",
+   "summary": "SEBI directs reporting financial institutions to update FATCA and CRS due diligence, Form 166 XML reporting and client certification uploads to KRAs.The post SEBI Revises FATCA and CRS Reporting for Intermediaries Under Income-tax Rules, 2026 appeared first on TaxGuru.",
+   "notes": [
+    "Summary: SEBI’s circular dated 11 November 2026, addressed to registered intermediaries, stock exchanges and depositories, sets out the revised FATCA and CRS requirements for reportable accounts under the Automatic Exchange of Information (AEOI) framework.",
+    "From 1 April 2026, Section 508 of the Income-tax Act, 2025, read with Rules 238 to 240 and Form 166 of the Income-tax Rules, 2026, replaced the earlier framework under Section 285BA of the Income-tax Act, 1961, Rules 114F to 114H and Form 61B.",
+    "With recent changes in the Income Tax regime, the Income Tax Act, 2025, read with the Income Tax Rules, 2026 (hereinafter referred to as “IT Rules, 2026”), has replaced the Income Tax Act, 1961, read with the Income Tax Rules, 1962, with effect from April…"
+   ],
+   "refs": [
+    "Circular No. HO/38/14/",
+    "Circular no. CIR/MIRSD/2/2015",
+    "Circular no. CIR/MIRSD/3/2015",
+    "Circular no. SEBI/HO/MIRSD/SECFATF/P/CIR/20"
+   ],
+   "deadlines": []
+  },
+  {
+   "id": "49f0972aa9da",
+   "area": "fema",
+   "sourceId": "taxguru-rbi",
+   "source": "TaxGuru RBI/FEMA",
+   "official": false,
+   "publisher": "",
+   "type": "Amendment",
+   "title": "Fema / RBI | RBI Domestic Money Transfer Directions, 2026 Set Cash Remittance Limits",
+   "link": "https://taxguru.in/rbi/rbi-domestic-money-transfer-directions-2026-set-cash-remittance-limits.html",
+   "published": "2026-11-12T07:56:17.000Z",
+   "firstSeen": "2026-11-12T08:31:43.970Z",
+   "summary": "RBI’s 2026 Domestic Money Transfer Directions set cash pay-in and pay-out limits, require remitter verification and repeal the 2011 and 2024 circulars.The post RBI Domestic Money Transfer Directions, 2026 Set Cash Remittance Limits appeared first on TaxGuru.",
+   "notes": [
+    "Summary: The Reserve Bank of India (RBI) issued the Domestic Money Transfer Directions, 2026 on 11 November 2026 under Section 18 read with Section 10(2) of the Payment and Settlement Systems Act, 2007.",
+    "Remitting banks / BCs shall register the remitter based on a verified cell phone number and a self-certified Officially Valid Document (OVD), as prescribed under the applicable Know Your Customer Directions, 2025 issued by the Reserve Bank, as amended from…",
+    "Remitting banks and their BCs shall comply with the applicable provisions of the Income-Tax Act, 2025, and the rules/regulations framed thereunder, as amended from time to time, pertaining to cash deposits."
+   ],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "ccfa2923d081",
+   "area": "fema",
+   "sourceId": "taxguru-rbi",
+   "source": "TaxGuru RBI/FEMA",
+   "official": false,
+   "publisher": "",
+   "type": "Advisory",
+   "title": "Fema / RBI | RBI FAQs on All you wanted to know about NBFCs | 11 November 2026 Update",
+   "link": "https://taxguru.in/rbi/rbi-faqs-wanted-nbfcs-11-november-2026-update.html",
+   "published": "2026-11-12T06:00:29.000Z",
+   "firstSeen": "2026-11-12T08:31:43.970Z",
+   "summary": "The issue concerns regulatory burden on smaller NBFCs without systemic risk exposure. The RBI introduced exemption for such entities under “Unregistered Type I NBFCs.” The key takeaway is that low-risk NBFCs may operate without registration subject to strict conditions.The post RBI FAQs on All you…",
+   "notes": [
+    "They cover registration under Section 45-IA of the RBI Act, the general ₹10 crore net owned fund requirement, the 31 March 2027 transition deadline for existing NBFCs, category-specific requirements, PRAVAAH applications, scale-based classification and…",
+    "The FAQs explain the 29 April 2026 amendment directions for Unregistered Type I NBFCs with assets below ₹1,000 crore, no public funds and no customer interface.",
+    "As per the legal framework under Factoring Regulation Act, 2011, all companies (including NBFCs registered under Section 45IA of RBI Act) shall be required to be registered under Factoring Regulation Act, 2011 in order to undertake factoring business."
+   ],
+   "refs": [],
+   "deadlines": [
+    {
+     "date": "2027-03-31",
+     "kind": "deadline",
+     "context": "In terms of Section 45-IA of the RBI Act, 1934, no company can commence or carry on business of a non-banking financial institution without obtaining a certificate of registration from the Reserve Bank and without having a Net Owned Funds (NOF) of ₹10 crore wi"
+    }
+   ]
+  },
+  {
+   "id": "e08729cdde76",
+   "area": "loan",
+   "sourceId": "news-loan-central",
+   "source": "News search: central schemes",
+   "official": false,
+   "publisher": "Daily Excelsior",
+   "type": "Scheme",
+   "title": "Cabinet extends Stand-up India Scheme",
+   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE12cGQ3dUNQQmdLMlNxdFZhSFpRVFF0d2ZTeWRZMFBfWkY2M1VZSGNXamFOTjZIY282Z0U4aU84S0JLT3RXQUVnSERDODc3OXpEdUpWY2JVOTM4T2lETW9wdjlPcV9LcFAtcG5sbXd1NEpMbk0wMEpHbdIBfEFVX3lxTE8td1VuYkNpWWl0dFd6TU9UeWdiMklIUVRXbF9lMzV5ck5KQ1M1azQ1MEhmdU5LUmxKbU8xclQ0MTYzXzlzS1E4Nko1SHQwZDBsNWw0SkdHc0RRekVVQWFLXzJ0OXVLeGxjQ1pHS3ZTVDhjcEx6R0FOMy12b2I?oc=5",
+   "published": "2026-11-11T22:43:02.000Z",
+   "firstSeen": "2026-11-12T08:31:43.970Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
   {
    "id": "ecf5adadd772",
    "area": "loan",
@@ -591,6 +923,63 @@
    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbmp5Y1JJdzJvNnJCVWVWXzRHNHNScjVFbXBjTVZ4MUhxM29LNWhDNVk5YnpVR3pBVVhWNzRNNHUwWW42MGk5WlAwZUtfZ2Y1WlJHZ1FONkZtbWZGTW1hYzU0eEd0QndZY3p4MjBvTWh0VG52MllkVjhJdzZvWnJ5ZlJsNmh6YnFkQ25KWjFsS01iWmPSAZgBQVVfeXFMT1F0eVppR19EUmh4QllrQ3RHdjVTM0s2cFQzQVRMYmx2UDNCeFFZTXRIZy1VTTd6emp2UkVMVmxzMmJKRzBwRFdJUXd5QjlQSzgtclZaZHp3T3V1X2lCVmJUejNiOURxQzJyTGdtVWlOLWZOZGRuQy1rV2RjTElwZmlJZFF2THprbjM4OGk5djQ0YS1iTU5FOXE?oc=5",
    "published": "2026-11-11T18:42:20.000Z",
    "firstSeen": "2026-11-11T21:28:34.878Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "0efed9abb128",
+   "area": "tds",
+   "sourceId": "news-tds",
+   "source": "News search: TDS/TCS",
+   "official": false,
+   "publisher": "TaxCorp AI",
+   "type": "Update",
+   "title": "Salary TDS Transition: Form 130 and Form 138 Under the Income-tax Act 2025",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOWW1wRDc1akxUYWk3NlJlRGVpdGx1cElpdDZ0dTRIUks5dmpkSDVJaXdlVG00OGdFd01tUFNpb3EwcFk0eHpIXzdOWWRsMkVJNWZqWTNHM0RfM0oxcGMtRy1mbUwwSmN0NWNJdFIyaFh6NndhWHdaV185dG1iY283SG1ZN0N5NmVrY2JFaEtzeGItZnZlNWstYk9SNU5OTmRzWmF6ZFdB?oc=5",
+   "published": "2026-11-11T14:03:52.000Z",
+   "firstSeen": "2026-11-12T08:31:43.970Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "ecedf64f595d",
+   "area": "loan",
+   "sourceId": "news-loan-central",
+   "source": "News search: central schemes",
+   "official": false,
+   "publisher": "ET Government",
+   "type": "Due date",
+   "title": "Centre extends Stand-Up India Scheme till March 31, 2031",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbzktdHpCMi1lRDJzT25LYXJYZFBrYWkxQTRhZEJjUGE2a0RxV0xEa05JbkxkYnZKWGs4QWszYVpHbVhRM2NrUFJhdzFycXFuV01WeEVlZ2tGam5UMWJWZXNMOFpQalItSGZfQXBzR0ZKT1d2WWl2YUxvdm81QVFqQ2xab3hpUzFUMXlrTXZTZnk5MGJZaDhJcG9reFg5UHloTHd6aEJSZm85ZS1KeG1DS1B6b1AzekVDakM5TERsSE1PYTdFTDBR0gHHAUFVX3lxTE1vOS10ekIyLWVEMnNPbkthclhkUGthaTFBNGFkQmNQYTZrRHFXTERrTkluTGRidkpYazhBazNhWkdtWFEzY2tQUmF3MXJxcW5XTVZ4RWVna0ZqblQxYlZlc0w4WlBqUi1IZl9BcHNHRkpPV3ZZaXZhTG92bzVBUWpDbFpveGlTMVQxeWtNdlNmeTkwYlloOElwb2t4WDlQeWhMd3poQlJmbzllLUp4bUNLUHpvUDN6RUNqQzlMRGxITU9hN0VMMFE?oc=5",
+   "published": "2026-11-11T15:55:31.000Z",
+   "firstSeen": "2026-11-12T08:31:43.970Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": [
+    {
+     "date": "2031-03-31",
+     "kind": "deadline",
+     "context": "Centre extends Stand-Up India Scheme till March 31, 2031"
+    }
+   ]
+  },
+  {
+   "id": "04ced884daef",
+   "area": "loan",
+   "sourceId": "news-loan-central",
+   "source": "News search: central schemes",
+   "official": false,
+   "publisher": "The Statesman",
+   "type": "Due date",
+   "title": "Cabinet Extends Mudra Loan Guarantee Scheme Till 2031, Clears Rs 5,000-Crore Corpus to Unlock Rs 12.6 Lakh Crore in Credit",
+   "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOaS1ObHZ2R1NZTWs1TG1XZmZ1bU81WkF0NU8zM3RYRGRYVzYySzl3MndVblExZjVRelc1bDdZXy1RcnNESmZOWTlxOFhXdnpWakFkNHZ1MGJjdTY5MzNFbWdsNVdKZXdoWFhQaDIyTnVRU2dady13TWJWV1R1T1FkNmxOblM4ZE9rd3hwVUItYVdLMlBtdVJ2dkZyZ1A4cjY0cHNheGk0MERwZGNmcEEwUExNSVY3WWNqd3dGTWt4VFJiWVlwaXFxZVpoSTR2OE9BMjlteVpQU0VKZFZPSlFhWER1M3ZLMGhGUlFBaTAxYlI1U3ViRjVGVFdTUGVTNjBP0gGGAkFVX3lxTE9rd3Q5akZfeWx2R2p2X2ZTS3ZfTXRqdE9pVHRqdDNoeWJXWVZGZFRleGhUdkFpcG8tOGE0MUpIVUM2UHRxcWc5VjZ3emFJaThCT2RXSDkzVVptOU1sQ01DOUkxUWlaQllXcl9OMy1JSjkyWnl3UkNmQlF4RGRLTFhPQ3EtZm9SQXNkVmwxSFhQS2R3SGlyYVA0N1lCbThvUWRFMG0tbzNDRXpMbVBmUVNfSWZYcThMc0RnTm9RLW9xRkliemxMUEJSdmJkdWdBZU9BVVM1a2E3bUh1d213amVzaWZZZFhLbW9WQWpjdzRGckZKazgxeTVnVGUzYllUMkF5ZnpqOHc?oc=5",
+   "published": "2026-11-11T11:47:00.000Z",
+   "firstSeen": "2026-11-12T08:31:43.970Z",
    "summary": "",
    "notes": [],
    "refs": [],
@@ -696,7 +1085,10 @@
    "summary": "",
    "notes": [],
    "refs": [],
-   "deadlines": []
+   "deadlines": [],
+   "alsoIn": [
+    "News search: TDS/TCS"
+   ]
   },
   {
    "id": "e022ab5538b4",
@@ -1787,6 +2179,23 @@
    "link": "https://news.google.com/rss/articles/CBMitgJBVV95cUxOZ3N5ZW5QQlp3eEtMVTFFdEM4OXZLY1ZIZVR1ejNmSGVrbDJZV3MzNVlTcHVhTEwtNHE3OGJSR3kyb1E2N0hpbG9XVV8tSzc3RndrSWtmVzdYcGpSaGZDU2pNTDNHbTJBZndnZzhGeWJrV0QxbFh5Tnl3eVpvNmNQcE82a1gtbk51UV8xRVRiMjNteXJWVl8wM2NwOEw2bl83cmpYQ0Fsd09FQXU3VmU1aGEtZUtvaHdpV1hKWWN1VENBdkJNRUhGN0NHcFIzQnVfMDNmd1VCX29CUDFLRnA4djA2RVk4blgtd2RLaXNyajVRQk9mcUFOS2xCc3cyb2h6THJGeGNrY2NnemxhNWFHT2tjODh6LUZwN0RTalFOb05LVG9tNUJFdkgyNFMxeDJoYUwtdlVn0gGvAkFVX3lxTFAtcFBWcnFKOGhpNGNYRDlFR2F3aUthRGdOQ09HQ1I4Q2FObGFNYk9iMG5rVXN6UWE2VWI4em9jR09NZ0JQZDVDWkZhZ3FxV1pCRHdvbUM4Q0FrbEhtLTNkME5QZHl4RUloQ09mUUxaU0lwV3FfdFVqNDVQeGpraWdpREEybnpqVjZUSlRrbm92aGhpMUhiQ2FyWmpxNUFfeDFFdk5TUk9FcFpRdlVESXdsOEdjLUg4bXlBNzZSWV93QTFVTklvdHdZZWxmTGNMblhJX2QyUnNySGZIclFOc0xmSlZ1d25ISGxOc2NGcmJ4SVkyR18yZC1OUEUwQThqRm1uSU5icjJSVlJwRWQ3MFc1TlR1ekJFcEIxSjdSdjI1N2Q3dGdsakRfNUI3d2U1aw?oc=5",
    "published": "2026-11-11T02:53:36.000Z",
    "firstSeen": "2026-11-11T07:54:38.863Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "1acf69a16313",
+   "area": "labour",
+   "sourceId": "news-labour",
+   "source": "News search: EPFO, ESIC, labour codes",
+   "official": false,
+   "publisher": "Times Bull",
+   "type": "Notification",
+   "title": "Chhath Puja 2026: Public Holiday Declared on November 16, Check Notification",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPME11QWJNVjR4ZlFGZzA5Ny00XzB5WWdxeklzMnlyVzBBMG5Pc0dELXJKMDRHQTZ2MndfMGVTSkJzMzBCY0RqRGRJU3JVREJ1Q0U5UHVzaUU1Y1AwTXA0REltTnhlUlpkblp3MUNaRXZUZlU2VzhzTzVaRkplcV9vZ2lSN1BHWHBnWE1jSGlhR3N1UlMteVRuOXlkWUNPdkJYN2JJ?oc=5",
+   "published": "2026-11-10T09:00:18.000Z",
+   "firstSeen": "2026-11-12T08:31:43.970Z",
    "summary": "",
    "notes": [],
    "refs": [],
@@ -2942,7 +3351,10 @@
    "summary": "",
    "notes": [],
    "refs": [],
-   "deadlines": []
+   "deadlines": [],
+   "alsoIn": [
+    "News search: central schemes"
+   ]
   },
   {
    "id": "c69f5cfb05e4",
