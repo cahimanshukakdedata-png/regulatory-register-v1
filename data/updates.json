@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-11-13T08:18:12.668Z",
+ "generatedAt": "2026-11-13T13:21:28.458Z",
  "repo": "cahimanshukakdedata-png/regulatory-register-v1",
- "newThisRun": 57,
+ "newThisRun": 29,
  "sources": [
   {
    "id": "icai-home",
@@ -14,8 +14,8 @@
    "fetched": 36,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-13T08:18:12.668Z",
-   "ms": 1205
+   "lastOk": "2026-11-13T13:21:28.458Z",
+   "ms": 1240
   },
   {
    "id": "news-acc",
@@ -25,11 +25,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(ICAI%20OR%20NFRA%20OR%20%22Ind%20AS%22%20OR%20UDIN)%20(announcement%20OR%20notification%20OR%20amendment%20OR%20guidance)%20when%3A14d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 22,
-   "kept": 2,
+   "fetched": 23,
+   "kept": 3,
    "note": "",
-   "lastOk": "2026-11-13T08:18:12.668Z",
-   "ms": 309
+   "lastOk": "2026-11-13T13:21:28.458Z",
+   "ms": 301
   },
   {
    "id": "nfra-home",
@@ -42,8 +42,8 @@
    "fetched": 24,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-13T08:18:12.668Z",
-   "ms": 1579
+   "lastOk": "2026-11-13T13:21:28.458Z",
+   "ms": 1852
   },
   {
    "id": "taxguru-ca",
@@ -56,8 +56,8 @@
    "fetched": 75,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-11-13T08:18:12.668Z",
-   "ms": 912
+   "lastOk": "2026-11-13T13:21:28.458Z",
+   "ms": 914
   },
   {
    "id": "rbi-notifications",
@@ -70,8 +70,8 @@
    "fetched": 10,
    "kept": 7,
    "note": "",
-   "lastOk": "2026-11-13T08:18:12.668Z",
-   "ms": 350
+   "lastOk": "2026-11-13T13:21:28.458Z",
+   "ms": 1305
   },
   {
    "id": "rbi-press",
@@ -84,8 +84,8 @@
    "fetched": 10,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-13T08:18:12.668Z",
-   "ms": 35
+   "lastOk": "2026-11-13T13:21:28.458Z",
+   "ms": 584
   },
   {
    "id": "taxguru-rbi",
@@ -98,8 +98,8 @@
    "fetched": 75,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-11-13T08:18:12.668Z",
-   "ms": 664
+   "lastOk": "2026-11-13T13:21:28.458Z",
+   "ms": 874
   },
   {
    "id": "cbic-gst",
@@ -112,8 +112,8 @@
    "fetched": 20,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-13T08:18:12.668Z",
-   "ms": 1421
+   "lastOk": "2026-11-13T13:21:28.458Z",
+   "ms": 1685
   },
   {
    "id": "gst-council",
@@ -126,8 +126,8 @@
    "fetched": 20,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-13T08:18:12.668Z",
-   "ms": 1893
+   "lastOk": "2026-11-13T13:21:28.458Z",
+   "ms": 1981
   },
   {
    "id": "gst-portal-news",
@@ -140,8 +140,8 @@
    "fetched": 0,
    "kept": 0,
    "note": "page returned no usable links (it may need a real browser); this section relies on its other sources",
-   "lastOk": "2026-11-13T08:18:12.668Z",
-   "ms": 1671
+   "lastOk": "2026-11-13T13:21:28.458Z",
+   "ms": 1641
   },
   {
    "id": "news-gst",
@@ -151,11 +151,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(CBIC%20OR%20GSTN%20OR%20%22GST%20Council%22%20OR%20CGST)%20(notification%20OR%20circular%20OR%20advisory%20OR%20extended)%20when%3A10d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 18,
-   "kept": 8,
+   "fetched": 19,
+   "kept": 10,
    "note": "",
-   "lastOk": "2026-11-13T08:18:12.668Z",
-   "ms": 253
+   "lastOk": "2026-11-13T13:21:28.458Z",
+   "ms": 363
   },
   {
    "id": "taxguru-gst",
@@ -168,8 +168,8 @@
    "fetched": 75,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-11-13T08:18:12.668Z",
-   "ms": 1735
+   "lastOk": "2026-11-13T13:21:28.458Z",
+   "ms": 1922
   },
   {
    "id": "cbdt-communications",
@@ -179,11 +179,11 @@
    "official": true,
    "url": "https://incometaxindia.gov.in/pages/communications/index.aspx",
    "ok": true,
-   "fetched": 4,
+   "fetched": 5,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-13T08:18:12.668Z",
-   "ms": 4321
+   "lastOk": "2026-11-13T13:21:28.458Z",
+   "ms": 6183
   },
   {
    "id": "itd-latest",
@@ -196,8 +196,8 @@
    "fetched": 39,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-13T08:18:12.668Z",
-   "ms": 1146
+   "lastOk": "2026-11-13T13:21:28.458Z",
+   "ms": 1162
   },
   {
    "id": "news-it",
@@ -207,11 +207,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=CBDT%20(notification%20OR%20circular%20OR%20%22due%20date%22%20OR%20extended%20OR%20scheme)%20when%3A10d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 21,
-   "kept": 13,
+   "fetched": 23,
+   "kept": 15,
    "note": "",
-   "lastOk": "2026-11-13T08:18:12.668Z",
-   "ms": 242
+   "lastOk": "2026-11-13T13:21:28.458Z",
+   "ms": 284
   },
   {
    "id": "taxguru-it",
@@ -224,8 +224,8 @@
    "fetched": 75,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-11-13T08:18:12.668Z",
-   "ms": 1952
+   "lastOk": "2026-11-13T13:21:28.458Z",
+   "ms": 1785
   },
   {
    "id": "epfo-home",
@@ -238,8 +238,8 @@
    "fetched": 0,
    "kept": 0,
    "note": "site refused a direct request (known to refuse direct requests); read through r.jina.ai; page returned no usable links (it may need a real browser); this section relies on its other sources",
-   "lastOk": "2026-11-13T08:18:12.668Z",
-   "ms": 43446
+   "lastOk": "2026-11-13T13:21:28.458Z",
+   "ms": 31606
   },
   {
    "id": "esic-home",
@@ -252,8 +252,8 @@
    "fetched": 52,
    "kept": 0,
    "note": "site refused a direct request (known to refuse direct requests); read through r.jina.ai",
-   "lastOk": "2026-11-13T08:18:12.668Z",
-   "ms": 45056
+   "lastOk": "2026-11-13T13:21:28.458Z",
+   "ms": 57948
   },
   {
    "id": "news-labour",
@@ -264,10 +264,10 @@
    "url": "https://news.google.com/rss/search?q=(EPFO%20OR%20ESIC%20OR%20%22labour%20code%22)%20(notification%20OR%20circular%20OR%20rules%20OR%20extended%20OR%20deadline)%20when%3A14d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
    "fetched": 26,
-   "kept": 9,
+   "kept": 10,
    "note": "",
-   "lastOk": "2026-11-13T08:18:12.668Z",
-   "ms": 270
+   "lastOk": "2026-11-13T13:21:28.458Z",
+   "ms": 283
   },
   {
    "id": "cgtmse",
@@ -280,8 +280,8 @@
    "fetched": 1,
    "kept": 0,
    "note": "site refused a direct request (known to refuse direct requests); read through r.jina.ai",
-   "lastOk": "2026-11-13T08:18:12.668Z",
-   "ms": 45668
+   "lastOk": "2026-11-13T13:21:28.458Z",
+   "ms": 57745
   },
   {
    "id": "maitri-mh",
@@ -294,8 +294,8 @@
    "fetched": 0,
    "kept": 0,
    "note": "site refused a direct request (HTTP 503); read through r.jina.ai; page returned no usable links (it may need a real browser); this section relies on its other sources",
-   "lastOk": "2026-11-13T08:18:12.668Z",
-   "ms": 44122
+   "lastOk": "2026-11-13T13:21:28.458Z",
+   "ms": 34300
   },
   {
    "id": "msme-ministry",
@@ -308,8 +308,8 @@
    "fetched": 0,
    "kept": 0,
    "note": "page returned no usable links (it may need a real browser); this section relies on its other sources",
-   "lastOk": "2026-11-13T08:18:12.668Z",
-   "ms": 2058
+   "lastOk": "2026-11-13T13:21:28.458Z",
+   "ms": 2221
   },
   {
    "id": "nabard",
@@ -322,8 +322,8 @@
    "fetched": 5,
    "kept": 0,
    "note": "site refused a direct request (known to refuse direct requests); read through r.jina.ai",
-   "lastOk": "2026-11-13T08:18:12.668Z",
-   "ms": 57689
+   "lastOk": "2026-11-13T13:21:28.458Z",
+   "ms": 58750
   },
   {
    "id": "news-loan-central",
@@ -333,11 +333,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(MSME%20OR%20PMEGP%20OR%20MUDRA%20OR%20CGTMSE%20OR%20%22Stand-Up%20India%22%20OR%20%22interest%20subvention%22)%20(scheme%20OR%20subsidy%20OR%20guidelines%20OR%20extended%20OR%20notification)%20when%3A14d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 84,
+   "fetched": 94,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-11-13T08:18:12.668Z",
-   "ms": 413
+   "lastOk": "2026-11-13T13:21:28.458Z",
+   "ms": 601
   },
   {
    "id": "news-loan-east",
@@ -347,11 +347,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(%22West%20Bengal%22%20OR%20Odisha%20OR%20Jharkhand%20OR%20Chhattisgarh%20OR%20Assam%20OR%20%22North%20East%22)%20(subsidy%20OR%20incentive%20OR%20%22industrial%20policy%22%20OR%20%22loan%20scheme%22)%20when%3A21d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 37,
-   "kept": 6,
+   "fetched": 39,
+   "kept": 8,
    "note": "",
-   "lastOk": "2026-11-13T08:18:12.668Z",
-   "ms": 299
+   "lastOk": "2026-11-13T13:21:28.458Z",
+   "ms": 346
   },
   {
    "id": "news-loan-farm",
@@ -364,8 +364,8 @@
    "fetched": 14,
    "kept": 6,
    "note": "",
-   "lastOk": "2026-11-13T08:18:12.668Z",
-   "ms": 279
+   "lastOk": "2026-11-13T13:21:28.458Z",
+   "ms": 302
   },
   {
    "id": "news-loan-mh",
@@ -375,11 +375,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=Maharashtra%20(subsidy%20OR%20incentive%20OR%20%22industrial%20policy%22%20OR%20%22loan%20scheme%22)%20(government%20OR%20notified%20OR%20launched%20OR%20guidelines)%20when%3A21d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 22,
-   "kept": 9,
+   "fetched": 21,
+   "kept": 8,
    "note": "",
-   "lastOk": "2026-11-13T08:18:12.668Z",
-   "ms": 274
+   "lastOk": "2026-11-13T13:21:28.458Z",
+   "ms": 346
   },
   {
    "id": "news-loan-north",
@@ -392,8 +392,8 @@
    "fetched": 27,
    "kept": 8,
    "note": "",
-   "lastOk": "2026-11-13T08:18:12.668Z",
-   "ms": 329
+   "lastOk": "2026-11-13T13:21:28.458Z",
+   "ms": 331
   },
   {
    "id": "news-loan-south",
@@ -406,8 +406,8 @@
    "fetched": 27,
    "kept": 6,
    "note": "",
-   "lastOk": "2026-11-13T08:18:12.668Z",
-   "ms": 310
+   "lastOk": "2026-11-13T13:21:28.458Z",
+   "ms": 307
   },
   {
    "id": "news-loan-west",
@@ -417,11 +417,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(Gujarat%20OR%20%22Madhya%20Pradesh%22%20OR%20Rajasthan%20OR%20Goa)%20(subsidy%20OR%20%22industrial%20policy%22%20OR%20incentive%20OR%20%22loan%20scheme%22)%20when%3A21d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 30,
-   "kept": 5,
+   "fetched": 29,
+   "kept": 4,
    "note": "",
-   "lastOk": "2026-11-13T08:18:12.668Z",
-   "ms": 295
+   "lastOk": "2026-11-13T13:21:28.458Z",
+   "ms": 340
   },
   {
    "id": "pmegp-kvic",
@@ -435,7 +435,7 @@
    "kept": 0,
    "error": "website address could not be found (DNS)",
    "lastOk": "2026-09-29T01:36:20.178Z",
-   "ms": 59453
+   "ms": 81383
   },
   {
    "id": "sidbi",
@@ -448,8 +448,8 @@
    "fetched": 10,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-13T08:18:12.668Z",
-   "ms": 3189
+   "lastOk": "2026-11-13T13:21:28.458Z",
+   "ms": 4262
   },
   {
    "id": "mca-home",
@@ -462,8 +462,8 @@
    "fetched": 33,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-13T08:18:12.668Z",
-   "ms": 2235
+   "lastOk": "2026-11-13T13:21:28.458Z",
+   "ms": 1722
   },
   {
    "id": "news-mca",
@@ -476,8 +476,8 @@
    "fetched": 20,
    "kept": 13,
    "note": "",
-   "lastOk": "2026-11-13T08:18:12.668Z",
-   "ms": 246
+   "lastOk": "2026-11-13T13:21:28.458Z",
+   "ms": 364
   },
   {
    "id": "taxguru-company",
@@ -490,8 +490,8 @@
    "fetched": 75,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-11-13T08:18:12.668Z",
-   "ms": 1195
+   "lastOk": "2026-11-13T13:21:28.458Z",
+   "ms": 1397
   },
   {
    "id": "taxguru-corporate",
@@ -504,8 +504,8 @@
    "fetched": 75,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-11-13T08:18:12.668Z",
-   "ms": 981
+   "lastOk": "2026-11-13T13:21:28.458Z",
+   "ms": 1032
   },
   {
    "id": "mahagst-pt",
@@ -519,7 +519,7 @@
    "kept": 0,
    "error": "the website did not answer in time",
    "lastOk": null,
-   "ms": 156980
+   "ms": 163797
   },
   {
    "id": "news-mh",
@@ -532,7 +532,7 @@
    "fetched": 12,
    "kept": 8,
    "note": "",
-   "lastOk": "2026-11-13T08:18:12.668Z",
+   "lastOk": "2026-11-13T13:21:28.458Z",
    "ms": 243
   },
   {
@@ -544,10 +544,10 @@
    "url": "https://www.sebi.gov.in/sebirss.xml",
    "ok": true,
    "fetched": 30,
-   "kept": 15,
+   "kept": 21,
    "note": "",
-   "lastOk": "2026-11-13T08:18:12.668Z",
-   "ms": 2188
+   "lastOk": "2026-11-13T13:21:28.458Z",
+   "ms": 1414
   },
   {
    "id": "taxguru-sebi",
@@ -560,8 +560,8 @@
    "fetched": 75,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-11-13T08:18:12.668Z",
-   "ms": 887
+   "lastOk": "2026-11-13T13:21:28.458Z",
+   "ms": 893
   },
   {
    "id": "news-tds",
@@ -572,13 +572,477 @@
    "url": "https://news.google.com/rss/search?q=(TDS%20OR%20TCS%20OR%20TRACES)%20(CBDT%20OR%20notification%20OR%20%22due%20date%22%20OR%20form)%20when%3A14d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
    "fetched": 29,
-   "kept": 7,
+   "kept": 6,
    "note": "",
-   "lastOk": "2026-11-13T08:18:12.668Z",
-   "ms": 379
+   "lastOk": "2026-11-13T13:21:28.458Z",
+   "ms": 384
   }
  ],
  "items": [
+  {
+   "id": "29b9520f9e8f",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | Section 269SS Not Applicable to Cash Received at Property Registration: ITAT Cuttack",
+   "link": "https://taxguru.in/income-tax/section-269ss-not-applicable-cash-received-property-registration-itat-cuttack.html",
+   "published": "2026-11-13T08:23:09.000Z",
+   "firstSeen": "2026-11-13T13:21:28.458Z",
+   "summary": "The post Section 269SS Not Applicable to Cash Received at Property Registration: ITAT Cuttack appeared first on TaxGuru.",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "66eff1b823ef",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | Section 269SS Penalty Not Applicable to Cash Sale Consideration: ITAT Cuttack",
+   "link": "https://taxguru.in/income-tax/section-269ss-penalty-not-applicable-cash-sale-consideration-itat-cuttack.html",
+   "published": "2026-11-13T08:22:19.000Z",
+   "firstSeen": "2026-11-13T13:21:28.458Z",
+   "summary": "The post Section 269SS Penalty Not Applicable to Cash Sale Consideration: ITAT Cuttack appeared first on TaxGuru.",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "86beec8f37c2",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | Section 148 Notice Issued on 1 April 2021 Invalid Without Section 148A Compliance: ITAT Agra",
+   "link": "https://taxguru.in/income-tax/section-148-notice-issued-1-april-2021-invalid-without-section-148a-compliance-itat-agra.html",
+   "published": "2026-11-13T08:18:29.000Z",
+   "firstSeen": "2026-11-13T13:21:28.458Z",
+   "summary": "The post Section 148 Notice Issued on 1 April 2021 Invalid Without Section 148A Compliance: ITAT Agra appeared first on TaxGuru.",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "fe23e37ab7dc",
+   "area": "mca",
+   "sourceId": "taxguru-corporate",
+   "source": "TaxGuru Corporate Law",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Corporate Law | Arrest Without Written Grounds Illegal Despite Magistrate Remand: Bombay High Court",
+   "link": "https://taxguru.in/corporate-law/arrest-without-written-grounds-illegal-magistrate-remand-bombay-high-court.html",
+   "published": "2026-11-13T09:21:38.000Z",
+   "firstSeen": "2026-11-13T13:21:28.458Z",
+   "summary": "The post Arrest Without Written Grounds Illegal Despite Magistrate Remand: Bombay High Court appeared first on TaxGuru.",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "c95197bd8d39",
+   "area": "mca",
+   "sourceId": "taxguru-corporate",
+   "source": "TaxGuru Corporate Law",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Corporate Law | POCSO Bail Denied Despite Alleged Non-Supply of Arrest Grounds: Bombay HC",
+   "link": "https://taxguru.in/corporate-law/pocso-bail-denied-alleged-non-supply-arrest-grounds-bombay-hc.html",
+   "published": "2026-11-13T09:19:11.000Z",
+   "firstSeen": "2026-11-13T13:21:28.458Z",
+   "summary": "The post POCSO Bail Denied Despite Alleged Non-Supply of Arrest Grounds: Bombay HC appeared first on TaxGuru.",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "11be19c8cb20",
+   "area": "mca",
+   "sourceId": "taxguru-corporate",
+   "source": "TaxGuru Corporate Law",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Corporate Law | Oral Communication of Arrest Grounds Upheld in POCSO Cases: Bombay HC",
+   "link": "https://taxguru.in/corporate-law/oral-communication-arrest-grounds-upheld-pocso-cases-bombay-hc.html",
+   "published": "2026-11-13T09:16:23.000Z",
+   "firstSeen": "2026-11-13T13:21:28.458Z",
+   "summary": "The post Oral Communication of Arrest Grounds Upheld in POCSO Cases: Bombay HC appeared first on TaxGuru.",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "1fe7ab4b9e25",
+   "area": "mca",
+   "sourceId": "taxguru-corporate",
+   "source": "TaxGuru Corporate Law",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Corporate Law | POCSO Arrest Challenge Rejected After Judicial Remand and Trial: Bombay HC",
+   "link": "https://taxguru.in/corporate-law/pocso-arrest-challenge-rejected-judicial-remand-trial-bombay-hc.html",
+   "published": "2026-11-13T09:13:47.000Z",
+   "firstSeen": "2026-11-13T13:21:28.458Z",
+   "summary": "The post POCSO Arrest Challenge Rejected After Judicial Remand and Trial: Bombay HC appeared first on TaxGuru.",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "74459f626ed4",
+   "area": "mca",
+   "sourceId": "taxguru-corporate",
+   "source": "TaxGuru Corporate Law",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Corporate Law | Section 18 Does Not Permit Unlimited Evidence in Arbitration: Delhi HC",
+   "link": "https://taxguru.in/corporate-law/section-18-not-permit-unlimited-evidence-arbitration-delhi-hc.html",
+   "published": "2026-11-13T08:21:43.000Z",
+   "firstSeen": "2026-11-13T13:21:28.458Z",
+   "summary": "The post Section 18 Does Not Permit Unlimited Evidence in Arbitration: Delhi HC appeared first on TaxGuru.",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "0abdb6a9b2c0",
+   "area": "mca",
+   "sourceId": "taxguru-corporate",
+   "source": "TaxGuru Corporate Law",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Corporate Law | Arbitrator Cannot Rewrite Contract or Impose New Terms: Supreme Court",
+   "link": "https://taxguru.in/corporate-law/arbitrator-cannot-rewrite-contract-impose-terms-supreme-court.html",
+   "published": "2026-11-13T08:20:52.000Z",
+   "firstSeen": "2026-11-13T13:21:28.458Z",
+   "summary": "The post Arbitrator Cannot Rewrite Contract or Impose New Terms: Supreme Court appeared first on TaxGuru.",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "ad2696c2066f",
+   "area": "mca",
+   "sourceId": "taxguru-corporate",
+   "source": "TaxGuru Corporate Law",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Corporate Law | High Court Cannot Overturn Plausible Arbitral Award Under Section 37: Supreme Court",
+   "link": "https://taxguru.in/corporate-law/high-court-cannot-overturn-plausible-arbitral-award-section-37-supreme-court.html",
+   "published": "2026-11-13T08:19:50.000Z",
+   "firstSeen": "2026-11-13T13:21:28.458Z",
+   "summary": "The post High Court Cannot Overturn Plausible Arbitral Award Under Section 37: Supreme Court appeared first on TaxGuru.",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "d892f753e41e",
+   "area": "sebi",
+   "sourceId": "sebi-rss",
+   "source": "SEBI",
+   "official": true,
+   "publisher": "",
+   "type": "Article",
+   "title": "General Remittance Order dated November 13, 2026 issued against Subhalakshmi M S under RC No. 7712 of 2024 in the matter of Arvind Remedies Ltd.",
+   "link": "https://www.sebi.gov.in/enforcement/recovery-proceedings/nov-2026/general-remittance-order-dated-november-13-2026-issued-against-subhalakshmi-m-s-under-rc-no-7712-of-2024-in-the-matter-of-arvind-remedies-ltd-_105772.html",
+   "published": "2026-11-13T00:00:00.000Z",
+   "firstSeen": "2026-11-13T13:21:28.458Z",
+   "summary": "General Remittance Order dated November 13, 2026 issued against Subhalakshmi M S under RC No. 7712 of 2024 in the matter of Arvind Remedies Ltd.",
+   "notes": [
+    "General Remittance Order dated November 13, 2026 issued against Subhalakshmi M S under RC No. 7712 of 2024 in the matter of Arvind Remedies Ltd."
+   ],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "c866ef1c5f7e",
+   "area": "sebi",
+   "sourceId": "sebi-rss",
+   "source": "SEBI",
+   "official": true,
+   "publisher": "",
+   "type": "Article",
+   "title": "General Remittance Order dated November 13, 2026 issued against S Sengolancy Beaula under RC No. 7711 of 2024 in the matter of Arvind Remedies Ltd.",
+   "link": "https://www.sebi.gov.in/enforcement/recovery-proceedings/nov-2026/general-remittance-order-dated-november-13-2026-issued-against-s-sengolancy-beaula-under-rc-no-7711-of-2024-in-the-matter-of-arvind-remedies-ltd-_105770.html",
+   "published": "2026-11-13T00:00:00.000Z",
+   "firstSeen": "2026-11-13T13:21:28.458Z",
+   "summary": "General Remittance Order dated November 13, 2026 issued against S Sengolancy Beaula under RC No. 7711 of 2024 in the matter of Arvind Remedies Ltd.",
+   "notes": [
+    "General Remittance Order dated November 13, 2026 issued against S Sengolancy Beaula under RC No. 7711 of 2024 in the matter of Arvind Remedies Ltd."
+   ],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "465a75cc06a8",
+   "area": "sebi",
+   "sourceId": "sebi-rss",
+   "source": "SEBI",
+   "official": true,
+   "publisher": "",
+   "type": "Article",
+   "title": "General Remittance Order dated November 13, 2026 issued against M Sethujanani under RC No. 7709 of 2024 in the matter of Arvind Remedies Ltd.",
+   "link": "https://www.sebi.gov.in/enforcement/recovery-proceedings/nov-2026/general-remittance-order-dated-november-13-2026-issued-against-m-sethujanani-under-rc-no-7709-of-2024-in-the-matter-of-arvind-remedies-ltd-_105769.html",
+   "published": "2026-11-13T00:00:00.000Z",
+   "firstSeen": "2026-11-13T13:21:28.458Z",
+   "summary": "General Remittance Order dated November 13, 2026 issued against M Sethujanani under RC No. 7709 of 2024 in the matter of Arvind Remedies Ltd.",
+   "notes": [
+    "General Remittance Order dated November 13, 2026 issued against M Sethujanani under RC No. 7709 of 2024 in the matter of Arvind Remedies Ltd."
+   ],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "30ba29e433ea",
+   "area": "sebi",
+   "sourceId": "sebi-rss",
+   "source": "SEBI",
+   "official": true,
+   "publisher": "",
+   "type": "Article",
+   "title": "General Remittance Order dated November 13, 2026 issued against Shreyanse Finance Ltd under RC No. 7708 of 2024 in the matter of Arvind Remedies Ltd.",
+   "link": "https://www.sebi.gov.in/enforcement/recovery-proceedings/nov-2026/general-remittance-order-dated-november-13-2026-issued-against-shreyanse-finance-ltd-under-rc-no-7708-of-2024-in-the-matter-of-arvind-remedies-ltd-_105767.html",
+   "published": "2026-11-13T00:00:00.000Z",
+   "firstSeen": "2026-11-13T13:21:28.458Z",
+   "summary": "General Remittance Order dated November 13, 2026 issued against Shreyanse Finance Ltd under RC No. 7708 of 2024 in the matter of Arvind Remedies Ltd.",
+   "notes": [
+    "General Remittance Order dated November 13, 2026 issued against Shreyanse Finance Ltd under RC No. 7708 of 2024 in the matter of Arvind Remedies Ltd."
+   ],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "7c3767023d4d",
+   "area": "sebi",
+   "sourceId": "sebi-rss",
+   "source": "SEBI",
+   "official": true,
+   "publisher": "",
+   "type": "Article",
+   "title": "General Remittance Order dated November 13, 2026 issued against Murali Prakash Naidu under RC No. 7707 of 2024 in the matter of Arvind Remedies Ltd",
+   "link": "https://www.sebi.gov.in/enforcement/recovery-proceedings/nov-2026/general-remittance-order-dated-november-13-2026-issued-against-murali-prakash-naidu-under-rc-no-7707-of-2024-in-the-matter-of-arvind-remedies-ltd_105765.html",
+   "published": "2026-11-13T00:00:00.000Z",
+   "firstSeen": "2026-11-13T13:21:28.458Z",
+   "summary": "General Remittance Order dated November 13, 2026 issued against Murali Prakash Naidu under RC No. 7707 of 2024 in the matter of Arvind Remedies Ltd",
+   "notes": [
+    "General Remittance Order dated November 13, 2026 issued against Murali Prakash Naidu under RC No. 7707 of 2024 in the matter of Arvind Remedies Ltd"
+   ],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "981d6b6e03ea",
+   "area": "sebi",
+   "sourceId": "sebi-rss",
+   "source": "SEBI",
+   "official": true,
+   "publisher": "",
+   "type": "Article",
+   "title": "General Remittance Order dated November 13, 2026 issued against Solomon Y under RC No. 7706 of 2024 in the matter of Arvind Remedies Ltd.",
+   "link": "https://www.sebi.gov.in/enforcement/recovery-proceedings/nov-2026/general-remittance-order-dated-november-13-2026-issued-against-solomon-y-under-rc-no-7706-of-2024-in-the-matter-of-arvind-remedies-ltd-_105763.html",
+   "published": "2026-11-13T00:00:00.000Z",
+   "firstSeen": "2026-11-13T13:21:28.458Z",
+   "summary": "General Remittance Order dated November 13, 2026 issued against Solomon Y under RC No. 7706 of 2024 in the matter of Arvind Remedies Ltd.",
+   "notes": [
+    "General Remittance Order dated November 13, 2026 issued against Solomon Y under RC No. 7706 of 2024 in the matter of Arvind Remedies Ltd."
+   ],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "4a343c03aeca",
+   "area": "sebi",
+   "sourceId": "sebi-rss",
+   "source": "SEBI",
+   "official": true,
+   "publisher": "",
+   "type": "Article",
+   "title": "General Remittance Order dated November 13, 2026 issued against Raja P under RC No. 7704 of 2024 in the matter of Arvind Remedies Ltd.",
+   "link": "https://www.sebi.gov.in/enforcement/recovery-proceedings/nov-2026/general-remittance-order-dated-november-13-2026-issued-against-raja-p-under-rc-no-7704-of-2024-in-the-matter-of-arvind-remedies-ltd-_105761.html",
+   "published": "2026-11-13T00:00:00.000Z",
+   "firstSeen": "2026-11-13T13:21:28.458Z",
+   "summary": "General Remittance Order dated November 13, 2026 issued against Raja P under RC No. 7704 of 2024 in the matter of Arvind Remedies Ltd.",
+   "notes": [
+    "General Remittance Order dated November 13, 2026 issued against Raja P under RC No. 7704 of 2024 in the matter of Arvind Remedies Ltd."
+   ],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "8ec3f97f5c82",
+   "area": "sebi",
+   "sourceId": "sebi-rss",
+   "source": "SEBI",
+   "official": true,
+   "publisher": "",
+   "type": "Article",
+   "title": "General Remittance Order dated November 13, 2026 issued against M Sasikala under RC No.7699 of 2024 in the matter of Arvind Remedies Ltd.",
+   "link": "https://www.sebi.gov.in/enforcement/recovery-proceedings/nov-2026/general-remittance-order-dated-november-13-2026-issued-against-m-sasikala-under-rc-no-7699-of-2024-in-the-matter-of-arvind-remedies-ltd-_105759.html",
+   "published": "2026-11-13T00:00:00.000Z",
+   "firstSeen": "2026-11-13T13:21:28.458Z",
+   "summary": "General Remittance Order dated November 13, 2026 issued against M Sasikala under RC No.7699 of 2024 in the matter of Arvind Remedies Ltd.",
+   "notes": [
+    "General Remittance Order dated November 13, 2026 issued against M Sasikala under RC No.7699 of 2024 in the matter of Arvind Remedies Ltd."
+   ],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "e5425694a261",
+   "area": "sebi",
+   "sourceId": "sebi-rss",
+   "source": "SEBI",
+   "official": true,
+   "publisher": "",
+   "type": "Article",
+   "title": "General Remittance Order dated November 13, 2026 issued against K Manikandan under RC No. 7698 of 2024 in the matter of Arvind Remedies Ltd.",
+   "link": "https://www.sebi.gov.in/enforcement/recovery-proceedings/nov-2026/general-remittance-order-dated-november-13-2026-issued-against-k-manikandan-under-rc-no-7698-of-2024-in-the-matter-of-arvind-remedies-ltd-_105757.html",
+   "published": "2026-11-13T00:00:00.000Z",
+   "firstSeen": "2026-11-13T13:21:28.458Z",
+   "summary": "General Remittance Order dated November 13, 2026 issued against K Manikandan under RC No. 7698 of 2024 in the matter of Arvind Remedies Ltd.",
+   "notes": [
+    "General Remittance Order dated November 13, 2026 issued against K Manikandan under RC No. 7698 of 2024 in the matter of Arvind Remedies Ltd."
+   ],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "752350c2a7b2",
+   "area": "sebi",
+   "sourceId": "sebi-rss",
+   "source": "SEBI",
+   "official": true,
+   "publisher": "",
+   "type": "Article",
+   "title": "General Remittance Order dated November 13, 2026 issued against S Nagarajan under RC No. 7696 of 2024 in the matter of Arvind Remedies Ltd.",
+   "link": "https://www.sebi.gov.in/enforcement/recovery-proceedings/nov-2026/general-remittance-order-dated-november-13-2026-issued-against-s-nagarajan-under-rc-no-7696-of-2024-in-the-matter-of-arvind-remedies-ltd-_105755.html",
+   "published": "2026-11-13T00:00:00.000Z",
+   "firstSeen": "2026-11-13T13:21:28.458Z",
+   "summary": "General Remittance Order dated November 13, 2026 issued against S Nagarajan under RC No. 7696 of 2024 in the matter of Arvind Remedies Ltd.",
+   "notes": [
+    "General Remittance Order dated November 13, 2026 issued against S Nagarajan under RC No. 7696 of 2024 in the matter of Arvind Remedies Ltd."
+   ],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "959bad33aae4",
+   "area": "sebi",
+   "sourceId": "sebi-rss",
+   "source": "SEBI",
+   "official": true,
+   "publisher": "",
+   "type": "Article",
+   "title": "General Remittance Order dated November 13, 2026 issued against Varalakshmi P under RC No. 7695 of 2024 in the matter of Arvind Remedies Ltd.",
+   "link": "https://www.sebi.gov.in/enforcement/recovery-proceedings/nov-2026/general-remittance-order-dated-november-13-2026-issued-against-varalakshmi-p-under-rc-no-7695-of-2024-in-the-matter-of-arvind-remedies-ltd-_105753.html",
+   "published": "2026-11-13T00:00:00.000Z",
+   "firstSeen": "2026-11-13T13:21:28.458Z",
+   "summary": "General Remittance Order dated November 13, 2026 issued against Varalakshmi P under RC No. 7695 of 2024 in the matter of Arvind Remedies Ltd.",
+   "notes": [
+    "General Remittance Order dated November 13, 2026 issued against Varalakshmi P under RC No. 7695 of 2024 in the matter of Arvind Remedies Ltd."
+   ],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "1cde4539c890",
+   "area": "labour",
+   "sourceId": "news-labour",
+   "source": "News search: EPFO, ESIC, labour codes",
+   "official": false,
+   "publisher": "Times Now",
+   "type": "Update",
+   "title": "November 15 Deadline Nears: EPFO Urges Employers To Complete October PF Compliance",
+   "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNdHNnVDFtZVk2bTJFdl95Sk9Hb0NFTkVQdUgyUmxqRFhFMjVCZkNXQ1dvSXJXX2tYYWFVbHE4b1Z3UVQ2azVRa0U0U05xWDJLRlJBRkZOTEhTMERaSXFPWGpvcldjcnVCNHhpM2djRVczVFZYdkdHaW0yeDBOcDFlWDVKR21BUUplUncyQ0M4QnN2Wmlnc0NocjFMcXBibEtOU1JyWjNZQS1kSWo4YXllS2RleG1XMFN6bHl3NHZkM3V2UXpTNVcxRF9FX3dzYUMwcndUQlk0aGNkaEdiTXFqVDN1ZnZvUUI2QXpTWTZ1NVE1MlVz0gH6AUFVX3lxTE94MXNjQzE5QVAtTE5nWGR1WlNNbDlud2o0WEU5S0xoTHcyTlNJZHVHSkswRVpuclZFbzdpWEFydE9iN2JfYlFpNWs0REFsUXQ3aXhnZWo0TDVNUTRfMUdqVEhPOEdDcnpTZTNLNl9nMnBNSmNVQnFnV213TDBiQVIwdXlzVEJ1cjg1aFZTeW5oWnZ6S2RKYS05a3RpaFE4dFZvcWhMU3p5T0k4R05jZEFUbzNlb3A4LTJkcnN2UWxvemlhVzVzcmVLWjc0eVJCWHZ4UW5JbTE1R3RTSzlmcDJIM2hCQkUyWmVQYWxMNnJ5ZnJ0UVpHajFRLXc?oc=5",
+   "published": "2026-11-13T08:54:57.000Z",
+   "firstSeen": "2026-11-13T13:21:28.458Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "f9316275b32e",
+   "area": "loan",
+   "sourceId": "news-loan-central",
+   "source": "News search: central schemes",
+   "official": false,
+   "publisher": "A2Z Taxcorp LLP",
+   "type": "Judgment",
+   "title": "Cabinet Approves Continuation of Stand-Up India Scheme with ₹4,111 Crore Credit Guarantee Corpus, Targeting 2.5 Lakh Women, SC & ST Entrepreneurs",
+   "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOekFGRlJxd05OWTlMRExsRFAtUXJFQkkzSGJpWjlKTmpzbkJpYW1KQnFLb3RzZFdpX1p2eVQwRmI4bUUwbVNNT1pnUDRjZi1mNFY4cnJhOXVHOXpTbWZ5WDNGaTBJV1d2bVdwb2Z5d2hMTUlBUklHTXRiSzZNa0pYMUtOQmJkLVp4YW1XdnZEdFB3dFQxZk5SY3NEY0NWQUo5ZE5xMXFueFdld1BLVnYzV2gycUh0aU95SGxaU09tdm8zSnpyTVd4TmkyaVRfdGxhTUw0b0pPYnJzSEZtdGdORGtqNHIxcG1nZnhqLVFYdHBCUzRoMWlVQmdON2NlRUluN3c?oc=5",
+   "published": "2026-11-13T10:02:32.000Z",
+   "firstSeen": "2026-11-13T13:21:28.458Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "33c11ba1cee2",
+   "area": "loan",
+   "sourceId": "news-loan-west",
+   "source": "News search: Gujarat, MP, Rajasthan, Goa",
+   "official": false,
+   "publisher": "ET Government",
+   "type": "Scheme",
+   "title": "Rajasthan likely to receive ₹11,556 crore under SASCI scheme in FY27",
+   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPbG8ycDYxY1RHVFpVUjNpTWdzT1NCNW1mTm5pUlM5cEwyRjRLVW9XUG0xVndDQU5iTWdOR253ZHlGRmNFbC1jTXR6NmFrOURCUEZmSm9TTm5nUzhwWmg4N1E3RGlQWEJtOFJkcC1tUzM2RS1sdG1kcUZZcVRwN1VFV3dmdG1aVmpOVzlJa1JKbkJSczlQenNYRk93cWRLR21aUVo0M1B6SlZKcnFpWG5Mb2M5TGJwNkVEaHpNc29RZ2pzTDd2THVxSEZPR0NyRk5DaXpmdWI0VEZrcUHSAdsBQVVfeXFMT2xvMnA2MWNUR1RaVVIzaU1nc09TQjVtZk5uaVJTOXBMMkY0S1VvV1BtMVZ3Q0FOYk1nTkdud2R5RkZjRWwtY010ejZhazlEQlBGZkpvU05uZ1M4cFpoODdRN0RpUFhCbThSZHAtbVMzNkUtbHRtZHFGWXFUcDdVRVd3ZnRtWlZqTlc5SWtSSm5CUnM5UHpzWEZPd3FkS0dtWlFaNDNQekpWSnJxaVhuTG9jOUxicDZFRGh6TXNvUWdqc0w3dkx1cUhGT0dDckZOQ2l6ZnViNFRGa3FB?oc=5",
+   "published": "2026-11-13T07:43:42.000Z",
+   "firstSeen": "2026-11-13T13:21:28.458Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "70a8d3a7e820",
+   "area": "loan",
+   "sourceId": "news-loan-east",
+   "source": "News search: eastern and north-eastern states",
+   "official": false,
+   "publisher": "Northeast News",
+   "type": "Advisory",
+   "title": "Assam launches online portal for Rs 500 crore UNNATI Investment Subsidy Scheme",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOY2tKM3RhdnhTUGF3T2ZiMFRtcV9UUjJ3SERoNTg2NTNHbkdudjd6WnJEeHpvREJOODNKcHZLZzV1QnM1TGZyY2d0cl9seE9HSGozZVBZODBxNjAyVWhLZmNEVm5uWUliVkxtZlJJaG0xRHVsakljbTFzcWhtdDRJSkViOThnYmtENm9qMU5aTXhrVi02ZWRhMUdkQlVYcWQtN2FkQ01qUXFFMVhaT0E?oc=5",
+   "published": "2026-11-13T10:05:52.000Z",
+   "firstSeen": "2026-11-13T13:21:28.458Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "03195345aa9e",
+   "area": "loan",
+   "sourceId": "news-loan-east",
+   "source": "News search: eastern and north-eastern states",
+   "official": false,
+   "publisher": "The Sentinel - of this Land, for its People",
+   "type": "Advisory",
+   "title": "Assam Launches ₹500-Crore Industrial Subsidy Portal Under UNNATI 2026 - The Sentinel",
+   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPQ01rLW0xSHdWS3d4TEQtVnUySzBXdzdSNDVlbG50eVl4M3dOdGRRbmlfOTNFNVFCNUxsaTMtTnhscmJXUkpZSUd6Y3RkZklOWkN4dTZVUmdTcmdiMi1HMEdRYVh5ckV2X3pDdUdJbjJ0REJwd25EbU9VeTdkLWkwc3NzWTc1akR5QkFIMTlSZHFRTGVRSjd6TV82OVFpUUREejcwMEFwOXIwRG5tX0VUbzhhTm8yS1lBTjlqR3RMakV0SDlCZGxmTVFqOHlMWmdKUjFyZXNVb0PSAdgBQVVfeXFMT0NNay1tMUh3Vkt3eExELVZ1MkswV3c3UjQ1ZWxudHlZeDN3TnRkUW5pXzkzRTVRQjVMbGkzLU54bHJiV1JKWUlHemN0ZGZJTlpDeHU2VVJnU3JnYjItRzBHUWFYeXJFdl96Q3VHSW4ydERCcHduRG1PVXk3ZC1pMHNzc1k3NWpEeUJBSDE5UmRxUUxlUUo3ek1fNjlRaVFERHo3MDBBcDlyMERubV9FVG84YU5vMktZQU45akd0TGpFdEg5QmRsZk1Rajh5TFpnSlIxcmVzVW9D?oc=5",
+   "published": "2026-11-13T09:19:44.000Z",
+   "firstSeen": "2026-11-13T13:21:28.458Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
   {
    "id": "dd3567bd9b81",
    "area": "gst",
@@ -1487,6 +1951,23 @@
    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSEVGRE1LRXJuU3pqT2p1QW15MUF0SDNhV0E4N0tKVVJlM1B2THhOYlpMZ3NLYzl6b3hsanNob0FtT2FoaE1WRHd5V3dhVGZCdDJDQy1DQ2ZURG9YUmFEVWtSb0lRTHA1azhYNVBiOFBBSFA5b0g5c1U2UXpScmJFUkJMNktobG5mYTZxSS1qcWtCWlhpOGpHNDk0clJ2RkljYVMya3d2alM5eEZiZ1V6TElIWkJWYnB1LXo5WGVWMUHSAcYBQVVfeXFMTnA4dWtOZTlHenlVX3JBaFJBd1BZaEZFUzFyRGR6LVY1Sm5jRld3TkllV1o0eGxOaHlNZV9ZaHI3YVRRT3JMUE14VVJrZ3dYWWs1VGNxTHRCR21taUxaOHpWZDdpeXEwbERsMlhMNTFUOU9lYlREdC1qd1BVRHo2aWkzU3JVVklPNTZMZFlJbW93WHJydE1uNDRrbEZPOWphdDFIemx1R2VHSTNhQVhjZnpsVHd0V1U5NkQ2WGQyRnZJaEd0NjJR?oc=5",
    "published": "2026-11-13T01:35:04.000Z",
    "firstSeen": "2026-11-13T08:18:12.668Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "dfc8d6cd1ac4",
+   "area": "loan",
+   "sourceId": "news-loan-central",
+   "source": "News search: central schemes",
+   "official": false,
+   "publisher": "digitalgoa",
+   "type": "Scheme",
+   "title": "Startup incentives extended to non-IT MSMEs under CM’s Innovate Scheme",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNelNycXZlZXZDUzM0WXpHVU8yZ2I0UjBQSjVmVFhvdlZDWjhjTnlQdGZWc3RUOWVfTHhPZGdOT0RTZkhsTjNiNWExYnJIcnIzanZjQ2VKbU55OXFXTk5sVWNxTE9KOXRpbXI1bUw3TDVwc0RxYk9wQklrM2NLMDkyRUwwUUhWbnk5Mm5kYmJNbXJVODFweHZ4WQ?oc=5",
+   "published": "2026-11-12T12:33:00.000Z",
+   "firstSeen": "2026-11-13T13:21:28.458Z",
    "summary": "",
    "notes": [],
    "refs": [],
@@ -2758,6 +3239,23 @@
    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbmp5Y1JJdzJvNnJCVWVWXzRHNHNScjVFbXBjTVZ4MUhxM29LNWhDNVk5YnpVR3pBVVhWNzRNNHUwWW42MGk5WlAwZUtfZ2Y1WlJHZ1FONkZtbWZGTW1hYzU0eEd0QndZY3p4MjBvTWh0VG52MllkVjhJdzZvWnJ5ZlJsNmh6YnFkQ25KWjFsS01iWmPSAZgBQVVfeXFMT1F0eVppR19EUmh4QllrQ3RHdjVTM0s2cFQzQVRMYmx2UDNCeFFZTXRIZy1VTTd6emp2UkVMVmxzMmJKRzBwRFdJUXd5QjlQSzgtclZaZHp3T3V1X2lCVmJUejNiOURxQzJyTGdtVWlOLWZOZGRuQy1rV2RjTElwZmlJZFF2THprbjM4OGk5djQ0YS1iTU5FOXE?oc=5",
    "published": "2026-11-11T18:42:20.000Z",
    "firstSeen": "2026-11-11T21:28:34.878Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "423116f06f0a",
+   "area": "gst",
+   "sourceId": "news-gst",
+   "source": "News search: GST",
+   "official": false,
+   "publisher": "CAclubindia",
+   "type": "Judgment",
+   "title": "Himachal Pradesh High Court: Post-Omission SCNs under Rule 96(10) Are Non-Est Absent Saving Clause",
+   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPbUkxZVdJMmloQmdGcG1OREJ3X3gtaUJRNUM1SzQ0UGdhRE5YdnB1Q2VyRl9sT3ZtU29hS3JlaGVMOWttbnk5MXRPSk9ZYlpuaWpIVTVnaU5xRHJYQzBlQ2hNNVhFMi1WQURnQTVDWnhuNGkyTHlHckFuNjZGVHhwYUZGeHltRElyTUJmUEZxdUhrM2xzQ1Z4OWxnVTdFaFVPQWpMWEs2NHpBb1o5MFdMQ19ULV9FTnA1VGlPRG04STVfenZOT28ybk83dTdxTVpUbm9jX245Yw?oc=5",
+   "published": "2026-11-11T03:33:00.000Z",
+   "firstSeen": "2026-11-13T13:21:28.458Z",
    "summary": "",
    "notes": [],
    "refs": [],
@@ -5312,6 +5810,23 @@
    "alsoIn": [
     "News search: central schemes"
    ]
+  },
+  {
+   "id": "503407678c06",
+   "area": "gst",
+   "sourceId": "news-gst",
+   "source": "News search: GST",
+   "official": false,
+   "publisher": "LiveLawBiz",
+   "type": "Judgment",
+   "title": "Interest And Late Fee Must Be Paid For Revocation Of GST Registration Cancellation: GSTAT Hyderabad",
+   "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQYmIxdFZKdUNXWmpvQXJiY3AtbDhFSmY3TzBBcWtZWG8zczRzMU9TRm13Mkx0V0JoYUNaRm5CcElEOWU5MXhDX3IzRlkyVXlQeHZBQ3Rob1d6a1l1UkFJY2Znbi1KSW5Ec2NzclZwY2N0UWlBcjNVREItUjIyZTlYX2VnSTZlbjBYaTlEV29ZMU03bGNnNEk0UkduVmVwUzB2SWtSOTZWUFdMc2VwcUNuY2JKbmFxVW5rN2p6YXpyT1M0eFNhc09rYkd3VnhLQjdONFJWUVBraUpkZkk4MzAtZk44dmNOOFdua1pXWmxoLUcwUnVmeDJaeE1n0gH6AUFVX3lxTFBiYjF0Vkp1Q1daam9BcmJjcC1sOEVKZjdPMEFxa1lYbzNzNHMxT1NGbXcyTHRXQmhhQ1pGbkJwSUQ5ZTkxeENfcjNGWTJVeVB4dkFDdGhvV3prWXVSQUljZmduLUpJbkRzY3NyVnBjY3RRaUFyM1VEQi1SMjJlOVhfZWdJNmVuMFhpOURXb1kxTTdsY2c0STRSR25WZXBTMHZJa1I5NlZQV0xzZXBxQ25jYkpuYXFVbms3anphenJPUzR4U2FzT2tiR3dWeEtCN040UlZRUGtpSmRmSTgzMC1mTjh2Y044V25rWldabGgtRzBSdWZ4Mlp4TWc?oc=5",
+   "published": "2026-11-09T09:33:33.000Z",
+   "firstSeen": "2026-11-13T13:21:28.458Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
   },
   {
    "id": "c69f5cfb05e4",
