@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-11-19T14:38:46.412Z",
+ "generatedAt": "2026-11-19T18:31:13.004Z",
  "repo": "cahimanshukakdedata-png/regulatory-register-v1",
- "newThisRun": 63,
+ "newThisRun": 15,
  "sources": [
   {
    "id": "icai-home",
@@ -14,8 +14,8 @@
    "fetched": 36,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-19T14:38:46.412Z",
-   "ms": 1113
+   "lastOk": "2026-11-19T18:31:13.004Z",
+   "ms": 986
   },
   {
    "id": "news-acc",
@@ -28,8 +28,8 @@
    "fetched": 16,
    "kept": 1,
    "note": "",
-   "lastOk": "2026-11-19T14:38:46.412Z",
-   "ms": 252
+   "lastOk": "2026-11-19T18:31:13.004Z",
+   "ms": 326
   },
   {
    "id": "nfra-home",
@@ -40,10 +40,10 @@
    "url": "https://nfra.gov.in/",
    "ok": true,
    "fetched": 25,
-   "kept": 1,
+   "kept": 0,
    "note": "",
-   "lastOk": "2026-11-19T14:38:46.412Z",
-   "ms": 2423
+   "lastOk": "2026-11-19T18:31:13.004Z",
+   "ms": 1713
   },
   {
    "id": "taxguru-ca",
@@ -56,8 +56,8 @@
    "fetched": 75,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-11-19T14:38:46.412Z",
-   "ms": 1161
+   "lastOk": "2026-11-19T18:31:13.004Z",
+   "ms": 1038
   },
   {
    "id": "rbi-notifications",
@@ -70,8 +70,8 @@
    "fetched": 10,
    "kept": 7,
    "note": "",
-   "lastOk": "2026-11-19T14:38:46.412Z",
-   "ms": 930
+   "lastOk": "2026-11-19T18:31:13.004Z",
+   "ms": 1270
   },
   {
    "id": "rbi-press",
@@ -84,8 +84,8 @@
    "fetched": 10,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-19T14:38:46.412Z",
-   "ms": 53
+   "lastOk": "2026-11-19T18:31:13.004Z",
+   "ms": 101
   },
   {
    "id": "taxguru-rbi",
@@ -98,8 +98,8 @@
    "fetched": 75,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-11-19T14:38:46.412Z",
-   "ms": 890
+   "lastOk": "2026-11-19T18:31:13.004Z",
+   "ms": 1000
   },
   {
    "id": "cbic-gst",
@@ -112,8 +112,8 @@
    "fetched": 20,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-19T14:38:46.412Z",
-   "ms": 1620
+   "lastOk": "2026-11-19T18:31:13.004Z",
+   "ms": 1500
   },
   {
    "id": "gst-council",
@@ -126,8 +126,8 @@
    "fetched": 20,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-19T14:38:46.412Z",
-   "ms": 1974
+   "lastOk": "2026-11-19T18:31:13.004Z",
+   "ms": 2576
   },
   {
    "id": "gst-portal-news",
@@ -140,8 +140,8 @@
    "fetched": 0,
    "kept": 0,
    "note": "page returned no usable links (it may need a real browser); this section relies on its other sources",
-   "lastOk": "2026-11-19T14:38:46.412Z",
-   "ms": 1982
+   "lastOk": "2026-11-19T18:31:13.004Z",
+   "ms": 1533
   },
   {
    "id": "news-gst",
@@ -150,12 +150,12 @@
    "kind": "gnews",
    "official": false,
    "url": "https://news.google.com/rss/search?q=(CBIC%20OR%20GSTN%20OR%20%22GST%20Council%22%20OR%20CGST)%20(notification%20OR%20circular%20OR%20advisory%20OR%20extended)%20when%3A10d&hl=en-IN&gl=IN&ceid=IN:en",
-   "ok": true,
-   "fetched": 32,
-   "kept": 20,
-   "note": "",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "the site asked us to slow down (HTTP 429)",
    "lastOk": "2026-11-19T14:38:46.412Z",
-   "ms": 425
+   "ms": 40152
   },
   {
    "id": "taxguru-gst",
@@ -168,8 +168,8 @@
    "fetched": 75,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-11-19T14:38:46.412Z",
-   "ms": 2432
+   "lastOk": "2026-11-19T18:31:13.004Z",
+   "ms": 2117
   },
   {
    "id": "cbdt-communications",
@@ -182,8 +182,8 @@
    "fetched": 4,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-19T14:38:46.412Z",
-   "ms": 4443
+   "lastOk": "2026-11-19T18:31:13.004Z",
+   "ms": 7099
   },
   {
    "id": "itd-latest",
@@ -196,8 +196,8 @@
    "fetched": 39,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-19T14:38:46.412Z",
-   "ms": 6093
+   "lastOk": "2026-11-19T18:31:13.004Z",
+   "ms": 1213
   },
   {
    "id": "news-it",
@@ -210,8 +210,8 @@
    "fetched": 31,
    "kept": 21,
    "note": "",
-   "lastOk": "2026-11-19T14:38:46.412Z",
-   "ms": 300
+   "lastOk": "2026-11-19T18:31:13.004Z",
+   "ms": 312
   },
   {
    "id": "taxguru-it",
@@ -224,8 +224,8 @@
    "fetched": 75,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-11-19T14:38:46.412Z",
-   "ms": 1960
+   "lastOk": "2026-11-19T18:31:13.004Z",
+   "ms": 1876
   },
   {
    "id": "epfo-home",
@@ -238,8 +238,8 @@
    "fetched": 0,
    "kept": 0,
    "note": "site refused a direct request (known to refuse direct requests); read through r.jina.ai; page returned no usable links (it may need a real browser); this section relies on its other sources",
-   "lastOk": "2026-11-19T14:38:46.412Z",
-   "ms": 43836
+   "lastOk": "2026-11-19T18:31:13.004Z",
+   "ms": 57928
   },
   {
    "id": "esic-home",
@@ -252,8 +252,8 @@
    "fetched": 52,
    "kept": 0,
    "note": "site refused a direct request (known to refuse direct requests); read through r.jina.ai",
-   "lastOk": "2026-11-19T14:38:46.412Z",
-   "ms": 57930
+   "lastOk": "2026-11-19T18:31:13.004Z",
+   "ms": 58277
   },
   {
    "id": "news-labour",
@@ -263,11 +263,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(EPFO%20OR%20ESIC%20OR%20%22labour%20code%22)%20(notification%20OR%20circular%20OR%20rules%20OR%20extended%20OR%20deadline)%20when%3A14d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 52,
-   "kept": 12,
+   "fetched": 57,
+   "kept": 13,
    "note": "",
-   "lastOk": "2026-11-19T14:38:46.412Z",
-   "ms": 317
+   "lastOk": "2026-11-19T18:31:13.004Z",
+   "ms": 401
   },
   {
    "id": "cgtmse",
@@ -280,8 +280,8 @@
    "fetched": 1,
    "kept": 0,
    "note": "site refused a direct request (known to refuse direct requests); read through r.jina.ai",
-   "lastOk": "2026-11-19T14:38:46.412Z",
-   "ms": 68999
+   "lastOk": "2026-11-19T18:31:13.004Z",
+   "ms": 80513
   },
   {
    "id": "maitri-mh",
@@ -295,7 +295,7 @@
    "kept": 0,
    "error": "website address could not be found (DNS)",
    "lastOk": "2026-11-15T19:52:20.998Z",
-   "ms": 87953
+   "ms": 92731
   },
   {
    "id": "msme-ministry",
@@ -308,8 +308,8 @@
    "fetched": 0,
    "kept": 0,
    "note": "page returned no usable links (it may need a real browser); this section relies on its other sources",
-   "lastOk": "2026-11-19T14:38:46.412Z",
-   "ms": 1844
+   "lastOk": "2026-11-19T18:31:13.004Z",
+   "ms": 2176
   },
   {
    "id": "nabard",
@@ -322,8 +322,8 @@
    "fetched": 5,
    "kept": 0,
    "note": "site refused a direct request (known to refuse direct requests); read through r.jina.ai",
-   "lastOk": "2026-11-19T14:38:46.412Z",
-   "ms": 57820
+   "lastOk": "2026-11-19T18:31:13.004Z",
+   "ms": 39259
   },
   {
    "id": "news-loan-central",
@@ -333,11 +333,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(MSME%20OR%20PMEGP%20OR%20MUDRA%20OR%20CGTMSE%20OR%20%22Stand-Up%20India%22%20OR%20%22interest%20subvention%22)%20(scheme%20OR%20subsidy%20OR%20guidelines%20OR%20extended%20OR%20notification)%20when%3A14d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 29,
-   "kept": 18,
+   "fetched": 31,
+   "kept": 19,
    "note": "",
-   "lastOk": "2026-11-19T14:38:46.412Z",
-   "ms": 482
+   "lastOk": "2026-11-19T18:31:13.004Z",
+   "ms": 387
   },
   {
    "id": "news-loan-east",
@@ -347,11 +347,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(%22West%20Bengal%22%20OR%20Odisha%20OR%20Jharkhand%20OR%20Chhattisgarh%20OR%20Assam%20OR%20%22North%20East%22)%20(subsidy%20OR%20incentive%20OR%20%22industrial%20policy%22%20OR%20%22loan%20scheme%22)%20when%3A21d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 41,
+   "fetched": 42,
    "kept": 8,
    "note": "",
-   "lastOk": "2026-11-19T14:38:46.412Z",
-   "ms": 369
+   "lastOk": "2026-11-19T18:31:13.004Z",
+   "ms": 385
   },
   {
    "id": "news-loan-farm",
@@ -362,10 +362,10 @@
    "url": "https://news.google.com/rss/search?q=(NABARD%20OR%20%22Kisan%20Credit%20Card%22%20OR%20%22agriculture%20subsidy%22%20OR%20%22food%20processing%20subsidy%22%20OR%20PMFME)%20(scheme%20OR%20subsidy%20OR%20guidelines%20OR%20notification)%20when%3A21d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
    "fetched": 16,
-   "kept": 3,
+   "kept": 2,
    "note": "",
-   "lastOk": "2026-11-19T14:38:46.412Z",
-   "ms": 324
+   "lastOk": "2026-11-19T18:31:13.004Z",
+   "ms": 339
   },
   {
    "id": "news-loan-mh",
@@ -375,11 +375,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=Maharashtra%20(subsidy%20OR%20incentive%20OR%20%22industrial%20policy%22%20OR%20%22loan%20scheme%22)%20(government%20OR%20notified%20OR%20launched%20OR%20guidelines)%20when%3A21d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 27,
-   "kept": 8,
+   "fetched": 28,
+   "kept": 9,
    "note": "",
-   "lastOk": "2026-11-19T14:38:46.412Z",
-   "ms": 302
+   "lastOk": "2026-11-19T18:31:13.004Z",
+   "ms": 330
   },
   {
    "id": "news-loan-north",
@@ -390,10 +390,10 @@
    "url": "https://news.google.com/rss/search?q=(%22Uttar%20Pradesh%22%20OR%20Delhi%20OR%20Punjab%20OR%20Haryana%20OR%20Bihar%20OR%20Uttarakhand%20OR%20%22Himachal%20Pradesh%22)%20(subsidy%20OR%20incentive%20OR%20%22industrial%20policy%22%20OR%20%22loan%20scheme%22)%20when%3A21d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
    "fetched": 29,
-   "kept": 11,
+   "kept": 10,
    "note": "",
-   "lastOk": "2026-11-19T14:38:46.412Z",
-   "ms": 369
+   "lastOk": "2026-11-19T18:31:13.004Z",
+   "ms": 374
   },
   {
    "id": "news-loan-south",
@@ -403,11 +403,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(%22Tamil%20Nadu%22%20OR%20Karnataka%20OR%20Telangana%20OR%20%22Andhra%20Pradesh%22%20OR%20Kerala)%20(subsidy%20OR%20incentive%20OR%20%22industrial%20policy%22%20OR%20%22loan%20scheme%22)%20when%3A21d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 26,
+   "fetched": 27,
    "kept": 5,
    "note": "",
-   "lastOk": "2026-11-19T14:38:46.412Z",
-   "ms": 335
+   "lastOk": "2026-11-19T18:31:13.004Z",
+   "ms": 338
   },
   {
    "id": "news-loan-west",
@@ -417,11 +417,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(Gujarat%20OR%20%22Madhya%20Pradesh%22%20OR%20Rajasthan%20OR%20Goa)%20(subsidy%20OR%20%22industrial%20policy%22%20OR%20incentive%20OR%20%22loan%20scheme%22)%20when%3A21d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 25,
+   "fetched": 26,
    "kept": 8,
    "note": "",
-   "lastOk": "2026-11-19T14:38:46.412Z",
-   "ms": 315
+   "lastOk": "2026-11-19T18:31:13.004Z",
+   "ms": 318
   },
   {
    "id": "pmegp-kvic",
@@ -435,7 +435,7 @@
    "kept": 0,
    "error": "website address could not be found (DNS)",
    "lastOk": "2026-09-29T01:36:20.178Z",
-   "ms": 81912
+   "ms": 107179
   },
   {
    "id": "sidbi",
@@ -448,8 +448,8 @@
    "fetched": 10,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-19T14:38:46.412Z",
-   "ms": 3552
+   "lastOk": "2026-11-19T18:31:13.004Z",
+   "ms": 7998
   },
   {
    "id": "mca-home",
@@ -462,8 +462,8 @@
    "fetched": 33,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-19T14:38:46.412Z",
-   "ms": 936
+   "lastOk": "2026-11-19T18:31:13.004Z",
+   "ms": 935
   },
   {
    "id": "news-mca",
@@ -473,11 +473,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=MCA%20(%22general%20circular%22%20OR%20notification%20OR%20%22Companies%20Act%22%20OR%20LLP%20OR%20extended)%20when%3A10d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 17,
-   "kept": 6,
+   "fetched": 18,
+   "kept": 7,
    "note": "",
-   "lastOk": "2026-11-19T14:38:46.412Z",
-   "ms": 301
+   "lastOk": "2026-11-19T18:31:13.004Z",
+   "ms": 338
   },
   {
    "id": "taxguru-company",
@@ -490,8 +490,8 @@
    "fetched": 75,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-11-19T14:38:46.412Z",
-   "ms": 1192
+   "lastOk": "2026-11-19T18:31:13.004Z",
+   "ms": 1455
   },
   {
    "id": "taxguru-corporate",
@@ -504,8 +504,8 @@
    "fetched": 75,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-11-19T14:38:46.412Z",
-   "ms": 792
+   "lastOk": "2026-11-19T18:31:13.004Z",
+   "ms": 793
   },
   {
    "id": "mahagst-pt",
@@ -519,7 +519,7 @@
    "kept": 0,
    "error": "the website did not answer in time",
    "lastOk": null,
-   "ms": 157887
+   "ms": 181362
   },
   {
    "id": "news-mh",
@@ -528,12 +528,12 @@
    "kind": "gnews",
    "official": false,
    "url": "https://news.google.com/rss/search?q=Maharashtra%20(%22profession%20tax%22%20OR%20MahaGST%20OR%20%22stamp%20duty%22%20OR%20%22amnesty%20scheme%22)%20when%3A30d&hl=en-IN&gl=IN&ceid=IN:en",
-   "ok": true,
-   "fetched": 19,
-   "kept": 12,
-   "note": "",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "the site asked us to slow down (HTTP 429)",
    "lastOk": "2026-11-19T14:38:46.412Z",
-   "ms": 279
+   "ms": 39456
   },
   {
    "id": "sebi-rss",
@@ -546,8 +546,8 @@
    "fetched": 0,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-19T14:38:46.412Z",
-   "ms": 2337
+   "lastOk": "2026-11-19T18:31:13.004Z",
+   "ms": 3183
   },
   {
    "id": "taxguru-sebi",
@@ -560,8 +560,8 @@
    "fetched": 75,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-11-19T14:38:46.412Z",
-   "ms": 852
+   "lastOk": "2026-11-19T18:31:13.004Z",
+   "ms": 1425
   },
   {
    "id": "news-tds",
@@ -571,11 +571,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(TDS%20OR%20TCS%20OR%20TRACES)%20(CBDT%20OR%20notification%20OR%20%22due%20date%22%20OR%20form)%20when%3A14d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 29,
-   "kept": 5,
+   "fetched": 30,
+   "kept": 4,
    "note": "",
-   "lastOk": "2026-11-19T14:38:46.412Z",
-   "ms": 329
+   "lastOk": "2026-11-19T18:31:13.004Z",
+   "ms": 392
   }
  ],
  "items": [
@@ -601,6 +601,286 @@
      "context": "Important notice : Last date of filing NFRA Form-2 is 30th November, 2026 for reporting period 2025-26."
     }
    ]
+  },
+  {
+   "id": "859b126181c4",
+   "area": "gst",
+   "sourceId": "taxguru-gst",
+   "source": "TaxGuru GST",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Goods and Services Tax | IGST on Ocean Freight Refundable With Interest: Gujarat HC",
+   "link": "https://taxguru.in/goods-and-service-tax/igst-ocean-freight-refundable-interest-gujarat-hc.html",
+   "published": "2026-11-19T18:19:26.000Z",
+   "firstSeen": "2026-11-19T18:31:13.004Z",
+   "summary": "The post IGST on Ocean Freight Refundable With Interest: Gujarat HC appeared first on TaxGuru.",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "d9be5ca03271",
+   "area": "gst",
+   "sourceId": "taxguru-gst",
+   "source": "TaxGuru GST",
+   "official": false,
+   "publisher": "",
+   "type": "Update",
+   "title": "Goods and Services Tax | GST Rates 2026: 14 Similar Products and Services With Different Tax Rates",
+   "link": "https://taxguru.in/goods-and-service-tax/gst-rates-2026-14-similar-products-services-tax-rates.html",
+   "published": "2026-11-19T17:22:55.000Z",
+   "firstSeen": "2026-11-19T18:31:13.004Z",
+   "summary": "Compare 14 similar goods and services with different GST rates in 2026. Check HSN codes, notifications, exemptions and classification rules.The post GST Rates 2026: 14 Similar Products and Services With Different Tax Rates appeared first on TaxGuru.",
+   "notes": [
+    "Summary: The introduction of GST 2.0 reforms effective from 22 September 2025 simplified the principal tax slabs but did not eliminate classification complexities arising from differences in tariff headings, product descriptions, packaging conditions,…",
+    "Particular attention is given to the ₹2,500 per-piece or per-pair thresholds, the definition of pre-packaged and labelled goods, the 350 cc motorcycle threshold, specific tariff exclusions and the treatment of hotel accommodation under the GST amendments…",
+    "From 1 May 2026, Notification 1/2026-CT(R), issued to align the schedule with changes made by the Finance Act, 2026, substituted new tariff codes in Sch."
+   ],
+   "refs": [
+    "Notification No. 9/2025-Central Tax (Rate)",
+    "Notification No. 10/2025-Central Tax (Rate)"
+   ],
+   "deadlines": []
+  },
+  {
+   "id": "4d17179d11c4",
+   "area": "gst",
+   "sourceId": "taxguru-gst",
+   "source": "TaxGuru GST",
+   "official": false,
+   "publisher": "",
+   "type": "Update",
+   "title": "Goods and Services Tax | CBIC Stops GST Arrests, Random E-Way Bill Checks and Notices Below ₹10,000",
+   "link": "https://taxguru.in/goods-and-service-tax/cbic-stops-gst-arrests-random-bill-checks-notices-rs-10-000.html",
+   "published": "2026-11-19T17:19:29.000Z",
+   "firstSeen": "2026-11-19T18:31:13.004Z",
+   "summary": "CBIC Instruction 02/2026-GST restricts arrests, random e-way bill checks and notices below ₹10,000 ahead of proposed GST law amendments.The post CBIC Stops GST Arrests, Random E-Way Bill Checks and Notices Below ₹10,000 appeared first on TaxGuru.",
+   "notes": [
+    "Summary: The Central Board of Indirect Taxes and Customs (CBIC), through Instruction No. 02/2026-GST dated 30 October 2026, has directed Central GST field formations to implement three major taxpayer-friendly reforms recommended at the 57th GST Council…",
+    "However, the Instruction is an interim administrative measure addressed to Central Tax officers and does not itself amend the CGST Act or automatically bind State GST authorities.",
+    "The Council, in its 57th meeting on 08.10.2026, proposed that the amended provisions come into force from 01.04.2027."
+   ],
+   "refs": [
+    "Circular No. 64/38/2018-GST",
+    "Circular No. 207/1/2024-GST",
+    "Instruction No. 02/2026-GST"
+   ],
+   "deadlines": [
+    {
+     "date": "2027-04-01",
+     "kind": "effective",
+     "context": "2026, proposed that the amended provisions come into force from 01.04.2027. CBIC chose not to wait."
+    }
+   ]
+  },
+  {
+   "id": "d89b47ed0fa0",
+   "area": "gst",
+   "sourceId": "taxguru-gst",
+   "source": "TaxGuru GST",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Goods and Services Tax | No Fresh Pre-Deposit Required if Earlier GST Deposit Covers 20% Requirement: GSTAT Chennai",
+   "link": "https://taxguru.in/goods-and-service-tax/no-fresh-pre-deposit-required-earlier-gst-deposit-covers-20-percent-requirement-gstat-chennai.html",
+   "published": "2026-11-19T17:15:16.000Z",
+   "firstSeen": "2026-11-19T18:31:13.004Z",
+   "summary": "GSTAT Chennai holds that no fresh GST pre-deposit is needed where an earlier deposit covers the cumulative 20% requirement on disputed tax.The post No Fresh Pre-Deposit Required if Earlier GST Deposit Covers 20%…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "736f94918ee9",
+   "area": "gst",
+   "sourceId": "taxguru-gst",
+   "source": "TaxGuru GST",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Goods and Services Tax | Telangana HC Disposes of GST Writ Petition With Liberty to File Appeal",
+   "link": "https://taxguru.in/goods-and-service-tax/telangana-hc-disposes-gst-writ-petition-liberty-file-appeal.html",
+   "published": "2026-11-19T17:01:08.000Z",
+   "firstSeen": "2026-11-19T18:31:13.004Z",
+   "summary": "The post Telangana HC Disposes of GST Writ Petition With Liberty to File Appeal appeared first on TaxGuru.",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "fc30622dab41",
+   "area": "gst",
+   "sourceId": "taxguru-gst",
+   "source": "TaxGuru GST",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Goods and Services Tax | Omission of Rule 96(10): Karnataka HC Upholds IGST Export Refund Relief",
+   "link": "https://taxguru.in/goods-and-service-tax/omission-rule-96-10-karnataka-hc-upholds-igst-export-refund-relief.html",
+   "published": "2026-11-19T16:23:28.000Z",
+   "firstSeen": "2026-11-19T18:31:13.004Z",
+   "summary": "Karnataka High Court upholds relief in pending IGST export refund cases following omission of Rule 96(10) without a saving clause.The post Omission of Rule 96(10): Karnataka HC Upholds IGST Export Refund Relief appeared…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "5fd885d2eea3",
+   "area": "gst",
+   "sourceId": "taxguru-gst",
+   "source": "TaxGuru GST",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Goods and Services Tax | Delayed Proper Officer Circular Does Not Invalidate GST Penalty Order: Telangana HC",
+   "link": "https://taxguru.in/goods-and-service-tax/delayed-proper-officer-circular-not-invalidate-gst-penalty-order-telangana-hc.html",
+   "published": "2026-11-19T16:08:22.000Z",
+   "firstSeen": "2026-11-19T18:31:13.004Z",
+   "summary": "The post Delayed Proper Officer Circular Does Not Invalidate GST Penalty Order: Telangana HC appeared first on TaxGuru.",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "bc3adf8f34be",
+   "area": "gst",
+   "sourceId": "taxguru-gst",
+   "source": "TaxGuru GST",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Goods and Services Tax | GST Short Payment Alone Is Not Tax Evasion Under Section 74: Rajasthan HC",
+   "link": "https://taxguru.in/goods-and-service-tax/gst-short-payment-not-tax-evasion-section-74-rajasthan-hc.html",
+   "published": "2026-11-19T16:06:59.000Z",
+   "firstSeen": "2026-11-19T18:31:13.004Z",
+   "summary": "Rajasthan HC quashes GST Section 74 notice against JDA, holding that short payment alone does not establish intent to evade tax.The post GST Short Payment Alone Is Not Tax Evasion Under Section 74: Rajasthan HC appeared…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "06286e3128d3",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Income Tax | Bank Statements Alone Cannot Prove Share Investors’ Creditworthiness: ITAT Bangalore",
+   "link": "https://taxguru.in/income-tax/bank-statements-cannot-prove-share-investors-creditworthiness-itat-bangalore.html",
+   "published": "2026-11-19T18:24:06.000Z",
+   "firstSeen": "2026-11-19T18:31:13.004Z",
+   "summary": "The post Bank Statements Alone Cannot Prove Share Investors’ Creditworthiness: ITAT Bangalore appeared first on TaxGuru.",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "4d8b9ebd58db",
+   "area": "it",
+   "sourceId": "taxguru-it",
+   "source": "TaxGuru Income Tax",
+   "official": false,
+   "publisher": "",
+   "type": "Update",
+   "title": "Income Tax | Significant Economic Presence (SEP) in India: Digital Taxation After Equalisation Levy Repeal",
+   "link": "https://taxguru.in/income-tax/significant-economic-presence-sep-india-digital-taxation-equalisation-levy-repeal.html",
+   "published": "2026-11-19T16:05:25.000Z",
+   "firstSeen": "2026-11-19T18:31:13.004Z",
+   "summary": "Understand SEP under Income-tax Act 2025, ₹2 crore and 3 lakh-user thresholds, income attribution, equalisation levy repeal and DTAA protection.The post Significant Economic Presence (SEP) in India: Digital Taxation After Equalisation Levy Repeal appeared first on TaxGuru.",
+   "notes": [
+    "The repeal of the 2% e-commerce equalisation levy from 1 August 2024 and the 6% online advertising equalisation levy from 1 April 2025 has increased the practical importance of evaluating business connection and treaty protection.",
+    "Subsequently, with effect from 1 April 2026, the Income-tax Act, 2025 replaced the Income-tax Act, 1961, carrying forward the SEP framework under Section 9(9).",
+    "Section 159(4) of the Income-tax Act, 2025, corresponding to Section 90(2) of the Income-tax Act, 1961, provides that where an applicable tax treaty has been entered into and notified, the provisions of the domestic Act apply only to the extent that they…"
+   ],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "2b96a2978874",
+   "area": "mca",
+   "sourceId": "taxguru-corporate",
+   "source": "TaxGuru Corporate Law",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Corporate Law | Settlement Agreement Superseding Original Loan Agreement Does Not Constitute Financial Debt: NCLAT Delhi",
+   "link": "https://taxguru.in/corporate-law/settlement-agreement-superseding-original-loan-agreement-not-constitute-financial-debt-nclat-delhi.html",
+   "published": "2026-11-19T18:20:43.000Z",
+   "firstSeen": "2026-11-19T18:31:13.004Z",
+   "summary": "The post Settlement Agreement Superseding Original Loan Agreement Does Not Constitute Financial Debt: NCLAT Delhi appeared first on TaxGuru.",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "5cf3fc2be83b",
+   "area": "mca",
+   "sourceId": "news-mca",
+   "source": "News search: MCA",
+   "official": false,
+   "publisher": "Business Standard",
+   "type": "Scheme",
+   "title": "MCA seeks to broaden scope of CSR spending; to include PM internship scheme",
+   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNdnRQR09CTnpoWXFzMThqNl9nTm41VFRXUjFndHZHSXVoVWxReUJpeUpBUVd2NGZTbncxaXM1NVdFekhHcDNqOHZuNWozV0o1YUlLY2t5Y01SMXE4VVE5X2tTVWRuLXMySnRiWmEtUlRWaVVPR2tGSUpobldLM1ZHUzROU3g4bTdUU0lJSHdrTWJ1MFZEUFVSbXpVcUozWmZfeGNPQmEzRXRSRHFDZmdkaXJ4azdMT0dCQ2FrcjFjU1NTSDRaeTFPNm0zSGUwd0NHY2hlWDBnSUZ6Y0nSAeABQVVfeXFMTm1naEJIRUhpa0FKNGpNN3B4OE8wYlFVUktjbFBhRmF6Rm1jUDJFN2hkdWhZb2s2bmZyNzFHQnp4UV9tSi1sSE9XNWREWlA0V3hxbUw4LVBUb3NpRVg3cHhfVEdwclJvWEZDZVFtdlFkRFNWUWs4TzZOZnNCMVdXWExTMDBQZ1BsWWJqaE84TXZlcHJnWDUxVW9hVVZGZ0xiWU5xS3FTdG43MWNOdzgxdEUtQzRRMzg1NmJjUFNfMmFPZk1Gei1HZ01VRHBmMEozS0VYVUJqdGpaS1lpSnU3N1Q?oc=5",
+   "published": "2026-11-19T18:16:21.000Z",
+   "firstSeen": "2026-11-19T18:31:13.004Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "41d3373e9bc0",
+   "area": "mca",
+   "sourceId": "taxguru-company",
+   "source": "TaxGuru Company Law",
+   "official": false,
+   "publisher": "",
+   "type": "Judgment",
+   "title": "Company Law | Leasehold Asset Alone Cannot Justify Company Restoration: NCLAT Delhi",
+   "link": "https://taxguru.in/company-law/leasehold-asset-cannot-justify-company-restoration-nclat.html",
+   "published": "2026-11-19T06:00:55.000Z",
+   "firstSeen": "2026-11-19T18:31:13.004Z",
+   "summary": "The post Leasehold Asset Alone Cannot Justify Company Restoration: NCLAT Delhi appeared first on TaxGuru.",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "08a61ce0281e",
+   "area": "labour",
+   "sourceId": "news-labour",
+   "source": "News search: EPFO, ESIC, labour codes",
+   "official": false,
+   "publisher": "Lokmat Times",
+   "type": "Update",
+   "title": "EPFO Eases PF Withdrawal Rules: Minimum Balance Reduced to 10%, New Systematic Withdrawal Plan Launched",
+   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNSnZkTzd2VHFPQWNENXB3LVFmd3dkTkRuSnh0ZUhhQVRCT0twdVFQVXM2VFNJaG1rR1VHQjVQX2lFVk4wTWN5eTN1YlYzRm1WU3dyX3YwcXVtT2ZZTVM2aVQ1X2Z3bnVLdS04OVl0dUdZOGJNWkl0bzRQdWpDYlF5NDFLWk5aXzJVTUplLWF3UGlxRl9PVGVBUkdLQWZmVGxLX19ESEFWWWVzRThYYTZwaURiVUdVWVN2WnVmc1pRQ1FGSk1ua3Z5SzVvdEhmRDBjeEpkTnVWSUdzTEszSVJxRNIB5gFBVV95cUxNRTlFQ0tWRUhtWmdOWXYwWTBiSlh4OHQ2SVE1aUloS05kZWFzUjdVVXFpTUd3a1NVQUFTWERfbngzS3lZMjJ3YmdLVS03eHhMS013SGs2SF9CbHJ2M1BVVlRWMk1ySmxmNUllNER6RXUwUE14VXhBYml0UWhJXzFNdnZ2N19QRmJkOUNGNGlmZEFjZzJIckMzR1FfNmNsaTNsSE1tWGtsdGUxMldqZG9mY1JNbXRhRVJaVFhJMEpqcWVPYXZMckpLSzd1ZTAxWG4xZVlndkJTY1B6dVR4cEdodm8wam04Zw?oc=5",
+   "published": "2026-11-19T13:44:59.000Z",
+   "firstSeen": "2026-11-19T18:31:13.004Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "9eed98ce721f",
+   "area": "loan",
+   "sourceId": "news-loan-central",
+   "source": "News search: central schemes",
+   "official": false,
+   "publisher": "MSME Africa",
+   "type": "Scheme",
+   "title": "Call for Applications: Idris HK Free Grassroots SME Empowerment and Skills Acquisition Scheme",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPXzRYcGxzeVRFaTVKay1TTHZqYjZTdTBrNHNaYk02MHRTeFpGZmpkQlhTSkF1OEhBSTJGQWtXdndCV21wbnpJUmVMY2lRdld3RDNneGlCOXFpTXc1U3dGQ18xb05rZzVPcjhzSkh4U2lUM1JuTmpNY09qSUhhN0JVZHFXYzFEbkQ2MDAyZUthNjY4VVgzZzF3Wm1hVVdhSUNNa0FsX0JTdl8wTVF1cFE2c2pCQWs5cjB5V1VyVlhHUQ?oc=5",
+   "published": "2026-11-19T18:01:19.000Z",
+   "firstSeen": "2026-11-19T18:31:13.004Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
   },
   {
    "id": "15910d218c6c",
@@ -1629,7 +1909,10 @@
    "summary": "",
    "notes": [],
    "refs": [],
-   "deadlines": []
+   "deadlines": [],
+   "alsoIn": [
+    "News search: EPFO, ESIC, labour codes"
+   ]
   },
   {
    "id": "0a7f277e8527",
