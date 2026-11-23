@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-11-23T16:22:22.155Z",
+ "generatedAt": "2026-11-23T21:37:10.102Z",
  "repo": "cahimanshukakdedata-png/regulatory-register-v1",
- "newThisRun": 25,
+ "newThisRun": 4,
  "sources": [
   {
    "id": "icai-home",
@@ -14,8 +14,8 @@
    "fetched": 36,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-23T16:22:22.155Z",
-   "ms": 1119
+   "lastOk": "2026-11-23T21:37:10.102Z",
+   "ms": 1155
   },
   {
    "id": "news-acc",
@@ -25,11 +25,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(ICAI%20OR%20NFRA%20OR%20%22Ind%20AS%22%20OR%20UDIN)%20(announcement%20OR%20notification%20OR%20amendment%20OR%20guidance)%20when%3A14d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 31,
-   "kept": 5,
+   "fetched": 32,
+   "kept": 4,
    "note": "",
-   "lastOk": "2026-11-23T16:22:22.155Z",
-   "ms": 343
+   "lastOk": "2026-11-23T21:37:10.102Z",
+   "ms": 327
   },
   {
    "id": "nfra-home",
@@ -40,10 +40,10 @@
    "url": "https://nfra.gov.in/",
    "ok": true,
    "fetched": 25,
-   "kept": 1,
+   "kept": 0,
    "note": "",
-   "lastOk": "2026-11-23T16:22:22.155Z",
-   "ms": 1985
+   "lastOk": "2026-11-23T21:37:10.102Z",
+   "ms": 1565
   },
   {
    "id": "taxguru-ca",
@@ -56,8 +56,8 @@
    "fetched": 75,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-11-23T16:22:22.155Z",
-   "ms": 984
+   "lastOk": "2026-11-23T21:37:10.102Z",
+   "ms": 1036
   },
   {
    "id": "rbi-notifications",
@@ -70,8 +70,8 @@
    "fetched": 10,
    "kept": 6,
    "note": "",
-   "lastOk": "2026-11-23T16:22:22.155Z",
-   "ms": 2335
+   "lastOk": "2026-11-23T21:37:10.102Z",
+   "ms": 669
   },
   {
    "id": "rbi-press",
@@ -84,8 +84,8 @@
    "fetched": 10,
    "kept": 3,
    "note": "",
-   "lastOk": "2026-11-23T16:22:22.155Z",
-   "ms": 950
+   "lastOk": "2026-11-23T21:37:10.102Z",
+   "ms": 582
   },
   {
    "id": "taxguru-rbi",
@@ -98,8 +98,8 @@
    "fetched": 75,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-11-23T16:22:22.155Z",
-   "ms": 964
+   "lastOk": "2026-11-23T21:37:10.102Z",
+   "ms": 1020
   },
   {
    "id": "cbic-gst",
@@ -112,8 +112,8 @@
    "fetched": 20,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-23T16:22:22.155Z",
-   "ms": 1569
+   "lastOk": "2026-11-23T21:37:10.102Z",
+   "ms": 1482
   },
   {
    "id": "gst-council",
@@ -126,8 +126,8 @@
    "fetched": 20,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-23T16:22:22.155Z",
-   "ms": 2072
+   "lastOk": "2026-11-23T21:37:10.102Z",
+   "ms": 1793
   },
   {
    "id": "gst-portal-news",
@@ -140,8 +140,8 @@
    "fetched": 0,
    "kept": 0,
    "note": "page returned no usable links (it may need a real browser); this section relies on its other sources",
-   "lastOk": "2026-11-23T16:22:22.155Z",
-   "ms": 1624
+   "lastOk": "2026-11-23T21:37:10.102Z",
+   "ms": 1622
   },
   {
    "id": "news-gst",
@@ -151,11 +151,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(CBIC%20OR%20GSTN%20OR%20%22GST%20Council%22%20OR%20CGST)%20(notification%20OR%20circular%20OR%20advisory%20OR%20extended)%20when%3A10d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 35,
-   "kept": 22,
+   "fetched": 31,
+   "kept": 16,
    "note": "",
-   "lastOk": "2026-11-23T16:22:22.155Z",
-   "ms": 347
+   "lastOk": "2026-11-23T21:37:10.102Z",
+   "ms": 350
   },
   {
    "id": "taxguru-gst",
@@ -168,8 +168,8 @@
    "fetched": 75,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-11-23T16:22:22.155Z",
-   "ms": 1935
+   "lastOk": "2026-11-23T21:37:10.102Z",
+   "ms": 1707
   },
   {
    "id": "cbdt-communications",
@@ -182,8 +182,8 @@
    "fetched": 4,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-23T16:22:22.155Z",
-   "ms": 4759
+   "lastOk": "2026-11-23T21:37:10.102Z",
+   "ms": 4581
   },
   {
    "id": "itd-latest",
@@ -196,8 +196,8 @@
    "fetched": 39,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-23T16:22:22.155Z",
-   "ms": 1266
+   "lastOk": "2026-11-23T21:37:10.102Z",
+   "ms": 1269
   },
   {
    "id": "news-it",
@@ -210,8 +210,8 @@
    "fetched": 32,
    "kept": 19,
    "note": "",
-   "lastOk": "2026-11-23T16:22:22.155Z",
-   "ms": 309
+   "lastOk": "2026-11-23T21:37:10.102Z",
+   "ms": 262
   },
   {
    "id": "taxguru-it",
@@ -224,8 +224,8 @@
    "fetched": 75,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-11-23T16:22:22.155Z",
-   "ms": 1012
+   "lastOk": "2026-11-23T21:37:10.102Z",
+   "ms": 1066
   },
   {
    "id": "epfo-home",
@@ -238,8 +238,8 @@
    "fetched": 0,
    "kept": 0,
    "note": "site refused a direct request (known to refuse direct requests); read through r.jina.ai; page returned no usable links (it may need a real browser); this section relies on its other sources",
-   "lastOk": "2026-11-23T16:22:22.155Z",
-   "ms": 44871
+   "lastOk": "2026-11-23T21:37:10.102Z",
+   "ms": 43573
   },
   {
    "id": "esic-home",
@@ -252,8 +252,8 @@
    "fetched": 52,
    "kept": 0,
    "note": "site refused a direct request (known to refuse direct requests); read through r.jina.ai",
-   "lastOk": "2026-11-23T16:22:22.155Z",
-   "ms": 58747
+   "lastOk": "2026-11-23T21:37:10.102Z",
+   "ms": 58035
   },
   {
    "id": "news-labour",
@@ -264,10 +264,10 @@
    "url": "https://news.google.com/rss/search?q=(EPFO%20OR%20ESIC%20OR%20%22labour%20code%22)%20(notification%20OR%20circular%20OR%20rules%20OR%20extended%20OR%20deadline)%20when%3A14d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
    "fetched": 77,
-   "kept": 19,
+   "kept": 21,
    "note": "",
-   "lastOk": "2026-11-23T16:22:22.155Z",
-   "ms": 371
+   "lastOk": "2026-11-23T21:37:10.102Z",
+   "ms": 363
   },
   {
    "id": "cgtmse",
@@ -280,8 +280,8 @@
    "fetched": 1,
    "kept": 0,
    "note": "site refused a direct request (known to refuse direct requests); read through r.jina.ai",
-   "lastOk": "2026-11-23T16:22:22.155Z",
-   "ms": 74556
+   "lastOk": "2026-11-23T21:37:10.102Z",
+   "ms": 57832
   },
   {
    "id": "maitri-mh",
@@ -295,7 +295,7 @@
    "kept": 0,
    "error": "the website did not answer in time",
    "lastOk": "2026-11-15T19:52:20.998Z",
-   "ms": 99478
+   "ms": 97109
   },
   {
    "id": "msme-ministry",
@@ -308,8 +308,8 @@
    "fetched": 0,
    "kept": 0,
    "note": "page returned no usable links (it may need a real browser); this section relies on its other sources",
-   "lastOk": "2026-11-23T16:22:22.155Z",
-   "ms": 1406
+   "lastOk": "2026-11-23T21:37:10.102Z",
+   "ms": 2036
   },
   {
    "id": "nabard",
@@ -322,8 +322,8 @@
    "fetched": 5,
    "kept": 0,
    "note": "site refused a direct request (known to refuse direct requests); read through r.jina.ai",
-   "lastOk": "2026-11-23T16:22:22.155Z",
-   "ms": 84859
+   "lastOk": "2026-11-23T21:37:10.102Z",
+   "ms": 58644
   },
   {
    "id": "news-loan-central",
@@ -333,11 +333,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(MSME%20OR%20PMEGP%20OR%20MUDRA%20OR%20CGTMSE%20OR%20%22Stand-Up%20India%22%20OR%20%22interest%20subvention%22)%20(scheme%20OR%20subsidy%20OR%20guidelines%20OR%20extended%20OR%20notification)%20when%3A14d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 27,
+   "fetched": 25,
    "kept": 19,
    "note": "",
-   "lastOk": "2026-11-23T16:22:22.155Z",
-   "ms": 335
+   "lastOk": "2026-11-23T21:37:10.102Z",
+   "ms": 373
   },
   {
    "id": "news-loan-east",
@@ -347,11 +347,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(%22West%20Bengal%22%20OR%20Odisha%20OR%20Jharkhand%20OR%20Chhattisgarh%20OR%20Assam%20OR%20%22North%20East%22)%20(subsidy%20OR%20incentive%20OR%20%22industrial%20policy%22%20OR%20%22loan%20scheme%22)%20when%3A21d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 63,
-   "kept": 13,
+   "fetched": 45,
+   "kept": 10,
    "note": "",
-   "lastOk": "2026-11-23T16:22:22.155Z",
-   "ms": 592
+   "lastOk": "2026-11-23T21:37:10.102Z",
+   "ms": 334
   },
   {
    "id": "news-loan-farm",
@@ -361,11 +361,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(NABARD%20OR%20%22Kisan%20Credit%20Card%22%20OR%20%22agriculture%20subsidy%22%20OR%20%22food%20processing%20subsidy%22%20OR%20PMFME)%20(scheme%20OR%20subsidy%20OR%20guidelines%20OR%20notification)%20when%3A21d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 25,
+   "fetched": 26,
    "kept": 3,
    "note": "",
-   "lastOk": "2026-11-23T16:22:22.155Z",
-   "ms": 344
+   "lastOk": "2026-11-23T21:37:10.102Z",
+   "ms": 317
   },
   {
    "id": "news-loan-mh",
@@ -376,10 +376,10 @@
    "url": "https://news.google.com/rss/search?q=Maharashtra%20(subsidy%20OR%20incentive%20OR%20%22industrial%20policy%22%20OR%20%22loan%20scheme%22)%20(government%20OR%20notified%20OR%20launched%20OR%20guidelines)%20when%3A21d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
    "fetched": 29,
-   "kept": 5,
+   "kept": 4,
    "note": "",
-   "lastOk": "2026-11-23T16:22:22.155Z",
-   "ms": 296
+   "lastOk": "2026-11-23T21:37:10.102Z",
+   "ms": 304
   },
   {
    "id": "news-loan-north",
@@ -389,11 +389,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(%22Uttar%20Pradesh%22%20OR%20Delhi%20OR%20Punjab%20OR%20Haryana%20OR%20Bihar%20OR%20Uttarakhand%20OR%20%22Himachal%20Pradesh%22)%20(subsidy%20OR%20incentive%20OR%20%22industrial%20policy%22%20OR%20%22loan%20scheme%22)%20when%3A21d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 71,
-   "kept": 15,
+   "fetched": 29,
+   "kept": 8,
    "note": "",
-   "lastOk": "2026-11-23T16:22:22.155Z",
-   "ms": 477
+   "lastOk": "2026-11-23T21:37:10.102Z",
+   "ms": 347
   },
   {
    "id": "news-loan-south",
@@ -406,8 +406,8 @@
    "fetched": 29,
    "kept": 8,
    "note": "",
-   "lastOk": "2026-11-23T16:22:22.155Z",
-   "ms": 322
+   "lastOk": "2026-11-23T21:37:10.102Z",
+   "ms": 307
   },
   {
    "id": "news-loan-west",
@@ -420,8 +420,8 @@
    "fetched": 31,
    "kept": 8,
    "note": "",
-   "lastOk": "2026-11-23T16:22:22.155Z",
-   "ms": 404
+   "lastOk": "2026-11-23T21:37:10.102Z",
+   "ms": 344
   },
   {
    "id": "pmegp-kvic",
@@ -435,7 +435,7 @@
    "kept": 0,
    "error": "website address could not be found (DNS)",
    "lastOk": "2026-09-29T01:36:20.178Z",
-   "ms": 84849
+   "ms": 107524
   },
   {
    "id": "sidbi",
@@ -448,8 +448,8 @@
    "fetched": 8,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-23T16:22:22.155Z",
-   "ms": 3793
+   "lastOk": "2026-11-23T21:37:10.102Z",
+   "ms": 7324
   },
   {
    "id": "mca-home",
@@ -462,8 +462,8 @@
    "fetched": 33,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-23T16:22:22.155Z",
-   "ms": 3020
+   "lastOk": "2026-11-23T21:37:10.102Z",
+   "ms": 2621
   },
   {
    "id": "news-mca",
@@ -473,11 +473,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=MCA%20(%22general%20circular%22%20OR%20notification%20OR%20%22Companies%20Act%22%20OR%20LLP%20OR%20extended)%20when%3A10d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 21,
-   "kept": 11,
+   "fetched": 22,
+   "kept": 12,
    "note": "",
-   "lastOk": "2026-11-23T16:22:22.155Z",
-   "ms": 286
+   "lastOk": "2026-11-23T21:37:10.102Z",
+   "ms": 315
   },
   {
    "id": "taxguru-company",
@@ -490,8 +490,8 @@
    "fetched": 75,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-11-23T16:22:22.155Z",
-   "ms": 1339
+   "lastOk": "2026-11-23T21:37:10.102Z",
+   "ms": 1047
   },
   {
    "id": "taxguru-corporate",
@@ -504,8 +504,8 @@
    "fetched": 75,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-11-23T16:22:22.155Z",
-   "ms": 965
+   "lastOk": "2026-11-23T21:37:10.102Z",
+   "ms": 1059
   },
   {
    "id": "mahagst-pt",
@@ -519,7 +519,7 @@
    "kept": 0,
    "error": "the website did not answer in time",
    "lastOk": null,
-   "ms": 160098
+   "ms": 146302
   },
   {
    "id": "news-mh",
@@ -529,11 +529,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=Maharashtra%20(%22profession%20tax%22%20OR%20MahaGST%20OR%20%22stamp%20duty%22%20OR%20%22amnesty%20scheme%22)%20when%3A30d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 17,
+   "fetched": 18,
    "kept": 13,
    "note": "",
-   "lastOk": "2026-11-23T16:22:22.155Z",
-   "ms": 249
+   "lastOk": "2026-11-23T21:37:10.102Z",
+   "ms": 242
   },
   {
    "id": "sebi-rss",
@@ -546,8 +546,8 @@
    "fetched": 0,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-23T16:22:22.155Z",
-   "ms": 2276
+   "lastOk": "2026-11-23T21:37:10.102Z",
+   "ms": 876
   },
   {
    "id": "taxguru-sebi",
@@ -560,8 +560,8 @@
    "fetched": 75,
    "kept": 25,
    "note": "",
-   "lastOk": "2026-11-23T16:22:22.155Z",
-   "ms": 911
+   "lastOk": "2026-11-23T21:37:10.102Z",
+   "ms": 945
   },
   {
    "id": "news-tds",
@@ -572,10 +572,10 @@
    "url": "https://news.google.com/rss/search?q=(TDS%20OR%20TCS%20OR%20TRACES)%20(CBDT%20OR%20notification%20OR%20%22due%20date%22%20OR%20form)%20when%3A14d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
    "fetched": 30,
-   "kept": 6,
+   "kept": 5,
    "note": "",
-   "lastOk": "2026-11-23T16:22:22.155Z",
-   "ms": 300
+   "lastOk": "2026-11-23T21:37:10.102Z",
+   "ms": 276
   }
  ],
  "items": [
@@ -603,6 +603,23 @@
    ]
   },
   {
+   "id": "bb3597090f4c",
+   "area": "loan",
+   "sourceId": "news-loan-north",
+   "source": "News search: UP, Delhi, Punjab, Haryana, Bihar",
+   "official": false,
+   "publisher": "ThePrint",
+   "type": "Advisory",
+   "title": "Delhi govt to launch dedicated portal for domestic consumers to claim power subsidy",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQU2h3OElkOFhSSXdKR1VqV29qWXpLWXhBVDUzVTFSVGJLbjlMTEthQmFvVEJ1ZGZPUzFXWnRqVVgtSmV5SFBfWFFFYWpPS215cnhLU3ZqOGlYQW9MZmlJMkppSzJPOVp2amtYckdoeGZTVEdmMmpyN1o2WHVwMG5mMDRkUXYxMjVJYmZxN3ZyZk9zcTY4N3ItSWNBUUxfSFl2UUhzdTFqLThFbjBNQS1iM0RjVHV2U2pETWp4T2JJd9IBvwFBVV95cUxQU2h3OElkOFhSSXdKR1VqV29qWXpLWXhBVDUzVTFSVGJLbjlMTEthQmFvVEJ1ZGZPUzFXWnRqVVgtSmV5SFBfWFFFYWpPS215cnhLU3ZqOGlYQW9MZmlJMkppSzJPOVp2amtYckdoeGZTVEdmMmpyN1o2WHVwMG5mMDRkUXYxMjVJYmZxN3ZyZk9zcTY4N3ItSWNBUUxfSFl2UUhzdTFqLThFbjBNQS1iM0RjVHV2U2pETWp4T2JJdw?oc=5",
+   "published": "2026-11-23T18:46:50.000Z",
+   "firstSeen": "2026-11-23T21:37:10.102Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
    "id": "14a0fe3755b3",
    "area": "fema",
    "sourceId": "rbi-press",
@@ -615,6 +632,57 @@
    "published": "2026-11-23T19:20:00.000Z",
    "firstSeen": "2026-11-23T16:22:22.155Z",
    "summary": "As part of the Reserve Bank’s ongoing engagement with regulated entities, the Governor, Reserve Bank of India, today met in Mumbai with the Managing Directors and Chief Executive Officers (MDs & CEOs) of select Non-Banking Financial Companies (NBFCs), including Government NBFCs, Housing Finance…",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "59fe095f25e1",
+   "area": "tds",
+   "sourceId": "news-tds",
+   "source": "News search: TDS/TCS",
+   "official": false,
+   "publisher": "www.krihaa.me",
+   "type": "Amendment",
+   "title": "ESIC Rules 2026: Sickness Pay Now Lands Without a Claim Form",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZjJ0RjBOU2M1YndYdDBlRmdYMkRDamVCMWx1UXFXRU5Uakx4ellrLUMwVzJsLWxMX3ZwLXRsRlJTREV3WEJvamJGZlpqZzFFY3NneElqeTgtSFVsdHV0NzZxRGpGOVJOMF80THYyY3E0bnVjN2gwWHJvY214TklGRHdtRWZjcTloMlp1cU5DTQ?oc=5",
+   "published": "2026-11-23T10:13:17.000Z",
+   "firstSeen": "2026-11-23T21:37:10.102Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "a24d06be4a28",
+   "area": "mca",
+   "sourceId": "news-mca",
+   "source": "News search: MCA",
+   "official": false,
+   "publisher": "Legal 500",
+   "type": "Advisory",
+   "title": "MCA Publishes FAQs On Registration Of Foreign Companies And Subsidiaries Of Foreign Body Corporates",
+   "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQcGNyWmZFdHpLOHNiS1NIQ0Jfd0NtUkRVazNWeXlxSzVkWWs4aHR1QkRMUlRaMGlBY0V1ODhJUjVqdUtfTVBRa3cyekY4bllQN0gzOXJPd2d1aEUtbGdlTDNKcFowc01vQVhGR1pLUTJrcGZzcERsVDE4NTRzMElBZTkwZU5DZUoySmZDbnNqTHp0R3d3bjhETUNBenNqcG1LbnBSS2UtYlRSUDNZYTRlc0RoWFBXWUJQd1RwRktzdG5xS1piVUxMQ01Ka2hLX3Z1RXEwNG5TSi1jcW5PdExCMjQzc0VGQk9iZ3B5eU1WQlM1R3dJc2lCQTJZSVA?oc=5",
+   "published": "2026-11-23T16:33:08.000Z",
+   "firstSeen": "2026-11-23T21:37:10.102Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "7f3da64a019b",
+   "area": "labour",
+   "sourceId": "news-labour",
+   "source": "News search: EPFO, ESIC, labour codes",
+   "official": false,
+   "publisher": "Livemint",
+   "type": "Amendment",
+   "title": "ESIC rules 2026: Earn up to ₹21,000? New rules may make sickness and maternity benefit claims easier for employees",
+   "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQZ3JIaUFzQXFBaHdTckY3NS0wOC1kTURBSjdrb3d6UHg2ajB5aEFncGNtYkxoUTRtbU5aZlJxU1lfMVJaNDFzMDAzbVEwOVBOQ18xRUgwU2kzQkQzU1Ntc1pRakRNY2RSM3lBQktwa0MtWGhHSG9ZOElJbVdBckQ4cnpubjdWdllUdklxS1VIYmZJTGRuMXhrclJLVzNKSXNQMXR3ZWpRM0xQOENlTk5vYW5SSG55R0V6aTlyTmdWbXFaNTYxbmNqbGRaeFQ2YTF4VzZOek1Va1BUMDVPaC1GSGtSWTVmSk4yOTYtdi16Nl9QV1FYY0M5TVpXQkdLLWVzcGRXZExTeXpHcmvSAZACQVVfeXFMTlh0ZU9zX1hldG9XaDg4d044WklzVk1VZFNzT292dFNoYkFsMlN6ajI5UEw1aUdQd2x6OVFtMVgzWVJ5M0JJMWpscUtlMWx4ZWgydDFwNmRRb1BEUlRsMUVEaFNjRkx1dVFIbzhDa1RPdS05UGZwUURWN2xCckh6UzBRUEthSDNLSHlIcnBTLU5BXzFVRHl3d2o3SlNQWVpfc3ZvaTlaVFBhUEh4UnJxcm9XYlFqaU9nYUM4Q095c19rMF84d25lM05QMGdpbkhLakQ3Wk9ncmtYRkhnTTNtbnZpcVR2Zm52WENoYmlNVXl0S285ejVvT0RBcDkwQm82RUk2VjVFWjJKTGJneDd1dEc?oc=5",
+   "published": "2026-11-23T17:11:04.000Z",
+   "firstSeen": "2026-11-23T21:37:10.102Z",
+   "summary": "",
    "notes": [],
    "refs": [],
    "deadlines": []
