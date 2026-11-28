@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-11-28T09:01:49.973Z",
+ "generatedAt": "2026-11-28T14:27:18.586Z",
  "repo": "cahimanshukakdedata-png/regulatory-register-v1",
- "newThisRun": 45,
+ "newThisRun": 8,
  "sources": [
   {
    "id": "icai-home",
@@ -14,8 +14,8 @@
    "fetched": 36,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-28T09:01:49.973Z",
-   "ms": 1397
+   "lastOk": "2026-11-28T14:27:18.586Z",
+   "ms": 1222
   },
   {
    "id": "news-acc",
@@ -28,8 +28,8 @@
    "fetched": 33,
    "kept": 7,
    "note": "",
-   "lastOk": "2026-11-28T09:01:49.973Z",
-   "ms": 307
+   "lastOk": "2026-11-28T14:27:18.586Z",
+   "ms": 375
   },
   {
    "id": "nfra-home",
@@ -42,8 +42,8 @@
    "fetched": 24,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-28T09:01:49.973Z",
-   "ms": 1481
+   "lastOk": "2026-11-28T14:27:18.586Z",
+   "ms": 1979
   },
   {
    "id": "taxguru-ca",
@@ -52,12 +52,12 @@
    "kind": "rss",
    "official": false,
    "url": "https://taxguru.in/category/chartered-accountant/feed/",
-   "ok": true,
-   "fetched": 75,
-   "kept": 25,
-   "note": "",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "the address did not return a feed; check the URL",
    "lastOk": "2026-11-28T09:01:49.973Z",
-   "ms": 1047
+   "ms": 242
   },
   {
    "id": "rbi-notifications",
@@ -68,10 +68,10 @@
    "url": "https://www.rbi.org.in/notifications_rss.xml",
    "ok": true,
    "fetched": 10,
-   "kept": 3,
+   "kept": 5,
    "note": "",
-   "lastOk": "2026-11-28T09:01:49.973Z",
-   "ms": 806
+   "lastOk": "2026-11-28T14:27:18.586Z",
+   "ms": 1181
   },
   {
    "id": "rbi-press",
@@ -84,8 +84,8 @@
    "fetched": 10,
    "kept": 1,
    "note": "",
-   "lastOk": "2026-11-28T09:01:49.973Z",
-   "ms": 62
+   "lastOk": "2026-11-28T14:27:18.586Z",
+   "ms": 815
   },
   {
    "id": "taxguru-rbi",
@@ -94,12 +94,12 @@
    "kind": "rss",
    "official": false,
    "url": "https://taxguru.in/category/rbi/feed/",
-   "ok": true,
-   "fetched": 75,
-   "kept": 25,
-   "note": "",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "the address did not return a feed; check the URL",
    "lastOk": "2026-11-28T09:01:49.973Z",
-   "ms": 1017
+   "ms": 424
   },
   {
    "id": "cbic-gst",
@@ -112,8 +112,8 @@
    "fetched": 20,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-28T09:01:49.973Z",
-   "ms": 1506
+   "lastOk": "2026-11-28T14:27:18.586Z",
+   "ms": 1489
   },
   {
    "id": "gst-council",
@@ -126,8 +126,8 @@
    "fetched": 20,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-28T09:01:49.973Z",
-   "ms": 1848
+   "lastOk": "2026-11-28T14:27:18.586Z",
+   "ms": 1783
   },
   {
    "id": "gst-portal-news",
@@ -140,8 +140,8 @@
    "fetched": 0,
    "kept": 0,
    "note": "page returned no usable links (it may need a real browser); this section relies on its other sources",
-   "lastOk": "2026-11-28T09:01:49.973Z",
-   "ms": 1590
+   "lastOk": "2026-11-28T14:27:18.586Z",
+   "ms": 1536
   },
   {
    "id": "news-gst",
@@ -151,11 +151,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(CBIC%20OR%20GSTN%20OR%20%22GST%20Council%22%20OR%20CGST)%20(notification%20OR%20circular%20OR%20advisory%20OR%20extended)%20when%3A10d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 48,
-   "kept": 24,
+   "fetched": 47,
+   "kept": 25,
    "note": "",
-   "lastOk": "2026-11-28T09:01:49.973Z",
-   "ms": 341
+   "lastOk": "2026-11-28T14:27:18.586Z",
+   "ms": 421
   },
   {
    "id": "taxguru-gst",
@@ -164,12 +164,12 @@
    "kind": "rss",
    "official": false,
    "url": "https://taxguru.in/category/goods-and-service-tax/feed/",
-   "ok": true,
-   "fetched": 75,
-   "kept": 25,
-   "note": "",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "the address did not return a feed; check the URL",
    "lastOk": "2026-11-28T09:01:49.973Z",
-   "ms": 1376
+   "ms": 618
   },
   {
    "id": "cbdt-communications",
@@ -182,8 +182,8 @@
    "fetched": 4,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-28T09:01:49.973Z",
-   "ms": 1919
+   "lastOk": "2026-11-28T14:27:18.586Z",
+   "ms": 1767
   },
   {
    "id": "itd-latest",
@@ -196,8 +196,8 @@
    "fetched": 39,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-28T09:01:49.973Z",
-   "ms": 1107
+   "lastOk": "2026-11-28T14:27:18.586Z",
+   "ms": 1348
   },
   {
    "id": "news-it",
@@ -208,10 +208,10 @@
    "url": "https://news.google.com/rss/search?q=CBDT%20(notification%20OR%20circular%20OR%20%22due%20date%22%20OR%20extended%20OR%20scheme)%20when%3A10d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
    "fetched": 28,
-   "kept": 14,
+   "kept": 16,
    "note": "",
-   "lastOk": "2026-11-28T09:01:49.973Z",
-   "ms": 252
+   "lastOk": "2026-11-28T14:27:18.586Z",
+   "ms": 273
   },
   {
    "id": "taxguru-it",
@@ -220,12 +220,12 @@
    "kind": "rss",
    "official": false,
    "url": "https://taxguru.in/category/income-tax/feed/",
-   "ok": true,
-   "fetched": 75,
-   "kept": 25,
-   "note": "",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "the address did not return a feed; check the URL",
    "lastOk": "2026-11-28T09:01:49.973Z",
-   "ms": 1860
+   "ms": 271
   },
   {
    "id": "epfo-home",
@@ -238,8 +238,8 @@
    "fetched": 0,
    "kept": 0,
    "note": "site refused a direct request (known to refuse direct requests); read through r.jina.ai; page returned no usable links (it may need a real browser); this section relies on its other sources",
-   "lastOk": "2026-11-28T09:01:49.973Z",
-   "ms": 32586
+   "lastOk": "2026-11-28T14:27:18.586Z",
+   "ms": 33360
   },
   {
    "id": "esic-home",
@@ -252,8 +252,8 @@
    "fetched": 52,
    "kept": 0,
    "note": "site refused a direct request (known to refuse direct requests); read through r.jina.ai",
-   "lastOk": "2026-11-28T09:01:49.973Z",
-   "ms": 58517
+   "lastOk": "2026-11-28T14:27:18.586Z",
+   "ms": 47510
   },
   {
    "id": "news-labour",
@@ -263,11 +263,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(EPFO%20OR%20ESIC%20OR%20%22labour%20code%22)%20(notification%20OR%20circular%20OR%20rules%20OR%20extended%20OR%20deadline)%20when%3A14d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 53,
-   "kept": 12,
+   "fetched": 100,
+   "kept": 17,
    "note": "",
-   "lastOk": "2026-11-28T09:01:49.973Z",
-   "ms": 312
+   "lastOk": "2026-11-28T14:27:18.586Z",
+   "ms": 471
   },
   {
    "id": "cgtmse",
@@ -280,8 +280,8 @@
    "fetched": 1,
    "kept": 0,
    "note": "site refused a direct request (known to refuse direct requests); read through r.jina.ai",
-   "lastOk": "2026-11-28T09:01:49.973Z",
-   "ms": 57743
+   "lastOk": "2026-11-28T14:27:18.586Z",
+   "ms": 56902
   },
   {
    "id": "maitri-mh",
@@ -295,7 +295,7 @@
    "kept": 0,
    "error": "the website did not answer in time",
    "lastOk": "2026-11-15T19:52:20.998Z",
-   "ms": 101545
+   "ms": 101427
   },
   {
    "id": "msme-ministry",
@@ -308,8 +308,8 @@
    "fetched": 0,
    "kept": 0,
    "note": "page returned no usable links (it may need a real browser); this section relies on its other sources",
-   "lastOk": "2026-11-28T09:01:49.973Z",
-   "ms": 1941
+   "lastOk": "2026-11-28T14:27:18.586Z",
+   "ms": 2938
   },
   {
    "id": "nabard",
@@ -322,8 +322,8 @@
    "fetched": 5,
    "kept": 0,
    "note": "site refused a direct request (known to refuse direct requests); read through r.jina.ai",
-   "lastOk": "2026-11-28T09:01:49.973Z",
-   "ms": 46967
+   "lastOk": "2026-11-28T14:27:18.586Z",
+   "ms": 53644
   },
   {
    "id": "news-loan-central",
@@ -333,11 +333,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(MSME%20OR%20PMEGP%20OR%20MUDRA%20OR%20CGTMSE%20OR%20%22Stand-Up%20India%22%20OR%20%22interest%20subvention%22)%20(scheme%20OR%20subsidy%20OR%20guidelines%20OR%20extended%20OR%20notification)%20when%3A14d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 64,
-   "kept": 18,
+   "fetched": 30,
+   "kept": 10,
    "note": "",
-   "lastOk": "2026-11-28T09:01:49.973Z",
-   "ms": 412
+   "lastOk": "2026-11-28T14:27:18.586Z",
+   "ms": 313
   },
   {
    "id": "news-loan-east",
@@ -347,11 +347,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(%22West%20Bengal%22%20OR%20Odisha%20OR%20Jharkhand%20OR%20Chhattisgarh%20OR%20Assam%20OR%20%22North%20East%22)%20(subsidy%20OR%20incentive%20OR%20%22industrial%20policy%22%20OR%20%22loan%20scheme%22)%20when%3A21d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 31,
-   "kept": 12,
+   "fetched": 67,
+   "kept": 15,
    "note": "",
-   "lastOk": "2026-11-28T09:01:49.973Z",
-   "ms": 321
+   "lastOk": "2026-11-28T14:27:18.586Z",
+   "ms": 432
   },
   {
    "id": "news-loan-farm",
@@ -362,10 +362,10 @@
    "url": "https://news.google.com/rss/search?q=(NABARD%20OR%20%22Kisan%20Credit%20Card%22%20OR%20%22agriculture%20subsidy%22%20OR%20%22food%20processing%20subsidy%22%20OR%20PMFME)%20(scheme%20OR%20subsidy%20OR%20guidelines%20OR%20notification)%20when%3A21d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
    "fetched": 20,
-   "kept": 3,
+   "kept": 4,
    "note": "",
-   "lastOk": "2026-11-28T09:01:49.973Z",
-   "ms": 243
+   "lastOk": "2026-11-28T14:27:18.586Z",
+   "ms": 272
   },
   {
    "id": "news-loan-mh",
@@ -375,11 +375,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=Maharashtra%20(subsidy%20OR%20incentive%20OR%20%22industrial%20policy%22%20OR%20%22loan%20scheme%22)%20(government%20OR%20notified%20OR%20launched%20OR%20guidelines)%20when%3A21d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 36,
-   "kept": 3,
+   "fetched": 30,
+   "kept": 4,
    "note": "",
-   "lastOk": "2026-11-28T09:01:49.973Z",
-   "ms": 332
+   "lastOk": "2026-11-28T14:27:18.586Z",
+   "ms": 297
   },
   {
    "id": "news-loan-north",
@@ -389,11 +389,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(%22Uttar%20Pradesh%22%20OR%20Delhi%20OR%20Punjab%20OR%20Haryana%20OR%20Bihar%20OR%20Uttarakhand%20OR%20%22Himachal%20Pradesh%22)%20(subsidy%20OR%20incentive%20OR%20%22industrial%20policy%22%20OR%20%22loan%20scheme%22)%20when%3A21d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 31,
+   "fetched": 32,
    "kept": 11,
    "note": "",
-   "lastOk": "2026-11-28T09:01:49.973Z",
-   "ms": 330
+   "lastOk": "2026-11-28T14:27:18.586Z",
+   "ms": 335
   },
   {
    "id": "news-loan-south",
@@ -403,11 +403,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(%22Tamil%20Nadu%22%20OR%20Karnataka%20OR%20Telangana%20OR%20%22Andhra%20Pradesh%22%20OR%20Kerala)%20(subsidy%20OR%20incentive%20OR%20%22industrial%20policy%22%20OR%20%22loan%20scheme%22)%20when%3A21d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 16,
-   "kept": 4,
+   "fetched": 34,
+   "kept": 8,
    "note": "",
-   "lastOk": "2026-11-28T09:01:49.973Z",
-   "ms": 275
+   "lastOk": "2026-11-28T14:27:18.586Z",
+   "ms": 398
   },
   {
    "id": "news-loan-west",
@@ -417,11 +417,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(Gujarat%20OR%20%22Madhya%20Pradesh%22%20OR%20Rajasthan%20OR%20Goa)%20(subsidy%20OR%20%22industrial%20policy%22%20OR%20incentive%20OR%20%22loan%20scheme%22)%20when%3A21d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 21,
-   "kept": 7,
+   "fetched": 54,
+   "kept": 17,
    "note": "",
-   "lastOk": "2026-11-28T09:01:49.973Z",
-   "ms": 301
+   "lastOk": "2026-11-28T14:27:18.586Z",
+   "ms": 352
   },
   {
    "id": "pmegp-kvic",
@@ -435,7 +435,7 @@
    "kept": 0,
    "error": "website address could not be found (DNS)",
    "lastOk": "2026-09-29T01:36:20.178Z",
-   "ms": 61910
+   "ms": 71598
   },
   {
    "id": "sidbi",
@@ -448,8 +448,8 @@
    "fetched": 8,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-28T09:01:49.973Z",
-   "ms": 3238
+   "lastOk": "2026-11-28T14:27:18.586Z",
+   "ms": 3140
   },
   {
    "id": "mca-home",
@@ -462,8 +462,8 @@
    "fetched": 33,
    "kept": 0,
    "note": "",
-   "lastOk": "2026-11-28T09:01:49.973Z",
-   "ms": 836
+   "lastOk": "2026-11-28T14:27:18.586Z",
+   "ms": 1578
   },
   {
    "id": "news-mca",
@@ -473,11 +473,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=MCA%20(%22general%20circular%22%20OR%20notification%20OR%20%22Companies%20Act%22%20OR%20LLP%20OR%20extended)%20when%3A10d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 42,
-   "kept": 18,
+   "fetched": 29,
+   "kept": 17,
    "note": "",
-   "lastOk": "2026-11-28T09:01:49.973Z",
-   "ms": 331
+   "lastOk": "2026-11-28T14:27:18.586Z",
+   "ms": 258
   },
   {
    "id": "taxguru-company",
@@ -486,12 +486,12 @@
    "kind": "rss",
    "official": false,
    "url": "https://taxguru.in/category/company-law/feed/",
-   "ok": true,
-   "fetched": 75,
-   "kept": 25,
-   "note": "",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "the address did not return a feed; check the URL",
    "lastOk": "2026-11-28T09:01:49.973Z",
-   "ms": 1092
+   "ms": 585
   },
   {
    "id": "taxguru-corporate",
@@ -500,12 +500,12 @@
    "kind": "rss",
    "official": false,
    "url": "https://taxguru.in/category/corporate-law/feed/",
-   "ok": true,
-   "fetched": 75,
-   "kept": 25,
-   "note": "",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "the address did not return a feed; check the URL",
    "lastOk": "2026-11-28T09:01:49.973Z",
-   "ms": 1643
+   "ms": 835
   },
   {
    "id": "mahagst-pt",
@@ -519,7 +519,7 @@
    "kept": 0,
    "error": "the website did not answer in time",
    "lastOk": null,
-   "ms": 156902
+   "ms": 156943
   },
   {
    "id": "news-mh",
@@ -529,11 +529,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=Maharashtra%20(%22profession%20tax%22%20OR%20MahaGST%20OR%20%22stamp%20duty%22%20OR%20%22amnesty%20scheme%22)%20when%3A30d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 23,
+   "fetched": 20,
    "kept": 13,
    "note": "",
-   "lastOk": "2026-11-28T09:01:49.973Z",
-   "ms": 278
+   "lastOk": "2026-11-28T14:27:18.586Z",
+   "ms": 289
   },
   {
    "id": "sebi-rss",
@@ -547,7 +547,7 @@
    "kept": 0,
    "error": "website address could not be found (DNS)",
    "lastOk": "2026-11-27T09:49:56.243Z",
-   "ms": 93826
+   "ms": 106559
   },
   {
    "id": "taxguru-sebi",
@@ -556,12 +556,12 @@
    "kind": "rss",
    "official": false,
    "url": "https://taxguru.in/category/sebi/feed/",
-   "ok": true,
-   "fetched": 75,
-   "kept": 25,
-   "note": "",
+   "ok": false,
+   "fetched": 0,
+   "kept": 0,
+   "error": "the address did not return a feed; check the URL",
    "lastOk": "2026-11-28T09:01:49.973Z",
-   "ms": 1000
+   "ms": 233
   },
   {
    "id": "news-tds",
@@ -571,11 +571,11 @@
    "official": false,
    "url": "https://news.google.com/rss/search?q=(TDS%20OR%20TCS%20OR%20TRACES)%20(CBDT%20OR%20notification%20OR%20%22due%20date%22%20OR%20form)%20when%3A14d&hl=en-IN&gl=IN&ceid=IN:en",
    "ok": true,
-   "fetched": 27,
-   "kept": 8,
+   "fetched": 61,
+   "kept": 15,
    "note": "",
-   "lastOk": "2026-11-28T09:01:49.973Z",
-   "ms": 355
+   "lastOk": "2026-11-28T14:27:18.586Z",
+   "ms": 482
   }
  ],
  "items": [
@@ -601,6 +601,93 @@
      "context": "Important notice : Last date of filing NFRA Form-2 is 30th November, 2026 for reporting period 2025-26."
     }
    ]
+  },
+  {
+   "id": "100514a95d4a",
+   "area": "it",
+   "sourceId": "news-it",
+   "source": "News search: Income tax",
+   "official": false,
+   "publisher": "A2Z Taxcorp LLP",
+   "type": "Update",
+   "title": "CBDT Approves ONGC Energy Centre Trust as Research Association for Scientific Research under the Income-tax Act, 2025 for Tax Years 2026-27 to 2030-31",
+   "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPeWpKdkJ6dXpIRWVTWl96X3FxajZibVZFYnBYdk42NE1vSjhtMmZ6LU9KQnlYUTQ4U05nU0xmc1FFSTJOaWpwTWxyYXZFMWhfVnhDUHVuOTQzbVI4ZjgtWTlXeUgtTWJWU2ktWjR3LWZsZFNhN1BDT1FIU0lER05EeHJ5Q3oxbWljVnFrNXo2eTNTVkhNdjJReDJqU0NqcmVBd2cydUI3Z3ZZYlMyLUdCNS16QWNBSnZZT3NMV2JlWWpWSEMtSE5rWTFuN3h1RXJEU242WUdJUUo4bXhfUjdYTDYybTRteHkyOUxLSnpNSl93ZUNTdExnS0JXVFRpS0VwMWIw?oc=5",
+   "published": "2026-11-28T10:14:03.000Z",
+   "firstSeen": "2026-11-28T14:27:18.586Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "b8c3f2007d3a",
+   "area": "it",
+   "sourceId": "news-it",
+   "source": "News search: Income tax",
+   "official": false,
+   "publisher": "A2Z Taxcorp LLP",
+   "type": "Update",
+   "title": "November 30 ITR Deadline Looms, Are You Among Taxpayers Covered Under Transfer Pricing Rules?",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTVdZYXFpdW8tTzVvMU5OTjVYdk43b2VuMV9GV1VCTWx5aW9RTVd5dzc4Y2lSY3FGdy1RaWdxTkRvUHI5X1hZQW5QRHZwVmhFeXJsSFlCVnNGQWNoM2xOYnFYbnI5VXlyX01JUHhsMkFrZ3pjWTBUQVJjeDdUMW5JTm5ZekJfLTNwSHI3dlVrTm1GRlFWUEdBNDlRUDlmQ1g4Z3ZrTUtzSkVwSWM0d3lXVmRWUjY5dw?oc=5",
+   "published": "2026-11-28T13:15:20.000Z",
+   "firstSeen": "2026-11-28T14:27:18.586Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "a75f46916576",
+   "area": "it",
+   "sourceId": "news-it",
+   "source": "News search: Income tax",
+   "official": false,
+   "publisher": "CAclubindia",
+   "type": "Notification",
+   "title": "Income Tax Notification No. 154/2026 - Section 45(3)(a)(i) notification for ONGC Energy Centre Trust, Delhi",
+   "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPR0xvdzd6VkllanlqbHJrclRueGM2RE5tTDdfaXZtalp1ZFE0eXJ2M01QbURhaFIxV25OLVFDbkR3X1Bta3JyWUZHQ3RWYW5kdjdBWlpkdThDS0R1bDRieXpnaXh2NDVXSno1QzBYbDJ1MDAtTERkZnhoTTR0YXBTUFczb0dtMHNTSDYwa25Wd0syZ19JbWh3TjhmSWhLRzg5UFR6NlFBSXFVVVlnTUNsSDF0LTgya3Izbm1veVBPU1cxTVpBMFE4c1JfQUM0SWVVSGtUNkJnX1RHc2pxellwaE5uWkVxdHJacWxZ?oc=5",
+   "published": "2026-11-28T04:18:00.000Z",
+   "firstSeen": "2026-11-28T14:27:18.586Z",
+   "summary": "",
+   "notes": [],
+   "refs": [
+    "Notification No. 154/2026 - Section"
+   ],
+   "deadlines": []
+  },
+  {
+   "id": "6055f272de1b",
+   "area": "tds",
+   "sourceId": "news-tds",
+   "source": "News search: TDS/TCS",
+   "official": false,
+   "publisher": "Adda247",
+   "type": "Judgment",
+   "title": "Allahabad High Court RO ARO Previous Year Question Papers, Download PDF",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQVkc1SDktVDFaZExNSjhkYlJ2V1FWZXk3Nm5fel92dmtZcm1EU0JZTHprV0RXSGhjWW9FZFo0cUlqZDhaejNKRUgzUlkxSUh6VTg2NU9fd0w1MDBQN2xrM1NuNlhjcnJPYmxBVUlWTFJlZVVtSkw2T2k1NVVmYVRJZkJMUmF2Q2paa3FyNEppYVk0eUloU1E?oc=5",
+   "published": "2026-11-28T09:18:59.000Z",
+   "firstSeen": "2026-11-28T14:27:18.586Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "b7c35d69dc7e",
+   "area": "loan",
+   "sourceId": "news-loan-central",
+   "source": "News search: central schemes",
+   "official": false,
+   "publisher": "LiveLawBiz",
+   "type": "Judgment",
+   "title": "Banks Need Not Exhaust CGTMSE Remedies Before Proceeding Against Personal Guarantors: NCLT Mumbai",
+   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQWTBOQURDMDI1Q01fT0dRWkVjUkFScHVVVWVWR09HV0Nla2duQW1pU0stVlFucjdnclh4R1QybFJfZWFHWUk0YU1xZFdVWUREaFZDSF9iUV94RzVfV0E5RDlpeFlFcGVmNzN3dGc2cG9JMXdMc0hyTWZ0aGpXT0ZwV0Rud25PRm8tMHN5bnowcVBsa3pfVFprcXJPdFhYbmZhQjd6X1JnbUdxNHVDMXE1dnhaVHlhczNxQW1FcUhQLUEzcmFOU1BQQTNwZkRoZ09m0gHWAUFVX3lxTE5GWUlhR0hqandHMkppcWRPX3g1MHpGLXQtYTR0WC1UV3ZfRnQxaXhQOVp3SG1Nb3pydmlIT0gxQmp2N1R2UjRiYlh4NlBhRC1fcUpqN0h5T1c1Tl8zVm56Wm1GUlE4WDF3N1dFOW5lQVAzNkdoVlJzRFY1R3hhdW9oMFRwQVZNQVpiUUlrdEVWQVJQNnZLZmNiekg1OWFOSnBPbDN5eVJoR0o1NnQwdU5kZzRIdHZHNlBGZDl6Vm1LT2x6T25TWkdmdnBxQWw1bmpydzJJUWc?oc=5",
+   "published": "2026-11-28T13:15:11.000Z",
+   "firstSeen": "2026-11-28T14:27:18.586Z",
+   "summary": "",
+   "notes": [],
+   "refs": [],
+   "deadlines": []
   },
   {
    "id": "534219366d39",
@@ -1368,6 +1455,65 @@
     "The draft Amendment Directions proposed a Standard Operating Procedure (SOP) laying down a uniform, time-bound procedure for banks to suo moto place temporary debit holds on amounts or accounts suspected to be linked to money mule activity and…",
     "Accordingly, the Reserve Bank has today issued the following Amendment Directions, which shall come into effect from July 1, 2027, or from such earlier date as a bank may decide to implement the SOP."
    ],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "6ed92d436490",
+   "area": "fema",
+   "sourceId": "rbi-notifications",
+   "source": "RBI notifications",
+   "official": true,
+   "publisher": "",
+   "type": "Amendment",
+   "title": "Reserve Bank of India (White Label ATM Operators) Directions, 2026",
+   "link": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13762&Mode=0",
+   "published": "2026-11-27T17:30:00.000Z",
+   "firstSeen": "2026-11-28T14:27:18.586Z",
+   "summary": "RBI/DPSS/2026-27/479 CO.DPSS.POLC.No.S908/02-10-003/2026-27 November 27, 2026 The White Label ATMs Operators / All Scheduled Commercial Banks, including Regional Rural Banks / Urban Co-operative Banks / State Co-operative Banks / District Central Co-operative Banks / Authorised ATM Network…",
+   "notes": [
+    "This has reference to the White Label ATM Guidelines issued on June 20, 2012, and subsequent circulars on the subject.",
+    "A non-bank entity shall seek authorisation for operating White Label ATMs in accordance with the RBI’s Master Direction on Authorisation to operate a Payment System dated June 15, 2026 (as amended from time to time).",
+    "1 Reserve Bank of India (Cash Withdrawal Transactions through Automated Teller Machines and Point of Sale Terminals) Directions, dated November 27, 2026 (as amended from time to time)"
+   ],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "6b91cd6008a6",
+   "area": "fema",
+   "sourceId": "rbi-notifications",
+   "source": "RBI notifications",
+   "official": true,
+   "publisher": "",
+   "type": "Amendment",
+   "title": "Reserve Bank of India (Cash Withdrawal Transactions through Automated Teller Machines and Point of Sale Terminals) Directions, 2026",
+   "link": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13761&Mode=0",
+   "published": "2026-11-27T17:30:00.000Z",
+   "firstSeen": "2026-11-28T14:27:18.586Z",
+   "summary": "RBI/DPSS/2026-27/478 CO.DPSS.POLC.No.S-909/02-10-004/2026-27 November 27, 2026 All Scheduled Commercial Banks, including Regional Rural Banks / Urban Co-operative Banks / State Co-operative Banks / District Central Co-operative Banks / Authorised Payment System Providers and System Participants…",
+   "notes": [
+    "c) For permitting free transactions in respect of Basic Savings Bank Deposit Accounts (BSBDA), banks shall be guided by the provisions of Reserve Bank of India (Commercial Banks – Responsible Business Conduct) Directions, 2025 or corresponding directions…",
+    "b) RBI guidelines DPSS.CO.PD No.629/02.01.014/2019-20 dated September 20, 2019 on ‘Harmonisation of Turn Around Time (TAT) and customer compensation for failed transactions using authorised Payment Systems’, as amended from time to time.",
+    "c) RBI circular DPSS.CO.PD No.116/02.12.004/2020-21 dated August 06, 2020 on Online Dispute Resolution (ODR) System for Digital Payments’, as amended from time to time."
+   ],
+   "refs": [],
+   "deadlines": []
+  },
+  {
+   "id": "c62b0148e722",
+   "area": "loan",
+   "sourceId": "news-loan-farm",
+   "source": "News search: agriculture and MSME credit",
+   "official": false,
+   "publisher": "YouTube",
+   "type": "Notification",
+   "title": "NABARD Grade A 2026 Notification Delayed: Turn This Time Into an Advantage",
+   "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE4xSDRnaWVuQVRrZV9qWktDcjRmUzFZOEZsYXE4Y3lXYUFuSGtVd1BONTZycVRsejJEZzlxdTh0LVY5QQ?oc=5",
+   "published": "2026-11-27T15:30:04.000Z",
+   "firstSeen": "2026-11-28T14:27:18.586Z",
+   "summary": "",
+   "notes": [],
    "refs": [],
    "deadlines": []
   },
@@ -3059,7 +3205,10 @@
    "summary": "",
    "notes": [],
    "refs": [],
-   "deadlines": []
+   "deadlines": [],
+   "alsoIn": [
+    "News search: southern states"
+   ]
   },
   {
    "id": "f54359cbd08a",
@@ -30485,7 +30634,10 @@
    "summary": "",
    "notes": [],
    "refs": [],
-   "deadlines": []
+   "deadlines": [],
+   "alsoIn": [
+    "News search: Maharashtra subsidies"
+   ]
   },
   {
    "id": "afff9cfe0e38",
